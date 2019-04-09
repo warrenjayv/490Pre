@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Quizzum</title>
+	<meta name="description" content="Instructor's page for creating questions and building exams.">
+	<meta name="keywords" content="Computer Science, Exam, Questions, Instructor, NJIT, Python">
+	<meta name="author" content="Devon J O'Connor">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<form>
+		<fieldset>
+			<legend>Create Question:</legend>
+			Description </br>
+			<input id="qDes" type="text"> </br>
+			Difficulty </br>
+			<input id="qKWs" type="text"> </br>
+			<div id="keywords"></div>
+			<div id="testCases"></div>
+			</br>
+			<button id="submitQuestionBtn" type="button">Submit</button> 
+			<button id="clearQuestionBtn"  type="reset">Clear</button> 
+		</fieldset>
+	</form>	
+	<form>
+		<fieldset>
+			<legend>Search for Questions</legend>
+			Difficulty </br>
+			<input id="easy" type="checkbox" name="easy" value="easy"> 
+			<label for="easy">Easy</label> </br>
+			<input id="medium" type="checkbox" name="medium" value="medium"> 
+			<label for="medium">Medium</label> </br>
+			<input id="hard" type="checkbox" name="hard" value="hard">
+			<label for="hard">Hard</label> </br>
+			Keywords </br>
+			<input type="text">
+		</fieldset>
+	</form>
+	<script>
+	var keywords = document.getElementById("keywords");
+	var testCases = document.getElementById("testCases");
+	document.getElementById("submitQuestionBtn").addEventListener("click", postForm);
+	document.getElementById("clearQuestionBtn").addEventListener("click", resetInput);
+	resetInput();
+	function resetInput() {
+		var keywordsHTML = ` 
+			Keywords
+			<button id="addKeywordBtn" type="button" onclick="addKeyword()">+</button> 
+			</br>
+			<input type="text"> </br>
+		`;
+		var testCaseHTML = ` 
+			Test Cases
+			<button id="addTestCaseBtn" type="button" onclick="addTestCase()">+</button> 
+			</br>
+			<input type="text"> </br>
+		`;
+		keywords.innerHTML = keywordsHTML;
+		testCases.innerHTML = testCaseHTML;
+	}
+	function addKeyword() {
+		var textInput = document.createElement("INPUT");
+		var breakElem = document.createElement("BR");
+		keywords.insertBefore(breakElem, keywords.childNodes[4]);
+		keywords.insertBefore(textInput, keywords.childNodes[4]);
+	}
+	function addTestCase() {
+		var textInput = document.createElement("INPUT");
+		var breakElem = document.createElement("BR");
+		testCases.insertBefore(breakElem, testCases.childNodes[4]);
+		testCases.insertBefore(textInput, testCases.childNodes[4]);
+	}
+	function postForm() {
+		var xhttp  = new XMLHttpRequest();
+		var jsonObj = {
+			"Type" : "AddQ",
+			"Desc" : document.getElementById("qDes").value,
+			"KeyWs"  : [],
+			"Tests"  : []
+		}
+		var keywordFields = document.getElementById("keywords").children;
+		for(var i = 0; i < keywordFields.length; i++) {
+			if(keywordFields[i].tagName == "INPUT")
+				jsonObj["KeyWs"].push(keywordFields[i].value);
+		}
+		var testFields = document.getElementById("testCases").children;
+		for(var i = 0; i < testFields.length; i++) {
+			if(testFields[i].tagName == "INPUT")
+				jsonObj["Tests"].push(testFields[i].value);
+		}
+		var jsonStr = JSON.stringify(jsonObj);
+		alert("Sending: " + jsonStr);
+		xhttp.onreadystatechange = function() {
+			if (xhttp.readyState == 4 && xhttp.status == 200) {
+				console.log(xhttp.responseText);
+				var retObj = JSON.parse(xhttp.responseText);
+				console.log(retObj.Desc); 
+			}
+		};
+		xhttp.open("POST", "https://web.njit.edu/~wbv4/Middle/midlogin.php", true);
+		xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+		xhttp.send(jsonStr);
+	}
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+<?php
+//lastupdate: 03/14/2019 12:56 A
+
+$dbserver = "sql1.njit.edu";
+$mySql_user = "rd248";
+$mySql_password = "aZrVVjeCv";
+$mySql_database = "rd248";
+
+$response   = file_get_contents('php://input');
+$decoder    = json_decode($response, true);
+
+//testpoint
+$decoder= array("Rels" => array("0", "1"));
+$conn =  mysqli_connect($dbserver, $mySql_user, $mySql_password, $mySql_database);
+if (!$conn) {
+       $report = "backend SQL: failed to connect "; 
+       echo $report; 
+} 
+                          
+ if (! $feedback = getExam($conn, $decoder)) { //calls the function getQUEST() ; 
+      $error = "backend getQUEST() failed."; 
+      $report = array("Type" => "GetTest", "Error" => $error); 
+      echo json_encode ($report); 
+  } else {
+        echo $feedback; 
+  }
+  
+function getExam($conn, $decoder) { 
+      //$testIds = $decoder["TestIds"]; 
+      $release = $decoder["Rels"]; 
+      $arrayofTestIds = array(); 
+      $arrayofquestionIds = array();
+      $arrayofQuestions = array();  
+      $arrayofTestCases = array(); 
+      $arrayofTests = array(); 
+      $arrayofRelease = array();
+      $arrayofSub = array(); 
+      
+      foreach($release as $x) {
+       //the sql statement below is necessary to filter those released/unreleased. 
+              $sql1= " SELECT * FROM Test WHERE released = '$x' ";
+                if ( ! $result1 = $conn->query($sql1)) { 
+                    $sqlerror = $conn->error; 
+                    $error .= "sql: " . $sqlerror . " "; 
+                } else {   //if theres nothing wrong, retrieve result1
+                       while($row = mysqli_fetch_assoc($result1)) {
+                            array_push($arrayofTestIds, $row['Id']); 
+                            array_push($arrayofRelease, $row['released']); 
+                            array_push($arrayofSub, $row['sub']); 
+			    //print_r($arrayofTestIds); 
+		       }
+         }
+
+      }//foreach x /* gets the test id */ 
+      foreach ($arrayofTestIds as $y) {
+              // $list = array('string1', 'string2', 'string3');
+              //$k = array_search('string2', $list); //$k = 1;
+               $k = array_search($y, $arrayofTestIds); 
+               $sql2 = " SELECT * FROM TestQuestionRelation WHERE testId = '$y' "; 
+                  if ( ! $result2 = $conn->query($sql2)) { 
+                       $sqlerror2 = $conn->error; 
+                       $error .= "sql2: " . $sqlerror2 . " "; 
+                } else { 
+                       while($row2 = mysqli_fetch_assoc($result2)) { //obtain the questionIds
+                             array_push($arrayofquestionIds, $row2['questionId']);       
+                           //  var_dump($arrayofquestionIds); echo "questionids <br><br>" ;                         
+                       }
+	       $sql25 = "SELECT * FROM QuestionStudentRelation WHERE testId = '$y' ";
+                 if ( ! $result25 = $conn->query($sql25)) { 
+                         $sqlerror25 = $conn->error; 
+                         $error .= "sql2: " . $sqlerror25 . " "; 
+	         } else { 
+		        while($row25 = mysqli_fetch_assoc($result25)) {
+                               $testName = $row25['testName']; 
+                               $relstate = $arrayofRelease[$k];
+                               $substate = $arrayofSub[$k]; 
+                              //create the array of tests for package:
+                                $aTest = array("TestId" => $y, "TestName" => $testName, "Release" => $release); 
+                                $temp0 = array("QIds" => $arrayofquestionIds); 
+                                $aTest = array_merge($aTest, $temp0); //append array of questions associated with testid. 
+		                array_push($arrayofTests, $aTest); 
+			 }
+                                               
+                           $aTest = array("Id" => $y, "TestName" => $testName, "Rel" => $relstate, "Sub" => $substate); 
+                            $temp0 = array("QIds" => $arrayofquestionIds); 
+                           $aTest = array_merge($aTest, $temp0); //append array of questions associated with testid. 
+		             array_push($arrayofTests, $aTest); 
+                 } 
+             }
+         }//foreach y 
+ 
+           
+         //we can now form the package
+         if ($error === null) {
+                    $error = 0; 
+         }
+         $output = array('Type' => "GetTests", 'Error' => $error, "Tests" => $arrayofTests);  
+         return json_encode($output);     
+          //create the json format. 
+        // $package = json_encode($output); 
+        // return $package;a
+          
+}//getQUEST()   
+
+    //$temp3 = array("Questions" => $arrayofQuestions); 
+    //$arrayofTests = array_merge($arrayofTests, $temp3); 
+
+   /* //testpoint
+	  var_dump($arrayofTestIds); echo "<br>"; 
+	  var_dump($arrayofquestionIds); echo "<br>"; 
+    var_dump($arrayofQuestions); echo "<br>"; 
+	  var_dump($arrayofTests); echo "<br>"; 
+   */
+	  
+
+
+/*worklog 03/11/2019 
+the purpose of getTest is to obtain:
+            testId from table 'Test'
+once testId is obtained, obtain from 'QuestionStudentRelation' that has testId:
+            store questionId, array of ids
+loop through the questionId, obtain from table 'Question'
+            the questions with question Id. 
+output: { 'Type' => GetExam, 'Error' => $error, 'Questions' => [ array of questions { 'Desc', 'Topic', 'Id', 'Diff', 
+
+*/
+?>

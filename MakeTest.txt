@@ -1,0 +1,125 @@
+<?php
+
+//lastupdate: 03/14/2019 12:56 AM
+$dbserver = "sql1.njit.edu";
+$mySql_user = "rd248";
+$mySql_password = "aZrVVjeCv";
+$mySql_database = "rd248";
+
+$response   = file_get_contents('php://input');
+$decoder    = json_decode($response, true);
+
+$conn =  mysqli_connect($dbserver, $mySql_user, $mySql_password, $mySql_database);
+      if (!$conn) {
+          $report = "backend SQL: failed to connect "; 
+          echo $report; 
+      }
+    //testpoint: 
+    /*
+    $decoder = array("Desc" => 'testing AddTest', "Rel" => '0', 'Questions' => array( '0'
+    => array("Desc" => "make an add test question", "Topic" => "test", "Diff" => "1",
+    "Tests" => array('0' => "testing", '1' => "testing") ) )) ;  
+    */
+    if ($decoder != null) { //ensures this page doesn't run a query  if no input is received  
+       if (! $feedback = addExam($conn, $decoder)) { //calls the function getQUEST() ; 
+                $error .= "backend getExam() failed."; 
+                $report = array("Type" => "AddTest", "Error" => $error); 
+                echo json_encode ($report); 
+      } else {
+                echo $feedback; 
+      }      
+    } else {
+               $error .= "backend received nothing.";
+               $report = array("Type" => "AddTest", "Error" => $error);
+               echo json_encode ($report); 
+    }
+function addExam($conn, $decoder) {
+                $release = $decoder['Rel']; 
+               // $arrayofIds = $decoder['QIds']; //questionIds 
+                $testName = $decoder['Desc'];
+		$questions = $decoder['Questions']; //array of questions
+
+	//retrieve arrayofIds: 
+	  foreach($questions as $q) {
+                $arrayofIds = $decoder['Id'];    
+		//ARRAYOFIDS -- 
+	  }
+
+           
+	   $arrayofQuestions = array(); 
+           //check that the values above are not null
+           if (empty($testName)) {
+                $error .= "TestName is NULL or Empty";
+                $report = array("Type" => "AddTest", "Error" => $error);
+                return json_encode($report); //terminate the program.
+           }
+
+         
+            //insert to table 'Test'     
+           $sql1 = "SELECT * FROM Test"; 
+           if ( ! $result1 = $conn->query($sql1)) { 
+                 $sqlerror = $conn->error; 
+                 $error .= "sql: " . $sqlerror . " "; 
+           } else {   
+                 $id = $result1->num_rows; 
+                 $id += 1;
+                 //insert ExamId/TestId
+                 $sql2 = "INSERT INTO Test (Id, released) VALUES ('$id', '$release')"; 
+                 if ( ! $result1 = $conn->query($sql2)) { 
+                        $sqlerror2 = $conn->error; 
+                        $error .= "sql: " . $sqlerror2 . " "; 
+                 } else { 
+                        //insert into table ''  //**** INSERT IN TESTQUESTION RELATION
+                        foreach ($arrayofIds as $x) {    //arrayofIds are questionIds                                                
+                               $sql3 = "INSERT INTO TestQuestionRelation (testId, questionId) VALUES ('$id', '$x')"; 
+                               if ( ! $result3 = $conn->query($sql3)) { 
+                                    $sqlerror3 = $conn->error; 
+                                    $error .= "sql3: " . $sqlerror3 . " ";
+                               } else {
+                                    //succesful insert into table 'TestQuestionRelation'
+                               } 
+
+			       $sql4 = "INSERT INTO QuestionStudentRelation (testId,
+			       questionId, testName)  VALUES ('$id', '$x', '$testName')"; 
+
+                               if ( ! $result4  = $conn->query($sql4)) { 
+                                    $sqlerror4  = $conn->error; 
+                                    $error .= "sql4: " . $sqlerror4  . " ";
+                               } else {
+                                    //succesful insert into table 'QuestionStidemt Relation'
+                               } 
+			       
+			       /*
+                               $sql5 = "SELECT * FROM Question WHERE Id = '$x'";
+                               if ( ! $result5 = $conn->query($sql5)) { 
+                                    $sqlerror5  = $conn->error; 
+                                    $error .= "sql5 : " . $sqlerror5 . " ";
+                               } else { 
+                                    while($row5 = mysqli_fetch_assoc($result5)){
+                                          $question = $row5['question'];
+					  $diff = $row5['difficulty'];
+					  $category = $row5['category'];
+					  $temp5 = array("Desc" => $question, "Topic" =>
+					  $category, "Id" => $Id, "Diff" => $diff); 
+					  $temp6 = array("Questions" => $temp5); 
+					  array_push($arrayofQuestions, $temp6);
+				    }
+			       }*/
+
+
+                        }//foreach x
+                   }  
+                   
+             }//else
+             
+             //finalize the package.
+                   if ($error === null) {
+                               $error = 0; 
+                         }
+                   $package = array("Type" => "AddTest", "Error" => $error, "Id" => $id,
+		   "Desc" => $testName,  "Rel" => $release, "Sub" => "0", "Questions" =>
+		   $questions); 
+                   return json_encode($package); 
+            
+}//add Exam
+?>

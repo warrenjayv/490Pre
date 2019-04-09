@@ -1,0 +1,343 @@
+<?php
+//include 'Autograder.php';
+date_default_timezone_set("America/New_York"); 
+/* stores activities via a log */ 
+
+$log = fopen('/afs/cad/u/w/b/wbv4/public_html/Middle/log.txt', 'a'); 
+$write .= "page accessed " . date("Y-m-d h:i:sa") . "\n"; 
+// echo $write; 
+/*get the user name and password */
+$mux = file_get_contents("php://input"); 
+$demux = json_decode($mux, true); 
+//var_dump($demux); 
+
+if (isset($demux['username'])) 
+   $user = $demux['username']; 
+if (isset($demux['password'])) {
+   $pass = $demux['password']; 
+   echo loginVERIFY($user, $pass);  
+   }
+
+
+/*legacy/deprecated
+if (isset($demux['question'])) {
+   //print question with answers. 
+   // tracer($demux); 
+   $question = $demux['question']; 
+   echo $question . "<br>" ; 
+   $answers = $demux['answers']; 
+   $answer1 = $answers[0];
+   $answer2 = $answers[1];   
+   echo "answer 1: " . $answer1 . '<br>'; 
+   echo "answer 2: " . $answer2 . '<br>'; 
+   }
+*/
+
+if (isset($demux['qnum'])) {
+   $qnum = $demux['qnum']; 
+   $cart  = getQUEST($qnum); 
+   echo $cart; 
+   } 
+
+
+if(isset($demux['Type']) && ($demux['Type'] == 'AddQ')) {
+   $note =  "running addQUEST() \n"; 
+   //$description = $demux['Desc'];
+   //$description = "testing questions";  
+  // $testcases = $demux['Tests']; 
+   //$difficulty = $demux['Diff']; 
+   $write .= trace($note); 
+  // $ammo = array('Desc' => $description, 'Diff' => $difficulty, 'Tests' => $testcases); 
+   $ammo = $demux; 
+   $testout = addQUEST($ammo);
+   echo $testout;  
+  
+} //if addq
+
+if(isset($demux['Type']) && ($demux['Type'] == 'SearchQ')) {
+   $note = "running getQUEST() \n"; 
+   $difficulty = $demux['Diffs']; 
+   $write .= trace($note); 
+   echo getQUEST($difficulty); 
+   
+} //if search Q
+
+$demux = array("Type" => "AddTest"); 
+if (isset($demux['Type']) && ($demux['Type'] == 'AddTest')) {
+                      /* TESTPOINT */
+                      $test = array("QIds" => array("1", "2", "3", "4"), "TestName" =>
+		      "hardestexam", "Rel" => "0");   
+   $note = "running addExam() \n";
+   $write .= trace($note); 
+   echo addExam($test);
+}//if add exam
+
+//$demux = array("Type" => "GetTest"); 
+if (isset($demux['Type'])  && ($demux['Type'] == 'GetTests')) {
+                        /* TESTPOINT */
+                       // $test = array("Release" => "0", "TestIds" => array("2")); 
+   $note = "running getExam() \n";
+   $write .= trace($note); 
+   echo getExam($demux); 
+}// if get exam
+
+if (! empty($demux['Type']) && ($demux['Type'] == 'SubmitTest')) {
+    $note = "running submitExam() \n";
+    $write .= trace($note);
+    echo submitExam($demux); 
+}//if submit exam
+
+// $demux = array("Type" => "GetAnswers"); 
+if (! empty($demux['Type']) && ($demux['Type'] == 'GetAnswers')) {
+   // $decoder = array("QIds" => array('2', '3', '4')); 
+    $note = "running getAnswer() \n";
+    $write .= trace($note);
+    echo getAnswers($demux); 
+}//if submit exam
+
+/*
+send a payload to backend.
+echo "<br> sent a payload to back. <br>"; 
+$url = "https://web.njit.edu/~wbv4/Middle/backend.php";
+*/
+//************************console and log******************************
+function trace($note) {
+       $global = $note; 
+       $global .= date("Y-m-d h:i:sa") . "\n";
+       //$global .= $trail . "\n"; 
+       return $global; 
+} //trace(); 
+//************************login****************************************
+
+function loginVERIFY($user, $pass) {
+// $url = "https://web.njit.edu/~rd248/download/backend.php";
+    $url = "https://web.njit.edu/~rd248/download/Student&Teacher.php"; 
+    $payload = array("username" => $user, "password" => $pass, "njit" => $njit);
+// echo http_build_query($payload) . "<br>"; 
+    $fac2 = curl_init(); 
+    curl_setopt($fac2, CURLOPT_URL, $url);
+    curl_setopt($fac2, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($fac2, CURLOPT_POSTFIELDS, json_encode($payload));
+    curl_setopt($fac2, CURLOPT_FOLLOWLOCATION, true);  
+    if (curl_exec($fac2) === false) {
+         echo "curl_error:" . curl_error($fac2) . "<br>"; 
+    } else {
+    $result2 = curl_exec($fac2); 
+    curl_close($fac2); 
+    return $result2; 
+    
+    }
+} //loginVERIFY()
+
+//************************get question**********************************
+
+function getQUEST($ammo) {
+    $tgt  = 'https://web.njit.edu/~wbv4/Middle/getQUEST.php'; 
+    // $tgt  = 'https://web.njit.edu/~rd248/download/beta/getQuestion.php' ; 
+    $proj = curl_init(); 
+    curl_setopt($proj , CURLOPT_URL, $tgt); 
+    curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1); 
+    curl_setopt($proj , CURLOPT_POSTFIELDS, json_encode($ammo));
+    curl_setopt($proj , CURLOPT_FOLLOWLOCATION, true);  
+    if (! $recoil = curl_exec($proj)) { 
+         echo "type: SearchQ;  curl_error:" . curl_error($proj) . "<br>"; 
+	       $_GLOBALS['write'] .= "type: SearchQ; curl_error: " . curl_error($proj) . "\n"; 
+    //$recoil = curl_exec($proj); 
+    } else {    
+    curl_close($proj); 
+    return  $recoil; 
+    }
+}//getQUEST(); 
+
+//*************************add question**********************************
+
+function addQUEST($ammo) {
+    //  $tgt = 'https://web.njit.edu/~rd248/download/beta/InsertQuestion.php'; 
+    $tgt  = 'https://web.njit.edu/~wbv4/Middle/insert.php'; 
+    $proj  = curl_init(); 
+    curl_setopt($proj , CURLOPT_URL, $tgt);
+    curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($proj , CURLOPT_POSTFIELDS, json_encode($ammo));
+    curl_setopt($proj , CURLOPT_FOLLOWLOCATION, true);  
+    if ( ! $recoil = curl_exec($proj)) {
+    //if (curl_exec($proj) === false) 
+         echo "type: AddQ;  curl_error:" . curl_error($proj) . "<br>";
+	       $_GLOBALS['write'] .= "type: AddQ; curl_error: " . curl_error($proj) . "\n"; 
+    } else  {
+     curl_close($proj); 
+     return $recoil; 
+    } 
+    //$recoil = curl_exec($proj); 
+   
+}//addQUEST();  
+
+// fwrite($log, $write); 
+
+if ($error = error_get_last()) {
+   $_GLOBALS['write'] .= $error['message'] . "\n" ;    
+}
+
+//*************************add exam***********************************
+
+function addExam($ammo) {
+      $tgt = 'https://web.njit.edu/~wbv4/Middle/MakeTest.php';
+      $proj = curl_init();
+      curl_setopt($proj , CURLOPT_URL, $tgt);
+      curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
+      curl_setopt($proj , CURLOPT_POSTFIELDS, json_encode($ammo));
+      curl_setopt($proj , CURLOPT_FOLLOWLOCATION, true);  
+      if ( ! $recoil = curl_exec($proj)) {
+      //if (curl_exec($proj) === false) 
+         echo "type: AddTest;  curl_error:" . curl_error($proj) . "<br>";
+	       $_GLOBALS['write'] .= "type: AddExam; curl_error: " . curl_error($proj) . "\n"; 
+      } else  {
+        curl_close($proj); 
+        return $recoil; 
+      } 
+      
+}//addExam()
+// file_put_contents($log, $write, FILE_APPEND); 
+fwrite($log, $write); 
+fclose($log); 
+//****************************get exam**********************************
+
+function getExam($ammo) {
+      $tgt = 'https://web.njit.edu/~wbv4/Middle/getTest.php';
+      $proj = curl_init();
+      curl_setopt($proj , CURLOPT_URL, $tgt);
+      curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
+      curl_setopt($proj , CURLOPT_POSTFIELDS, json_encode($ammo));
+      curl_setopt($proj , CURLOPT_FOLLOWLOCATION, true);  
+      if ( ! $recoil = curl_exec($proj)) {
+      //if (curl_exec($proj) === false) 
+         echo "type: GetTest;  curl_error:" . curl_error($proj) . "<br>";
+	       $_GLOBALS['write'] .= "type: GetExam; curl_error: " . curl_error($proj) . "\n"; 
+      } else  {
+        curl_close($proj); 
+        return $recoil; 
+      } 
+      
+}//getExam()
+
+//****************************get exam**********************************
+
+function submitExam($ammo) {
+      $tgt = 'https://web.njit.edu/~wbv4/Middle/SubmitTest.php';
+      $proj = curl_init();
+      curl_setopt($proj , CURLOPT_URL, $tgt);
+      curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
+      curl_setopt($proj , CURLOPT_POSTFIELDS, json_encode($ammo));
+      curl_setopt($proj , CURLOPT_FOLLOWLOCATION, true);  
+      if ( ! $recoil = curl_exec($proj)) {
+      //if (curl_exec($proj) === false) 
+         echo "type: SubmitExam;  curl_error:" . curl_error($proj) . "<br>";
+	       $_GLOBALS['write'] .= "type: SubmitTest; curl_error: " . curl_error($proj) . "\n"; 
+      } else  {
+        curl_close($proj); 
+        return $recoil; 
+      } 
+}//getExam()
+
+//****************************get answers**********************************
+
+function getAnswers($ammo) {
+      $tgt = 'https://web.njit.edu/~wbv4/Middle/getAnswers.php';
+      $proj = curl_init();
+      curl_setopt($proj , CURLOPT_URL, $tgt);
+      curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
+      curl_setopt($proj , CURLOPT_POSTFIELDS, json_encode($ammo));
+      curl_setopt($proj , CURLOPT_FOLLOWLOCATION, true);  
+      if ( ! $recoil = curl_exec($proj)) {
+      //if (curl_exec($proj) === false) 
+         echo "type: SubmitExam;  curl_error:" . curl_error($proj) . "<br>";
+	       $_GLOBALS['write'] .= "type: GetAnswers; curl_error: " . curl_error($proj) . "\n"; 
+      } else  {
+        curl_close($proj); 
+        return $recoil; 
+      } 
+}//getExam()
+
+/*
+worklog 03/11/2019
+       - the getExam function will curl the type: GetExam, 
+          curling the values Release, and TestId. 
+*/
+/*
+$hit = json_decode($result2, true); 
+echo $hit . "<br>"; 
+vardump($hit); 
+if ($hit['Response'] == 'student'){
+    echo "succesful student login <br>"; 
+}
+
+if ($hit['Response'] == 'teacher'){
+    echo "succesful teacher login <br>"; 
+}
+*/
+/*
+function tracer($ret) {
+    $question = $ret['question']; 
+    $array = $ret['answers']; 
+    $count = sizeof($array); 
+    echo $question . '<br>'; 
+    for ($i = 0; $x < count; $i++) {
+        echo $array[i] . "<br>";  **
+    }
+}
+*/ 
+
+
+/*
+workog 02.22.19 
+
+this program retrieves JSON with username, password, and question. 
+
+*/
+
+/* LEGACY -- NJIT LOGIN 
+$payload = array("ucid" => $user, "pass" => $pass); 
+$url = "https://aevitepr2.njit.edu/myhousing/login.cfm"; 
+$fac = curl_init(); 
+curl_setopt($fac, CURLOPT_URL, $url);
+curl_setopt($fac, CURLOPT_POST, 1); 
+curl_setopt($fac, CURLOPT_POSTFIELDS, http_build_query($payload)); 
+curl_setopt($fac, CURLOPT_RETURNTRANSFER, true); 
+curl_setopt($fac, CURLOPT_FOLLOWLOCATION, true); 
+if (curl_exec($fac) ===  false) 
+      echo "curl_error:" . curl_error($fac) . "<br>";
+$result = curl_exec($fac); 
+curl_close($fac); 
+
+if (strpos($result, "Please login using your UCID") != true) {
+//         echo "NJIT accept"; 
+	   $njit = "NJIT accept"; 
+} else {
+//	   echo "NJIT reject"; 
+           $njit = "NJIT reject"; 
+}
+
+if (strpos($result2, "NJIT accept") == true) {  
+         echo "NJIT login accepted <br>";           
+}
+if (strpos($result2, "NJIT reject") == true) { 
+         echo "NJIT login rejected <br>"; 
+}
+
+
+//legacy - save for later. 
+if (strpos($result2, "Success") == true) {
+         echo "Database login succesful <br>"; 
+}
+if (strpos($result2, "Failure") == true) {
+         echo "Database login failure <br>"; 
+}
+*/
+/*
+<script>
+console.log(<?= json_encode($fail) ?>); 
+console.log(<?= json_encode($log) ?>); 
+console.log(<?= json_encode($write) ?>); 
+console.log(<?= json_encode($error)?>);
+</script>
+*/
+?>

@@ -1,0 +1,303 @@
+
++ the log reached 10 mb; it has been cleared 
+executing testObject() with testId = 2
+SELECT * FROM Test WHERE Id = '2' 
+test being formed (temp1)...
+Array
+(
+    [desc] => autograder test 1
+    [rel] => 0
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 2
+    [desc] => autograder test 1
+    [rel] => 0
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 10 
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 0 
+[ + ] page accessed testB 2019-04-08 11:14:43pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 0 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 0 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 0 
+[ + ] page accessed testB 2019-04-08 11:14:43pm
+executing testObject() with testId = 12
+SELECT * FROM Test WHERE Id = '12' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST Here's a new test
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 12
+    [desc] => TEST Here's a new test
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 5 
+pts for this question : 0 
+[ + ] page accessed testB 2019-04-08 11:14:43pm
+executing testObject() with testId = 13
+SELECT * FROM Test WHERE Id = '13' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST balh tlakj
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 13
+    [desc] => TEST balh tlakj
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 6 
+pts for this question : 0 
+[ + ] page accessed testB 2019-04-08 11:14:43pm
+executing testObject() with testId = 19
+SELECT * FROM Test WHERE Id = '19' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST Q w/ pts = [9]
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 19
+    [desc] => TEST Q w/ pts = [9]
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 10 
+pts for this question : 9 
+[ + ] page accessed testB 2019-04-08 11:14:43pm
+executing testObject() with testId = 20
+SELECT * FROM Test WHERE Id = '20' 
+test being formed (temp1)...
+Array
+(
+    [desc] => Easy and Hards
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 20
+    [desc] => Easy and Hards
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 5 
+pts for this question : 0 
+question object for test built!
+
+obtaining points from each question id: 8 
+pts for this question : 0 
+question object for test built!
+
+obtaining points from each question id: 7 
+pts for this question : 0 
+question object for test built!
+
+obtaining points from each question id: 6 
+pts for this question : 0 
+question object for test built!
+
+obtaining points from each question id: 4 
+pts for this question : 0 
+question object for test built!
+
+obtaining points from each question id: 10 
+pts for this question : 0 
+[ + ] page accessed testB 2019-04-08 11:14:43pm
+executing testObject() with testId = 22
+SELECT * FROM Test WHERE Id = '22' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST new boring test
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 22
+    [desc] => TEST new boring test
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 4 
+pts for this question : 0 
+question object for test built!
+
+obtaining points from each question id: 68 
+pts for this question : 0 
+question object for test built!
+
+obtaining points from each question id: 6 
+pts for this question : 0 
+[ + ] page accessed testB 2019-04-08 11:14:43pm
+executing testObject() with testId = 23
+SELECT * FROM Test WHERE Id = '23' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST guinea pig
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 23
+    [desc] => TEST guinea pig
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 0 
+question object for test built!
+
+obtaining points from each question id: 69 
+pts for this question : 0 
+[ + ] page accessed testB 2019-04-08 11:14:44pm
+executing testObject() with testId = 24
+SELECT * FROM Test WHERE Id = '24' 
+test being formed (temp1)...
+Array
+(
+    [desc] => Herdederm
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 24
+    [desc] => Herdederm
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 71 
+pts for this question : 0 
+[ + ] page accessed testB 2019-04-08 11:14:44pm
+executing testObject() with testId = 27
+SELECT * FROM Test WHERE Id = '27' 
+test being formed (temp1)...
+Array
+(
+    [desc] => 345
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 27
+    [desc] => 345
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 9 
+pts for this question : 3 
+question object for test built!
+
+obtaining points from each question id: 34 
+pts for this question : 4 
+question object for test built!
+
+obtaining points from each question id: 54 
+pts for this question : 5 

@@ -1,0 +1,238 @@
+[+] page accessed AUTOGRADER 2019-04-08 11:28:05pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 0
+[+] page accessed AUTOGRADER 2019-04-08 11:44:02pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 195
++ an array of submittedTests: 
+Array
+(
+    [0] => Array
+        (
+            [id] => 10
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 19
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10
+                            [desc] => TEST here's a new Q FOR you
+                            [topic] => For
+                            [diff] => 2
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 20
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [desc] => TEST here's a new Q blah blah
+                            [topic] => blah blah
+                            [diff] => 2
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 8
+                            [desc] => blahblabhlbhsl
+                            [topic] => ndla
+                            [diff] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 7
+                            [desc] => TEST blah Q
+                            [topic] => Q blah
+                            [diff] => 4
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 6
+                            [desc] => TEST blah Q
+                            [topic] => Q blah
+                            [diff] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 4
+                            [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                            [topic] => Random
+                            [diff] => 4
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10
+                            [desc] => TEST here's a new Q FOR you
+                            [topic] => For
+                            [diff] => 2
+                        )
+
+                )
+
+        )
+
+)
+
+[+] page accessed AUTOGRADER 2019-04-08 11:57:12pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 3852
++ an array of submittedTests: 
+Array
+(
+    [0] => Array
+        (
+            [id] => 10
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 20
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [desc] => TEST here's a new Q blah blah
+                            [topic] => blah blah
+                            [diff] => 2
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 8
+                            [desc] => blahblabhlbhsl
+                            [topic] => ndla
+                            [diff] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 7
+                            [desc] => TEST blah Q
+                            [topic] => Q blah
+                            [diff] => 4
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 6
+                            [desc] => TEST blah Q
+                            [topic] => Q blah
+                            [diff] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 4
+                            [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                            [topic] => Random
+                            [diff] => 4
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10
+                            [desc] => TEST here's a new Q FOR you
+                            [topic] => For
+                            [diff] => 2
+                        )
+
+                )
+
+        )
+
+)
+
++ proceed with task B: obtain test cases
+ + obtaining the array of ques from subm. tests
++ sending paramaters to getAnswers() :
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 5
+            [1] => 8
+            [2] => 7
+            [3] => 6
+            [4] => 4
+            [5] => 10
+        )
+
+    [testId] => 
+)
+

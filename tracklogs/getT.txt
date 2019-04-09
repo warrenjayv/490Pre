@@ -1,0 +1,4261 @@
+
++ the log reached 10 mb; it has been cleared 
+data received...
+Array
+(
+    [type] => autograder
+    [rels] => Array
+        (
+            [0] => 0
+            [1] => 1
+        )
+
+)
+select * from questionstudentrelation where testid = 1
+Array
+(
+    [Id] => 1
+    [attemptId] => 0
+    [userAnswer] => def add(a, b): return a+b
+    [feedback] => 
+    [points] => 0
+    [testId] => 1
+    [questionId] => 1
+    [testName] => testing addTest
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 1
+    [desc] => testing addTest
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 0
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 1
+    [desc] => testing addTest
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 1
+    [desc] => testing addTest
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 1
+    [desc] => testing addTest
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+        )
+
+)
+select * from questionstudentrelation where testid = 2
+Array
+(
+    [Id] => 34
+    [attemptId] => 0
+    [userAnswer] => def Mult(a, b):
+     return a*b
+    [feedback] => 
+    [points] => 10
+    [testId] => 2
+    [questionId] => 2
+    [testName] => autograder test 1
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 35
+    [attemptId] => 0
+    [userAnswer] => def Mult(a, b):
+     return a*b
+    [feedback] => def Mult(a, b):
+     return a*b failed to match any testcases, 
+    [points] => 0
+    [testId] => 2
+    [questionId] => 3
+    [testName] => autograder test 1
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 2
+    [desc] => autograder test 1
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 10
+    [1] => 0
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 2
+    [desc] => autograder test 1
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 2
+    [desc] => autograder test 1
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+            [1] => 0
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 2
+    [desc] => autograder test 1
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+            [1] => 0
+        )
+
+)
+select * from questionstudentrelation where testid = 3
+check the contents of temp..
+Array
+(
+    [id] => 3
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 3
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 3
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+    [pts] => Array
+        (
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 3
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+    [pts] => Array
+        (
+        )
+
+)
+select * from questionstudentrelation where testid = 4
+check the contents of temp..
+Array
+(
+    [id] => 4
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 4
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 4
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+    [pts] => Array
+        (
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 4
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+    [pts] => Array
+        (
+        )
+
+)
+select * from questionstudentrelation where testid = 5
+check the contents of temp..
+Array
+(
+    [id] => 5
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 5
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 5
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+    [pts] => Array
+        (
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 5
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+    [pts] => Array
+        (
+        )
+
+)
+select * from questionstudentrelation where testid = 6
+check the contents of temp..
+Array
+(
+    [id] => 6
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 6
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 6
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+    [pts] => Array
+        (
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 6
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+    [pts] => Array
+        (
+        )
+
+)
+select * from questionstudentrelation where testid = 7
+Array
+(
+    [Id] => 36
+    [attemptId] => 0
+    [userAnswer] => so gg
+    [feedback] => reallyyy
+    [points] => 10
+    [testId] => 7
+    [questionId] => 2
+    [testName] => TEST: addT w/ valid Q
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 7
+    [desc] => TEST: addT w/ valid Q
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 10
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 7
+    [desc] => TEST: addT w/ valid Q
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 7
+    [desc] => TEST: addT w/ valid Q
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 7
+    [desc] => TEST: addT w/ valid Q
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+        )
+
+)
+select * from questionstudentrelation where testid = 8
+Array
+(
+    [Id] => 37
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 10
+    [testId] => 8
+    [questionId] => 1
+    [testName] => TEST addT
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 8
+    [desc] => TEST addT
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 10
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 8
+    [desc] => TEST addT
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 8
+    [desc] => TEST addT
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 8
+    [desc] => TEST addT
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+        )
+
+)
+select * from questionstudentrelation where testid = 9
+Array
+(
+    [Id] => 38
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 10
+    [testId] => 9
+    [questionId] => 2
+    [testName] => TEST addT
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 9
+    [desc] => TEST addT
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 10
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 9
+    [desc] => TEST addT
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 9
+    [desc] => TEST addT
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 9
+    [desc] => TEST addT
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+        )
+
+)
+select * from questionstudentrelation where testid = 11
+Array
+(
+    [Id] => 42
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 10
+    [testId] => 11
+    [questionId] => 2
+    [testName] => the valid Ids should work now
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 43
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 10
+    [testId] => 11
+    [questionId] => 3
+    [testName] => the valid Ids should work now
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 11
+    [desc] => the valid Ids should work now
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 10
+    [1] => 10
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 11
+    [desc] => the valid Ids should work now
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 11
+    [desc] => the valid Ids should work now
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+            [1] => 10
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 11
+    [desc] => the valid Ids should work now
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+            [1] => 10
+        )
+
+)
+select * from questionstudentrelation where testid = 14
+Array
+(
+    [Id] => 46
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 10
+    [testId] => 14
+    [questionId] => 0
+    [testName] => TEST no false Q
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 47
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 10
+    [testId] => 14
+    [questionId] => 8
+    [testName] => TEST no false Q
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 48
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 10
+    [testId] => 14
+    [questionId] => 3
+    [testName] => TEST no false Q
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 14
+    [desc] => TEST no false Q
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 10
+    [1] => 10
+    [2] => 10
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 14
+    [desc] => TEST no false Q
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 14
+    [desc] => TEST no false Q
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+            [1] => 10
+            [2] => 10
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 14
+    [desc] => TEST no false Q
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+            [1] => 10
+            [2] => 10
+        )
+
+)
+select * from questionstudentrelation where testid = 15
+Array
+(
+    [Id] => 49
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 10
+    [testId] => 15
+    [questionId] => 5
+    [testName] => TEST points array
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 50
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 10
+    [testId] => 15
+    [questionId] => 8
+    [testName] => TEST points array
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 51
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 10
+    [testId] => 15
+    [questionId] => 3
+    [testName] => TEST points array
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 15
+    [desc] => TEST points array
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 10
+    [1] => 10
+    [2] => 10
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [diff] => 2
+                )
+
+            [2] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 15
+    [desc] => TEST points array
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [diff] => 2
+                )
+
+            [2] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 15
+    [desc] => TEST points array
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [diff] => 2
+                )
+
+            [2] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+            [1] => 10
+            [2] => 10
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 15
+    [desc] => TEST points array
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [diff] => 2
+                )
+
+            [2] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+            [1] => 10
+            [2] => 10
+        )
+
+)
+select * from questionstudentrelation where testid = 16
+check the contents of temp..
+Array
+(
+    [id] => 16
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 16
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 16
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+    [pts] => Array
+        (
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 16
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+    [pts] => Array
+        (
+        )
+
+)
+select * from questionstudentrelation where testid = 17
+check the contents of temp..
+Array
+(
+    [id] => 17
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 17
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 17
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+    [pts] => Array
+        (
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 17
+    [desc] => 
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+        )
+
+    [pts] => Array
+        (
+        )
+
+)
+select * from questionstudentrelation where testid = 18
+Array
+(
+    [Id] => 52
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 80
+    [testId] => 18
+    [questionId] => 2
+    [testName] => another easy exam
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 53
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 80
+    [testId] => 18
+    [questionId] => 3
+    [testName] => another easy exam
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 18
+    [desc] => another easy exam
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 80
+    [1] => 80
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 18
+    [desc] => another easy exam
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 18
+    [desc] => another easy exam
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 80
+            [1] => 80
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 18
+    [desc] => another easy exam
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 80
+            [1] => 80
+        )
+
+)
+select * from questionstudentrelation where testid = 21
+Array
+(
+    [Id] => 75
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 2
+    [testId] => 21
+    [questionId] => 69
+    [testName] => I Need To Test This
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 76
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 2
+    [testId] => 21
+    [questionId] => 1
+    [testName] => I Need To Test This
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 21
+    [desc] => I Need To Test This
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 2
+    [1] => 2
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 69
+                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                    [topic] => easy
+                    [diff] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 21
+    [desc] => I Need To Test This
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 69
+                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                    [topic] => easy
+                    [diff] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 21
+    [desc] => I Need To Test This
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 69
+                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                    [topic] => easy
+                    [diff] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 2
+            [1] => 2
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 21
+    [desc] => I Need To Test This
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 69
+                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                    [topic] => easy
+                    [diff] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 2
+            [1] => 2
+        )
+
+)
+select * from questionstudentrelation where testid = 25
+Array
+(
+    [Id] => 83
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 3
+    [testId] => 25
+    [questionId] => 0
+    [testName] => 345
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 84
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 4
+    [testId] => 25
+    [questionId] => 83
+    [testName] => 345
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 85
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 5
+    [testId] => 25
+    [questionId] => 84
+    [testName] => 345
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 25
+    [desc] => 345
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 3
+    [1] => 4
+    [2] => 5
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 83
+                    [desc] => asdf
+                    [topic] => asdf
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 84
+                    [desc] => asdf
+                    [topic] => asdf
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 25
+    [desc] => 345
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 83
+                    [desc] => asdf
+                    [topic] => asdf
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 84
+                    [desc] => asdf
+                    [topic] => asdf
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 25
+    [desc] => 345
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 83
+                    [desc] => asdf
+                    [topic] => asdf
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 84
+                    [desc] => asdf
+                    [topic] => asdf
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 3
+            [1] => 4
+            [2] => 5
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 25
+    [desc] => 345
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 83
+                    [desc] => asdf
+                    [topic] => asdf
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 84
+                    [desc] => asdf
+                    [topic] => asdf
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 3
+            [1] => 4
+            [2] => 5
+        )
+
+)
+select * from questionstudentrelation where testid = 26
+Array
+(
+    [Id] => 86
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 6
+    [testId] => 26
+    [questionId] => 9
+    [testName] => 666
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 87
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 6
+    [testId] => 26
+    [questionId] => 34
+    [testName] => 666
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 88
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 6
+    [testId] => 26
+    [questionId] => 28
+    [testName] => 666
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 26
+    [desc] => 666
+    [rel] => 0
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 6
+    [1] => 6
+    [2] => 6
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 9
+                    [desc] => This will be the first Q with constraints
+                    [topic] => constraints
+                    [diff] => 5
+                )
+
+            [1] => Array
+                (
+                    [id] => 34
+                    [desc] => TEST range
+                    [topic] => l;aksjdf
+                    [diff] => 5
+                )
+
+            [2] => Array
+                (
+                    [id] => 28
+                    [desc] => TEST finally got it i think
+                    [topic] => ;lkj
+                    [diff] => 5
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 26
+    [desc] => 666
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 9
+                    [desc] => This will be the first Q with constraints
+                    [topic] => constraints
+                    [diff] => 5
+                )
+
+            [1] => Array
+                (
+                    [id] => 34
+                    [desc] => TEST range
+                    [topic] => l;aksjdf
+                    [diff] => 5
+                )
+
+            [2] => Array
+                (
+                    [id] => 28
+                    [desc] => TEST finally got it i think
+                    [topic] => ;lkj
+                    [diff] => 5
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 26
+    [desc] => 666
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 9
+                    [desc] => This will be the first Q with constraints
+                    [topic] => constraints
+                    [diff] => 5
+                )
+
+            [1] => Array
+                (
+                    [id] => 34
+                    [desc] => TEST range
+                    [topic] => l;aksjdf
+                    [diff] => 5
+                )
+
+            [2] => Array
+                (
+                    [id] => 28
+                    [desc] => TEST finally got it i think
+                    [topic] => ;lkj
+                    [diff] => 5
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 6
+            [1] => 6
+            [2] => 6
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 26
+    [desc] => 666
+    [rel] => 0
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 9
+                    [desc] => This will be the first Q with constraints
+                    [topic] => constraints
+                    [diff] => 5
+                )
+
+            [1] => Array
+                (
+                    [id] => 34
+                    [desc] => TEST range
+                    [topic] => l;aksjdf
+                    [diff] => 5
+                )
+
+            [2] => Array
+                (
+                    [id] => 28
+                    [desc] => TEST finally got it i think
+                    [topic] => ;lkj
+                    [diff] => 5
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 6
+            [1] => 6
+            [2] => 6
+        )
+
+)
+select * from questionstudentrelation where testid = 10
+Array
+(
+    [Id] => 39
+    [attemptId] => 0
+    [userAnswer] => def myfunc():
+    blah blah blah
+    blah blah    
+    return true
+    [feedback] =>  failed!,  failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, 
+    [points] => 0
+    [testId] => 10
+    [questionId] => 3
+    [testName] => TEST 3Q's
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 40
+    [attemptId] => 0
+    [userAnswer] => def plus(a,b):
+    return a + b
+    [feedback] =>  failed!,  failed!,  failed!,  failed!, 
+    [points] => 0
+    [testId] => 10
+    [questionId] => 2
+    [testName] => TEST 3Q's
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 41
+    [attemptId] => 0
+    [userAnswer] => def hello():
+    print "Hello"
+    [feedback] => add(2,3)=5 failed!,  failed!, add(2,3)=5 failed!,  failed!,  failed!,  failed!,  failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, 
+    [points] => 0
+    [testId] => 10
+    [questionId] => 1
+    [testName] => TEST 3Q's
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 0
+    [1] => 0
+    [2] => 0
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+            [1] => 0
+            [2] => 0
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+            [1] => 0
+            [2] => 0
+        )
+
+)
+select * from questionstudentrelation where testid = 12
+Array
+(
+    [Id] => 44
+    [attemptId] => 0
+    [userAnswer] => def printGoop():
+    print "Goop"
+    [feedback] => kj() failed!, 
+    [points] => 0
+    [testId] => 12
+    [questionId] => 5
+    [testName] => TEST Here's a new test
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 12
+    [desc] => TEST Here's a new test
+    [rel] => 1
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 0
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 12
+    [desc] => TEST Here's a new test
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 12
+    [desc] => TEST Here's a new test
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 12
+    [desc] => TEST Here's a new test
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+        )
+
+)
+select * from questionstudentrelation where testid = 13
+Array
+(
+    [Id] => 45
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => asd() failed!, 
+    [points] => 0
+    [testId] => 13
+    [questionId] => 6
+    [testName] => 
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 13
+    [desc] => 
+    [rel] => 1
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 0
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 13
+    [desc] => 
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 13
+    [desc] => 
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 13
+    [desc] => 
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+        )
+
+)
+select * from questionstudentrelation where testid = 19
+Array
+(
+    [Id] => 54
+    [attemptId] => 0
+    [userAnswer] => def plongerstomps(angle, slope, tissues):
+    apple = "granola"
+    for i in range(len(apple)):
+        gooblers = 3
+        while(gooblers >= -5):
+            print apple[i]
+            goobler -= 1
+        if(false):
+            print "whaa?!"
+    return "gooblers"
+    [feedback] => 
+    [points] => 9
+    [testId] => 19
+    [questionId] => 10
+    [testName] => TEST Q w/ pts = [9]
+    [comment] => gooblersPlongerstomps
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 19
+    [desc] => TEST Q w/ pts = [9]
+    [rel] => 1
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 9
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 10
+                    [desc] => TEST here's a new Q FOR you
+                    [topic] => For
+                    [diff] => 2
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 19
+    [desc] => TEST Q w/ pts = [9]
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 10
+                    [desc] => TEST here's a new Q FOR you
+                    [topic] => For
+                    [diff] => 2
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 19
+    [desc] => TEST Q w/ pts = [9]
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 10
+                    [desc] => TEST here's a new Q FOR you
+                    [topic] => For
+                    [diff] => 2
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 9
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 19
+    [desc] => TEST Q w/ pts = [9]
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 10
+                    [desc] => TEST here's a new Q FOR you
+                    [topic] => For
+                    [diff] => 2
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 9
+        )
+
+)
+select * from questionstudentrelation where testid = 20
+Array
+(
+    [Id] => 55
+    [attemptId] => 0
+    [userAnswer] => E&H A1
+    [feedback] => E&H A1 failed to match any testcases, E&H A1 failed to match any testcases, 
+    [points] => 0
+    [testId] => 20
+    [questionId] => 5
+    [testName] => Easy and Hards
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 56
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] =>  failed!,  failed!,  failed!, ddosaj() failed!,  failed!,  failed!,  failed!, ddosaj() failed!,  failed!,  failed!,  failed!, ddosaj() failed!, dlkfj() failed!, 
+    [points] => 0
+    [testId] => 20
+    [questionId] => 8
+    [testName] => Easy and Hards
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 57
+    [attemptId] => 0
+    [userAnswer] => E&H A3
+    [feedback] => E&H A3 failed to match any testcases, 
+    [points] => 0
+    [testId] => 20
+    [questionId] => 7
+    [testName] => Easy and Hards
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 58
+    [attemptId] => 0
+    [userAnswer] => E&H A4
+    [feedback] => E&H A4 failed to match any testcases, E&H A4 failed to match any testcases, 
+    [points] => 0
+    [testId] => 20
+    [questionId] => 6
+    [testName] => Easy and Hards
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 59
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] =>  failed to match any testcases, 
+    [points] => 0
+    [testId] => 20
+    [questionId] => 4
+    [testName] => Easy and Hards
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 60
+    [attemptId] => 0
+    [userAnswer] => E&H A6
+    [feedback] => E&H A6 failed to match any testcases, 
+    [points] => 0
+    [testId] => 20
+    [questionId] => 10
+    [testName] => Easy and Hards
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 20
+    [desc] => Easy and Hards
+    [rel] => 1
+    [sub] => 1
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 0
+    [1] => 0
+    [2] => 0
+    [3] => 0
+    [4] => 0
+    [5] => 0
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [diff] => 2
+                )
+
+            [2] => Array
+                (
+                    [id] => 7
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+            [3] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+            [4] => Array
+                (
+                    [id] => 4
+                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                    [topic] => Random
+                    [diff] => 4
+                )
+
+            [5] => Array
+                (
+                    [id] => 10
+                    [desc] => TEST here's a new Q FOR you
+                    [topic] => For
+                    [diff] => 2
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 20
+    [desc] => Easy and Hards
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [diff] => 2
+                )
+
+            [2] => Array
+                (
+                    [id] => 7
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+            [3] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+            [4] => Array
+                (
+                    [id] => 4
+                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                    [topic] => Random
+                    [diff] => 4
+                )
+
+            [5] => Array
+                (
+                    [id] => 10
+                    [desc] => TEST here's a new Q FOR you
+                    [topic] => For
+                    [diff] => 2
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 20
+    [desc] => Easy and Hards
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [diff] => 2
+                )
+
+            [2] => Array
+                (
+                    [id] => 7
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+            [3] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+            [4] => Array
+                (
+                    [id] => 4
+                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                    [topic] => Random
+                    [diff] => 4
+                )
+
+            [5] => Array
+                (
+                    [id] => 10
+                    [desc] => TEST here's a new Q FOR you
+                    [topic] => For
+                    [diff] => 2
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+            [1] => 0
+            [2] => 0
+            [3] => 0
+            [4] => 0
+            [5] => 0
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 20
+    [desc] => Easy and Hards
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [diff] => 2
+                )
+
+            [2] => Array
+                (
+                    [id] => 7
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+            [3] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+            [4] => Array
+                (
+                    [id] => 4
+                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                    [topic] => Random
+                    [diff] => 4
+                )
+
+            [5] => Array
+                (
+                    [id] => 10
+                    [desc] => TEST here's a new Q FOR you
+                    [topic] => For
+                    [diff] => 2
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+            [1] => 0
+            [2] => 0
+            [3] => 0
+            [4] => 0
+            [5] => 0
+        )
+
+)
+select * from questionstudentrelation where testid = 22
+Array
+(
+    [Id] => 77
+    [attemptId] => 0
+    [userAnswer] => def myFunc(a, b, c):
+    blah = "blah"
+    tah = "tah"
+    return blah + tah
+    [feedback] => def myFunc(a, b, c):
+    blah = "blah"
+    tah = "tah"
+    return blah + tah failed to match any testcases, 
+    [points] => 0
+    [testId] => 22
+    [questionId] => 4
+    [testName] => TEST new boring test
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 78
+    [attemptId] => 0
+    [userAnswer] => answer 2
+    blah
+    lbah
+    blah blah
+    [feedback] => answer 2
+    blah
+    lbah
+    blah blah failed to match any testcases, 
+    [points] => 0
+    [testId] => 22
+    [questionId] => 68
+    [testName] => TEST new boring test
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 79
+    [attemptId] => 0
+    [userAnswer] => for(int i=0; i<10; i++) {
+    console.log("What?!");
+    console.log("okay");
+}
+    [feedback] => for(int i=0; i<10; i++) {
+    console.log("What?!");
+    console.log("okay");
+} failed to match any testcases, for(int i=0; i<10; i++) {
+    console.log("What?!");
+    console.log("okay");
+} failed to match any testcases, 
+    [points] => 0
+    [testId] => 22
+    [questionId] => 6
+    [testName] => TEST new boring test
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 22
+    [desc] => TEST new boring test
+    [rel] => 1
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 0
+    [1] => 0
+    [2] => 0
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                    [topic] => Random
+                    [diff] => 4
+                )
+
+            [1] => Array
+                (
+                    [id] => 68
+                    [desc] => l;kj
+                    [topic] => ;lkj
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 22
+    [desc] => TEST new boring test
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                    [topic] => Random
+                    [diff] => 4
+                )
+
+            [1] => Array
+                (
+                    [id] => 68
+                    [desc] => l;kj
+                    [topic] => ;lkj
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 22
+    [desc] => TEST new boring test
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                    [topic] => Random
+                    [diff] => 4
+                )
+
+            [1] => Array
+                (
+                    [id] => 68
+                    [desc] => l;kj
+                    [topic] => ;lkj
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+            [1] => 0
+            [2] => 0
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 22
+    [desc] => TEST new boring test
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                    [topic] => Random
+                    [diff] => 4
+                )
+
+            [1] => Array
+                (
+                    [id] => 68
+                    [desc] => l;kj
+                    [topic] => ;lkj
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+            [1] => 0
+            [2] => 0
+        )
+
+)
+select * from questionstudentrelation where testid = 23
+Array
+(
+    [Id] => 80
+    [attemptId] => 0
+    [userAnswer] => Def Mult(a, b): return a*b
+    [feedback] => Def Mult(a, b): return a*b failed to match any testcases, Def Mult(a, b): return a*b failed to match any testcases, Def Mult(a, b): return a*b failed to match any testcases, 
+    [points] => 0
+    [testId] => 23
+    [questionId] => 2
+    [testName] => TEST guinea pig
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 81
+    [attemptId] => 0
+    [userAnswer] => def Double(n): return n*n
+    [feedback] => def Double(n): return n*n failed to match any testcases, 
+    [points] => 0
+    [testId] => 23
+    [questionId] => 69
+    [testName] => TEST guinea pig
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 23
+    [desc] => TEST guinea pig
+    [rel] => 1
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 0
+    [1] => 0
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 69
+                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                    [topic] => easy
+                    [diff] => 1
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 23
+    [desc] => TEST guinea pig
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 69
+                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                    [topic] => easy
+                    [diff] => 1
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 23
+    [desc] => TEST guinea pig
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 69
+                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                    [topic] => easy
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+            [1] => 0
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 23
+    [desc] => TEST guinea pig
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 69
+                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                    [topic] => easy
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+            [1] => 0
+        )
+
+)
+select * from questionstudentrelation where testid = 24
+Array
+(
+    [Id] => 82
+    [attemptId] => 0
+    [userAnswer] => blah blah        
+    [feedback] => blah blah         failed to match any testcases, 
+    [points] => 0
+    [testId] => 24
+    [questionId] => 71
+    [testName] => Herdederm
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 24
+    [desc] => Herdederm
+    [rel] => 1
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 0
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 71
+                    [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
+                    [topic] => Herdederms
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 24
+    [desc] => Herdederm
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 71
+                    [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
+                    [topic] => Herdederms
+                    [diff] => 3
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 24
+    [desc] => Herdederm
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 71
+                    [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
+                    [topic] => Herdederms
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 24
+    [desc] => Herdederm
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 71
+                    [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
+                    [topic] => Herdederms
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+        )
+
+)
+select * from questionstudentrelation where testid = 27
+Array
+(
+    [Id] => 89
+    [attemptId] => 0
+    [userAnswer] => def constraints(a,b,c,d):
+    while(true):
+        print a, b, c, d
+    [feedback] => 
+    [points] => 3
+    [testId] => 27
+    [questionId] => 9
+    [testName] => 345
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 90
+    [attemptId] => 0
+    [userAnswer] => def lolzacopter():
+    a = 5
+    for i in range(5):
+        a+=(a*=i)
+    print a
+    [feedback] => 
+    [points] => 4
+    [testId] => 27
+    [questionId] => 34
+    [testName] => 345
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 91
+    [attemptId] => 0
+    [userAnswer] => def test(apples):
+    print "bananas"
+    [feedback] => 
+    [points] => 5
+    [testId] => 27
+    [questionId] => 54
+    [testName] => 345
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 27
+    [desc] => 345
+    [rel] => 1
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 3
+    [1] => 4
+    [2] => 5
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 9
+                    [desc] => This will be the first Q with constraints
+                    [topic] => constraints
+                    [diff] => 5
+                )
+
+            [1] => Array
+                (
+                    [id] => 34
+                    [desc] => TEST range
+                    [topic] => l;aksjdf
+                    [diff] => 5
+                )
+
+            [2] => Array
+                (
+                    [id] => 54
+                    [desc] => TEST i think i got it
+                    [topic] => lkj
+                    [diff] => 5
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 27
+    [desc] => 345
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 9
+                    [desc] => This will be the first Q with constraints
+                    [topic] => constraints
+                    [diff] => 5
+                )
+
+            [1] => Array
+                (
+                    [id] => 34
+                    [desc] => TEST range
+                    [topic] => l;aksjdf
+                    [diff] => 5
+                )
+
+            [2] => Array
+                (
+                    [id] => 54
+                    [desc] => TEST i think i got it
+                    [topic] => lkj
+                    [diff] => 5
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 27
+    [desc] => 345
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 9
+                    [desc] => This will be the first Q with constraints
+                    [topic] => constraints
+                    [diff] => 5
+                )
+
+            [1] => Array
+                (
+                    [id] => 34
+                    [desc] => TEST range
+                    [topic] => l;aksjdf
+                    [diff] => 5
+                )
+
+            [2] => Array
+                (
+                    [id] => 54
+                    [desc] => TEST i think i got it
+                    [topic] => lkj
+                    [diff] => 5
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 3
+            [1] => 4
+            [2] => 5
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 27
+    [desc] => 345
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 9
+                    [desc] => This will be the first Q with constraints
+                    [topic] => constraints
+                    [diff] => 5
+                )
+
+            [1] => Array
+                (
+                    [id] => 34
+                    [desc] => TEST range
+                    [topic] => l;aksjdf
+                    [diff] => 5
+                )
+
+            [2] => Array
+                (
+                    [id] => 54
+                    [desc] => TEST i think i got it
+                    [topic] => lkj
+                    [diff] => 5
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 3
+            [1] => 4
+            [2] => 5
+        )
+
+)
+select * from questionstudentrelation where testid = 28
+Array
+(
+    [Id] => 92
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 78
+    [testId] => 28
+    [questionId] => 88
+    [testName] => Bloomspripts
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 93
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 32
+    [testId] => 28
+    [questionId] => 55
+    [testName] => Bloomspripts
+    [comment] => 
+)
+
+Array
+(
+    [Id] => 94
+    [attemptId] => 0
+    [userAnswer] => 
+    [feedback] => 
+    [points] => 56
+    [testId] => 28
+    [questionId] => 9
+    [testName] => Bloomspripts
+    [comment] => 
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 28
+    [desc] => Bloomspripts
+    [rel] => 1
+    [sub] => 0
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 78
+    [1] => 32
+    [2] => 56
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 88
+                    [desc] => New Q comin in hot
+                    [topic] => hotness
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 55
+                    [desc] => TEST this can only be submitted once
+                    [topic] => top
+                    [diff] => 5
+                )
+
+            [2] => Array
+                (
+                    [id] => 9
+                    [desc] => This will be the first Q with constraints
+                    [topic] => constraints
+                    [diff] => 5
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 28
+    [desc] => Bloomspripts
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 88
+                    [desc] => New Q comin in hot
+                    [topic] => hotness
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 55
+                    [desc] => TEST this can only be submitted once
+                    [topic] => top
+                    [diff] => 5
+                )
+
+            [2] => Array
+                (
+                    [id] => 9
+                    [desc] => This will be the first Q with constraints
+                    [topic] => constraints
+                    [diff] => 5
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 28
+    [desc] => Bloomspripts
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 88
+                    [desc] => New Q comin in hot
+                    [topic] => hotness
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 55
+                    [desc] => TEST this can only be submitted once
+                    [topic] => top
+                    [diff] => 5
+                )
+
+            [2] => Array
+                (
+                    [id] => 9
+                    [desc] => This will be the first Q with constraints
+                    [topic] => constraints
+                    [diff] => 5
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 78
+            [1] => 32
+            [2] => 56
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 28
+    [desc] => Bloomspripts
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 88
+                    [desc] => New Q comin in hot
+                    [topic] => hotness
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 55
+                    [desc] => TEST this can only be submitted once
+                    [topic] => top
+                    [diff] => 5
+                )
+
+            [2] => Array
+                (
+                    [id] => 9
+                    [desc] => This will be the first Q with constraints
+                    [topic] => constraints
+                    [diff] => 5
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 78
+            [1] => 32
+            [2] => 56
+        )
+
+)
+running getExam()...output:
+{"type":"getT","error":"0","tests":[{"id":"1","desc":"testing addTest","rel":"0","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["0"]},{"id":"2","desc":"autograder test 1","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["10","0"]},{"id":"3","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"4","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"5","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"6","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"7","desc":"TEST: addT w\/ valid Q","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"}],"pts":["10"]},{"id":"8","desc":"TEST addT","rel":"0","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["10"]},{"id":"9","desc":"TEST addT","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"}],"pts":["10"]},{"id":"11","desc":"the valid Ids should work now","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["10","10"]},{"id":"14","desc":"TEST no false Q","rel":"0","sub":"0","ques":[{"id":"8","desc":"blahblabhlbhsl","topic":"ndla","diff":"2"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["10","10","10"]},{"id":"15","desc":"TEST points array","rel":"0","sub":"0","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2"},{"id":"8","desc":"blahblabhlbhsl","topic":"ndla","diff":"2"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["10","10","10"]},{"id":"16","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"17","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"18","desc":"another easy exam","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["80","80"]},{"id":"21","desc":"I Need To Test This","rel":"0","sub":"0","ques":[{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["2","2"]},{"id":"25","desc":"345","rel":"0","sub":"0","ques":[{"id":"83","desc":"asdf","topic":"asdf","diff":"3"},{"id":"84","desc":"asdf","topic":"asdf","diff":"3"}],"pts":["3","4","5"]},{"id":"26","desc":"666","rel":"0","sub":"0","ques":[{"id":"9","desc":"This will be the first Q with constraints","topic":"constraints","diff":"5"},{"id":"34","desc":"TEST range","topic":"l;aksjdf","diff":"5"},{"id":"28","desc":"TEST finally got it i think","topic":";lkj","diff":"5"}],"pts":["6","6","6"]},{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["0","0","0"]},{"id":"12","desc":"TEST Here's a new test","rel":"1","sub":"0","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2"}],"pts":["0"]},{"id":"13","desc":"","rel":"1","sub":"0","ques":[{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4"}],"pts":["0"]},{"id":"19","desc":"TEST Q w\/ pts = [9]","rel":"1","sub":"0","ques":[{"id":"10","desc":"TEST here's a new Q FOR you","topic":"For","diff":"2"}],"pts":["9"]},{"id":"20","desc":"Easy and Hards","rel":"1","sub":"1","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2"},{"id":"8","desc":"blahblabhlbhsl","topic":"ndla","diff":"2"},{"id":"7","desc":"TEST blah Q","topic":"Q blah","diff":"4"},{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4"},{"id":"4","desc":"TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.","topic":"Random","diff":"4"},{"id":"10","desc":"TEST here's a new Q FOR you","topic":"For","diff":"2"}],"pts":["0","0","0","0","0","0"]},{"id":"22","desc":"TEST new boring test","rel":"1","sub":"0","ques":[{"id":"4","desc":"TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.","topic":"Random","diff":"4"},{"id":"68","desc":"l;kj","topic":";lkj","diff":"3"},{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4"}],"pts":["0","0","0"]},{"id":"23","desc":"TEST guinea pig","rel":"1","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"}],"pts":["0","0"]},{"id":"24","desc":"Herdederm","rel":"1","sub":"0","ques":[{"id":"71","desc":"Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. ","topic":"Herdederms","diff":"3"}],"pts":["0"]},{"id":"27","desc":"345","rel":"1","sub":"0","ques":[{"id":"9","desc":"This will be the first Q with constraints","topic":"constraints","diff":"5"},{"id":"34","desc":"TEST range","topic":"l;aksjdf","diff":"5"},{"id":"54","desc":"TEST i think i got it","topic":"lkj","diff":"5"}],"pts":["3","4","5"]},{"id":"28","desc":"Bloomspripts","rel":"1","sub":"0","ques":[{"id":"88","desc":"New Q comin in hot","topic":"hotness","diff":"2"},{"id":"55","desc":"TEST this can only be submitted once","topic":"top","diff":"5"},{"id":"9","desc":"This will be the first Q with constraints","topic":"constraints","diff":"5"}],"pts":["78","32","56"]}]}

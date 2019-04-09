@@ -1,0 +1,105 @@
+<?php
+
+$dbserver = "sql1.njit.edu";
+$mySql_user = "rd248";
+$mySql_password = "aZrVVjeCv";
+$mySql_database = "rd248";
+
+$response   = file_get_contents('php://input');
+$decoder    = json_decode($response, true);
+
+$conn =  mysqli_connect($dbserver, $mySql_user, $mySql_password, $mySql_database);
+if (!$conn) {
+       $report = "backend SQL: failed to connect "; 
+       echo $report; 
+} 
+ 
+//testpoint
+/*
+$decoder= array("Answers" => array( 
+                              '0' => array("TestId" => "1", "QId" => "1", "Text" => "def add(a, b): return a+b"),
+                             '1' => array("TestId" => "1", "QId" => "2", "Text" => "def add(a, b): return a+b"), 
+                            '2' => array("TestId" => "1", "QId" => "3", "Text" => "def add(a, b): return a+b") 
+                            ));
+ */                          
+if (! $feedback = submitExam($conn, $decoder)) { //calls the function getQUEST() ; 
+      $error = "backend submitExam() failed."; 
+      $report = array("Type" => "SubmitTest", "Error" => $error); 
+      echo json_encode ($report); 
+  } else {
+        echo $feedback; 
+  } 
+
+function submitExam($conn, $decoder) { 
+        $examinputs = $decoder['Answers']; //questionIds;
+        //answers have an array of ids and answers for each id. 
+        if (empty($examinputs)) {
+           $error = "No input was submitted.";
+           $report = array("Type" => "SubmitTest", "Error" => $error);
+           return json_encode($report); 
+        }        
+
+        //$arrayofIds = array();
+        //$arrayofTestIds = array();
+        $arrayofAnswers = array();
+        
+        /*
+        foreach($examinputs as $x) {
+                array_push($arrayofIds, $x['QId']); 
+                array_push($arrayofTestIds, $x['TestId']);
+                array_push($arrayofAnswers, $x['Text']); 
+        }
+        */
+	/*
+         foreach($examinputs as $x) {//return if answer is empty. 
+                $testanswer = $x['Text'];
+                 if (empty($testanswer)) {
+                        $error = "answer field is empty!";
+                        $report = array("Type" => "SubmitTest", "Error" => $error);
+                        return json_encode($report); 
+                 } 
+        }
+        */
+        foreach($examinputs as $x) {
+                $testId = $x['Id'];
+                $QId = $x['QId'];
+                $answer = $x['Text'];
+                //$city = $mysqli->real_escape_string($city);
+                $answer = $conn->real_escape_string($answer);   
+   
+                //$_GLOBALS['write']
+//$sql = "UPDATE `rd248`.`QuestionStudentRelation` SET `userAnswer` = \'why aren\'\'t you working?\' WHERE `QuestionStudentRelation`.`Id` = 2;";
+                 $sql1 = "UPDATE rd248.QuestionStudentRelation SET userAnswer = '$answer'
+		 WHERE QuestionStudentRelation.questionId = '$QId' AND 'testId = '$testId' ";
+                 if ( ! $result1 = $conn->query($sql1)) { 
+                        $sqlerror1 = $conn->error; 
+                        $error .= "sql1: " . $sqlerror1 . " "; 
+                 } else { 
+                        $sql2 = "UPDATE rd248.Test SET sub = '1' WHERE Test.Id = '$testId' "; 
+                                 if ( ! $result2 = $conn->query($sql2)) { 
+                                           $sqlerror2 = $conn->error; 
+                                           $error .= "sql1: " . $sqlerror2 . " "; 
+                                 } else {    
+                                    $temp = array('Id' => $testId, 'Sub' => '1', 'QId' => $QId, 'Text' => $answer);
+                                    array_push($arrayofAnswers, $temp);             
+                                 }
+                  }
+        }//foreach examinputs
+        
+        if ($error === null) {
+                 $error = 0; 
+        }
+        $package = array("Type" => "SubmitTest", "Error" => $error, "Answers" => $arrayofAnswers);
+        return json_encode($package);
+        /*/testpoint
+        echo "arrayofids<br>";
+        var_dump($arrayofIds);
+        echo "<br>arrayofTestIds<br>";
+        var_dump($arrayofTestIds);
+        echo "<br>arrayofAnswers<br>";
+        var_dump($arrayofAnswers); 
+        */
+        
+     
+} //submitExam()
+?>

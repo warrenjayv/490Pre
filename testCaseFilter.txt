@@ -1,0 +1,71 @@
+<?php
+
+$testcase = "yesorno(a, b)     = yes";
+$function = " "; 
+$output = " "; 
+
+$testcase2 = "areyouokay(a, b) = no";
+
+
+echo "testcase: " . $testcase . "<br>"; 
+echo "testcase2: " . $testcase2 . "<br>"; 
+
+if(! $result =  getFunc($testcase)) {
+     echo '$getFunc failed<br>';
+} else {
+     echo 'function = ' .  $result . '<br>' ;
+}
+
+if (! $output = getOut($testcase)){
+     echo 'getOut() failed<br>';
+} else {
+     echo 'output = ' .  $output . '<br>'  ; 
+}
+
+
+
+if(! $result =  getFunc($testcase2)) {
+     echo '$getFunc failed<br>';
+} else {
+     echo 'function = ' .  $result . '<br>' ;
+}
+
+if (! $output = getOut($testcase2)){
+     echo 'getOut() failed<br>';
+} else {
+     echo 'output = ' .  $output . '<br>'  ; 
+}
+
+
+//functions:
+function getFunc($str) 
+{
+   if (!  $eqpos = strPos($str, '=')) {
+          echo "eqpos was not found.<br> ";
+   } else {
+          if(! $func = substr($str,0,$eqpos)) {
+              echo "substr failed. <br>";
+	      return false;
+	  }
+	  trim($func);
+	  return $func; 
+   }
+
+}
+
+function getOut($str) 
+{
+   if(! $eqpos = strPos($str, '=')) {
+        echo "eqpos was not found in getOut(). <br> "; 
+   } else {
+        if (! $out  = substr($str, $eqpos+1, strlen($str))) {
+	     echo "substr failed at getOut()";
+	     return false;
+        }
+	trim($out); 
+	return $out; 
+	
+   }
+}
+
+?>

@@ -1,0 +1,124 @@
+JSON Messages:
+QUESTION:
+
+QUESTION = { 
+    id    : INT,
+    desc  : STR,
+    topic : STR,
+    diff  : INT,
+    tests : [STR]
+}
+
+TEST:
+
+TEST = { 
+    id   : INT,
+    desc : STR,
+    rel  : INT,
+    sub  : INT,
+    ques : [{QUESTION}],
+    pts  : [INT]
+}
+
+ATTEMPT:
+
+ATTEMPT = { 
+    id       : INT,
+    test     : {TEST},
+    answers  : [STR],
+    grades   : [INT],
+    comment  : STR,
+    feedback : [STR],
+    remarks  : [STR]
+}
+
+addQ
+
+request = {
+    type  : "addQ",
+    desc  : STR,
+    topic : STR,
+    cons  : [STR],
+    diff  : INT,
+    tests : [STR]
+}
+
+reply = {
+    type  : "addQ",
+    error : STR,
+    que   : {QUESTION}
+}
+
+getQ
+
+request = {
+    type  : "getQ",
+    topic : STR,
+    diffs : [INT],
+    keys  : [STR]
+}
+
+reply = {
+    type  : "getQ",
+    error : STR,
+    ques  : [{QUESTION}]
+}
+
+addT
+
+request = {
+    type : "addT",
+    desc : STR,
+    rel  : INT,
+    ques : [{QUESTION}],
+    pts  : [INT]
+}
+
+reply = {
+    type  : "addT",
+    error : STR,
+    test  : {TEST}
+}
+
+getT
+
+request = {
+    type : "getT",
+    rels : [INT]
+}
+
+reply = {
+    type  : "getT",
+    error : STR,
+    tests : [{TEST}]
+}
+
+addA
+
+request = {
+    type    : "addA",
+    id      : INT,
+    comment : STR,
+    answers : [{ANSWER}]
+}
+
+reply = {
+    type    : "addA",
+    error   : INT,
+    id      : INT,
+    sub     : INT,
+    answers : [{ANSWER}]
+}
+
+getA
+
+request = {
+    type : "getA",
+    ids  : [INT]
+}
+
+reqply = {
+    type    : "getA",
+    error   : STR,
+    answers : [{ANSWER}]
+}

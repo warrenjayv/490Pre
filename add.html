@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Quizzum</title>
+	<meta name="description" content="Instructor's page for creating questions and building exams.">
+	<meta name="keywords" content="Computer Science, Exam, Questions, Instructor, NJIT, Python">
+	<meta name="author" content="Jason Bourne">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<form>
+		<fieldset>
+			<legend>Create Question:</legend>
+			Description </br>
+			<input id="qDes" type="text"> </br>
+			Test Case #1 </br>
+			<input id="qTC1" type="text"> </br>
+			Test Case #2 </br>
+			<input id="qTC2" type="text"> </br>
+			Test Case #3 </br>
+			<input id="qTC3" type="text"> </br>
+			Test Case #4 </br>
+			<input id="qTC4" type="text"> </br></br>
+			<button id="submitQuestionBtn" type="button">Submit</button> 
+			<button id="clearQuestionBtn"  type="reset">Clear</button> 
+			<p id="addQuestionResult">Result goes here</p>
+		</fieldset>
+	</form>	
+	<script>
+	document.getElementById("submitQuestionBtn").addEventListener("click", postForm);
+	document.getElementById("clearQuestionBtn").addEventListener("click", clearResult);
+	function clearResult() {
+		document.getElementById("addQuestionResult").innerHTML = "";
+	}
+	function postForm() {
+		var result = document.getElementById("addQuestionResult");
+		result.innerHTML = "Checking...";
+		var xhttp  = new XMLHttpRequest();
+		var jsonObj = {
+			"Type"		  : "AddQ",
+			"Desc" : document.getElementById("qDes").value,
+			"Tests"  : [ document.getElementById("qTC1").value,
+			           document.getElementById("qTC2").value,
+			           document.getElementById("qTC3").value,
+		                   document.getElementById("qTC4").value ]
+		        }
+		var jsonStr = JSON.stringify(jsonObj);
+		xhttp.onreadystatechange = function() {
+			if (xhttp.readyState == 4 && xhttp.status == 200) { 
+			        console.log(xhttp.responseText); 
+			//	var res = JSON.parse(xhttp.responseText); 
+			//	console.log(res[0]); 
+	                      //  var rest = JSON.parse(xhttp.responseText);
+			      //	console.log(rest.Tests[0]); 
+			} 
+		};
+		xhttp.open("POST", "https://web.njit.edu/~wbv4/Middle/midlogin.php", true);
+	//	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+		xhttp.send(jsonStr);
+	}
+	</script>
+</body>
+
+</html>
+

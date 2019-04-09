@@ -1,0 +1,162 @@
+
++ the log reached 10 mb; it has been cleared 
+received data 
+
+backend received nothing.
+page access 2019-04-08 11:07:24pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/addT.txt = 89
+received data 
+
+backend received nothing.
+page access 2019-04-08 11:07:26pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/addT.txt = 252
+received data 
+
+backend received nothing.
+page access 2019-04-08 11:14:08pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/addT.txt = 416
+received data 
+Array
+(
+    [type] => addT
+    [desc] => Bloomspripts
+    [rel] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 88
+                    [desc] => New Q comin in hot
+                    [topic] => hotness
+                    [cons] => Array
+                        (
+                            [0] => for
+                            [1] => print
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => blop("a")="a"
+                            [1] => blip("b")="b"
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 55
+                    [desc] => TEST this can only be submitted once
+                    [topic] => top
+                    [diff] => 5
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 9
+                    [desc] => This will be the first Q with constraints
+                    [topic] => constraints
+                    [diff] => 5
+                    [tests] => Array
+                        (
+                            [0] => al;ksjd()
+                            [1] => laksdjf()
+                        )
+
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 78
+            [1] => 32
+            [2] => 56
+        )
+
+)
+
+checking each questionId to ensure they are valid
+checking id: 88
+ensure that id is in the database. running qIdcheck()
+checking the database for 88
+qIdcheck - number of rows 1
+checking id: 55
+ensure that id is in the database. running qIdcheck()
+checking the database for 55
+qIdcheck - number of rows 1
+checking id: 9
+ensure that id is in the database. running qIdcheck()
+checking the database for 9
+qIdcheck - number of rows 1
+88
+ensure that id is in the database. running qIdcheck()
+checking the database for 88
+qIdcheck - number of rows 1
+insert to QuestionStudentRelation: test 28 qId 88 points 78
+55
+ensure that id is in the database. running qIdcheck()
+checking the database for 55
+qIdcheck - number of rows 1
+insert to QuestionStudentRelation: test 28 qId 55 points 32
+9
+ensure that id is in the database. running qIdcheck()
+checking the database for 9
+qIdcheck - number of rows 1
+insert to QuestionStudentRelation: test 28 qId 9 points 56
+addT() function results: 
+Array
+(
+    [type] => addT
+    [error] => 0
+    [test] => Array
+        (
+            [id] => 28
+            [desc] => Bloomspripts
+            [rel] => 1
+            [sub] => 0
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 88
+                            [desc] => New Q comin in hot
+                            [topic] => hotness
+                            [diff] => 2
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 55
+                            [desc] => TEST this can only be submitted once
+                            [topic] => top
+                            [diff] => 5
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 9
+                            [desc] => This will be the first Q with constraints
+                            [topic] => constraints
+                            [diff] => 5
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 78
+                    [1] => 32
+                    [2] => 56
+                )
+
+        )
+
+)
+

@@ -1,0 +1,573 @@
+
++ the log reached 10 mb; it has been cleared 
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 5
+obtaining testcases for qId = 5
+building the ques object (temp1)... 
+Array
+(
+    [id] => 5
+    [desc] => TEST here's a new Q blah blah
+    [topic] => blah blah
+    [diff] => 2
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 5
+    [desc] => TEST here's a new Q blah blah
+    [topic] => blah blah
+    [diff] => 2
+    [tests] => Array
+        (
+            [0] => kj()
+            [1] => lk()
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 6
+obtaining testcases for qId = 6
+building the ques object (temp1)... 
+Array
+(
+    [id] => 6
+    [desc] => TEST blah Q
+    [topic] => Q blah
+    [diff] => 4
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 6
+    [desc] => TEST blah Q
+    [topic] => Q blah
+    [diff] => 4
+    [tests] => Array
+        (
+            [0] => asd()
+            [1] => ;alksdjf()
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 10
+obtaining testcases for qId = 10
+building the ques object (temp1)... 
+Array
+(
+    [id] => 10
+    [desc] => TEST here's a new Q FOR you
+    [topic] => For
+    [diff] => 2
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 10
+    [desc] => TEST here's a new Q FOR you
+    [topic] => For
+    [diff] => 2
+    [tests] => Array
+        (
+            [0] => ab()=ad
+            [1] => dlkj()=dsa
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 5
+obtaining testcases for qId = 5
+building the ques object (temp1)... 
+Array
+(
+    [id] => 5
+    [desc] => TEST here's a new Q blah blah
+    [topic] => blah blah
+    [diff] => 2
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 5
+    [desc] => TEST here's a new Q blah blah
+    [topic] => blah blah
+    [diff] => 2
+    [tests] => Array
+        (
+            [0] => kj()
+            [1] => lk()
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 8
+obtaining testcases for qId = 8
+building the ques object (temp1)... 
+Array
+(
+    [id] => 8
+    [desc] => blahblabhlbhsl
+    [topic] => ndla
+    [diff] => 2
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 8
+    [desc] => blahblabhlbhsl
+    [topic] => ndla
+    [diff] => 2
+    [tests] => Array
+        (
+            [0] => dlkfj()
+            [1] => ddosaj()
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 7
+obtaining testcases for qId = 7
+building the ques object (temp1)... 
+Array
+(
+    [id] => 7
+    [desc] => TEST blah Q
+    [topic] => Q blah
+    [diff] => 4
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 7
+    [desc] => TEST blah Q
+    [topic] => Q blah
+    [diff] => 4
+    [tests] => Array
+        (
+            [0] => asd()
+            [1] => ;alksdjf()
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 6
+obtaining testcases for qId = 6
+building the ques object (temp1)... 
+Array
+(
+    [id] => 6
+    [desc] => TEST blah Q
+    [topic] => Q blah
+    [diff] => 4
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 6
+    [desc] => TEST blah Q
+    [topic] => Q blah
+    [diff] => 4
+    [tests] => Array
+        (
+            [0] => asd()
+            [1] => ;alksdjf()
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 4
+obtaining testcases for qId = 4
+building the ques object (temp1)... 
+Array
+(
+    [id] => 4
+    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+    [topic] => Random
+    [diff] => 4
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 4
+    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+    [topic] => Random
+    [diff] => 4
+    [tests] => Array
+        (
+            [0] => blah()=yr8dc64a32
+            [1] => blah()=zyx943he21
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 10
+obtaining testcases for qId = 10
+building the ques object (temp1)... 
+Array
+(
+    [id] => 10
+    [desc] => TEST here's a new Q FOR you
+    [topic] => For
+    [diff] => 2
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 10
+    [desc] => TEST here's a new Q FOR you
+    [topic] => For
+    [diff] => 2
+    [tests] => Array
+        (
+            [0] => ab()=ad
+            [1] => dlkj()=dsa
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 4
+obtaining testcases for qId = 4
+building the ques object (temp1)... 
+Array
+(
+    [id] => 4
+    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+    [topic] => Random
+    [diff] => 4
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 4
+    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+    [topic] => Random
+    [diff] => 4
+    [tests] => Array
+        (
+            [0] => blah()=yr8dc64a32
+            [1] => blah()=zyx943he21
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 68
+obtaining testcases for qId = 68
+building the ques object (temp1)... 
+Array
+(
+    [id] => 68
+    [desc] => l;kj
+    [topic] => ;lkj
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 68
+    [desc] => l;kj
+    [topic] => ;lkj
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => lk
+            [1] => lkj
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:43pm
+executing quesObject() with qId = 6
+obtaining testcases for qId = 6
+building the ques object (temp1)... 
+Array
+(
+    [id] => 6
+    [desc] => TEST blah Q
+    [topic] => Q blah
+    [diff] => 4
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 6
+    [desc] => TEST blah Q
+    [topic] => Q blah
+    [diff] => 4
+    [tests] => Array
+        (
+            [0] => asd()
+            [1] => ;alksdjf()
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:44pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:44pm
+executing quesObject() with qId = 69
+obtaining testcases for qId = 69
+building the ques object (temp1)... 
+Array
+(
+    [id] => 69
+    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+    [topic] => easy
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 69
+    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+    [topic] => easy
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => double(2)=4
+            [1] => double(3)=9
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:44pm
+executing quesObject() with qId = 71
+obtaining testcases for qId = 71
+building the ques object (temp1)... 
+Array
+(
+    [id] => 71
+    [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
+    [topic] => Herdederms
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 71
+    [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
+    [topic] => Herdederms
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => elephant()="dumbo"
+            [1] => elephant()="surus"
+            [2] => elephant()="pyrrhus"
+            [3] => elephant()="kandula"
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:44pm
+executing quesObject() with qId = 9
+obtaining testcases for qId = 9
+building the ques object (temp1)... 
+Array
+(
+    [id] => 9
+    [desc] => This will be the first Q with constraints
+    [topic] => constraints
+    [diff] => 5
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 9
+    [desc] => This will be the first Q with constraints
+    [topic] => constraints
+    [diff] => 5
+    [tests] => Array
+        (
+            [0] => al;ksjd()
+            [1] => laksdjf()
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:44pm
+executing quesObject() with qId = 34
+obtaining testcases for qId = 34
+building the ques object (temp1)... 
+Array
+(
+    [id] => 34
+    [desc] => TEST range
+    [topic] => l;aksjdf
+    [diff] => 5
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 34
+    [desc] => TEST range
+    [topic] => l;aksjdf
+    [diff] => 5
+    [tests] => Array
+        (
+            [0] => ;lkj()
+            [1] => lkj()
+        )
+
+)
+[ + ] page accessed quesB 2019-04-08 11:14:44pm
+executing quesObject() with qId = 54
+obtaining testcases for qId = 54
+building the ques object (temp1)... 
+Array
+(
+    [id] => 54
+    [desc] => TEST i think i got it
+    [topic] => lkj
+    [diff] => 5
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 54
+    [desc] => TEST i think i got it
+    [topic] => lkj
+    [diff] => 5
+    [tests] => Array
+        (
+            [0] => lkj()
+            [1] => lkj()
+        )
+
+)

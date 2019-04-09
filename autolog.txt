@@ -1,0 +1,1067 @@
+
+page accessed AUTOGRADER2019-04-08 09:26:49pm
+array of submitted tests 
+Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 10
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 12
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [desc] => TEST here's a new Q blah blah
+                            [topic] => blah blah
+                            [diff] => 2
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 13
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6
+                            [desc] => TEST blah Q
+                            [topic] => Q blah
+                            [diff] => 4
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 20
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [desc] => TEST here's a new Q blah blah
+                            [topic] => blah blah
+                            [diff] => 2
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 8
+                            [desc] => blahblabhlbhsl
+                            [topic] => ndla
+                            [diff] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 7
+                            [desc] => TEST blah Q
+                            [topic] => Q blah
+                            [diff] => 4
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 6
+                            [desc] => TEST blah Q
+                            [topic] => Q blah
+                            [diff] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 4
+                            [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                            [topic] => Random
+                            [diff] => 4
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10
+                            [desc] => TEST here's a new Q FOR you
+                            [topic] => For
+                            [diff] => 2
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 22
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 4
+                            [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                            [topic] => Random
+                            [diff] => 4
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 68
+                            [desc] => l;kj
+                            [topic] => ;lkj
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 6
+                            [desc] => TEST blah Q
+                            [topic] => Q blah
+                            [diff] => 4
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 23
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 69
+                            [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                            [topic] => easy
+                            [diff] => 1
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 24
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 71
+                            [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
+                            [topic] => Herdederms
+                            [diff] => 3
+                        )
+
+                )
+
+        )
+
+)
+
+cleaning the python file ... 
+array of questions for each test 
+Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+            [topic] => multi
+            [diff] => 3
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+            [topic] => Sub
+            [diff] => 3
+        )
+
+)
+results of getAnswers for 2
+{"type":"getAnswers","error":"a feedback was detected in 3, it is graded already.","answers":[{"qId":"2","text":"def Mult(a, b):\r\n     return a*b","tests":["Mult(2,4)=8"]}]}
+clear the python file for 2
+clear the python file for 2
+writing this answer to python file : def Mult(a, b):
+     return a*b
+array of testcases 
+question Id: 2
+Array
+(
+    [0] => Mult(2,4)=8
+)
+
+current testcase: 
+Mult(2,4)=8
+current function : Mult(2,4)
+current output = 8
+writing the function Mult(2,4) to python file
+check the input here: 
+https://web.njit.edu/~wbv4/Middle/firstpy.txt 
+ commandline :  python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
+executing : python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
+analyze exec() 
+8
+qId = 2 Testcase : 0, Mult(2,4)=8
+output of exec = 8
+compare exec with testcase output : 
+comparing 8 = 8
+pass!
+array of questions for each test 
+Array
+(
+    [0] => Array
+        (
+            [id] => 3
+            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+            [topic] => Sub
+            [diff] => 3
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+            [topic] => multi
+            [diff] => 3
+        )
+
+    [2] => Array
+        (
+            [id] => 1
+            [desc] => create a function add which takes 2 parameters and returns the sum.
+            [topic] => add
+            [diff] => 1
+        )
+
+)
+results of getAnswers for 10
+{"type":"getAnswers","error":0,"answers":[{"qId":"2","text":"def Mult(a, b): return a*b","tests":["Mult(2,4)=8"]},{"qId":"3","text":"def sub(a, b): return a-b","tests":["sub(3,2)=1","sub(4,2)=2"]},{"qId":"3","text":"def sub(a, b): return a-b","tests":["sub(3,2)=1","sub(4,2)=2"]},{"qId":"2","text":"def Mult(a, b): return a*b","tests":["Mult(2,4)=8"]},{"qId":"1","text":"def add(a, b): return a+b","tests":["add(2,3)=5","add(4,4)=8"]}]}
+clear the python file for 2
+clear the python file for 2
+writing this answer to python file : def Mult(a, b): return a*b
+array of testcases 
+question Id: 2
+Array
+(
+    [0] => Mult(2,4)=8
+)
+
+current testcase: 
+Mult(2,4)=8
+current function : Mult(2,4)
+current output = 8
+writing the function Mult(2,4) to python file
+check the input here: 
+https://web.njit.edu/~wbv4/Middle/firstpy.txt 
+ commandline :  python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
+executing : python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
+analyze exec() 
+8
+qId = 2 Testcase : 0, Mult(2,4)=8
+output of exec = 8
+compare exec with testcase output : 
+comparing 8 = 8
+pass!
+qId = 2 Testcase : 0, Mult(2,4)=8
+output of exec = 8
+compare exec with testcase output : 
+comparing 8 = 8
+pass!
+clear the python file for 3
+clear the python file for 3
+writing this answer to python file : def sub(a, b): return a-b
+array of testcases 
+question Id: 3
+Array
+(
+    [0] => sub(3,2)=1
+    [1] => sub(4,2)=2
+)
+
+current testcase: 
+sub(3,2)=1
+current function : sub(3,2)
+current output = 1
+writing the function sub(3,2) to python file
+current testcase: 
+sub(4,2)=2
+current function : sub(4,2)
+current output = 2
+writing the function sub(4,2) to python file
+check the input here: 
+https://web.njit.edu/~wbv4/Middle/firstpy.txt 
+ commandline :  python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
+executing : python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
+analyze exec() 
+2
+qId = 3 Testcase : 0, sub(3,2)=1
+output of exec = 8
+compare exec with testcase output : 
+comparing 8 = 1
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"3","feedback":"sub(3,2)=1 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => sub(3,2)=1 failed!, 
+    [points] => 0
+)
+
+qId = 3 Testcase : 0, sub(3,2)=1
+output of exec = 8
+compare exec with testcase output : 
+comparing 8 = 1
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"3","feedback":"sub(3,2)=1 failed!, sub(3,2)=1 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => sub(3,2)=1 failed!, sub(3,2)=1 failed!, 
+    [points] => 0
+)
+
+qId = 3 Testcase : 2, 
+output of exec = 1
+compare exec with testcase output : 
+comparing 1 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"3","feedback":" failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] =>  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, 
+    [points] => 0
+)
+
+qId = 3 Testcase : 3, 
+output of exec = 2
+compare exec with testcase output : 
+comparing 2 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"3","feedback":" failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] =>  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, 
+    [points] => 0
+)
+
+clear the python file for 3
+clear the python file for 3
+writing this answer to python file : def sub(a, b): return a-b
+array of testcases 
+question Id: 3
+Array
+(
+    [0] => sub(3,2)=1
+    [1] => sub(4,2)=2
+)
+
+current testcase: 
+sub(3,2)=1
+current function : sub(3,2)
+current output = 1
+writing the function sub(3,2) to python file
+current testcase: 
+sub(4,2)=2
+current function : sub(4,2)
+current output = 2
+writing the function sub(4,2) to python file
+check the input here: 
+https://web.njit.edu/~wbv4/Middle/firstpy.txt 
+ commandline :  python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
+executing : python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
+analyze exec() 
+2
+qId = 3 Testcase : 0, sub(3,2)=1
+output of exec = 8
+compare exec with testcase output : 
+comparing 8 = 1
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"3","feedback":"sub(3,2)=1 failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => sub(3,2)=1 failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, 
+    [points] => 0
+)
+
+qId = 3 Testcase : 0, sub(3,2)=1
+output of exec = 8
+compare exec with testcase output : 
+comparing 8 = 1
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"3","feedback":"sub(3,2)=1 failed!, sub(3,2)=1 failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => sub(3,2)=1 failed!, sub(3,2)=1 failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, 
+    [points] => 0
+)
+
+qId = 3 Testcase : 2, 
+output of exec = 1
+compare exec with testcase output : 
+comparing 1 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"3","feedback":" failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] =>  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, 
+    [points] => 0
+)
+
+qId = 3 Testcase : 3, 
+output of exec = 2
+compare exec with testcase output : 
+comparing 2 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"3","feedback":" failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] =>  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, 
+    [points] => 0
+)
+
+qId = 3 Testcase : 2, 
+output of exec = 1
+compare exec with testcase output : 
+comparing 1 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"3","feedback":" failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] =>  failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, 
+    [points] => 0
+)
+
+qId = 3 Testcase : 3, 
+output of exec = 2
+compare exec with testcase output : 
+comparing 2 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"3","feedback":" failed!,  failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] =>  failed!,  failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!,  failed!,  failed!, sub(3,2)=1 failed!, sub(3,2)=1 failed!, 
+    [points] => 0
+)
+
+clear the python file for 2
+clear the python file for 2
+writing this answer to python file : def Mult(a, b): return a*b
+array of testcases 
+question Id: 2
+Array
+(
+    [0] => Mult(2,4)=8
+)
+
+current testcase: 
+Mult(2,4)=8
+current function : Mult(2,4)
+current output = 8
+writing the function Mult(2,4) to python file
+check the input here: 
+https://web.njit.edu/~wbv4/Middle/firstpy.txt 
+ commandline :  python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
+executing : python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
+analyze exec() 
+8
+qId = 2 Testcase : 0, Mult(2,4)=8
+output of exec = 8
+compare exec with testcase output : 
+comparing 8 = 8
+pass!
+qId = 2 Testcase : 0, Mult(2,4)=8
+output of exec = 8
+compare exec with testcase output : 
+comparing 8 = 8
+pass!
+qId = 2 Testcase : 2, 
+output of exec = 1
+compare exec with testcase output : 
+comparing 1 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"2","feedback":" failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] =>  failed!, 
+    [points] => 0
+)
+
+qId = 2 Testcase : 3, 
+output of exec = 2
+compare exec with testcase output : 
+comparing 2 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"2","feedback":" failed!,  failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] =>  failed!,  failed!, 
+    [points] => 0
+)
+
+qId = 2 Testcase : 2, 
+output of exec = 1
+compare exec with testcase output : 
+comparing 1 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"2","feedback":" failed!,  failed!,  failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] =>  failed!,  failed!,  failed!, 
+    [points] => 0
+)
+
+qId = 2 Testcase : 3, 
+output of exec = 2
+compare exec with testcase output : 
+comparing 2 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"2","feedback":" failed!,  failed!,  failed!,  failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] =>  failed!,  failed!,  failed!,  failed!, 
+    [points] => 0
+)
+
+qId = 2 Testcase : 0, Mult(2,4)=8
+output of exec = 8
+compare exec with testcase output : 
+comparing 8 = 8
+pass!
+clear the python file for 1
+clear the python file for 1
+writing this answer to python file : def add(a, b): return a+b
+array of testcases 
+question Id: 1
+Array
+(
+    [0] => add(2,3)=5
+    [1] => add(4,4)=8
+)
+
+current testcase: 
+add(2,3)=5
+current function : add(2,3)
+current output = 5
+writing the function add(2,3) to python file
+current testcase: 
+add(4,4)=8
+current function : add(4,4)
+current output = 8
+writing the function add(4,4) to python file
+check the input here: 
+https://web.njit.edu/~wbv4/Middle/firstpy.txt 
+ commandline :  python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
+executing : python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
+analyze exec() 
+8
+qId = 1 Testcase : 0, add(2,3)=5
+output of exec = 8
+compare exec with testcase output : 
+comparing 8 = 5
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"1","feedback":"add(2,3)=5 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => add(2,3)=5 failed!, 
+    [points] => 0
+)
+
+qId = 1 Testcase : 0, add(2,3)=5
+output of exec = 8
+compare exec with testcase output : 
+comparing 8 = 5
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"1","feedback":"add(2,3)=5 failed!, add(2,3)=5 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => add(2,3)=5 failed!, add(2,3)=5 failed!, 
+    [points] => 0
+)
+
+qId = 1 Testcase : 2, 
+output of exec = 1
+compare exec with testcase output : 
+comparing 1 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"1","feedback":" failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] =>  failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, 
+    [points] => 0
+)
+
+qId = 1 Testcase : 3, 
+output of exec = 2
+compare exec with testcase output : 
+comparing 2 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"1","feedback":" failed!,  failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] =>  failed!,  failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, 
+    [points] => 0
+)
+
+qId = 1 Testcase : 2, 
+output of exec = 1
+compare exec with testcase output : 
+comparing 1 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"1","feedback":" failed!,  failed!,  failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] =>  failed!,  failed!,  failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, 
+    [points] => 0
+)
+
+qId = 1 Testcase : 3, 
+output of exec = 2
+compare exec with testcase output : 
+comparing 2 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"1","feedback":" failed!,  failed!,  failed!,  failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] =>  failed!,  failed!,  failed!,  failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, 
+    [points] => 0
+)
+
+qId = 1 Testcase : 0, add(2,3)=5
+output of exec = 8
+compare exec with testcase output : 
+comparing 8 = 5
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"1","feedback":"add(2,3)=5 failed!,  failed!,  failed!,  failed!,  failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => add(2,3)=5 failed!,  failed!,  failed!,  failed!,  failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, 
+    [points] => 0
+)
+
+qId = 1 Testcase : 7, 
+output of exec = 5
+compare exec with testcase output : 
+comparing 5 = 
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"1","feedback":" failed!, add(2,3)=5 failed!,  failed!,  failed!,  failed!,  failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] =>  failed!, add(2,3)=5 failed!,  failed!,  failed!,  failed!,  failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, 
+    [points] => 0
+)
+
+qId = 1 Testcase : 0, add(2,3)=5
+output of exec = 8
+compare exec with testcase output : 
+comparing 8 = 5
+fail!
+results from updatePoints()
+updatePoints() was succesful! 
+printing updatePoints() output 
+{"type":"updatePoints","error":0,"testId":"10","qId":"1","feedback":"add(2,3)=5 failed!,  failed!, add(2,3)=5 failed!,  failed!,  failed!,  failed!,  failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, ","points":"0"}
+printing decoded updatePonts() output 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => add(2,3)=5 failed!,  failed!, add(2,3)=5 failed!,  failed!,  failed!,  failed!,  failed!, add(2,3)=5 failed!, add(2,3)=5 failed!, 
+    [points] => 0
+)
+
+array of questions for each test 
+Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [desc] => TEST here's a new Q blah blah
+            [topic] => blah blah
+            [diff] => 2
+        )
+
+)
+results of getAnswers for 12
+{"type":"getAnswers","error":"a feedback was detected in 5, it is graded already.","answers":[]}
+array of questions for each test 
+Array
+(
+    [0] => Array
+        (
+            [id] => 6
+            [desc] => TEST blah Q
+            [topic] => Q blah
+            [diff] => 4
+        )
+
+)
+results of getAnswers for 13
+{"type":"getAnswers","error":"a feedback was detected in 6, it is graded already.","answers":[]}
+array of questions for each test 
+Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [desc] => TEST here's a new Q blah blah
+            [topic] => blah blah
+            [diff] => 2
+        )
+
+    [1] => Array
+        (
+            [id] => 8
+            [desc] => blahblabhlbhsl
+            [topic] => ndla
+            [diff] => 2
+        )
+
+    [2] => Array
+        (
+            [id] => 7
+            [desc] => TEST blah Q
+            [topic] => Q blah
+            [diff] => 4
+        )
+
+    [3] => Array
+        (
+            [id] => 6
+            [desc] => TEST blah Q
+            [topic] => Q blah
+            [diff] => 4
+        )
+
+    [4] => Array
+        (
+            [id] => 4
+            [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+            [topic] => Random
+            [diff] => 4
+        )
+
+    [5] => Array
+        (
+            [id] => 10
+            [desc] => TEST here's a new Q FOR you
+            [topic] => For
+            [diff] => 2
+        )
+
+)
+results of getAnswers for 20
+{"type":"getAnswers","error":"a feedback was detected in 5, it is graded already.a feedback was detected in 6, it is graded already.a feedback was detected in 5, it is graded already.a feedback was detected in 8, it is graded already.a feedback was detected in 7, it is graded already.a feedback was detected in 6, it is graded already.a feedback was detected in 4, it is graded already.a feedback was detected in 10, it is graded already.","answers":[]}
+array of questions for each test 
+Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+            [topic] => Random
+            [diff] => 4
+        )
+
+    [1] => Array
+        (
+            [id] => 68
+            [desc] => l;kj
+            [topic] => ;lkj
+            [diff] => 3
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [desc] => TEST blah Q
+            [topic] => Q blah
+            [diff] => 4
+        )
+
+)
+results of getAnswers for 22
+{"type":"getAnswers","error":"a feedback was detected in 6, it is graded already.a feedback was detected in 6, it is graded already.a feedback was detected in 4, it is graded already.a feedback was detected in 4, it is graded already.a feedback was detected in 68, it is graded already.a feedback was detected in 6, it is graded already.","answers":[]}
+array of questions for each test 
+Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+            [topic] => multi
+            [diff] => 3
+        )
+
+    [1] => Array
+        (
+            [id] => 69
+            [desc] => create a function called Double which takes 2 parameters and returns doubled.
+            [topic] => easy
+            [diff] => 1
+        )
+
+)
+results of getAnswers for 23
+{"type":"getAnswers","error":"a feedback was detected in 2, it is graded already.a feedback was detected in 2, it is graded already.a feedback was detected in 2, it is graded already.a feedback was detected in 69, it is graded already.","answers":[]}
+array of questions for each test 
+Array
+(
+    [0] => Array
+        (
+            [id] => 71
+            [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
+            [topic] => Herdederms
+            [diff] => 3
+        )
+
+)
+results of getAnswers for 24
+{"type":"getAnswers","error":"a feedback was detected in 71, it is graded already.","answers":[]}

@@ -1,0 +1,1929 @@
+[+] addA page accessed 2019-04-08 03:46:27pm
+page received data. processing the data below:
+addA decoder is empty! 
+[+] addA page accessed 2019-04-08 04:05:12pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 1000
+            [desc] => Quiz One
+            [rel] => 1
+            [sub] => 0
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1000
+                            [desc] => Write a function named inRange() that tests whether a given number falls within a specified range. The function inRange() takes three parameters: testNum, floor, ceiling. The function inRange() should return True if testNum is greater than or equal to floor and less than or equal to ceiling.
+                            [topic] => Conditionals
+                            [diff] => 1
+                            [tests] => Array
+                                (
+                                    [0] => inRange(4,1,7)=True
+                                    [1] => inRange(4,6,7)=false
+                                )
+
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 15
+                )
+
+        )
+
+    [comment] => asdf
+    [answers] => Array
+        (
+            [0] => 
+        )
+
+)
+
+executing checktestId() for 1000
+invalid test id. terminating.
+[+] addA page accessed 2019-04-08 04:12:25pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 1001
+            [desc] => Midterm One
+            [rel] => 1
+            [sub] => 0
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1000
+                            [desc] => Write a function named inRange() that tests whether a given number falls within a specified range. The function inRange() takes three parameters: testNum, floor, ceiling. The function inRange() should return True if testNum is greater than or equal to floor and less than or equal to ceiling.
+                            [topic] => Conditionals
+                            [diff] => 1
+                            [tests] => Array
+                                (
+                                    [0] => inRange(4,1,7)=True
+                                    [1] => inRange(4,6,7)=false
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 1001
+                            [desc] => Write a function named greet() that takes two parameters: greeting and name. The functino should then print out a message greeting the user by name with a comma between the greeting and the name.
+                            [topic] => Output
+                            [diff] => 1
+                            [tests] => Array
+                                (
+                                    [0] => greet("Cheerio", "Gabriel")="Cheerio, Gabriel"
+                                    [1] => greet("a", "b")="a, b"
+                                )
+
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 15
+                    [1] => 30
+                )
+
+        )
+
+    [comment] => Both answers were not filled out
+    [answers] => Array
+        (
+            [0] => 
+            [1] => 
+        )
+
+)
+
+executing checktestId() for 1001
+invalid test id. terminating.
+[+] addA page accessed 2019-04-08 04:14:58pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 10
+                    [1] => 10
+                    [2] => 10
+                )
+
+        )
+
+    [comment] => Three Q's w/ empty answers
+    [answers] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+executing checktestId() for 10
+id found in the database!
+executing getqIds for testId 10
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 3
+    [1] => 2
+    [2] => 1
+)
+
+updating database with answer  for testId 10 where qId = 3 
+updating database with answer  for testId 10 where qId = 3 
+updating database with answer  for testId 10 where qId = 3 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+            [1] => 10
+            [2] => 10
+        )
+
+)
+
++ comment: Three Q's w/ empty answers
++ answers: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempts":{"test":{"id":"10","desc":"TEST 3Q's","rel":1,"sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["10","10","10"]},"answers":["","",""],"grades":null,"comment":"Three Q's w\/ empty answers","feedback":null,"remarks":null}}
+[+] addA page accessed 2019-04-08 04:19:33pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 20
+            [desc] => Easy and Hards
+            [rel] => 1
+            [sub] => 0
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [desc] => TEST here's a new Q blah blah
+                            [topic] => blah blah
+                            [diff] => 2
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 8
+                            [desc] => blahblabhlbhsl
+                            [topic] => ndla
+                            [diff] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 7
+                            [desc] => TEST blah Q
+                            [topic] => Q blah
+                            [diff] => 4
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 6
+                            [desc] => TEST blah Q
+                            [topic] => Q blah
+                            [diff] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 4
+                            [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                            [topic] => Random
+                            [diff] => 4
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10
+                            [desc] => TEST here's a new Q FOR you
+                            [topic] => For
+                            [diff] => 2
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 5
+                    [1] => 5
+                    [2] => 5
+                    [3] => 10
+                    [4] => 10
+                    [5] => 10
+                )
+
+        )
+
+    [comment] => 2 & 5 empty
+    [answers] => Array
+        (
+            [0] => E&H A1
+            [1] => 
+            [2] => E&H A3
+            [3] => E&H A4
+            [4] => 
+            [5] => E&H A6
+        )
+
+)
+
+executing checktestId() for 20
+id found in the database!
+executing getqIds for testId 20
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 5
+    [1] => 8
+    [2] => 7
+    [3] => 6
+    [4] => 4
+    [5] => 10
+)
+
+updating database with answer E&H A1 for testId 20 where qId = 5 
+updating database with answer  for testId 20 where qId = 8 
+updating database with answer E&H A3 for testId 20 where qId = 7 
+updating database with answer E&H A4 for testId 20 where qId = 6 
+updating database with answer  for testId 20 where qId = 8 
+updating database with answer E&H A6 for testId 20 where qId = 10 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 20
+    [desc] => Easy and Hards
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [diff] => 2
+                )
+
+            [2] => Array
+                (
+                    [id] => 7
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+            [3] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+            [4] => Array
+                (
+                    [id] => 4
+                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                    [topic] => Random
+                    [diff] => 4
+                )
+
+            [5] => Array
+                (
+                    [id] => 10
+                    [desc] => TEST here's a new Q FOR you
+                    [topic] => For
+                    [diff] => 2
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 5
+            [1] => 5
+            [2] => 5
+            [3] => 10
+            [4] => 10
+            [5] => 10
+        )
+
+)
+
++ comment: 2 & 5 empty
++ answers: Array
+(
+    [0] => E&H A1
+    [1] => 
+    [2] => E&H A3
+    [3] => E&H A4
+    [4] => 
+    [5] => E&H A6
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempts":{"test":{"id":"20","desc":"Easy and Hards","rel":1,"sub":"0","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2"},{"id":"8","desc":"blahblabhlbhsl","topic":"ndla","diff":"2"},{"id":"7","desc":"TEST blah Q","topic":"Q blah","diff":"4"},{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4"},{"id":"4","desc":"TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.","topic":"Random","diff":"4"},{"id":"10","desc":"TEST here's a new Q FOR you","topic":"For","diff":"2"}],"pts":["5","5","5","10","10","10"]},"answers":["E&H A1","","E&H A3","E&H A4","","E&H A6"],"grades":null,"comment":"2 & 5 empty","feedback":null,"remarks":null}}
+[+] addA page accessed 2019-04-08 04:23:03pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 20
+            [desc] => Easy and Hards
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [desc] => TEST here's a new Q blah blah
+                            [topic] => blah blah
+                            [diff] => 2
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 8
+                            [desc] => blahblabhlbhsl
+                            [topic] => ndla
+                            [diff] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 7
+                            [desc] => TEST blah Q
+                            [topic] => Q blah
+                            [diff] => 4
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 6
+                            [desc] => TEST blah Q
+                            [topic] => Q blah
+                            [diff] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 4
+                            [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                            [topic] => Random
+                            [diff] => 4
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10
+                            [desc] => TEST here's a new Q FOR you
+                            [topic] => For
+                            [diff] => 2
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 5
+                    [1] => 5
+                    [2] => 5
+                    [3] => 10
+                    [4] => 10
+                    [5] => 10
+                )
+
+        )
+
+    [comment] => 2 and 5 blank
+    [answers] => Array
+        (
+            [0] => E&H A1
+            [1] => 
+            [2] => E&H A3
+            [3] => E&H A4
+            [4] => 
+            [5] => E&H A6
+        )
+
+)
+
+executing checktestId() for 20
+id found in the database!
+executing getqIds for testId 20
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 5
+    [1] => 8
+    [2] => 7
+    [3] => 6
+    [4] => 4
+    [5] => 10
+)
+
+updating database with answer E&H A1 for testId 20 where qId = 5 
+updating database with answer  for testId 20 where qId = 8 
+updating database with answer E&H A3 for testId 20 where qId = 7 
+updating database with answer E&H A4 for testId 20 where qId = 6 
+updating database with answer  for testId 20 where qId = 8 
+updating database with answer E&H A6 for testId 20 where qId = 10 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 20
+    [desc] => Easy and Hards
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [diff] => 2
+                )
+
+            [2] => Array
+                (
+                    [id] => 7
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+            [3] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [diff] => 4
+                )
+
+            [4] => Array
+                (
+                    [id] => 4
+                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                    [topic] => Random
+                    [diff] => 4
+                )
+
+            [5] => Array
+                (
+                    [id] => 10
+                    [desc] => TEST here's a new Q FOR you
+                    [topic] => For
+                    [diff] => 2
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 5
+            [1] => 5
+            [2] => 5
+            [3] => 10
+            [4] => 10
+            [5] => 10
+        )
+
+)
+
++ comment: 2 and 5 blank
++ answers: Array
+(
+    [0] => E&H A1
+    [1] => 
+    [2] => E&H A3
+    [3] => E&H A4
+    [4] => 
+    [5] => E&H A6
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempts":{"test":{"id":"20","desc":"Easy and Hards","rel":1,"sub":"1","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2"},{"id":"8","desc":"blahblabhlbhsl","topic":"ndla","diff":"2"},{"id":"7","desc":"TEST blah Q","topic":"Q blah","diff":"4"},{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4"},{"id":"4","desc":"TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.","topic":"Random","diff":"4"},{"id":"10","desc":"TEST here's a new Q FOR you","topic":"For","diff":"2"}],"pts":["5","5","5","10","10","10"]},"answers":["E&H A1","","E&H A3","E&H A4","","E&H A6"],"grades":null,"comment":"2 and 5 blank","feedback":null,"remarks":null}}
+[+] addA page accessed 2019-04-08 04:40:40pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 10
+                    [1] => 10
+                    [2] => 10
+                )
+
+        )
+
+    [comment] => I HATE THIS
+    [answers] => Array
+        (
+            [0] => i hate it!
+            [1] => i hate it!
+            [2] => i hate it!
+        )
+
+)
+
+executing checktestId() for 10
+id found in the database!
+executing getqIds for testId 10
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 3
+    [1] => 2
+    [2] => 1
+)
+
+updating database with answer i hate it! for testId 10 where qId = 3 
+updating database with answer i hate it! for testId 10 where qId = 2 
+updating database with answer i hate it! for testId 10 where qId = 1 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+            [1] => 10
+            [2] => 10
+        )
+
+)
+
++ comment: I HATE THIS
++ answers: Array
+(
+    [0] => i hate it!
+    [1] => i hate it!
+    [2] => i hate it!
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempts":{"test":{"id":"10","desc":"TEST 3Q's","rel":1,"sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["10","10","10"]},"answers":["i hate it!","i hate it!","i hate it!"],"grades":null,"comment":"I HATE THIS","feedback":null,"remarks":null}}
+[+] addA page accessed 2019-04-08 04:54:56pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 1001
+            [desc] => Midterm One
+            [rel] => 1
+            [sub] => 0
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1000
+                            [desc] => Write a function named inRange() that tests whether a given number falls within a specified range. The function inRange() takes three parameters: testNum, floor, ceiling. The function inRange() should return True if testNum is greater than or equal to floor and less than or equal to ceiling.
+                            [topic] => Conditionals
+                            [diff] => 1
+                            [tests] => Array
+                                (
+                                    [0] => inRange(4,1,7)=True
+                                    [1] => inRange(4,6,7)=false
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 1001
+                            [desc] => Write a function named greet() that takes two parameters: greeting and name. The functino should then print out a message greeting the user by name with a comma between the greeting and the name.
+                            [topic] => Output
+                            [diff] => 1
+                            [tests] => Array
+                                (
+                                    [0] => greet("Cheerio", "Gabriel")="Cheerio, Gabriel"
+                                    [1] => greet("a", "b")="a, b"
+                                )
+
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 15
+                    [1] => 30
+                )
+
+        )
+
+    [comment] => zxcv
+    [answers] => Array
+        (
+            [0] => asdf
+            [1] => fdas
+        )
+
+)
+
+executing checktestId() for 1001
+invalid test id. terminating.
+[+] addA page accessed 2019-04-08 05:49:24pm
+page received data. processing the data below:
+addA decoder is empty! 
+[+] addA page accessed 2019-04-08 07:19:19pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 12
+            [desc] => TEST Here's a new test
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [desc] => TEST here's a new Q blah blah
+                            [topic] => blah blah
+                            [diff] => 2
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+    [comment] => vgh
+    [answers] => Array
+        (
+            [0] => abcdef
+        )
+
+)
+
+executing checktestId() for 12
+id found in the database!
+executing getqIds for testId 12
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 5
+)
+
+updating database with answer abcdef for testId 12 where qId = 5 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 12
+    [desc] => TEST Here's a new test
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+        )
+
+)
+
++ comment: vgh
++ answers: Array
+(
+    [0] => abcdef
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempts":{"test":{"id":"12","desc":"TEST Here's a new test","rel":1,"sub":"1","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2"}],"pts":["0"]},"answers":["abcdef"],"grades":null,"comment":"vgh","feedback":null,"remarks":null}}
+[+] addA page accessed 2019-04-08 07:29:45pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 10
+                    [1] => 10
+                    [2] => 10
+                )
+
+        )
+
+    [comment] => 
+    [answers] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+executing checktestId() for 10
+id found in the database!
+executing getqIds for testId 10
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 3
+    [1] => 2
+    [2] => 1
+)
+
+updating database with answer  for testId 10 where qId = 3 
+updating database with answer  for testId 10 where qId = 2 
+updating database with answer  for testId 10 where qId = 1 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+            [1] => 10
+            [2] => 10
+        )
+
+)
+
++ comment: 
++ answers: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempts":{"test":{"id":"10","desc":"TEST 3Q's","rel":1,"sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["10","10","10"]},"answers":["","",""],"grades":null,"comment":"","feedback":null,"remarks":null}}
+[+] addA page accessed 2019-04-08 08:49:51pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 10
+                    [1] => 10
+                    [2] => 10
+                )
+
+        )
+
+    [comment] => testing the autograder
+    [answers] => Array
+        (
+            [0] => def Sub(a, b): return a-b
+            [1] => def Mult(a, b): return a*b
+            [2] => def add(a,b): return a+b
+        )
+
+)
+
+executing checktestId() for 10
+id found in the database!
+executing getqIds for testId 10
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 3
+    [1] => 2
+    [2] => 1
+)
+
+updating database with answer def Sub(a, b): return a-b for testId 10 where qId = 3 
+updating database with answer def Mult(a, b): return a*b for testId 10 where qId = 2 
+updating database with answer def add(a,b): return a+b for testId 10 where qId = 1 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+            [1] => 10
+            [2] => 10
+        )
+
+)
+
++ comment: testing the autograder
++ answers: Array
+(
+    [0] => def Sub(a, b): return a-b
+    [1] => def Mult(a, b): return a*b
+    [2] => def add(a,b): return a+b
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempt":{"test":{"id":"10","desc":"TEST 3Q's","rel":1,"sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["10","10","10"]},"answers":["def Sub(a, b): return a-b","def Mult(a, b): return a*b","def add(a,b): return a+b"],"grades":null,"comment":"testing the autograder","feedback":null,"remarks":null}}
+[+] addA page accessed 2019-04-08 09:13:07pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+        )
+
+    [comment] => Very challenging test
+    [answers] => Array
+        (
+            [0] => def name(p1, p2):
+    for i in range(10):
+        print i
+    return 15
+            [1] => def myFunc(x,y,z):
+    cats = ["fluffy", "scratchy", "bob"]
+    return cats[1]
+            [2] => def hello(name):
+    print "Helllo, " + name + "!"
+        )
+
+)
+
+executing checktestId() for 10
+id found in the database!
+executing getqIds for testId 10
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 3
+    [1] => 2
+    [2] => 1
+)
+
+updating database with answer def name(p1, p2):
+    for i in range(10):
+        print i
+    return 15 for testId 10 where qId = 3 
+updating database with answer def myFunc(x,y,z):
+    cats = [\"fluffy\", \"scratchy\", \"bob\"]
+    return cats[1] for testId 10 where qId = 2 
+updating database with answer def hello(name):
+    print \"Helllo, \" + name + \"!\" for testId 10 where qId = 1 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+            [1] => 0
+            [2] => 0
+        )
+
+)
+
++ comment: Very challenging test
++ answers: Array
+(
+    [0] => def name(p1, p2):
+    for i in range(10):
+        print i
+    return 15
+    [1] => def myFunc(x,y,z):
+    cats = ["fluffy", "scratchy", "bob"]
+    return cats[1]
+    [2] => def hello(name):
+    print "Helllo, " + name + "!"
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempt":{"test":{"id":"10","desc":"TEST 3Q's","rel":1,"sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["0","0","0"]},"answers":["def name(p1, p2):\n    for i in range(10):\n        print i\n    return 15","def myFunc(x,y,z):\n    cats = [\"fluffy\", \"scratchy\", \"bob\"]\n    return cats[1]","def hello(name):\n    print \"Helllo, \" + name + \"!\""],"grades":null,"comment":"Very challenging test","feedback":null,"remarks":null}}
+[+] addA page accessed 2019-04-08 09:13:49pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 12
+            [desc] => TEST Here's a new test
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [desc] => TEST here's a new Q blah blah
+                            [topic] => blah blah
+                            [diff] => 2
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+    [comment] => goop
+    [answers] => Array
+        (
+            [0] => def printGoop():
+    print "Goop"
+        )
+
+)
+
+executing checktestId() for 12
+id found in the database!
+executing getqIds for testId 12
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 5
+)
+
+updating database with answer def printGoop():
+    print \"Goop\" for testId 12 where qId = 5 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 12
+    [desc] => TEST Here's a new test
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [diff] => 2
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+        )
+
+)
+
++ comment: goop
++ answers: Array
+(
+    [0] => def printGoop():
+    print "Goop"
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempt":{"test":{"id":"12","desc":"TEST Here's a new test","rel":1,"sub":"1","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2"}],"pts":["0"]},"answers":["def printGoop():\n    print \"Goop\""],"grades":null,"comment":"goop","feedback":null,"remarks":null}}
+[+] addA page accessed 2019-04-08 09:25:23pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 10
+                    [1] => 10
+                    [2] => 10
+                )
+
+        )
+
+    [comment] => testing autograder
+    [answers] => Array
+        (
+            [0] => def sub(a, b): return a-b
+            [1] => def Mult(a, b): return a*b
+            [2] => def add(a, b): return a+b
+        )
+
+)
+
+executing checktestId() for 10
+id found in the database!
+executing getqIds for testId 10
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 3
+    [1] => 2
+    [2] => 1
+)
+
+updating database with answer def sub(a, b): return a-b for testId 10 where qId = 3 
+updating database with answer def Mult(a, b): return a*b for testId 10 where qId = 2 
+updating database with answer def add(a, b): return a+b for testId 10 where qId = 1 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 10
+            [1] => 10
+            [2] => 10
+        )
+
+)
+
++ comment: testing autograder
++ answers: Array
+(
+    [0] => def sub(a, b): return a-b
+    [1] => def Mult(a, b): return a*b
+    [2] => def add(a, b): return a+b
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempt":{"test":{"id":"10","desc":"TEST 3Q's","rel":1,"sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["10","10","10"]},"answers":["def sub(a, b): return a-b","def Mult(a, b): return a*b","def add(a, b): return a+b"],"grades":null,"comment":"testing autograder","feedback":null,"remarks":null}}
+[+] addA page accessed 2019-04-08 09:43:42pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 27
+            [desc] => 345
+            [rel] => 1
+            [sub] => 0
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 9
+                            [desc] => This will be the first Q with constraints
+                            [topic] => constraints
+                            [diff] => 5
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 34
+                            [desc] => TEST range
+                            [topic] => l;aksjdf
+                            [diff] => 5
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 54
+                            [desc] => TEST i think i got it
+                            [topic] => lkj
+                            [diff] => 5
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 3
+                    [1] => 4
+                    [2] => 5
+                )
+
+        )
+
+    [comment] => Excellent test, sir
+    [answers] => Array
+        (
+            [0] => def constraints(a,b,c,d):
+    while(true):
+        print a, b, c, d
+            [1] => def lolzacopter():
+    a = 5
+    for i in range(5):
+        a+=(a*=i)
+    print a
+            [2] => def test(apples):
+    print "bananas"
+        )
+
+)
+
+executing checktestId() for 27
+id found in the database!
+executing getqIds for testId 27
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 9
+    [1] => 34
+    [2] => 54
+)
+
+updating database with answer def constraints(a,b,c,d):
+    while(true):
+        print a, b, c, d for testId 27 where qId = 9 
+updating database with answer def lolzacopter():
+    a = 5
+    for i in range(5):
+        a+=(a*=i)
+    print a for testId 27 where qId = 34 
+updating database with answer def test(apples):
+    print \"bananas\" for testId 27 where qId = 54 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 27
+    [desc] => 345
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 9
+                    [desc] => This will be the first Q with constraints
+                    [topic] => constraints
+                    [diff] => 5
+                )
+
+            [1] => Array
+                (
+                    [id] => 34
+                    [desc] => TEST range
+                    [topic] => l;aksjdf
+                    [diff] => 5
+                )
+
+            [2] => Array
+                (
+                    [id] => 54
+                    [desc] => TEST i think i got it
+                    [topic] => lkj
+                    [diff] => 5
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 3
+            [1] => 4
+            [2] => 5
+        )
+
+)
+
++ comment: Excellent test, sir
++ answers: Array
+(
+    [0] => def constraints(a,b,c,d):
+    while(true):
+        print a, b, c, d
+    [1] => def lolzacopter():
+    a = 5
+    for i in range(5):
+        a+=(a*=i)
+    print a
+    [2] => def test(apples):
+    print "bananas"
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempt":{"test":{"id":"27","desc":"345","rel":1,"sub":"0","ques":[{"id":"9","desc":"This will be the first Q with constraints","topic":"constraints","diff":"5"},{"id":"34","desc":"TEST range","topic":"l;aksjdf","diff":"5"},{"id":"54","desc":"TEST i think i got it","topic":"lkj","diff":"5"}],"pts":["3","4","5"]},"answers":["def constraints(a,b,c,d):\n    while(true):\n        print a, b, c, d","def lolzacopter():\n    a = 5\n    for i in range(5):\n        a+=(a*=i)\n    print a","def test(apples):\n    print \"bananas\""],"grades":null,"comment":"Excellent test, sir","feedback":null,"remarks":null}}
+[+] addA page accessed 2019-04-08 10:17:31pm
+page received data. processing the data below:
+addA decoder is empty! 
+[+] addA page accessed 2019-04-08 10:18:35pm
+page received data. processing the data below:
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+        )
+
+    [comment] => Student's comment
+    [answers] => Array
+        (
+            [0] => def myfunc():
+    blah blah blah
+    blah blah    
+    return true
+            [1] => def plus(a,b):
+    return a + b
+            [2] => def hello():
+    print "Hello"
+        )
+
+)
+
+executing checktestId() for 10
+id found in the database!
+executing getqIds for testId 10
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 3
+    [1] => 2
+    [2] => 1
+)
+
+updating database with answer def myfunc():
+    blah blah blah
+    blah blah    
+    return true for testId 10 where qId = 3 
+updating database with answer def plus(a,b):
+    return a + b for testId 10 where qId = 2 
+updating database with answer def hello():
+    print \"Hello\" for testId 10 where qId = 1 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 0
+            [1] => 0
+            [2] => 0
+        )
+
+)
+
++ comment: Student's comment
++ answers: Array
+(
+    [0] => def myfunc():
+    blah blah blah
+    blah blah    
+    return true
+    [1] => def plus(a,b):
+    return a + b
+    [2] => def hello():
+    print "Hello"
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempt":{"test":{"id":"10","desc":"TEST 3Q's","rel":1,"sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["0","0","0"]},"answers":["def myfunc():\n    blah blah blah\n    blah blah    \n    return true","def plus(a,b):\n    return a + b","def hello():\n    print \"Hello\""],"grades":null,"comment":"Student's comment","feedback":null,"remarks":null}}
+[+] addA page accessed 2019-04-08 10:34:15pm
+page received data. processing the data below:
+addA decoder is empty! 
+[+] addA page accessed 2019-04-08 10:35:14pm
+page received data. processing the data below:
+target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/addA.txt = 54560
+addA decoder is empty! 
+[+] addA page accessed 2019-04-08 10:40:55pm
++ page received data. processing the data below:
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/addA.txt = 54672
+addA decoder is empty! 
+[+] addA page accessed 2019-04-08 11:11:27pm
++ page received data. processing the data below:
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/addA.txt = 54880
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 19
+            [desc] => TEST Q w/ pts = [9]
+            [rel] => 1
+            [sub] => 0
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10
+                            [desc] => TEST here's a new Q FOR you
+                            [topic] => For
+                            [diff] => 2
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 9
+                )
+
+        )
+
+    [comment] => gooblersPlongerstomps
+    [answers] => Array
+        (
+            [0] => def plongerstomps(angle, slope, tissues):
+    apple = "granola"
+    for i in range(len(apple)):
+        gooblers = 3
+        while(gooblers >= -5):
+            print apple[i]
+            goobler -= 1
+        if(false):
+            print "whaa?!"
+    return "gooblers"
+        )
+
+)
+
+executing checktestId() for 19
+id found in the database!
+executing getqIds for testId 19
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 10
+)
+
+updating database with answer def plongerstomps(angle, slope, tissues):
+    apple = \"granola\"
+    for i in range(len(apple)):
+        gooblers = 3
+        while(gooblers >= -5):
+            print apple[i]
+            goobler -= 1
+        if(false):
+            print \"whaa?!\"
+    return \"gooblers\" for testId 19 where qId = 10 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 19
+    [desc] => TEST Q w/ pts = [9]
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 10
+                    [desc] => TEST here's a new Q FOR you
+                    [topic] => For
+                    [diff] => 2
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 9
+        )
+
+)
+
++ comment: gooblersPlongerstomps
++ answers: Array
+(
+    [0] => def plongerstomps(angle, slope, tissues):
+    apple = "granola"
+    for i in range(len(apple)):
+        gooblers = 3
+        while(gooblers >= -5):
+            print apple[i]
+            goobler -= 1
+        if(false):
+            print "whaa?!"
+    return "gooblers"
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempt":{"test":{"id":"19","desc":"TEST Q w\/ pts = [9]","rel":1,"sub":"0","ques":[{"id":"10","desc":"TEST here's a new Q FOR you","topic":"For","diff":"2"}],"pts":["9"]},"answers":["def plongerstomps(angle, slope, tissues):\n    apple = \"granola\"\n    for i in range(len(apple)):\n        gooblers = 3\n        while(gooblers >= -5):\n            print apple[i]\n            goobler -= 1\n        if(false):\n            print \"whaa?!\"\n    return \"gooblers\""],"grades":null,"comment":"gooblersPlongerstomps","feedback":null,"remarks":null}}

@@ -1,0 +1,114 @@
+worklog brief
+
+LOG Fri Apr  5 09:19:59 EDT 2019
+
+    [R] formed testBuilder.php, quesBuilder.php, and created getAttempt.php.
+    	getA is now operational until discrepancies are found. 
+	
+    [+] we need to investigate addA to ensure it is able.
+    [+] push into the remote repository. 
+
+LOG Wed Apr  3 15:05:57 EDT 2019
+
+  briefing 
+       update all files according to JSON formats
+
+    [R] Wed Apr  3 17:39:37 EDT 2019
+       addT is good to go. 
+       getT is good to go.
+
+    [+] we need to implement addA a.s.a.p 
+
+
+LOG Tue Apr  2 18:10:26 EDT 2019
+
+  briefing 
+       the addT isn't updating answers in database. 
+
+    [-] investigate why addT isn't updating the userAnswer field.  
+
+    [R] Tue Apr  2 19:48:38 EDT 2019
+
+        the addA isn't updating the answer field because the frontend
+	decoder format of answer is invalid
+
+LOG Mon Apr  1 15:51:07 EDT 2019
+
+  briefing
+       the addT json file is in the wrong format. 
+
+   [-] task A -- fix the json format for addT. 
+
+       task A report -- addT and addA has been resolved until further discrepancies are found.
+       addT will no longer insert tests with invalid questions. be aware.
+
+LOG Sun Mar 31 23:15:28 EDT 2019
+
+  autogradermid is being updated to ensure that feedback is properly returned when
+  invalid functions are provided by the student. the code needs to ensure that
+  characters are escaped when sending SQL statements.
+
+  [-] task A -- escape SQL variables 
+      
+      report A -- the autograder will now update feedback if the function student provides
+      fails to match testcases.
+
+      addT was checked to ensure that it escaped 'text' answer before curling backend.
+      addT and the autograder is ready to be coordinated together for further testing.
+
+LOG Sun Mar 31 09:33:34 EDT 2019
+   
+  brief: the autograder is tested. updated getAnswer() to ensure proper testcases
+  are associated with the proper question when sent to the autograder. last test
+  shows that exec will fail if the student answer function does not match the testcases.
+
+  [-] task A -- when exec fails, mark it for failure, and deduct points. 
+
+LOG Sun Mar 31 07:43:37 EDT 2019
+
+  tested the autograder with testId 2 with 2 questions and it failed
+  because it inserted the wrong testcase in the python file.
+
+  [-] task A -- investigate why it is acting this way and fix it. 
+
+  [-] reports
+
+     task A report - Sun Mar 31 08:27:54 EDT 2019
+       python failed to exec because there were no answers in the test.
+       insert a sample answer and run the test again. 
+  
+     task A report - Sun Mar 31 08:12:46 EDT 2019
+       investigation shows that php exec failed to execute the python
+       file. 
+
+     task A report - Sun Mar 31 08:53:49 EDT 2019
+        autolog.txt report shows that the getAnswers() function returned
+	the wrong testcase for a given question Id. 
+
+     task A COA - Sun Mar 31 08:56:48 EDT 2019
+        the issue was found in getAnswers(). it is not clearning the
+	array for each question, thus adding testcases to previous 
+	array. clearing it for every loop and conducting test again. 
+
+LOG Sat Mar 30 23:00:34 EDT 2019
+
+  the autograder should now be tested with 2 additional questions.
+
+  [-] task A -- use an additional test with additional questions and ensure it
+  it properly works. 
+
+  [-] task B -- be able to change points in the addT functionality.
+  
+  
+LOG Sat Mar 30 17:18:38 EDT 2019
+
+  invalid questionIds are being passed to backend from the front and need
+  to be reprocessed. 
+
+  [-] task A -- ensure that addT prevents inadvertent inserts of invalid
+  questions. 
+
+  [-] report A -- addT (MakeTest2.php) will now filter question Ids. It will 
+  still create the test, but no questions will be associated with it, 
+  it will return an error in its JSON response. 
+
