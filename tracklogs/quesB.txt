@@ -571,3 +571,1928 @@ Array
         )
 
 )
+[ + ] page accessed quesB 2019-04-09 09:28:37am
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 09:28:37am
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 09:28:37am
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 01:23:36pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 01:23:36pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 01:23:36pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 01:24:07pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 01:24:07pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 01:24:07pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 01:24:10pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 01:24:10pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 01:24:10pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 01:24:13pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 01:24:13pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 01:24:13pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 07:39:38pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 07:39:38pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 07:39:38pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 07:39:38pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 07:39:38pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 07:39:38pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 08:17:50pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 08:17:50pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 08:17:50pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 08:18:55pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 08:18:55pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 08:18:55pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 08:20:38pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 08:20:38pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 08:20:38pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:14:10pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:14:10pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:14:10pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:14:12pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:14:12pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:14:12pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:17:06pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:17:06pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:17:06pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:17:11pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:17:11pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:17:11pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:17:19pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:17:19pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:17:19pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:23:38pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:23:38pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:23:38pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:25:39pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:25:39pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 10:25:39pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:13:10pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:13:10pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:13:10pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:13:13pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:13:13pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:13:13pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:14:51pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:14:51pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:14:51pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:15:24pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:15:24pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:15:24pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:15:26pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:15:26pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:15:26pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:16:31pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:16:31pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:16:31pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:17:47pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:17:47pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:17:47pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:18:51pm
+executing quesObject() with qId = 3
+obtaining testcases for qId = 3
+building the ques object (temp1)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 3
+    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+    [topic] => Sub
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => sub(3,2)=1
+            [1] => sub(4,2)=2
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:18:51pm
+executing quesObject() with qId = 2
+obtaining testcases for qId = 2
+building the ques object (temp1)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 2
+    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+    [topic] => multi
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Mult(2,4)=8
+        )
+
+)
+[ + ] page accessed quesB 2019-04-09 11:18:51pm
+executing quesObject() with qId = 1
+obtaining testcases for qId = 1
+building the ques object (temp1)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 1
+    [desc] => create a function add which takes 2 parameters and returns the sum.
+    [topic] => add
+    [diff] => 1
+    [tests] => Array
+        (
+            [0] => add(2,3)=5
+            [1] => add(4,4)=8
+        )
+
+)

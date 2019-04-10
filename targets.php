@@ -24,5 +24,8 @@ function targetIs($str) {
 	if ($str == 'auto') {
 		return '/afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt'; 
     	} 
+	if ($str == 'getAns') {
+		return '/afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt'; 
+	}
 }
 ?>

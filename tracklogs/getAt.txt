@@ -12,203 +12,6 @@ Array
 
 decoder returned an empty array of ids! go get em!
 getallIds() is called!
-executing testObject() for test id : 2 
-Array
-(
-    [id] => 2
-    [desc] => autograder test 1
-    [rel] => 0
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 2
-                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                    [topic] => multi
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => Mult(2,4)=8
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 3
-                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                    [topic] => Sub
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => sub(3,2)=1
-                            [1] => sub(4,2)=2
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 10
-            [1] => 0
-        )
-
-)
-
-pushed test 2 into testArray
-executing getFeedbacks() for testId 2 & qId 2
-Array
-(
-)
-
-executing getFeedbacks() for testId 2 & qId 3
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Mult(a, b):
-     return a*b
-            [1] => def Mult(a, b):
-     return a*b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-
-executing ansObject() for test id : 2 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Mult(a, b):
-     return a*b
-            [1] => def Mult(a, b):
-     return a*b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 2
-            [desc] => autograder test 1
-            [rel] => 0
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 2
-                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                            [topic] => multi
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => Mult(2,4)=8
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 3
-                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                            [topic] => Sub
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => sub(3,2)=1
-                                    [1] => sub(4,2)=2
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 10
-                    [1] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def Mult(a, b):
-     return a*b
-            [1] => def Mult(a, b):
-     return a*b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-pushing the attempt object into array of attempts
 executing testObject() for test id : 10 
 Array
 (
@@ -263,9 +66,9 @@ Array
 
     [pts] => Array
         (
-            [0] => 0
-            [1] => 0
-            [2] => 0
+            [0] => 100
+            [1] => 100
+            [2] => 100
         )
 
 )
@@ -291,14 +94,12 @@ Array
 (
     [answers] => Array
         (
-            [0] => def myfunc():
-    blah blah blah
-    blah blah    
-    return true
-            [1] => def plus(a,b):
-    return a + b
-            [2] => def hello():
-    print "Hello"
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
         )
 
     [feedback] => Array
@@ -332,14 +133,12 @@ Array
 (
     [answers] => Array
         (
-            [0] => def myfunc():
-    blah blah blah
-    blah blah    
-    return true
-            [1] => def plus(a,b):
-    return a + b
-            [2] => def hello():
-    print "Hello"
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
         )
 
     [feedback] => Array
@@ -424,23 +223,21 @@ Array
 
             [pts] => Array
                 (
-                    [0] => 0
-                    [1] => 0
-                    [2] => 0
+                    [0] => 100
+                    [1] => 100
+                    [2] => 100
                 )
 
         )
 
     [answers] => Array
         (
-            [0] => def myfunc():
-    blah blah blah
-    blah blah    
-    return true
-            [1] => def plus(a,b):
-    return a + b
-            [2] => def hello():
-    print "Hello"
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
         )
 
     [feedback] => Array
@@ -468,969 +265,9 @@ Array
 
 )
 pushing the attempt object into array of attempts
-executing testObject() for test id : 12 
-Array
-(
-    [id] => 12
-    [desc] => TEST Here's a new test
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 5
-                    [desc] => TEST here's a new Q blah blah
-                    [topic] => blah blah
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => kj()
-                            [1] => lk()
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-        )
-
-)
-
-pushed test 12 into testArray
-executing getFeedbacks() for testId 12 & qId 5
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def printGoop():
-    print "Goop"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-executing ansObject() for test id : 12 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def printGoop():
-    print "Goop"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 12
-            [desc] => TEST Here's a new test
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 5
-                            [desc] => TEST here's a new Q blah blah
-                            [topic] => blah blah
-                            [diff] => 2
-                            [tests] => Array
-                                (
-                                    [0] => kj()
-                                    [1] => lk()
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def printGoop():
-    print "Goop"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 13 
-Array
-(
-    [id] => 13
-    [desc] => TEST balh tlakj
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 6
-                    [desc] => TEST blah Q
-                    [topic] => Q blah
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => ;alksdjf()
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-        )
-
-)
-
-pushed test 13 into testArray
-executing getFeedbacks() for testId 13 & qId 6
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => 
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-executing ansObject() for test id : 13 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => 
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 13
-            [desc] => TEST balh tlakj
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 6
-                            [desc] => TEST blah Q
-                            [topic] => Q blah
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => asd()
-                                    [1] => ;alksdjf()
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => 
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 20 
-Array
-(
-    [id] => 20
-    [desc] => Easy and Hards
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 5
-                    [desc] => TEST here's a new Q blah blah
-                    [topic] => blah blah
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => kj()
-                            [1] => lk()
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 8
-                    [desc] => blahblabhlbhsl
-                    [topic] => ndla
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => dlkfj()
-                            [1] => ddosaj()
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 7
-                    [desc] => TEST blah Q
-                    [topic] => Q blah
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => ;alksdjf()
-                        )
-
-                )
-
-            [3] => Array
-                (
-                    [id] => 6
-                    [desc] => TEST blah Q
-                    [topic] => Q blah
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => ;alksdjf()
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [id] => 4
-                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
-                    [topic] => Random
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => blah()=yr8dc64a32
-                            [1] => blah()=zyx943he21
-                        )
-
-                )
-
-            [5] => Array
-                (
-                    [id] => 10
-                    [desc] => TEST here's a new Q FOR you
-                    [topic] => For
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => ab()=ad
-                            [1] => dlkj()=dsa
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-            [1] => 0
-            [2] => 0
-            [3] => 0
-            [4] => 0
-            [5] => 0
-        )
-
-)
-
-pushed test 20 into testArray
-executing getFeedbacks() for testId 20 & qId 5
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 8
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 7
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 6
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 4
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 10
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => E&H A1
-            [1] => 
-            [2] => E&H A3
-            [3] => E&H A4
-            [4] => 
-            [5] => E&H A6
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-            [3] => Array
-                (
-                )
-
-            [4] => Array
-                (
-                )
-
-            [5] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-            [3] => 
-            [4] => 
-            [5] => 
-        )
-
-)
-
-executing ansObject() for test id : 20 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => E&H A1
-            [1] => 
-            [2] => E&H A3
-            [3] => E&H A4
-            [4] => 
-            [5] => E&H A6
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-            [3] => Array
-                (
-                )
-
-            [4] => Array
-                (
-                )
-
-            [5] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-            [3] => 
-            [4] => 
-            [5] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 20
-            [desc] => Easy and Hards
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 5
-                            [desc] => TEST here's a new Q blah blah
-                            [topic] => blah blah
-                            [diff] => 2
-                            [tests] => Array
-                                (
-                                    [0] => kj()
-                                    [1] => lk()
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 8
-                            [desc] => blahblabhlbhsl
-                            [topic] => ndla
-                            [diff] => 2
-                            [tests] => Array
-                                (
-                                    [0] => dlkfj()
-                                    [1] => ddosaj()
-                                )
-
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 7
-                            [desc] => TEST blah Q
-                            [topic] => Q blah
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => asd()
-                                    [1] => ;alksdjf()
-                                )
-
-                        )
-
-                    [3] => Array
-                        (
-                            [id] => 6
-                            [desc] => TEST blah Q
-                            [topic] => Q blah
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => asd()
-                                    [1] => ;alksdjf()
-                                )
-
-                        )
-
-                    [4] => Array
-                        (
-                            [id] => 4
-                            [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
-                            [topic] => Random
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => blah()=yr8dc64a32
-                                    [1] => blah()=zyx943he21
-                                )
-
-                        )
-
-                    [5] => Array
-                        (
-                            [id] => 10
-                            [desc] => TEST here's a new Q FOR you
-                            [topic] => For
-                            [diff] => 2
-                            [tests] => Array
-                                (
-                                    [0] => ab()=ad
-                                    [1] => dlkj()=dsa
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                    [1] => 0
-                    [2] => 0
-                    [3] => 0
-                    [4] => 0
-                    [5] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => E&H A1
-            [1] => 
-            [2] => E&H A3
-            [3] => E&H A4
-            [4] => 
-            [5] => E&H A6
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-            [3] => Array
-                (
-                )
-
-            [4] => Array
-                (
-                )
-
-            [5] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-            [3] => 
-            [4] => 
-            [5] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 22 
-Array
-(
-    [id] => 22
-    [desc] => TEST new boring test
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 4
-                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
-                    [topic] => Random
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => blah()=yr8dc64a32
-                            [1] => blah()=zyx943he21
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 68
-                    [desc] => l;kj
-                    [topic] => ;lkj
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lk
-                            [1] => lkj
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 6
-                    [desc] => TEST blah Q
-                    [topic] => Q blah
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => ;alksdjf()
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-            [1] => 0
-            [2] => 0
-        )
-
-)
-
-pushed test 22 into testArray
-executing getFeedbacks() for testId 22 & qId 4
-Array
-(
-)
-
-executing getFeedbacks() for testId 22 & qId 68
-Array
-(
-)
-
-executing getFeedbacks() for testId 22 & qId 6
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def myFunc(a, b, c):
-    blah = "blah"
-    tah = "tah"
-    return blah + tah
-            [1] => answer 2
-    blah
-    lbah
-    blah blah
-            [2] => for(int i=0; i<10; i++) {
-    console.log("What?!");
-    console.log("okay");
-}
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-[ + ] page accessed getA 2019-04-08 10:57:16pm
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 26881
-executing ansObject() for test id : 22 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def myFunc(a, b, c):
-    blah = "blah"
-    tah = "tah"
-    return blah + tah
-            [1] => answer 2
-    blah
-    lbah
-    blah blah
-            [2] => for(int i=0; i<10; i++) {
-    console.log("What?!");
-    console.log("okay");
-}
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 22
-            [desc] => TEST new boring test
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 4
-                            [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
-                            [topic] => Random
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => blah()=yr8dc64a32
-                                    [1] => blah()=zyx943he21
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 68
-                            [desc] => l;kj
-                            [topic] => ;lkj
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => lk
-                                    [1] => lkj
-                                )
-
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 6
-                            [desc] => TEST blah Q
-                            [topic] => Q blah
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => asd()
-                                    [1] => ;alksdjf()
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                    [1] => 0
-                    [2] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def myFunc(a, b, c):
-    blah = "blah"
-    tah = "tah"
-    return blah + tah
-            [1] => answer 2
-    blah
-    lbah
-    blah blah
-            [2] => for(int i=0; i<10; i++) {
-    console.log("What?!");
-    console.log("okay");
-}
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-pushing the attempt object into array of attempts
+executing getAttempt()...output:
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 10:25:39pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 6619
 data received...
 Array
 (
@@ -1443,538 +280,6 @@ Array
 
 decoder returned an empty array of ids! go get em!
 getallIds() is called!
-executing testObject() for test id : 2 
-Array
-(
-    [id] => 2
-    [desc] => autograder test 1
-    [rel] => 0
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 2
-                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                    [topic] => multi
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => Mult(2,4)=8
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 3
-                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                    [topic] => Sub
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => sub(3,2)=1
-                            [1] => sub(4,2)=2
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 10
-            [1] => 0
-        )
-
-)
-
-pushed test 2 into testArray
-executing getFeedbacks() for testId 2 & qId 2
-Array
-(
-)
-
-executing getFeedbacks() for testId 2 & qId 3
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Mult(a, b):
-     return a*b
-            [1] => def Mult(a, b):
-     return a*b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-
-executing ansObject() for test id : 2 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Mult(a, b):
-     return a*b
-            [1] => def Mult(a, b):
-     return a*b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-
-warning! ansObject is an array!
-executing testObject() for test id : 23 
-Array
-(
-    [id] => 23
-    [desc] => TEST guinea pig
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 2
-                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                    [topic] => multi
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => Mult(2,4)=8
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 69
-                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
-                    [topic] => easy
-                    [diff] => 1
-                    [tests] => Array
-                        (
-                            [0] => double(2)=4
-                            [1] => double(3)=9
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-            [1] => 0
-        )
-
-)
-
-pushed test 23 into testArray
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 2
-            [desc] => autograder test 1
-            [rel] => 0
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 2
-                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                            [topic] => multi
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => Mult(2,4)=8
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 3
-                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                            [topic] => Sub
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => sub(3,2)=1
-                                    [1] => sub(4,2)=2
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 10
-                    [1] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def Mult(a, b):
-     return a*b
-            [1] => def Mult(a, b):
-     return a*b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing getFeedbacks() for testId 23 & qId 2
-Array
-(
-)
-
-executing getFeedbacks() for testId 23 & qId 69
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => Def Mult(a, b): return a*b
-            [1] => def Double(n): return n*n
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-
-executing ansObject() for test id : 23 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => Def Mult(a, b): return a*b
-            [1] => def Double(n): return n*n
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 23
-            [desc] => TEST guinea pig
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 2
-                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                            [topic] => multi
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => Mult(2,4)=8
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 69
-                            [desc] => create a function called Double which takes 2 parameters and returns doubled.
-                            [topic] => easy
-                            [diff] => 1
-                            [tests] => Array
-                                (
-                                    [0] => double(2)=4
-                                    [1] => double(3)=9
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                    [1] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => Def Mult(a, b): return a*b
-            [1] => def Double(n): return n*n
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 24 
-Array
-(
-    [id] => 24
-    [desc] => Herdederm
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 71
-                    [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
-                    [topic] => Herdederms
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => elephant()="dumbo"
-                            [1] => elephant()="surus"
-                            [2] => elephant()="pyrrhus"
-                            [3] => elephant()="kandula"
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-        )
-
-)
-
-pushed test 24 into testArray
-executing getFeedbacks() for testId 24 & qId 71
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => blah blah        
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-executing ansObject() for test id : 24 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => blah blah        
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 24
-            [desc] => Herdederm
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 71
-                            [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
-                            [topic] => Herdederms
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => elephant()="dumbo"
-                                    [1] => elephant()="surus"
-                                    [2] => elephant()="pyrrhus"
-                                    [3] => elephant()="kandula"
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => blah blah        
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-pushing the attempt object into array of attempts
 executing testObject() for test id : 10 
 Array
 (
@@ -2029,9 +334,9 @@ Array
 
     [pts] => Array
         (
-            [0] => 0
-            [1] => 0
-            [2] => 0
+            [0] => 100
+            [1] => 100
+            [2] => 100
         )
 
 )
@@ -2057,14 +362,12 @@ Array
 (
     [answers] => Array
         (
-            [0] => def myfunc():
-    blah blah blah
-    blah blah    
-    return true
-            [1] => def plus(a,b):
-    return a + b
-            [2] => def hello():
-    print "Hello"
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
         )
 
     [feedback] => Array
@@ -2098,14 +401,12 @@ Array
 (
     [answers] => Array
         (
-            [0] => def myfunc():
-    blah blah blah
-    blah blah    
-    return true
-            [1] => def plus(a,b):
-    return a + b
-            [2] => def hello():
-    print "Hello"
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
         )
 
     [feedback] => Array
@@ -2190,1854 +491,21 @@ Array
 
             [pts] => Array
                 (
-                    [0] => 0
-                    [1] => 0
-                    [2] => 0
+                    [0] => 100
+                    [1] => 100
+                    [2] => 100
                 )
 
         )
 
     [answers] => Array
         (
-            [0] => def myfunc():
-    blah blah blah
-    blah blah    
-    return true
-            [1] => def plus(a,b):
-    return a + b
-            [2] => def hello():
-    print "Hello"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 27 
-Array
-(
-    [id] => 27
-    [desc] => 345
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 9
-                    [desc] => This will be the first Q with constraints
-                    [topic] => constraints
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => al;ksjd()
-                            [1] => laksdjf()
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 34
-                    [desc] => TEST range
-                    [topic] => l;aksjdf
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => ;lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 54
-                    [desc] => TEST i think i got it
-                    [topic] => lkj
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 3
-            [1] => 4
-            [2] => 5
-        )
-
-)
-
-pushed test 27 into testArray
-executing getFeedbacks() for testId 27 & qId 9
-Array
-(
-)
-
-executing getFeedbacks() for testId 27 & qId 34
-Array
-(
-)
-
-executing getFeedbacks() for testId 27 & qId 54
-executing testObject() for test id : 12 
-Array
-(
-    [id] => 12
-    [desc] => TEST Here's a new test
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 5
-                    [desc] => TEST here's a new Q blah blah
-                    [topic] => blah blah
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => kj()
-                            [1] => lk()
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-        )
-
-)
-
-pushed test 12 into testArray
-Array
-(
-)
-
-executing getFeedbacks() for testId 12 & qId 5
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def constraints(a,b,c,d):
-    while(true):
-        print a, b, c, d
-            [1] => def lolzacopter():
-    a = 5
-    for i in range(5):
-        a+=(a*=i)
-    print a
-            [2] => def test(apples):
-    print "bananas"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-Array
-(
-)
-
-executing ansObject() for test id : 27 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def constraints(a,b,c,d):
-    while(true):
-        print a, b, c, d
-            [1] => def lolzacopter():
-    a = 5
-    for i in range(5):
-        a+=(a*=i)
-    print a
-            [2] => def test(apples):
-    print "bananas"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 27
-            [desc] => 345
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 9
-                            [desc] => This will be the first Q with constraints
-                            [topic] => constraints
-                            [diff] => 5
-                            [tests] => Array
-                                (
-                                    [0] => al;ksjd()
-                                    [1] => laksdjf()
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 34
-                            [desc] => TEST range
-                            [topic] => l;aksjdf
-                            [diff] => 5
-                            [tests] => Array
-                                (
-                                    [0] => ;lkj()
-                                    [1] => lkj()
-                                )
-
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 54
-                            [desc] => TEST i think i got it
-                            [topic] => lkj
-                            [diff] => 5
-                            [tests] => Array
-                                (
-                                    [0] => lkj()
-                                    [1] => lkj()
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 3
-                    [1] => 4
-                    [2] => 5
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def constraints(a,b,c,d):
-    while(true):
-        print a, b, c, d
-            [1] => def lolzacopter():
-    a = 5
-    for i in range(5):
-        a+=(a*=i)
-    print a
-            [2] => def test(apples):
-    print "bananas"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def printGoop():
-    print "Goop"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-executing ansObject() for test id : 12 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def printGoop():
-    print "Goop"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-warning! ansObject is an array!
-executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"2","desc":"autograder test 1","rel":"0","sub":"1","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]}],"pts":["10","0"]},"answers":["def Mult(a, b):\r\n     return a*b","def Mult(a, b):\r\n     return a*b"],"feedback":[[],[]],"remarks":[null,null]},{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["0","0","0"]},"answers":["def myfunc():\n    blah blah blah\n    blah blah    \n    return true","def plus(a,b):\n    return a + b","def hello():\n    print \"Hello\""],"feedback":[[],[],[]],"remarks":["","",""]},{"test":{"id":"12","desc":"TEST Here's a new test","rel":"1","sub":"1","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2","tests":["kj()","lk()"]}],"pts":["0"]},"answers":["def printGoop():\n    print \"Goop\""],"feedback":[[]],"remarks":[""]},{"test":{"id":"13","desc":"TEST balh tlakj","rel":"1","sub":"1","ques":[{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4","tests":["asd()",";alksdjf()"]}],"pts":["0"]},"answers":[""],"feedback":[[]],"remarks":[""]},{"test":{"id":"20","desc":"Easy and Hards","rel":"1","sub":"1","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2","tests":["kj()","lk()"]},{"id":"8","desc":"blahblabhlbhsl","topic":"ndla","diff":"2","tests":["dlkfj()","ddosaj()"]},{"id":"7","desc":"TEST blah Q","topic":"Q blah","diff":"4","tests":["asd()",";alksdjf()"]},{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4","tests":["asd()",";alksdjf()"]},{"id":"4","desc":"TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.","topic":"Random","diff":"4","tests":["blah()=yr8dc64a32","blah()=zyx943he21"]},{"id":"10","desc":"TEST here's a new Q FOR you","topic":"For","diff":"2","tests":["ab()=ad","dlkj()=dsa"]}],"pts":["0","0","0","0","0","0"]},"answers":["E&H A1","","E&H A3","E&H A4","","E&H A6"],"feedback":[[],[],[],[],[],[]],"remarks":["","","","","",""]},{"test":{"id":"22","desc":"TEST new boring test","rel":"1","sub":"1","ques":[{"id":"4","desc":"TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.","topic":"Random","diff":"4","tests":["blah()=yr8dc64a32","blah()=zyx943he21"]},{"id":"68","desc":"l;kj","topic":";lkj","diff":"3","tests":["lk","lkj"]},{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4","tests":["asd()",";alksdjf()"]}],"pts":["0","0","0"]},"answers":["def myFunc(a, b, c):\n    blah = \"blah\"\n    tah = \"tah\"\n    return blah + tah","answer 2\n    blah\n    lbah\n    blah blah","for(int i=0; i<10; i++) {\n    console.log(\"What?!\");\n    console.log(\"okay\");\n}"],"feedback":[[],[],[]],"remarks":["","",""]},{"test":{"id":"23","desc":"TEST guinea pig","rel":"1","sub":"1","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1","tests":["double(2)=4","double(3)=9"]}],"pts":["0","0"]},"answers":["Def Mult(a, b): return a*b","def Double(n): return n*n"],"feedback":[[],[]],"remarks":["",""]},{"test":{"id":"24","desc":"Herdederm","rel":"1","sub":"1","ques":[{"id":"71","desc":"Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. ","topic":"Herdederms","diff":"3","tests":["elephant()=\"dumbo\"","elephant()=\"surus\"","elephant()=\"pyrrhus\"","elephant()=\"kandula\""]}],"pts":["0"]},"answers":["blah blah        "],"feedback":[[]],"remarks":[""]},{"test":{"id":"27","desc":"345","rel":"1","sub":"1","ques":[{"id":"9","desc":"This will be the first Q with constraints","topic":"constraints","diff":"5","tests":["al;ksjd()","laksdjf()"]},{"id":"34","desc":"TEST range","topic":"l;aksjdf","diff":"5","tests":[";lkj()","lkj()"]},{"id":"54","desc":"TEST i think i got it","topic":"lkj","diff":"5","tests":["lkj()","lkj()"]}],"pts":["3","4","5"]},"answers":["def constraints(a,b,c,d):\n    while(true):\n        print a, b, c, d","def lolzacopter():\n    a = 5\n    for i in range(5):\n        a+=(a*=i)\n    print a","def test(apples):\n    print \"bananas\""],"feedback":[[],[],[]],"remarks":["","",""]}]}building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 12
-            [desc] => TEST Here's a new test
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 5
-                            [desc] => TEST here's a new Q blah blah
-                            [topic] => blah blah
-                            [diff] => 2
-                            [tests] => Array
-                                (
-                                    [0] => kj()
-                                    [1] => lk()
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def printGoop():
-    print "Goop"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 13 
-Array
-(
-    [id] => 13
-    [desc] => TEST balh tlakj
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 6
-                    [desc] => TEST blah Q
-                    [topic] => Q blah
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => ;alksdjf()
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-        )
-
-)
-
-pushed test 13 into testArray
-executing getFeedbacks() for testId 13 & qId 6
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => 
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-executing ansObject() for test id : 13 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => 
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 13
-            [desc] => TEST balh tlakj
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 6
-                            [desc] => TEST blah Q
-                            [topic] => Q blah
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => asd()
-                                    [1] => ;alksdjf()
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => 
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 20 
-Array
-(
-    [id] => 20
-    [desc] => Easy and Hards
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 5
-                    [desc] => TEST here's a new Q blah blah
-                    [topic] => blah blah
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => kj()
-                            [1] => lk()
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 8
-                    [desc] => blahblabhlbhsl
-                    [topic] => ndla
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => dlkfj()
-                            [1] => ddosaj()
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 7
-                    [desc] => TEST blah Q
-                    [topic] => Q blah
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => ;alksdjf()
-                        )
-
-                )
-
-            [3] => Array
-                (
-                    [id] => 6
-                    [desc] => TEST blah Q
-                    [topic] => Q blah
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => ;alksdjf()
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [id] => 4
-                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
-                    [topic] => Random
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => blah()=yr8dc64a32
-                            [1] => blah()=zyx943he21
-                        )
-
-                )
-
-            [5] => Array
-                (
-                    [id] => 10
-                    [desc] => TEST here's a new Q FOR you
-                    [topic] => For
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => ab()=ad
-                            [1] => dlkj()=dsa
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-            [1] => 0
-            [2] => 0
-            [3] => 0
-            [4] => 0
-            [5] => 0
-        )
-
-)
-
-pushed test 20 into testArray
-executing getFeedbacks() for testId 20 & qId 5
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 8
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 7
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 6
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 4
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 10
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => E&H A1
-            [1] => 
-            [2] => E&H A3
-            [3] => E&H A4
-            [4] => 
-            [5] => E&H A6
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-            [3] => Array
-                (
-                )
-
-            [4] => Array
-                (
-                )
-
-            [5] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-            [3] => 
-            [4] => 
-            [5] => 
-        )
-
-)
-
-executing ansObject() for test id : 20 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => E&H A1
-            [1] => 
-            [2] => E&H A3
-            [3] => E&H A4
-            [4] => 
-            [5] => E&H A6
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-            [3] => Array
-                (
-                )
-
-            [4] => Array
-                (
-                )
-
-            [5] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-            [3] => 
-            [4] => 
-            [5] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 20
-            [desc] => Easy and Hards
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 5
-                            [desc] => TEST here's a new Q blah blah
-                            [topic] => blah blah
-                            [diff] => 2
-                            [tests] => Array
-                                (
-                                    [0] => kj()
-                                    [1] => lk()
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 8
-                            [desc] => blahblabhlbhsl
-                            [topic] => ndla
-                            [diff] => 2
-                            [tests] => Array
-                                (
-                                    [0] => dlkfj()
-                                    [1] => ddosaj()
-                                )
-
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 7
-                            [desc] => TEST blah Q
-                            [topic] => Q blah
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => asd()
-                                    [1] => ;alksdjf()
-                                )
-
-                        )
-
-                    [3] => Array
-                        (
-                            [id] => 6
-                            [desc] => TEST blah Q
-                            [topic] => Q blah
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => asd()
-                                    [1] => ;alksdjf()
-                                )
-
-                        )
-
-                    [4] => Array
-                        (
-                            [id] => 4
-                            [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
-                            [topic] => Random
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => blah()=yr8dc64a32
-                                    [1] => blah()=zyx943he21
-                                )
-
-                        )
-
-                    [5] => Array
-                        (
-                            [id] => 10
-                            [desc] => TEST here's a new Q FOR you
-                            [topic] => For
-                            [diff] => 2
-                            [tests] => Array
-                                (
-                                    [0] => ab()=ad
-                                    [1] => dlkj()=dsa
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                    [1] => 0
-                    [2] => 0
-                    [3] => 0
-                    [4] => 0
-                    [5] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => E&H A1
-            [1] => 
-            [2] => E&H A3
-            [3] => E&H A4
-            [4] => 
-            [5] => E&H A6
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-            [3] => Array
-                (
-                )
-
-            [4] => Array
-                (
-                )
-
-            [5] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-            [3] => 
-            [4] => 
-            [5] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 22 
-Array
-(
-    [id] => 22
-    [desc] => TEST new boring test
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 4
-                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
-                    [topic] => Random
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => blah()=yr8dc64a32
-                            [1] => blah()=zyx943he21
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 68
-                    [desc] => l;kj
-                    [topic] => ;lkj
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lk
-                            [1] => lkj
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 6
-                    [desc] => TEST blah Q
-                    [topic] => Q blah
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => ;alksdjf()
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-            [1] => 0
-            [2] => 0
-        )
-
-)
-
-pushed test 22 into testArray
-executing getFeedbacks() for testId 22 & qId 4
-Array
-(
-)
-
-executing getFeedbacks() for testId 22 & qId 68
-Array
-(
-)
-
-executing getFeedbacks() for testId 22 & qId 6
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def myFunc(a, b, c):
-    blah = "blah"
-    tah = "tah"
-    return blah + tah
-            [1] => answer 2
-    blah
-    lbah
-    blah blah
-            [2] => for(int i=0; i<10; i++) {
-    console.log("What?!");
-    console.log("okay");
-}
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-executing ansObject() for test id : 22 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def myFunc(a, b, c):
-    blah = "blah"
-    tah = "tah"
-    return blah + tah
-            [1] => answer 2
-    blah
-    lbah
-    blah blah
-            [2] => for(int i=0; i<10; i++) {
-    console.log("What?!");
-    console.log("okay");
-}
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 22
-            [desc] => TEST new boring test
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 4
-                            [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
-                            [topic] => Random
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => blah()=yr8dc64a32
-                                    [1] => blah()=zyx943he21
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 68
-                            [desc] => l;kj
-                            [topic] => ;lkj
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => lk
-                                    [1] => lkj
-                                )
-
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 6
-                            [desc] => TEST blah Q
-                            [topic] => Q blah
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => asd()
-                                    [1] => ;alksdjf()
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                    [1] => 0
-                    [2] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def myFunc(a, b, c):
-    blah = "blah"
-    tah = "tah"
-    return blah + tah
-            [1] => answer 2
-    blah
-    lbah
-    blah blah
-            [2] => for(int i=0; i<10; i++) {
-    console.log("What?!");
-    console.log("okay");
-}
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 23 
-Array
-(
-    [id] => 23
-    [desc] => TEST guinea pig
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 2
-                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                    [topic] => multi
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => Mult(2,4)=8
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 69
-                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
-                    [topic] => easy
-                    [diff] => 1
-                    [tests] => Array
-                        (
-                            [0] => double(2)=4
-                            [1] => double(3)=9
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-            [1] => 0
-        )
-
-)
-
-pushed test 23 into testArray
-executing getFeedbacks() for testId 23 & qId 2
-Array
-(
-)
-
-executing getFeedbacks() for testId 23 & qId 69
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => Def Mult(a, b): return a*b
-            [1] => def Double(n): return n*n
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-
-executing ansObject() for test id : 23 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => Def Mult(a, b): return a*b
-            [1] => def Double(n): return n*n
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 23
-            [desc] => TEST guinea pig
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 2
-                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                            [topic] => multi
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => Mult(2,4)=8
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 69
-                            [desc] => create a function called Double which takes 2 parameters and returns doubled.
-                            [topic] => easy
-                            [diff] => 1
-                            [tests] => Array
-                                (
-                                    [0] => double(2)=4
-                                    [1] => double(3)=9
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                    [1] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => Def Mult(a, b): return a*b
-            [1] => def Double(n): return n*n
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 24 
-Array
-(
-    [id] => 24
-    [desc] => Herdederm
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 71
-                    [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
-                    [topic] => Herdederms
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => elephant()="dumbo"
-                            [1] => elephant()="surus"
-                            [2] => elephant()="pyrrhus"
-                            [3] => elephant()="kandula"
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-        )
-
-)
-
-pushed test 24 into testArray
-executing getFeedbacks() for testId 24 & qId 71
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => blah blah        
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-executing ansObject() for test id : 24 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => blah blah        
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 24
-            [desc] => Herdederm
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 71
-                            [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
-                            [topic] => Herdederms
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => elephant()="dumbo"
-                                    [1] => elephant()="surus"
-                                    [2] => elephant()="pyrrhus"
-                                    [3] => elephant()="kandula"
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => blah blah        
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 27 
-Array
-(
-    [id] => 27
-    [desc] => 345
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 9
-                    [desc] => This will be the first Q with constraints
-                    [topic] => constraints
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => al;ksjd()
-                            [1] => laksdjf()
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 34
-                    [desc] => TEST range
-                    [topic] => l;aksjdf
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => ;lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 54
-                    [desc] => TEST i think i got it
-                    [topic] => lkj
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 3
-            [1] => 4
-            [2] => 5
-        )
-
-)
-
-pushed test 27 into testArray
-executing getFeedbacks() for testId 27 & qId 9
-Array
-(
-)
-
-executing getFeedbacks() for testId 27 & qId 34
-Array
-(
-)
-
-executing getFeedbacks() for testId 27 & qId 54
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def constraints(a,b,c,d):
-    while(true):
-        print a, b, c, d
-            [1] => def lolzacopter():
-    a = 5
-    for i in range(5):
-        a+=(a*=i)
-    print a
-            [2] => def test(apples):
-    print "bananas"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-executing ansObject() for test id : 27 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def constraints(a,b,c,d):
-    while(true):
-        print a, b, c, d
-            [1] => def lolzacopter():
-    a = 5
-    for i in range(5):
-        a+=(a*=i)
-    print a
-            [2] => def test(apples):
-    print "bananas"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 27
-            [desc] => 345
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 9
-                            [desc] => This will be the first Q with constraints
-                            [topic] => constraints
-                            [diff] => 5
-                            [tests] => Array
-                                (
-                                    [0] => al;ksjd()
-                                    [1] => laksdjf()
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 34
-                            [desc] => TEST range
-                            [topic] => l;aksjdf
-                            [diff] => 5
-                            [tests] => Array
-                                (
-                                    [0] => ;lkj()
-                                    [1] => lkj()
-                                )
-
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 54
-                            [desc] => TEST i think i got it
-                            [topic] => lkj
-                            [diff] => 5
-                            [tests] => Array
-                                (
-                                    [0] => lkj()
-                                    [1] => lkj()
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 3
-                    [1] => 4
-                    [2] => 5
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def constraints(a,b,c,d):
-    while(true):
-        print a, b, c, d
-            [1] => def lolzacopter():
-    a = 5
-    for i in range(5):
-        a+=(a*=i)
-    print a
-            [2] => def test(apples):
-    print "bananas"
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
         )
 
     [feedback] => Array
@@ -4066,8 +534,8 @@ Array
 )
 pushing the attempt object into array of attempts
 executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"2","desc":"autograder test 1","rel":"0","sub":"1","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]}],"pts":["10","0"]},"answers":["def Mult(a, b):\r\n     return a*b","def Mult(a, b):\r\n     return a*b"],"feedback":[[],[]],"remarks":[null,null]},{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["0","0","0"]},"answers":["def myfunc():\n    blah blah blah\n    blah blah    \n    return true","def plus(a,b):\n    return a + b","def hello():\n    print \"Hello\""],"feedback":[[],[],[]],"remarks":["","",""]},{"test":{"id":"12","desc":"TEST Here's a new test","rel":"1","sub":"1","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2","tests":["kj()","lk()"]}],"pts":["0"]},"answers":["def printGoop():\n    print \"Goop\""],"feedback":[[]],"remarks":[""]},{"test":{"id":"13","desc":"TEST balh tlakj","rel":"1","sub":"1","ques":[{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4","tests":["asd()",";alksdjf()"]}],"pts":["0"]},"answers":[""],"feedback":[[]],"remarks":[""]},{"test":{"id":"20","desc":"Easy and Hards","rel":"1","sub":"1","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2","tests":["kj()","lk()"]},{"id":"8","desc":"blahblabhlbhsl","topic":"ndla","diff":"2","tests":["dlkfj()","ddosaj()"]},{"id":"7","desc":"TEST blah Q","topic":"Q blah","diff":"4","tests":["asd()",";alksdjf()"]},{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4","tests":["asd()",";alksdjf()"]},{"id":"4","desc":"TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.","topic":"Random","diff":"4","tests":["blah()=yr8dc64a32","blah()=zyx943he21"]},{"id":"10","desc":"TEST here's a new Q FOR you","topic":"For","diff":"2","tests":["ab()=ad","dlkj()=dsa"]}],"pts":["0","0","0","0","0","0"]},"answers":["E&H A1","","E&H A3","E&H A4","","E&H A6"],"feedback":[[],[],[],[],[],[]],"remarks":["","","","","",""]},{"test":{"id":"22","desc":"TEST new boring test","rel":"1","sub":"1","ques":[{"id":"4","desc":"TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.","topic":"Random","diff":"4","tests":["blah()=yr8dc64a32","blah()=zyx943he21"]},{"id":"68","desc":"l;kj","topic":";lkj","diff":"3","tests":["lk","lkj"]},{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4","tests":["asd()",";alksdjf()"]}],"pts":["0","0","0"]},"answers":["def myFunc(a, b, c):\n    blah = \"blah\"\n    tah = \"tah\"\n    return blah + tah","answer 2\n    blah\n    lbah\n    blah blah","for(int i=0; i<10; i++) {\n    console.log(\"What?!\");\n    console.log(\"okay\");\n}"],"feedback":[[],[],[]],"remarks":["","",""]},{"test":{"id":"23","desc":"TEST guinea pig","rel":"1","sub":"1","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1","tests":["double(2)=4","double(3)=9"]}],"pts":["0","0"]},"answers":["Def Mult(a, b): return a*b","def Double(n): return n*n"],"feedback":[[],[]],"remarks":["",""]},{"test":{"id":"24","desc":"Herdederm","rel":"1","sub":"1","ques":[{"id":"71","desc":"Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. ","topic":"Herdederms","diff":"3","tests":["elephant()=\"dumbo\"","elephant()=\"surus\"","elephant()=\"pyrrhus\"","elephant()=\"kandula\""]}],"pts":["0"]},"answers":["blah blah        "],"feedback":[[]],"remarks":[""]},{"test":{"id":"27","desc":"345","rel":"1","sub":"1","ques":[{"id":"9","desc":"This will be the first Q with constraints","topic":"constraints","diff":"5","tests":["al;ksjd()","laksdjf()"]},{"id":"34","desc":"TEST range","topic":"l;aksjdf","diff":"5","tests":[";lkj()","lkj()"]},{"id":"54","desc":"TEST i think i got it","topic":"lkj","diff":"5","tests":["lkj()","lkj()"]}],"pts":["3","4","5"]},"answers":["def constraints(a,b,c,d):\n    while(true):\n        print a, b, c, d","def lolzacopter():\n    a = 5\n    for i in range(5):\n        a+=(a*=i)\n    print a","def test(apples):\n    print \"bananas\""],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-08 11:14:42pm
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 96635
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:13:10pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 13328
 data received...
 Array
 (
@@ -4080,203 +548,6 @@ Array
 
 decoder returned an empty array of ids! go get em!
 getallIds() is called!
-executing testObject() for test id : 2 
-Array
-(
-    [id] => 2
-    [desc] => autograder test 1
-    [rel] => 0
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 2
-                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                    [topic] => multi
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => Mult(2,4)=8
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 3
-                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                    [topic] => Sub
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => sub(3,2)=1
-                            [1] => sub(4,2)=2
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 10
-            [1] => 0
-        )
-
-)
-
-pushed test 2 into testArray
-executing getFeedbacks() for testId 2 & qId 2
-Array
-(
-)
-
-executing getFeedbacks() for testId 2 & qId 3
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Mult(a, b):
-     return a*b
-            [1] => def Mult(a, b):
-     return a*b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-
-executing ansObject() for test id : 2 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Mult(a, b):
-     return a*b
-            [1] => def Mult(a, b):
-     return a*b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 2
-            [desc] => autograder test 1
-            [rel] => 0
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 2
-                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                            [topic] => multi
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => Mult(2,4)=8
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 3
-                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                            [topic] => Sub
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => sub(3,2)=1
-                                    [1] => sub(4,2)=2
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 10
-                    [1] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def Mult(a, b):
-     return a*b
-            [1] => def Mult(a, b):
-     return a*b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-pushing the attempt object into array of attempts
 executing testObject() for test id : 10 
 Array
 (
@@ -4331,9 +602,9 @@ Array
 
     [pts] => Array
         (
-            [0] => 0
-            [1] => 0
-            [2] => 0
+            [0] => 100
+            [1] => 100
+            [2] => 100
         )
 
 )
@@ -4359,14 +630,12 @@ Array
 (
     [answers] => Array
         (
-            [0] => def myfunc():
-    blah blah blah
-    blah blah    
-    return true
-            [1] => def plus(a,b):
-    return a + b
-            [2] => def hello():
-    print "Hello"
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
         )
 
     [feedback] => Array
@@ -4400,14 +669,12 @@ Array
 (
     [answers] => Array
         (
-            [0] => def myfunc():
-    blah blah blah
-    blah blah    
-    return true
-            [1] => def plus(a,b):
-    return a + b
-            [2] => def hello():
-    print "Hello"
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
         )
 
     [feedback] => Array
@@ -4492,1753 +759,21 @@ Array
 
             [pts] => Array
                 (
-                    [0] => 0
-                    [1] => 0
-                    [2] => 0
+                    [0] => 100
+                    [1] => 100
+                    [2] => 100
                 )
 
         )
 
     [answers] => Array
         (
-            [0] => def myfunc():
-    blah blah blah
-    blah blah    
-    return true
-            [1] => def plus(a,b):
-    return a + b
-            [2] => def hello():
-    print "Hello"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 12 
-Array
-(
-    [id] => 12
-    [desc] => TEST Here's a new test
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 5
-                    [desc] => TEST here's a new Q blah blah
-                    [topic] => blah blah
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => kj()
-                            [1] => lk()
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-        )
-
-)
-
-pushed test 12 into testArray
-executing getFeedbacks() for testId 12 & qId 5
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def printGoop():
-    print "Goop"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-executing ansObject() for test id : 12 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def printGoop():
-    print "Goop"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 12
-            [desc] => TEST Here's a new test
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 5
-                            [desc] => TEST here's a new Q blah blah
-                            [topic] => blah blah
-                            [diff] => 2
-                            [tests] => Array
-                                (
-                                    [0] => kj()
-                                    [1] => lk()
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def printGoop():
-    print "Goop"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 13 
-Array
-(
-    [id] => 13
-    [desc] => TEST balh tlakj
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 6
-                    [desc] => TEST blah Q
-                    [topic] => Q blah
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => ;alksdjf()
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-        )
-
-)
-
-pushed test 13 into testArray
-executing getFeedbacks() for testId 13 & qId 6
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => 
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-executing ansObject() for test id : 13 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => 
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 13
-            [desc] => TEST balh tlakj
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 6
-                            [desc] => TEST blah Q
-                            [topic] => Q blah
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => asd()
-                                    [1] => ;alksdjf()
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => 
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 19 
-Array
-(
-    [id] => 19
-    [desc] => TEST Q w/ pts = [9]
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 10
-                    [desc] => TEST here's a new Q FOR you
-                    [topic] => For
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => ab()=ad
-                            [1] => dlkj()=dsa
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 9
-        )
-
-)
-
-pushed test 19 into testArray
-executing getFeedbacks() for testId 19 & qId 10
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def plongerstomps(angle, slope, tissues):
-    apple = "granola"
-    for i in range(len(apple)):
-        gooblers = 3
-        while(gooblers >= -5):
-            print apple[i]
-            goobler -= 1
-        if(false):
-            print "whaa?!"
-    return "gooblers"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => gooblersPlongerstomps
-        )
-
-)
-
-executing ansObject() for test id : 19 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def plongerstomps(angle, slope, tissues):
-    apple = "granola"
-    for i in range(len(apple)):
-        gooblers = 3
-        while(gooblers >= -5):
-            print apple[i]
-            goobler -= 1
-        if(false):
-            print "whaa?!"
-    return "gooblers"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => gooblersPlongerstomps
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 19
-            [desc] => TEST Q w/ pts = [9]
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 10
-                            [desc] => TEST here's a new Q FOR you
-                            [topic] => For
-                            [diff] => 2
-                            [tests] => Array
-                                (
-                                    [0] => ab()=ad
-                                    [1] => dlkj()=dsa
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 9
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def plongerstomps(angle, slope, tissues):
-    apple = "granola"
-    for i in range(len(apple)):
-        gooblers = 3
-        while(gooblers >= -5):
-            print apple[i]
-            goobler -= 1
-        if(false):
-            print "whaa?!"
-    return "gooblers"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => gooblersPlongerstomps
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 20 
-Array
-(
-    [id] => 20
-    [desc] => Easy and Hards
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 5
-                    [desc] => TEST here's a new Q blah blah
-                    [topic] => blah blah
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => kj()
-                            [1] => lk()
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 8
-                    [desc] => blahblabhlbhsl
-                    [topic] => ndla
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => dlkfj()
-                            [1] => ddosaj()
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 7
-                    [desc] => TEST blah Q
-                    [topic] => Q blah
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => ;alksdjf()
-                        )
-
-                )
-
-            [3] => Array
-                (
-                    [id] => 6
-                    [desc] => TEST blah Q
-                    [topic] => Q blah
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => ;alksdjf()
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [id] => 4
-                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
-                    [topic] => Random
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => blah()=yr8dc64a32
-                            [1] => blah()=zyx943he21
-                        )
-
-                )
-
-            [5] => Array
-                (
-                    [id] => 10
-                    [desc] => TEST here's a new Q FOR you
-                    [topic] => For
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => ab()=ad
-                            [1] => dlkj()=dsa
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-            [1] => 0
-            [2] => 0
-            [3] => 0
-            [4] => 0
-            [5] => 0
-        )
-
-)
-
-pushed test 20 into testArray
-executing getFeedbacks() for testId 20 & qId 5
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 8
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 7
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 6
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 4
-Array
-(
-)
-
-executing getFeedbacks() for testId 20 & qId 10
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => E&H A1
-            [1] => 
-            [2] => E&H A3
-            [3] => E&H A4
-            [4] => 
-            [5] => E&H A6
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-            [3] => Array
-                (
-                )
-
-            [4] => Array
-                (
-                )
-
-            [5] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-            [3] => 
-            [4] => 
-            [5] => 
-        )
-
-)
-
-executing ansObject() for test id : 20 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => E&H A1
-            [1] => 
-            [2] => E&H A3
-            [3] => E&H A4
-            [4] => 
-            [5] => E&H A6
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-            [3] => Array
-                (
-                )
-
-            [4] => Array
-                (
-                )
-
-            [5] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-            [3] => 
-            [4] => 
-            [5] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 20
-            [desc] => Easy and Hards
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 5
-                            [desc] => TEST here's a new Q blah blah
-                            [topic] => blah blah
-                            [diff] => 2
-                            [tests] => Array
-                                (
-                                    [0] => kj()
-                                    [1] => lk()
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 8
-                            [desc] => blahblabhlbhsl
-                            [topic] => ndla
-                            [diff] => 2
-                            [tests] => Array
-                                (
-                                    [0] => dlkfj()
-                                    [1] => ddosaj()
-                                )
-
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 7
-                            [desc] => TEST blah Q
-                            [topic] => Q blah
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => asd()
-                                    [1] => ;alksdjf()
-                                )
-
-                        )
-
-                    [3] => Array
-                        (
-                            [id] => 6
-                            [desc] => TEST blah Q
-                            [topic] => Q blah
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => asd()
-                                    [1] => ;alksdjf()
-                                )
-
-                        )
-
-                    [4] => Array
-                        (
-                            [id] => 4
-                            [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
-                            [topic] => Random
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => blah()=yr8dc64a32
-                                    [1] => blah()=zyx943he21
-                                )
-
-                        )
-
-                    [5] => Array
-                        (
-                            [id] => 10
-                            [desc] => TEST here's a new Q FOR you
-                            [topic] => For
-                            [diff] => 2
-                            [tests] => Array
-                                (
-                                    [0] => ab()=ad
-                                    [1] => dlkj()=dsa
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                    [1] => 0
-                    [2] => 0
-                    [3] => 0
-                    [4] => 0
-                    [5] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => E&H A1
-            [1] => 
-            [2] => E&H A3
-            [3] => E&H A4
-            [4] => 
-            [5] => E&H A6
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-            [3] => Array
-                (
-                )
-
-            [4] => Array
-                (
-                )
-
-            [5] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-            [3] => 
-            [4] => 
-            [5] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 22 
-Array
-(
-    [id] => 22
-    [desc] => TEST new boring test
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 4
-                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
-                    [topic] => Random
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => blah()=yr8dc64a32
-                            [1] => blah()=zyx943he21
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 68
-                    [desc] => l;kj
-                    [topic] => ;lkj
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lk
-                            [1] => lkj
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 6
-                    [desc] => TEST blah Q
-                    [topic] => Q blah
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => ;alksdjf()
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-            [1] => 0
-            [2] => 0
-        )
-
-)
-
-pushed test 22 into testArray
-executing getFeedbacks() for testId 22 & qId 4
-Array
-(
-)
-
-executing getFeedbacks() for testId 22 & qId 68
-Array
-(
-)
-
-executing getFeedbacks() for testId 22 & qId 6
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def myFunc(a, b, c):
-    blah = "blah"
-    tah = "tah"
-    return blah + tah
-            [1] => answer 2
-    blah
-    lbah
-    blah blah
-            [2] => for(int i=0; i<10; i++) {
-    console.log("What?!");
-    console.log("okay");
-}
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-executing ansObject() for test id : 22 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def myFunc(a, b, c):
-    blah = "blah"
-    tah = "tah"
-    return blah + tah
-            [1] => answer 2
-    blah
-    lbah
-    blah blah
-            [2] => for(int i=0; i<10; i++) {
-    console.log("What?!");
-    console.log("okay");
-}
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 22
-            [desc] => TEST new boring test
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 4
-                            [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
-                            [topic] => Random
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => blah()=yr8dc64a32
-                                    [1] => blah()=zyx943he21
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 68
-                            [desc] => l;kj
-                            [topic] => ;lkj
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => lk
-                                    [1] => lkj
-                                )
-
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 6
-                            [desc] => TEST blah Q
-                            [topic] => Q blah
-                            [diff] => 4
-                            [tests] => Array
-                                (
-                                    [0] => asd()
-                                    [1] => ;alksdjf()
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                    [1] => 0
-                    [2] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def myFunc(a, b, c):
-    blah = "blah"
-    tah = "tah"
-    return blah + tah
-            [1] => answer 2
-    blah
-    lbah
-    blah blah
-            [2] => for(int i=0; i<10; i++) {
-    console.log("What?!");
-    console.log("okay");
-}
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 23 
-Array
-(
-    [id] => 23
-    [desc] => TEST guinea pig
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 2
-                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                    [topic] => multi
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => Mult(2,4)=8
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 69
-                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
-                    [topic] => easy
-                    [diff] => 1
-                    [tests] => Array
-                        (
-                            [0] => double(2)=4
-                            [1] => double(3)=9
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-            [1] => 0
-        )
-
-)
-
-pushed test 23 into testArray
-executing getFeedbacks() for testId 23 & qId 2
-Array
-(
-)
-
-executing getFeedbacks() for testId 23 & qId 69
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => Def Mult(a, b): return a*b
-            [1] => def Double(n): return n*n
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-
-executing ansObject() for test id : 23 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => Def Mult(a, b): return a*b
-            [1] => def Double(n): return n*n
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 23
-            [desc] => TEST guinea pig
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 2
-                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                            [topic] => multi
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => Mult(2,4)=8
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 69
-                            [desc] => create a function called Double which takes 2 parameters and returns doubled.
-                            [topic] => easy
-                            [diff] => 1
-                            [tests] => Array
-                                (
-                                    [0] => double(2)=4
-                                    [1] => double(3)=9
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                    [1] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => Def Mult(a, b): return a*b
-            [1] => def Double(n): return n*n
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 24 
-Array
-(
-    [id] => 24
-    [desc] => Herdederm
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 71
-                    [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
-                    [topic] => Herdederms
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => elephant()="dumbo"
-                            [1] => elephant()="surus"
-                            [2] => elephant()="pyrrhus"
-                            [3] => elephant()="kandula"
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 0
-        )
-
-)
-
-pushed test 24 into testArray
-executing getFeedbacks() for testId 24 & qId 71
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => blah blah        
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-executing ansObject() for test id : 24 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => blah blah        
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 24
-            [desc] => Herdederm
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 71
-                            [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
-                            [topic] => Herdederms
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => elephant()="dumbo"
-                                    [1] => elephant()="surus"
-                                    [2] => elephant()="pyrrhus"
-                                    [3] => elephant()="kandula"
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 0
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => blah blah        
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing testObject() for test id : 27 
-Array
-(
-    [id] => 27
-    [desc] => 345
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 9
-                    [desc] => This will be the first Q with constraints
-                    [topic] => constraints
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => al;ksjd()
-                            [1] => laksdjf()
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 34
-                    [desc] => TEST range
-                    [topic] => l;aksjdf
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => ;lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 54
-                    [desc] => TEST i think i got it
-                    [topic] => lkj
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 3
-            [1] => 4
-            [2] => 5
-        )
-
-)
-
-pushed test 27 into testArray
-executing getFeedbacks() for testId 27 & qId 9
-Array
-(
-)
-
-executing getFeedbacks() for testId 27 & qId 34
-Array
-(
-)
-
-executing getFeedbacks() for testId 27 & qId 54
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def constraints(a,b,c,d):
-    while(true):
-        print a, b, c, d
-            [1] => def lolzacopter():
-    a = 5
-    for i in range(5):
-        a+=(a*=i)
-    print a
-            [2] => def test(apples):
-    print "bananas"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-executing ansObject() for test id : 27 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def constraints(a,b,c,d):
-    while(true):
-        print a, b, c, d
-            [1] => def lolzacopter():
-    a = 5
-    for i in range(5):
-        a+=(a*=i)
-    print a
-            [2] => def test(apples):
-    print "bananas"
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 27
-            [desc] => 345
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 9
-                            [desc] => This will be the first Q with constraints
-                            [topic] => constraints
-                            [diff] => 5
-                            [tests] => Array
-                                (
-                                    [0] => al;ksjd()
-                                    [1] => laksdjf()
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 34
-                            [desc] => TEST range
-                            [topic] => l;aksjdf
-                            [diff] => 5
-                            [tests] => Array
-                                (
-                                    [0] => ;lkj()
-                                    [1] => lkj()
-                                )
-
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 54
-                            [desc] => TEST i think i got it
-                            [topic] => lkj
-                            [diff] => 5
-                            [tests] => Array
-                                (
-                                    [0] => lkj()
-                                    [1] => lkj()
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 3
-                    [1] => 4
-                    [2] => 5
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def constraints(a,b,c,d):
-    while(true):
-        print a, b, c, d
-            [1] => def lolzacopter():
-    a = 5
-    for i in range(5):
-        a+=(a*=i)
-    print a
-            [2] => def test(apples):
-    print "bananas"
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
         )
 
     [feedback] => Array
@@ -6267,4 +802,1880 @@ Array
 )
 pushing the attempt object into array of attempts
 executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"2","desc":"autograder test 1","rel":"0","sub":"1","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]}],"pts":["10","0"]},"answers":["def Mult(a, b):\r\n     return a*b","def Mult(a, b):\r\n     return a*b"],"feedback":[[],[]],"remarks":[null,null]},{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["0","0","0"]},"answers":["def myfunc():\n    blah blah blah\n    blah blah    \n    return true","def plus(a,b):\n    return a + b","def hello():\n    print \"Hello\""],"feedback":[[],[],[]],"remarks":["","",""]},{"test":{"id":"12","desc":"TEST Here's a new test","rel":"1","sub":"1","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2","tests":["kj()","lk()"]}],"pts":["0"]},"answers":["def printGoop():\n    print \"Goop\""],"feedback":[[]],"remarks":[""]},{"test":{"id":"13","desc":"TEST balh tlakj","rel":"1","sub":"1","ques":[{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4","tests":["asd()",";alksdjf()"]}],"pts":["0"]},"answers":[""],"feedback":[[]],"remarks":[""]},{"test":{"id":"19","desc":"TEST Q w\/ pts = [9]","rel":"1","sub":"1","ques":[{"id":"10","desc":"TEST here's a new Q FOR you","topic":"For","diff":"2","tests":["ab()=ad","dlkj()=dsa"]}],"pts":["9"]},"answers":["def plongerstomps(angle, slope, tissues):\n    apple = \"granola\"\n    for i in range(len(apple)):\n        gooblers = 3\n        while(gooblers >= -5):\n            print apple[i]\n            goobler -= 1\n        if(false):\n            print \"whaa?!\"\n    return \"gooblers\""],"feedback":[[]],"remarks":["gooblersPlongerstomps"]},{"test":{"id":"20","desc":"Easy and Hards","rel":"1","sub":"1","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2","tests":["kj()","lk()"]},{"id":"8","desc":"blahblabhlbhsl","topic":"ndla","diff":"2","tests":["dlkfj()","ddosaj()"]},{"id":"7","desc":"TEST blah Q","topic":"Q blah","diff":"4","tests":["asd()",";alksdjf()"]},{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4","tests":["asd()",";alksdjf()"]},{"id":"4","desc":"TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.","topic":"Random","diff":"4","tests":["blah()=yr8dc64a32","blah()=zyx943he21"]},{"id":"10","desc":"TEST here's a new Q FOR you","topic":"For","diff":"2","tests":["ab()=ad","dlkj()=dsa"]}],"pts":["0","0","0","0","0","0"]},"answers":["E&H A1","","E&H A3","E&H A4","","E&H A6"],"feedback":[[],[],[],[],[],[]],"remarks":["","","","","",""]},{"test":{"id":"22","desc":"TEST new boring test","rel":"1","sub":"1","ques":[{"id":"4","desc":"TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.","topic":"Random","diff":"4","tests":["blah()=yr8dc64a32","blah()=zyx943he21"]},{"id":"68","desc":"l;kj","topic":";lkj","diff":"3","tests":["lk","lkj"]},{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4","tests":["asd()",";alksdjf()"]}],"pts":["0","0","0"]},"answers":["def myFunc(a, b, c):\n    blah = \"blah\"\n    tah = \"tah\"\n    return blah + tah","answer 2\n    blah\n    lbah\n    blah blah","for(int i=0; i<10; i++) {\n    console.log(\"What?!\");\n    console.log(\"okay\");\n}"],"feedback":[[],[],[]],"remarks":["","",""]},{"test":{"id":"23","desc":"TEST guinea pig","rel":"1","sub":"1","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1","tests":["double(2)=4","double(3)=9"]}],"pts":["0","0"]},"answers":["Def Mult(a, b): return a*b","def Double(n): return n*n"],"feedback":[[],[]],"remarks":["",""]},{"test":{"id":"24","desc":"Herdederm","rel":"1","sub":"1","ques":[{"id":"71","desc":"Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. ","topic":"Herdederms","diff":"3","tests":["elephant()=\"dumbo\"","elephant()=\"surus\"","elephant()=\"pyrrhus\"","elephant()=\"kandula\""]}],"pts":["0"]},"answers":["blah blah        "],"feedback":[[]],"remarks":[""]},{"test":{"id":"27","desc":"345","rel":"1","sub":"1","ques":[{"id":"9","desc":"This will be the first Q with constraints","topic":"constraints","diff":"5","tests":["al;ksjd()","laksdjf()"]},{"id":"34","desc":"TEST range","topic":"l;aksjdf","diff":"5","tests":[";lkj()","lkj()"]},{"id":"54","desc":"TEST i think i got it","topic":"lkj","diff":"5","tests":["lkj()","lkj()"]}],"pts":["3","4","5"]},"answers":["def constraints(a,b,c,d):\n    while(true):\n        print a, b, c, d","def lolzacopter():\n    a = 5\n    for i in range(5):\n        a+=(a*=i)\n    print a","def test(apples):\n    print \"bananas\""],"feedback":[[],[],[]],"remarks":["","",""]}]}
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:13:13pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 20038
+data received...
+Array
+(
+    [type] => getA
+    [ids] => Array
+        (
+        )
+
+)
+
+decoder returned an empty array of ids! go get em!
+getallIds() is called!
+executing testObject() for test id : 10 
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => sub(3,2)=1
+                            [1] => sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 100
+            [1] => 100
+            [2] => 100
+        )
+
+)
+
+pushed test 10 into testArray
+executing getFeedbacks() for testId 10 & qId 3
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 2
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 1
+Array
+(
+)
+
+ansObject() formed the ansArray
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+executing ansObject() for test id : 10 
+ansObject() was succesful...output: 
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+warning! ansObject is an array!
+building the attempt object...
+Array
+(
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => sub(3,2)=1
+                                    [1] => sub(4,2)=2
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => Mult(2,4)=8
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                            [tests] => Array
+                                (
+                                    [0] => add(2,3)=5
+                                    [1] => add(4,4)=8
+                                )
+
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 100
+                    [1] => 100
+                    [2] => 100
+                )
+
+        )
+
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+pushing the attempt object into array of attempts
+executing getAttempt()...output:
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:14:51pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 26748
+data received...
+Array
+(
+    [type] => getA
+    [ids] => Array
+        (
+        )
+
+)
+
+decoder returned an empty array of ids! go get em!
+getallIds() is called!
+executing testObject() for test id : 10 
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => sub(3,2)=1
+                            [1] => sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 100
+            [1] => 100
+            [2] => 100
+        )
+
+)
+
+pushed test 10 into testArray
+executing getFeedbacks() for testId 10 & qId 3
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 2
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 1
+Array
+(
+)
+
+ansObject() formed the ansArray
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+executing ansObject() for test id : 10 
+ansObject() was succesful...output: 
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+warning! ansObject is an array!
+building the attempt object...
+Array
+(
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => sub(3,2)=1
+                                    [1] => sub(4,2)=2
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => Mult(2,4)=8
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                            [tests] => Array
+                                (
+                                    [0] => add(2,3)=5
+                                    [1] => add(4,4)=8
+                                )
+
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 100
+                    [1] => 100
+                    [2] => 100
+                )
+
+        )
+
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+pushing the attempt object into array of attempts
+executing getAttempt()...output:
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:15:24pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 33458
+data received...
+Array
+(
+    [type] => getA
+    [ids] => Array
+        (
+        )
+
+)
+
+decoder returned an empty array of ids! go get em!
+getallIds() is called!
+executing testObject() for test id : 10 
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => sub(3,2)=1
+                            [1] => sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 100
+            [1] => 100
+            [2] => 100
+        )
+
+)
+
+pushed test 10 into testArray
+executing getFeedbacks() for testId 10 & qId 3
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 2
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 1
+Array
+(
+)
+
+ansObject() formed the ansArray
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+executing ansObject() for test id : 10 
+ansObject() was succesful...output: 
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+warning! ansObject is an array!
+building the attempt object...
+Array
+(
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => sub(3,2)=1
+                                    [1] => sub(4,2)=2
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => Mult(2,4)=8
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                            [tests] => Array
+                                (
+                                    [0] => add(2,3)=5
+                                    [1] => add(4,4)=8
+                                )
+
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 100
+                    [1] => 100
+                    [2] => 100
+                )
+
+        )
+
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+pushing the attempt object into array of attempts
+executing getAttempt()...output:
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:15:26pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 40168
+data received...
+Array
+(
+    [type] => getA
+    [ids] => Array
+        (
+        )
+
+)
+
+decoder returned an empty array of ids! go get em!
+getallIds() is called!
+executing testObject() for test id : 10 
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => sub(3,2)=1
+                            [1] => sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 100
+            [1] => 100
+            [2] => 100
+        )
+
+)
+
+pushed test 10 into testArray
+executing getFeedbacks() for testId 10 & qId 3
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 2
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 1
+Array
+(
+)
+
+ansObject() formed the ansArray
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+executing ansObject() for test id : 10 
+ansObject() was succesful...output: 
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+warning! ansObject is an array!
+building the attempt object...
+Array
+(
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => sub(3,2)=1
+                                    [1] => sub(4,2)=2
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => Mult(2,4)=8
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                            [tests] => Array
+                                (
+                                    [0] => add(2,3)=5
+                                    [1] => add(4,4)=8
+                                )
+
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 100
+                    [1] => 100
+                    [2] => 100
+                )
+
+        )
+
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+pushing the attempt object into array of attempts
+executing getAttempt()...output:
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:16:31pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 46878
+data received...
+Array
+(
+    [type] => getA
+    [ids] => Array
+        (
+        )
+
+)
+
+decoder returned an empty array of ids! go get em!
+getallIds() is called!
+executing testObject() for test id : 10 
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => sub(3,2)=1
+                            [1] => sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 100
+            [1] => 100
+            [2] => 100
+        )
+
+)
+
+pushed test 10 into testArray
+executing getFeedbacks() for testId 10 & qId 3
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 2
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 1
+Array
+(
+)
+
+ansObject() formed the ansArray
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+executing ansObject() for test id : 10 
+ansObject() was succesful...output: 
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+warning! ansObject is an array!
+building the attempt object...
+Array
+(
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => sub(3,2)=1
+                                    [1] => sub(4,2)=2
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => Mult(2,4)=8
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                            [tests] => Array
+                                (
+                                    [0] => add(2,3)=5
+                                    [1] => add(4,4)=8
+                                )
+
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 100
+                    [1] => 100
+                    [2] => 100
+                )
+
+        )
+
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+pushing the attempt object into array of attempts
+executing getAttempt()...output:
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:17:47pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 53588
+data received...
+Array
+(
+    [type] => getA
+    [ids] => Array
+        (
+        )
+
+)
+
+decoder returned an empty array of ids! go get em!
+getallIds() is called!
+executing testObject() for test id : 10 
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => sub(3,2)=1
+                            [1] => sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 100
+            [1] => 100
+            [2] => 100
+        )
+
+)
+
+pushed test 10 into testArray
+executing getFeedbacks() for testId 10 & qId 3
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 2
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 1
+Array
+(
+)
+
+ansObject() formed the ansArray
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+executing ansObject() for test id : 10 
+ansObject() was succesful...output: 
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+warning! ansObject is an array!
+building the attempt object...
+Array
+(
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => sub(3,2)=1
+                                    [1] => sub(4,2)=2
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => Mult(2,4)=8
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                            [tests] => Array
+                                (
+                                    [0] => add(2,3)=5
+                                    [1] => add(4,4)=8
+                                )
+
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 100
+                    [1] => 100
+                    [2] => 100
+                )
+
+        )
+
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+pushing the attempt object into array of attempts
+executing getAttempt()...output:
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:18:51pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 60298
+data received...
+Array
+(
+    [type] => getA
+    [ids] => Array
+        (
+        )
+
+)
+
+decoder returned an empty array of ids! go get em!
+getallIds() is called!
+executing testObject() for test id : 10 
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => sub(3,2)=1
+                            [1] => sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 100
+            [1] => 100
+            [2] => 100
+        )
+
+)
+
+pushed test 10 into testArray
+executing getFeedbacks() for testId 10 & qId 3
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 2
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 1
+Array
+(
+)
+
+ansObject() formed the ansArray
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+executing ansObject() for test id : 10 
+ansObject() was succesful...output: 
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+warning! ansObject is an array!
+building the attempt object...
+Array
+(
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => sub(3,2)=1
+                                    [1] => sub(4,2)=2
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => Mult(2,4)=8
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                            [tests] => Array
+                                (
+                                    [0] => add(2,3)=5
+                                    [1] => add(4,4)=8
+                                )
+
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 100
+                    [1] => 100
+                    [2] => 100
+                )
+
+        )
+
+    [answers] => Array
+        (
+            [0] => def Sub(a, b):
+    return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+pushing the attempt object into array of attempts
+executing getAttempt()...output:
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}

@@ -834,3 +834,43 @@ Array
 
 )
 
+[ + ]  page accessd addQ 2019-04-09 09:28:35pm
+Array
+(
+    [type] => addQ
+    [desc] => TEST Here's a question with a For-loop constraint
+    [topic] => Constraint
+    [cons] => Array
+        (
+            [0] => for
+        )
+
+    [diff] => 5
+    [tests] => Array
+        (
+            [0] => blah()=a
+            [1] => blah()=b
+        )
+
+)
+
+formed the questiobObj, here: 
+Array
+(
+    [id] => 89
+    [desc] => TEST Here's a question with a For-loop constraint
+    [topic] => Constraint
+    [cons] => Array
+        (
+            [0] => for
+        )
+
+    [diff] => 5
+    [tests] => Array
+        (
+            [0] => blah()=a
+            [1] => blah()=b
+        )
+
+)
+

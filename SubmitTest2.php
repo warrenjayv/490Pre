@@ -1,6 +1,13 @@
 <?php
 date_default_timezone_set("America/New_York"); 
 
+echo "
+      HTTP 402: error, 
+      addA has been disabled by the autograder at the moment for testing and troubleshooting,
+      addA has been disabled to prevent clutter in the database during autograder testing.
+      addA has been disabled to prevent clutter in the database during autograder testing.  ";
+return 0; 
+
 include 'dblogin_interface.php';
 include 'autolog.php'; 
 include 'targets.php'; 
