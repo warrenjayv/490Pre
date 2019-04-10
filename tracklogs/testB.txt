@@ -1126,3 +1126,2775 @@ question object for test built!
 
 obtaining points from each question id: 1 
 pts for this question : 100 
+[ + ] page accessed testB 2019-04-09 11:48:03pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 80 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-09 11:48:35pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 80 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 12:00:03am
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 80 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 12:05:34am
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 60 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 12:05:37am
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 60 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 12:16:36am
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 50 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 01:37:46am
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 50 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 12:56:01pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 50 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 02:00:33pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 50 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 02:09:54pm
+[ + ] page accessed testB 2019-04-10 02:09:54pm
+executing testObject() with testId = 10
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+building question object for test...
+question object for test built!
+
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 50 
+obtaining points from each question id: 3 
+pts for this question : 50 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 02:09:57pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 50 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 02:20:01pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 50 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:15:25pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 50 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:18:58pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:20:20pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:23:44pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:40:19pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:45:00pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:50:32pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:50:39pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:50:54pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:53:09pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:53:30pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:53:48pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:55:39pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:59:45pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 03:59:58pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:01:08pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:02:48pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:02:51pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:10:07pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:10:09pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:10:22pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:10:30pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:10:35pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:10:42pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:10:48pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:10:51pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:10:55pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:10:59pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:11:06pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:11:29pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:12:33pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:13:17pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:13:33pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:13:40pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:14:12pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:14:54pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:15:10pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:16:08pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:16:14pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:16:20pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:16:34pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:16:42pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:16:47pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:16:55pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:17:06pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:17:17pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:17:22pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:18:50pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:19:55pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:19:56pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:20:12pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:20:23pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:20:33pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:20:44pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:23:03pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:23:26pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:23:35pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:23:38pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:23:55pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:30:50pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:31:04pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:31:50pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:33:26pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:33:29pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:34:29pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:34:36pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:34:46pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:35:22pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:42:17pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 04:57:43pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-10 05:03:00pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 

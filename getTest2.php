@@ -103,7 +103,7 @@ function testObject($conn, $testId, $rel, $sub) {
          $write = print_r($row1, true) . "\n"; autolog($write, $target); 
 	 $testName = $row1['testName']; 
 	 array_push($arrayofQIds, $row1['questionId']);
-	 array_push($arrayofPts, $row1['points']); 
+	 array_push($arrayofPts, $row1['maxpoints']); 
 	 //var_dump($testName);  echo "<br><br>";
       }
       $atemp = array("desc" => $testName); 

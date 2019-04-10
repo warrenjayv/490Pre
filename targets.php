@@ -27,5 +27,8 @@ function targetIs($str) {
 	if ($str == 'getAns') {
 		return '/afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt'; 
 	}
+	if ($str == 'getQ') {
+		return '/afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getQ.txt'; 
+	}
 }
 ?>

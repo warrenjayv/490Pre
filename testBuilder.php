@@ -80,9 +80,9 @@ function testObject($conn, $id) {
 				  
 				  $write = "obtaining points from each question id: " . $row2['questionId'] .
 				  " \n"; 
-				  $write .= "pts for this question : " . $row2['points'] . " \n"; 
+				  $write .= "pts for this question : " . $row2['maxpoints'] . " \n"; 
 				  autolog($write, $target); 
-				  array_push($ptsArray, $row2['points']); 
+				  array_push($ptsArray, $row2['maxpoints']); 
 				  
 				}//row2 msqi fetch 
 			}//sql2 if else
@@ -96,5 +96,3 @@ function testObject($conn, $id) {
   }//testobject() 
 
 ?>
-
-

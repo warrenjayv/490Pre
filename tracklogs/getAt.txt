@@ -77,16 +77,24 @@ pushed test 10 into testArray
 executing getFeedbacks() for testId 10 & qId 3
 Array
 (
+    [0] => b user function doesn't match test cases. python failed to execute. 
+    [1] => 80
 )
 
 executing getFeedbacks() for testId 10 & qId 2
 Array
 (
+    [0] => g testcase 'Mult(2,4)=8' passed!
+    [1] => 0
 )
 
 executing getFeedbacks() for testId 10 & qId 1
 Array
 (
+    [0] => g testcase 'add(2,3)=5' passed!
+    [1] => 0
+    [2] => g testcase 'add(4,4)=8' passed!
+    [3] => 0
 )
 
 ansObject() formed the ansArray
@@ -102,18 +110,33 @@ Array
     return a+b
         )
 
+    [grades] => Array
+        (
+            [0] => 20
+            [1] => 100
+            [2] => 100
+        )
+
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn't match test cases. python failed to execute. 
+                    [1] => 80
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase 'Mult(2,4)=8' passed!
+                    [1] => 0
                 )
 
             [2] => Array
                 (
+                    [0] => g testcase 'add(2,3)=5' passed!
+                    [1] => 0
+                    [2] => g testcase 'add(4,4)=8' passed!
+                    [3] => 0
                 )
 
         )
@@ -141,18 +164,33 @@ Array
     return a+b
         )
 
+    [grades] => Array
+        (
+            [0] => 20
+            [1] => 100
+            [2] => 100
+        )
+
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn't match test cases. python failed to execute. 
+                    [1] => 80
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase 'Mult(2,4)=8' passed!
+                    [1] => 0
                 )
 
             [2] => Array
                 (
+                    [0] => g testcase 'add(2,3)=5' passed!
+                    [1] => 0
+                    [2] => g testcase 'add(4,4)=8' passed!
+                    [3] => 0
                 )
 
         )
@@ -240,18 +278,33 @@ Array
     return a+b
         )
 
+    [grades] => Array
+        (
+            [0] => 20
+            [1] => 100
+            [2] => 100
+        )
+
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn't match test cases. python failed to execute. 
+                    [1] => 80
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase 'Mult(2,4)=8' passed!
+                    [1] => 0
                 )
 
             [2] => Array
                 (
+                    [0] => g testcase 'add(2,3)=5' passed!
+                    [1] => 0
+                    [2] => g testcase 'add(4,4)=8' passed!
+                    [3] => 0
                 )
 
         )
@@ -266,8 +319,8 @@ Array
 )
 pushing the attempt object into array of attempts
 executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 10:25:39pm
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 6619
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"grades":["20","100","100"],"feedback":[["b user function doesn't match test cases. python failed to execute. ","80"],["g testcase 'Mult(2,4)=8' passed!","0"],["g testcase 'add(2,3)=5' passed!","0","g testcase 'add(4,4)=8' passed!","0"]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-10 04:35:22pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 8604
 data received...
 Array
 (
@@ -345,16 +398,24 @@ pushed test 10 into testArray
 executing getFeedbacks() for testId 10 & qId 3
 Array
 (
+    [0] => b user function doesn't match test cases. python failed to execute. 
+    [1] => 80
 )
 
 executing getFeedbacks() for testId 10 & qId 2
 Array
 (
+    [0] => g testcase 'Mult(2,4)=8' passed!
+    [1] => 0
 )
 
 executing getFeedbacks() for testId 10 & qId 1
 Array
 (
+    [0] => g testcase 'add(2,3)=5' passed!
+    [1] => 0
+    [2] => g testcase 'add(4,4)=8' passed!
+    [3] => 0
 )
 
 ansObject() formed the ansArray
@@ -370,18 +431,33 @@ Array
     return a+b
         )
 
+    [grades] => Array
+        (
+            [0] => 20
+            [1] => 100
+            [2] => 100
+        )
+
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn't match test cases. python failed to execute. 
+                    [1] => 80
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase 'Mult(2,4)=8' passed!
+                    [1] => 0
                 )
 
             [2] => Array
                 (
+                    [0] => g testcase 'add(2,3)=5' passed!
+                    [1] => 0
+                    [2] => g testcase 'add(4,4)=8' passed!
+                    [3] => 0
                 )
 
         )
@@ -409,18 +485,33 @@ Array
     return a+b
         )
 
+    [grades] => Array
+        (
+            [0] => 20
+            [1] => 100
+            [2] => 100
+        )
+
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn't match test cases. python failed to execute. 
+                    [1] => 80
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase 'Mult(2,4)=8' passed!
+                    [1] => 0
                 )
 
             [2] => Array
                 (
+                    [0] => g testcase 'add(2,3)=5' passed!
+                    [1] => 0
+                    [2] => g testcase 'add(4,4)=8' passed!
+                    [3] => 0
                 )
 
         )
@@ -508,18 +599,33 @@ Array
     return a+b
         )
 
+    [grades] => Array
+        (
+            [0] => 20
+            [1] => 100
+            [2] => 100
+        )
+
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn't match test cases. python failed to execute. 
+                    [1] => 80
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase 'Mult(2,4)=8' passed!
+                    [1] => 0
                 )
 
             [2] => Array
                 (
+                    [0] => g testcase 'add(2,3)=5' passed!
+                    [1] => 0
+                    [2] => g testcase 'add(4,4)=8' passed!
+                    [3] => 0
                 )
 
         )
@@ -534,8 +640,8 @@ Array
 )
 pushing the attempt object into array of attempts
 executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:13:10pm
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 13328
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"grades":["20","100","100"],"feedback":[["b user function doesn't match test cases. python failed to execute. ","80"],["g testcase 'Mult(2,4)=8' passed!","0"],["g testcase 'add(2,3)=5' passed!","0","g testcase 'add(4,4)=8' passed!","0"]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-10 04:42:17pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 17298
 data received...
 Array
 (
@@ -613,16 +719,24 @@ pushed test 10 into testArray
 executing getFeedbacks() for testId 10 & qId 3
 Array
 (
+    [0] => b user function doesn't match test cases. python failed to execute. 
+    [1] => 80
 )
 
 executing getFeedbacks() for testId 10 & qId 2
 Array
 (
+    [0] => g testcase 'Mult(2,4)=8' passed!
+    [1] => 0
 )
 
 executing getFeedbacks() for testId 10 & qId 1
 Array
 (
+    [0] => g testcase 'add(2,3)=5' passed!
+    [1] => 0
+    [2] => g testcase 'add(4,4)=8' passed!
+    [3] => 0
 )
 
 ansObject() formed the ansArray
@@ -638,18 +752,33 @@ Array
     return a+b
         )
 
+    [grades] => Array
+        (
+            [0] => 20
+            [1] => 100
+            [2] => 100
+        )
+
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn't match test cases. python failed to execute. 
+                    [1] => 80
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase 'Mult(2,4)=8' passed!
+                    [1] => 0
                 )
 
             [2] => Array
                 (
+                    [0] => g testcase 'add(2,3)=5' passed!
+                    [1] => 0
+                    [2] => g testcase 'add(4,4)=8' passed!
+                    [3] => 0
                 )
 
         )
@@ -677,18 +806,33 @@ Array
     return a+b
         )
 
+    [grades] => Array
+        (
+            [0] => 20
+            [1] => 100
+            [2] => 100
+        )
+
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn't match test cases. python failed to execute. 
+                    [1] => 80
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase 'Mult(2,4)=8' passed!
+                    [1] => 0
                 )
 
             [2] => Array
                 (
+                    [0] => g testcase 'add(2,3)=5' passed!
+                    [1] => 0
+                    [2] => g testcase 'add(4,4)=8' passed!
+                    [3] => 0
                 )
 
         )
@@ -776,18 +920,33 @@ Array
     return a+b
         )
 
+    [grades] => Array
+        (
+            [0] => 20
+            [1] => 100
+            [2] => 100
+        )
+
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn't match test cases. python failed to execute. 
+                    [1] => 80
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase 'Mult(2,4)=8' passed!
+                    [1] => 0
                 )
 
             [2] => Array
                 (
+                    [0] => g testcase 'add(2,3)=5' passed!
+                    [1] => 0
+                    [2] => g testcase 'add(4,4)=8' passed!
+                    [3] => 0
                 )
 
         )
@@ -802,8 +961,8 @@ Array
 )
 pushing the attempt object into array of attempts
 executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:13:13pm
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 20038
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"grades":["20","100","100"],"feedback":[["b user function doesn't match test cases. python failed to execute. ","80"],["g testcase 'Mult(2,4)=8' passed!","0"],["g testcase 'add(2,3)=5' passed!","0","g testcase 'add(4,4)=8' passed!","0"]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-10 04:57:43pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 25993
 data received...
 Array
 (
@@ -881,16 +1040,20 @@ pushed test 10 into testArray
 executing getFeedbacks() for testId 10 & qId 3
 Array
 (
+    [0] => b user function doesn\'t match test cases. python failed to execute. 
 )
 
 executing getFeedbacks() for testId 10 & qId 2
 Array
 (
+    [0] => g testcase \'Mult(2,4)=8\' passed!
 )
 
 executing getFeedbacks() for testId 10 & qId 1
 Array
 (
+    [0] => g testcase \'add(2,3)=5\' passed!
+    [1] => g testcase \'add(4,4)=8\' passed!
 )
 
 ansObject() formed the ansArray
@@ -906,18 +1069,29 @@ Array
     return a+b
         )
 
+    [grades] => Array
+        (
+            [0] => 20
+            [1] => 100
+            [2] => 100
+        )
+
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn\'t match test cases. python failed to execute. 
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase \'Mult(2,4)=8\' passed!
                 )
 
             [2] => Array
                 (
+                    [0] => g testcase \'add(2,3)=5\' passed!
+                    [1] => g testcase \'add(4,4)=8\' passed!
                 )
 
         )
@@ -945,18 +1119,29 @@ Array
     return a+b
         )
 
+    [grades] => Array
+        (
+            [0] => 20
+            [1] => 100
+            [2] => 100
+        )
+
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn\'t match test cases. python failed to execute. 
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase \'Mult(2,4)=8\' passed!
                 )
 
             [2] => Array
                 (
+                    [0] => g testcase \'add(2,3)=5\' passed!
+                    [1] => g testcase \'add(4,4)=8\' passed!
                 )
 
         )
@@ -1044,18 +1229,29 @@ Array
     return a+b
         )
 
+    [grades] => Array
+        (
+            [0] => 20
+            [1] => 100
+            [2] => 100
+        )
+
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn\'t match test cases. python failed to execute. 
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase \'Mult(2,4)=8\' passed!
                 )
 
             [2] => Array
                 (
+                    [0] => g testcase \'add(2,3)=5\' passed!
+                    [1] => g testcase \'add(4,4)=8\' passed!
                 )
 
         )
@@ -1070,8 +1266,8 @@ Array
 )
 pushing the attempt object into array of attempts
 executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:14:51pm
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 26748
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"grades":["20","100","100"],"feedback":[["b user function doesn\\'t match test cases. python failed to execute. "],["g testcase \\'Mult(2,4)=8\\' passed!"],["g testcase \\'add(2,3)=5\\' passed!","g testcase \\'add(4,4)=8\\' passed!"]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-10 05:03:00pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 34309
 data received...
 Array
 (
@@ -1149,16 +1345,20 @@ pushed test 10 into testArray
 executing getFeedbacks() for testId 10 & qId 3
 Array
 (
+    [0] => b user function doesn't match test cases. python failed to execute. 
 )
 
 executing getFeedbacks() for testId 10 & qId 2
 Array
 (
+    [0] => g testcase 'Mult(2,4)=8' passed!
 )
 
 executing getFeedbacks() for testId 10 & qId 1
 Array
 (
+    [0] => g testcase 'add(2,3)=5' passed!
+    [1] => g testcase 'add(4,4)=8' passed!
 )
 
 ansObject() formed the ansArray
@@ -1174,286 +1374,29 @@ Array
     return a+b
         )
 
-    [feedback] => Array
+    [grades] => Array
         (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-executing ansObject() for test id : 10 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 10
-            [desc] => TEST 3Q's
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 3
-                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                            [topic] => Sub
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => sub(3,2)=1
-                                    [1] => sub(4,2)=2
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 2
-                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                            [topic] => multi
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => Mult(2,4)=8
-                                )
-
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 1
-                            [desc] => create a function add which takes 2 parameters and returns the sum.
-                            [topic] => add
-                            [diff] => 1
-                            [tests] => Array
-                                (
-                                    [0] => add(2,3)=5
-                                    [1] => add(4,4)=8
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 100
-                    [1] => 100
-                    [2] => 100
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:15:24pm
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 33458
-data received...
-Array
-(
-    [type] => getA
-    [ids] => Array
-        (
-        )
-
-)
-
-decoder returned an empty array of ids! go get em!
-getallIds() is called!
-executing testObject() for test id : 10 
-Array
-(
-    [id] => 10
-    [desc] => TEST 3Q's
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 3
-                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                    [topic] => Sub
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => sub(3,2)=1
-                            [1] => sub(4,2)=2
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 2
-                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                    [topic] => multi
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => Mult(2,4)=8
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 1
-                    [desc] => create a function add which takes 2 parameters and returns the sum.
-                    [topic] => add
-                    [diff] => 1
-                    [tests] => Array
-                        (
-                            [0] => add(2,3)=5
-                            [1] => add(4,4)=8
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 100
+            [0] => 20
             [1] => 100
             [2] => 100
         )
 
-)
-
-pushed test 10 into testArray
-executing getFeedbacks() for testId 10 & qId 3
-Array
-(
-)
-
-executing getFeedbacks() for testId 10 & qId 2
-Array
-(
-)
-
-executing getFeedbacks() for testId 10 & qId 1
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn't match test cases. python failed to execute. 
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase 'Mult(2,4)=8' passed!
                 )
 
             [2] => Array
                 (
+                    [0] => g testcase 'add(2,3)=5' passed!
+                    [1] => g testcase 'add(4,4)=8' passed!
                 )
 
         )
@@ -1481,286 +1424,29 @@ Array
     return a+b
         )
 
-    [feedback] => Array
+    [grades] => Array
         (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 10
-            [desc] => TEST 3Q's
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 3
-                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                            [topic] => Sub
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => sub(3,2)=1
-                                    [1] => sub(4,2)=2
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 2
-                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                            [topic] => multi
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => Mult(2,4)=8
-                                )
-
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 1
-                            [desc] => create a function add which takes 2 parameters and returns the sum.
-                            [topic] => add
-                            [diff] => 1
-                            [tests] => Array
-                                (
-                                    [0] => add(2,3)=5
-                                    [1] => add(4,4)=8
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 100
-                    [1] => 100
-                    [2] => 100
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:15:26pm
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 40168
-data received...
-Array
-(
-    [type] => getA
-    [ids] => Array
-        (
-        )
-
-)
-
-decoder returned an empty array of ids! go get em!
-getallIds() is called!
-executing testObject() for test id : 10 
-Array
-(
-    [id] => 10
-    [desc] => TEST 3Q's
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 3
-                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                    [topic] => Sub
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => sub(3,2)=1
-                            [1] => sub(4,2)=2
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 2
-                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                    [topic] => multi
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => Mult(2,4)=8
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 1
-                    [desc] => create a function add which takes 2 parameters and returns the sum.
-                    [topic] => add
-                    [diff] => 1
-                    [tests] => Array
-                        (
-                            [0] => add(2,3)=5
-                            [1] => add(4,4)=8
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 100
+            [0] => 20
             [1] => 100
             [2] => 100
         )
 
-)
-
-pushed test 10 into testArray
-executing getFeedbacks() for testId 10 & qId 3
-Array
-(
-)
-
-executing getFeedbacks() for testId 10 & qId 2
-Array
-(
-)
-
-executing getFeedbacks() for testId 10 & qId 1
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn't match test cases. python failed to execute. 
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase 'Mult(2,4)=8' passed!
                 )
 
             [2] => Array
                 (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-executing ansObject() for test id : 10 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
+                    [0] => g testcase 'add(2,3)=5' passed!
+                    [1] => g testcase 'add(4,4)=8' passed!
                 )
 
         )
@@ -1848,286 +1534,29 @@ Array
     return a+b
         )
 
-    [feedback] => Array
+    [grades] => Array
         (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:16:31pm
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 46878
-data received...
-Array
-(
-    [type] => getA
-    [ids] => Array
-        (
-        )
-
-)
-
-decoder returned an empty array of ids! go get em!
-getallIds() is called!
-executing testObject() for test id : 10 
-Array
-(
-    [id] => 10
-    [desc] => TEST 3Q's
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 3
-                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                    [topic] => Sub
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => sub(3,2)=1
-                            [1] => sub(4,2)=2
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 2
-                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                    [topic] => multi
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => Mult(2,4)=8
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 1
-                    [desc] => create a function add which takes 2 parameters and returns the sum.
-                    [topic] => add
-                    [diff] => 1
-                    [tests] => Array
-                        (
-                            [0] => add(2,3)=5
-                            [1] => add(4,4)=8
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 100
+            [0] => 20
             [1] => 100
             [2] => 100
         )
 
-)
-
-pushed test 10 into testArray
-executing getFeedbacks() for testId 10 & qId 3
-Array
-(
-)
-
-executing getFeedbacks() for testId 10 & qId 2
-Array
-(
-)
-
-executing getFeedbacks() for testId 10 & qId 1
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
     [feedback] => Array
         (
             [0] => Array
                 (
+                    [0] => b user function doesn't match test cases. python failed to execute. 
                 )
 
             [1] => Array
                 (
+                    [0] => g testcase 'Mult(2,4)=8' passed!
                 )
 
             [2] => Array
                 (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-executing ansObject() for test id : 10 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 10
-            [desc] => TEST 3Q's
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 3
-                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                            [topic] => Sub
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => sub(3,2)=1
-                                    [1] => sub(4,2)=2
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 2
-                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                            [topic] => multi
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => Mult(2,4)=8
-                                )
-
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 1
-                            [desc] => create a function add which takes 2 parameters and returns the sum.
-                            [topic] => add
-                            [diff] => 1
-                            [tests] => Array
-                                (
-                                    [0] => add(2,3)=5
-                                    [1] => add(4,4)=8
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 100
-                    [1] => 100
-                    [2] => 100
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
+                    [0] => g testcase 'add(2,3)=5' passed!
+                    [1] => g testcase 'add(4,4)=8' passed!
                 )
 
         )
@@ -2142,540 +1571,4 @@ Array
 )
 pushing the attempt object into array of attempts
 executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:17:47pm
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 53588
-data received...
-Array
-(
-    [type] => getA
-    [ids] => Array
-        (
-        )
-
-)
-
-decoder returned an empty array of ids! go get em!
-getallIds() is called!
-executing testObject() for test id : 10 
-Array
-(
-    [id] => 10
-    [desc] => TEST 3Q's
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 3
-                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                    [topic] => Sub
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => sub(3,2)=1
-                            [1] => sub(4,2)=2
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 2
-                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                    [topic] => multi
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => Mult(2,4)=8
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 1
-                    [desc] => create a function add which takes 2 parameters and returns the sum.
-                    [topic] => add
-                    [diff] => 1
-                    [tests] => Array
-                        (
-                            [0] => add(2,3)=5
-                            [1] => add(4,4)=8
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 100
-            [1] => 100
-            [2] => 100
-        )
-
-)
-
-pushed test 10 into testArray
-executing getFeedbacks() for testId 10 & qId 3
-Array
-(
-)
-
-executing getFeedbacks() for testId 10 & qId 2
-Array
-(
-)
-
-executing getFeedbacks() for testId 10 & qId 1
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-executing ansObject() for test id : 10 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 10
-            [desc] => TEST 3Q's
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 3
-                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                            [topic] => Sub
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => sub(3,2)=1
-                                    [1] => sub(4,2)=2
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 2
-                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                            [topic] => multi
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => Mult(2,4)=8
-                                )
-
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 1
-                            [desc] => create a function add which takes 2 parameters and returns the sum.
-                            [topic] => add
-                            [diff] => 1
-                            [tests] => Array
-                                (
-                                    [0] => add(2,3)=5
-                                    [1] => add(4,4)=8
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 100
-                    [1] => 100
-                    [2] => 100
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}[ + ] page accessed getA 2019-04-09 11:18:51pm
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 60298
-data received...
-Array
-(
-    [type] => getA
-    [ids] => Array
-        (
-        )
-
-)
-
-decoder returned an empty array of ids! go get em!
-getallIds() is called!
-executing testObject() for test id : 10 
-Array
-(
-    [id] => 10
-    [desc] => TEST 3Q's
-    [rel] => 1
-    [sub] => 1
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 3
-                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                    [topic] => Sub
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => sub(3,2)=1
-                            [1] => sub(4,2)=2
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 2
-                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                    [topic] => multi
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => Mult(2,4)=8
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 1
-                    [desc] => create a function add which takes 2 parameters and returns the sum.
-                    [topic] => add
-                    [diff] => 1
-                    [tests] => Array
-                        (
-                            [0] => add(2,3)=5
-                            [1] => add(4,4)=8
-                        )
-
-                )
-
-        )
-
-    [pts] => Array
-        (
-            [0] => 100
-            [1] => 100
-            [2] => 100
-        )
-
-)
-
-pushed test 10 into testArray
-executing getFeedbacks() for testId 10 & qId 3
-Array
-(
-)
-
-executing getFeedbacks() for testId 10 & qId 2
-Array
-(
-)
-
-executing getFeedbacks() for testId 10 & qId 1
-Array
-(
-)
-
-ansObject() formed the ansArray
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-executing ansObject() for test id : 10 
-ansObject() was succesful...output: 
-Array
-(
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-
-warning! ansObject is an array!
-building the attempt object...
-Array
-(
-    [test] => Array
-        (
-            [id] => 10
-            [desc] => TEST 3Q's
-            [rel] => 1
-            [sub] => 1
-            [ques] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 3
-                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                            [topic] => Sub
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => sub(3,2)=1
-                                    [1] => sub(4,2)=2
-                                )
-
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 2
-                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                            [topic] => multi
-                            [diff] => 3
-                            [tests] => Array
-                                (
-                                    [0] => Mult(2,4)=8
-                                )
-
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 1
-                            [desc] => create a function add which takes 2 parameters and returns the sum.
-                            [topic] => add
-                            [diff] => 1
-                            [tests] => Array
-                                (
-                                    [0] => add(2,3)=5
-                                    [1] => add(4,4)=8
-                                )
-
-                        )
-
-                )
-
-            [pts] => Array
-                (
-                    [0] => 100
-                    [1] => 100
-                    [2] => 100
-                )
-
-        )
-
-    [answers] => Array
-        (
-            [0] => def Sub(a, b):
-    return a-b
-            [1] => def Mult(a, b):
-    return a*b
-            [2] => def add (a, b):
-    return a+b
-        )
-
-    [feedback] => Array
-        (
-            [0] => Array
-                (
-                )
-
-            [1] => Array
-                (
-                )
-
-            [2] => Array
-                (
-                )
-
-        )
-
-    [remarks] => Array
-        (
-            [0] => 
-            [1] => 
-            [2] => 
-        )
-
-)
-pushing the attempt object into array of attempts
-executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"feedback":[[],[],[]],"remarks":["","",""]}]}
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["sub(3,2)=1","sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def Sub(a, b):\r\n    return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"grades":["20","100","100"],"feedback":[["b user function doesn't match test cases. python failed to execute. "],["g testcase 'Mult(2,4)=8' passed!"],["g testcase 'add(2,3)=5' passed!","g testcase 'add(4,4)=8' passed!"]],"remarks":["","",""]}]}

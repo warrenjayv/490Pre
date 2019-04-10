@@ -1363,3 +1363,2465 @@ stdClass Object
 )
 
 + execom() returned 1
+[+] page accessed AUTOGRADER 2019-04-10 12:01:42am
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 36529
++ an array of submittedTests: 
+Array
+(
+    [0] => Array
+        (
+            [id] => 10
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+        )
+
+)
+
++ proceed with task B: obtain test cases
++ obtaining the array of ques from subm. tests
++ sending paramaters to getAnswers() :
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 2
+            [2] => 1
+        )
+
+    [testId] => 10
+)
+
++ getAnswers(bullet2) output and formed the arrayofAnswers: 
+Array
+(
+    [type] => getAnswers
+    [error] => 0
+    [answers] => Array
+        (
+            [0] => Array
+                (
+                    [qId] => 3
+                    [text] => def Sub(a, b):
+    return a-b
+                    [tests] => Array
+                        (
+                            [0] => sub(3,2)=1
+                            [1] => sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [qId] => 2
+                    [text] => def Mult(a, b):
+    return a*b
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [qId] => 1
+                    [text] => def add (a, b):
+    return a+b
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [0] => Array
+        (
+            [qId] => 3
+            [text] => def Sub(a, b):
+    return a-b
+            [tests] => Array
+                (
+                    [0] => sub(3,2)=1
+                    [1] => sub(4,2)=2
+                )
+
+        )
+
+    [1] => Array
+        (
+            [qId] => 2
+            [text] => def Mult(a, b):
+    return a*b
+            [tests] => Array
+                (
+                    [0] => Mult(2,4)=8
+                )
+
+        )
+
+    [2] => Array
+        (
+            [qId] => 1
+            [text] => def add (a, b):
+    return a+b
+            [tests] => Array
+                (
+                    [0] => add(2,3)=5
+                    [1] => add(4,4)=8
+                )
+
+        )
+
+)
+counter is 1
++ clearning the python file for 3
++ clearning the python file for 3
++ writing answer to python file : def Sub(a, b):
+    return a-b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  sub(3,2)=1
++ current function : sub(3,2)
++ printout : print(sub(3,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 1
+)
+
++ now we are writing the testcase function sub(3,2) on the python file : 
++ current testcase :  sub(4,2)=2
++ current function : sub(4,2)
++ printout : print(sub(4,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 1
+    [1] => 2
+)
+
++ now we are writing the testcase function sub(4,2) on the python file : 
++ running execom() with pars for id : 10, qId : 3
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ exec() failed. returning 0. function did not match testcase or program syntax errors 		
++ execom failed. pls check logs. 
++ execom failed. pls check logs. 
++ calling updatePoints() to provide feedback
++ b user function doesn't match test cases. python failed to execute. -10 pts 
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b user function doesn't match test cases. python failed to execute. -10 pts 
+    [subpoints] => 10
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b user function doesn't match test cases. python failed to execute. -10 pts 
+    [points] => 70
+)
+
+counter is 2
++ clearning the python file for 2
++ clearning the python file for 2
++ writing answer to python file : def Mult(a, b):
+    return a*b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  Mult(2,4)=8
++ current function : Mult(2,4)
++ printout : print(Mult(2,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 8
+)
+
++ now we are writing the testcase function Mult(2,4) on the python file : 
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing Mult(2,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'Mult(2,4)=8' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g testcase 'Mult(2,4)=8' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g testcase 'Mult(2,4)=8' passed!
+    [points] => 100
+)
+
++ execom() returned 1
+counter is 3
++ clearning the python file for 1
++ clearning the python file for 1
++ writing answer to python file : def add (a, b):
+    return a+b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  add(2,3)=5
++ current function : add(2,3)
++ printout : print(add(2,3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 5
+)
+
++ now we are writing the testcase function add(2,3) on the python file : 
++ current testcase :  add(4,4)=8
++ current function : add(4,4)
++ printout : print(add(4,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 5
+    [1] => 8
+)
+
++ now we are writing the testcase function add(4,4) on the python file : 
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing add(2,3)=5 with output : 5
++ comparing c: 5 with output : 5
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'add(2,3)=5' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [points] => 100
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [points] => 100
+)
+
++ comparing add(4,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'add(4,4)=8' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(4,4)=8' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(4,4)=8' passed!
+    [points] => 100
+)
+
++ execom() returned 1
+[+] page accessed AUTOGRADER 2019-04-10 12:01:48am
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 45158
++ an array of submittedTests: 
+Array
+(
+    [0] => Array
+        (
+            [id] => 10
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+        )
+
+)
+
++ proceed with task B: obtain test cases
++ obtaining the array of ques from subm. tests
++ sending paramaters to getAnswers() :
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 2
+            [2] => 1
+        )
+
+    [testId] => 10
+)
+
++ getAnswers(bullet2) output and formed the arrayofAnswers: 
+Array
+(
+    [type] => getAnswers
+    [error] => 0
+    [answers] => Array
+        (
+            [0] => Array
+                (
+                    [qId] => 3
+                    [text] => def Sub(a, b):
+    return a-b
+                    [tests] => Array
+                        (
+                            [0] => sub(3,2)=1
+                            [1] => sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [qId] => 2
+                    [text] => def Mult(a, b):
+    return a*b
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [qId] => 1
+                    [text] => def add (a, b):
+    return a+b
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [0] => Array
+        (
+            [qId] => 3
+            [text] => def Sub(a, b):
+    return a-b
+            [tests] => Array
+                (
+                    [0] => sub(3,2)=1
+                    [1] => sub(4,2)=2
+                )
+
+        )
+
+    [1] => Array
+        (
+            [qId] => 2
+            [text] => def Mult(a, b):
+    return a*b
+            [tests] => Array
+                (
+                    [0] => Mult(2,4)=8
+                )
+
+        )
+
+    [2] => Array
+        (
+            [qId] => 1
+            [text] => def add (a, b):
+    return a+b
+            [tests] => Array
+                (
+                    [0] => add(2,3)=5
+                    [1] => add(4,4)=8
+                )
+
+        )
+
+)
+counter is 1
++ clearning the python file for 3
++ clearning the python file for 3
++ writing answer to python file : def Sub(a, b):
+    return a-b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  sub(3,2)=1
++ current function : sub(3,2)
++ printout : print(sub(3,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 1
+)
+
++ now we are writing the testcase function sub(3,2) on the python file : 
++ current testcase :  sub(4,2)=2
++ current function : sub(4,2)
++ printout : print(sub(4,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 1
+    [1] => 2
+)
+
++ now we are writing the testcase function sub(4,2) on the python file : 
++ running execom() with pars for id : 10, qId : 3
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ exec() failed. returning 0. function did not match testcase or program syntax errors 		
++ execom failed. pls check logs. 
++ execom failed. pls check logs. 
++ calling updatePoints() to provide feedback
++ b user function doesn't match test cases. python failed to execute. -10 pts 
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b user function doesn't match test cases. python failed to execute. -10 pts 
+    [subpoints] => 10
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b user function doesn't match test cases. python failed to execute. -10 pts 
+    [points] => 60
+)
+
+counter is 2
++ clearning the python file for 2
++ clearning the python file for 2
++ writing answer to python file : def Mult(a, b):
+    return a*b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  Mult(2,4)=8
++ current function : Mult(2,4)
++ printout : print(Mult(2,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 8
+)
+
++ now we are writing the testcase function Mult(2,4) on the python file : 
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing Mult(2,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'Mult(2,4)=8' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g testcase 'Mult(2,4)=8' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g testcase 'Mult(2,4)=8' passed!
+    [points] => 100
+)
+
++ execom() returned 1
+counter is 3
++ clearning the python file for 1
++ clearning the python file for 1
++ writing answer to python file : def add (a, b):
+    return a+b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  add(2,3)=5
++ current function : add(2,3)
++ printout : print(add(2,3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 5
+)
+
++ now we are writing the testcase function add(2,3) on the python file : 
++ current testcase :  add(4,4)=8
++ current function : add(4,4)
++ printout : print(add(4,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 5
+    [1] => 8
+)
+
++ now we are writing the testcase function add(4,4) on the python file : 
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing add(2,3)=5 with output : 5
++ comparing c: 5 with output : 5
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'add(2,3)=5' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [points] => 100
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [points] => 100
+)
+
++ comparing add(4,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'add(4,4)=8' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(4,4)=8' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(4,4)=8' passed!
+    [points] => 100
+)
+
++ execom() returned 1
+[+] page accessed AUTOGRADER 2019-04-10 12:16:05am
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 53787
++ an array of submittedTests: 
+Array
+(
+    [0] => Array
+        (
+            [id] => 10
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+        )
+
+)
+
++ proceed with task B: obtain test cases
++ obtaining the array of ques from subm. tests
++ sending paramaters to getAnswers() :
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 2
+            [2] => 1
+        )
+
+    [testId] => 10
+)
+
++ getAnswers(bullet2) output and formed the arrayofAnswers: 
+Array
+(
+    [type] => getAnswers
+    [error] => 0
+    [answers] => Array
+        (
+            [0] => Array
+                (
+                    [qId] => 3
+                    [text] => def Sub(a, b):
+    return a-b
+                    [tests] => Array
+                        (
+                            [0] => sub(3,2)=1
+                            [1] => sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [qId] => 2
+                    [text] => def Mult(a, b):
+    return a*b
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [qId] => 1
+                    [text] => def add (a, b):
+    return a+b
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [0] => Array
+        (
+            [qId] => 3
+            [text] => def Sub(a, b):
+    return a-b
+            [tests] => Array
+                (
+                    [0] => sub(3,2)=1
+                    [1] => sub(4,2)=2
+                )
+
+        )
+
+    [1] => Array
+        (
+            [qId] => 2
+            [text] => def Mult(a, b):
+    return a*b
+            [tests] => Array
+                (
+                    [0] => Mult(2,4)=8
+                )
+
+        )
+
+    [2] => Array
+        (
+            [qId] => 1
+            [text] => def add (a, b):
+    return a+b
+            [tests] => Array
+                (
+                    [0] => add(2,3)=5
+                    [1] => add(4,4)=8
+                )
+
+        )
+
+)
+counter is 1
++ clearning the python file for 3
++ clearning the python file for 3
++ writing answer to python file : def Sub(a, b):
+    return a-b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  sub(3,2)=1
++ current function : sub(3,2)
++ printout : print(sub(3,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 1
+)
+
++ now we are writing the testcase function sub(3,2) on the python file : 
++ current testcase :  sub(4,2)=2
++ current function : sub(4,2)
++ printout : print(sub(4,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 1
+    [1] => 2
+)
+
++ now we are writing the testcase function sub(4,2) on the python file : 
++ running execom() with pars for id : 10, qId : 3
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ exec() failed. returning 0. function did not match testcase or program syntax errors 		
++ execom failed. pls check logs. 
++ execom failed. pls check logs. 
++ calling updatePoints() to provide feedback
++ b user function doesn't match test cases. python failed to execute. -10 pts 
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b user function doesn't match test cases. python failed to execute. -10 pts 
+    [subpoints] => 10
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b user function doesn't match test cases. python failed to execute. -10 pts 
+    [points] => 50
+)
+
+counter is 2
++ clearning the python file for 2
++ clearning the python file for 2
++ writing answer to python file : def Mult(a, b):
+    return a*b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  Mult(2,4)=8
++ current function : Mult(2,4)
++ printout : print(Mult(2,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 8
+)
+
++ now we are writing the testcase function Mult(2,4) on the python file : 
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing Mult(2,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'Mult(2,4)=8' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g testcase 'Mult(2,4)=8' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g testcase 'Mult(2,4)=8' passed!
+    [points] => 100
+)
+
++ execom() returned 1
+counter is 3
++ clearning the python file for 1
++ clearning the python file for 1
++ writing answer to python file : def add (a, b):
+    return a+b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  add(2,3)=5
++ current function : add(2,3)
++ printout : print(add(2,3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 5
+)
+
++ now we are writing the testcase function add(2,3) on the python file : 
++ current testcase :  add(4,4)=8
++ current function : add(4,4)
++ printout : print(add(4,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 5
+    [1] => 8
+)
+
++ now we are writing the testcase function add(4,4) on the python file : 
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing add(2,3)=5 with output : 5
++ comparing c: 5 with output : 5
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'add(2,3)=5' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [points] => 100
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [points] => 100
+)
+
++ comparing add(4,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'add(4,4)=8' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(4,4)=8' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(4,4)=8' passed!
+    [points] => 100
+)
+
++ execom() returned 1
++ updatePoints() 2 was called. Received:  
+
+error: 0
+[+] page accessed AUTOGRADER 2019-04-10 04:12:57pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 62469
++ an array of submittedTests: 
+Array
+(
+    [0] => Array
+        (
+            [id] => 10
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+        )
+
+)
+
++ proceed with task B: obtain test cases
++ obtaining the array of ques from subm. tests
++ sending paramaters to getAnswers() :
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 2
+            [2] => 1
+        )
+
+    [testId] => 10
+)
+
++ getAnswers(bullet2) output and formed the arrayofAnswers: 
+Array
+(
+    [type] => getAnswers
+    [error] => 0
+    [answers] => Array
+        (
+            [0] => Array
+                (
+                    [qId] => 3
+                    [text] => def Sub(a, b):
+    return a-b
+                    [tests] => Array
+                        (
+                            [0] => sub(3,2)=1
+                            [1] => sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [qId] => 2
+                    [text] => def Mult(a, b):
+    return a*b
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [qId] => 1
+                    [text] => def add (a, b):
+    return a+b
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [0] => Array
+        (
+            [qId] => 3
+            [text] => def Sub(a, b):
+    return a-b
+            [tests] => Array
+                (
+                    [0] => sub(3,2)=1
+                    [1] => sub(4,2)=2
+                )
+
+        )
+
+    [1] => Array
+        (
+            [qId] => 2
+            [text] => def Mult(a, b):
+    return a*b
+            [tests] => Array
+                (
+                    [0] => Mult(2,4)=8
+                )
+
+        )
+
+    [2] => Array
+        (
+            [qId] => 1
+            [text] => def add (a, b):
+    return a+b
+            [tests] => Array
+                (
+                    [0] => add(2,3)=5
+                    [1] => add(4,4)=8
+                )
+
+        )
+
+)
+counter is 1
++ clearning the python file for 3
++ clearning the python file for 3
++ writing answer to python file : def Sub(a, b):
+    return a-b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  sub(3,2)=1
++ current function : sub(3,2)
++ printout : print(sub(3,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 1
+)
+
++ now we are writing the testcase function sub(3,2) on the python file : 
++ current testcase :  sub(4,2)=2
++ current function : sub(4,2)
++ printout : print(sub(4,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 1
+    [1] => 2
+)
+
++ now we are writing the testcase function sub(4,2) on the python file : 
++ running execom() with pars for id : 10, qId : 3
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ exec() failed. returning 0. function did not match testcase or program syntax errors 		
++ execom failed. pls check logs. 
++ execom failed. pls check logs. 
++ calling updatePoints() to provide feedback
++ b user function doesn't match test cases. python failed to execute. 
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b user function doesn't match test cases. python failed to execute. 
+    [subpoints] => .8
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b user function doesn't match test cases. python failed to execute. 
+    [points] => 20
+)
+
+counter is 2
++ clearning the python file for 2
++ clearning the python file for 2
++ writing answer to python file : def Mult(a, b):
+    return a*b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  Mult(2,4)=8
++ current function : Mult(2,4)
++ printout : print(Mult(2,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 8
+)
+
++ now we are writing the testcase function Mult(2,4) on the python file : 
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing Mult(2,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'Mult(2,4)=8' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g testcase 'Mult(2,4)=8' passed!
+    [subpoints] => 1
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g testcase 'Mult(2,4)=8' passed!
+    [points] => 0
+)
+
++ execom() returned 1
+counter is 3
++ clearning the python file for 1
++ clearning the python file for 1
++ writing answer to python file : def add (a, b):
+    return a+b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  add(2,3)=5
++ current function : add(2,3)
++ printout : print(add(2,3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 5
+)
+
++ now we are writing the testcase function add(2,3) on the python file : 
++ current testcase :  add(4,4)=8
++ current function : add(4,4)
++ printout : print(add(4,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 5
+    [1] => 8
+)
+
++ now we are writing the testcase function add(4,4) on the python file : 
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing add(2,3)=5 with output : 5
++ comparing c: 5 with output : 5
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'add(2,3)=5' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [subpoints] => 1
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [points] => 0
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [points] => 0
+)
+
++ comparing add(4,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'add(4,4)=8' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(4,4)=8' passed!
+    [subpoints] => 1
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(4,4)=8' passed!
+    [points] => 0
+)
+
++ execom() returned 1
+[+] page accessed AUTOGRADER 2019-04-10 04:17:23pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 71066
++ an array of submittedTests: 
+Array
+(
+    [0] => Array
+        (
+            [id] => 10
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+        )
+
+)
+
++ proceed with task B: obtain test cases
++ obtaining the array of ques from subm. tests
++ sending paramaters to getAnswers() :
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 2
+            [2] => 1
+        )
+
+    [testId] => 10
+)
+
++ getAnswers(bullet2) output and formed the arrayofAnswers: 
+Array
+(
+    [type] => getAnswers
+    [error] => 0
+    [answers] => Array
+        (
+            [0] => Array
+                (
+                    [qId] => 3
+                    [text] => def Sub(a, b):
+    return a-b
+                    [tests] => Array
+                        (
+                            [0] => sub(3,2)=1
+                            [1] => sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [qId] => 2
+                    [text] => def Mult(a, b):
+    return a*b
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [qId] => 1
+                    [text] => def add (a, b):
+    return a+b
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [0] => Array
+        (
+            [qId] => 3
+            [text] => def Sub(a, b):
+    return a-b
+            [tests] => Array
+                (
+                    [0] => sub(3,2)=1
+                    [1] => sub(4,2)=2
+                )
+
+        )
+
+    [1] => Array
+        (
+            [qId] => 2
+            [text] => def Mult(a, b):
+    return a*b
+            [tests] => Array
+                (
+                    [0] => Mult(2,4)=8
+                )
+
+        )
+
+    [2] => Array
+        (
+            [qId] => 1
+            [text] => def add (a, b):
+    return a+b
+            [tests] => Array
+                (
+                    [0] => add(2,3)=5
+                    [1] => add(4,4)=8
+                )
+
+        )
+
+)
+counter is 1
++ clearning the python file for 3
++ clearning the python file for 3
++ writing answer to python file : def Sub(a, b):
+    return a-b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  sub(3,2)=1
++ current function : sub(3,2)
++ printout : print(sub(3,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 1
+)
+
++ now we are writing the testcase function sub(3,2) on the python file : 
++ current testcase :  sub(4,2)=2
++ current function : sub(4,2)
++ printout : print(sub(4,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 1
+    [1] => 2
+)
+
++ now we are writing the testcase function sub(4,2) on the python file : 
++ running execom() with pars for id : 10, qId : 3
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ exec() failed. returning 0. function did not match testcase or program syntax errors 		
++ execom failed. pls check logs. 
++ execom failed. pls check logs. 
++ calling updatePoints() to provide feedback
++ b user function doesn't match test cases. python failed to execute. 
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b user function doesn't match test cases. python failed to execute. 
+    [subpoints] => .8
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b user function doesn't match test cases. python failed to execute. 
+    [points] => 20
+)
+
+counter is 2
++ clearning the python file for 2
++ clearning the python file for 2
++ writing answer to python file : def Mult(a, b):
+    return a*b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  Mult(2,4)=8
++ current function : Mult(2,4)
++ printout : print(Mult(2,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 8
+)
+
++ now we are writing the testcase function Mult(2,4) on the python file : 
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing Mult(2,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'Mult(2,4)=8' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g testcase 'Mult(2,4)=8' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g testcase 'Mult(2,4)=8' passed!
+    [points] => 100
+)
+
++ execom() returned 1
+counter is 3
++ clearning the python file for 1
++ clearning the python file for 1
++ writing answer to python file : def add (a, b):
+    return a+b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  add(2,3)=5
++ current function : add(2,3)
++ printout : print(add(2,3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 5
+)
+
++ now we are writing the testcase function add(2,3) on the python file : 
++ current testcase :  add(4,4)=8
++ current function : add(4,4)
++ printout : print(add(4,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 5
+    [1] => 8
+)
+
++ now we are writing the testcase function add(4,4) on the python file : 
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing add(2,3)=5 with output : 5
++ comparing c: 5 with output : 5
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'add(2,3)=5' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [points] => 100
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [points] => 100
+)
+
++ comparing add(4,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'add(4,4)=8' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(4,4)=8' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(4,4)=8' passed!
+    [points] => 100
+)
+
++ execom() returned 1
++ updatePoints() 2 was called. Received:  
+
+error: 0
++ updatePoints() 2 was called. Received:  
+
+error: 0
+[+] page accessed AUTOGRADER 2019-04-10 04:56:43pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 79777
++ an array of submittedTests: 
+Array
+(
+    [0] => Array
+        (
+            [id] => 10
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+        )
+
+)
+
++ proceed with task B: obtain test cases
++ obtaining the array of ques from subm. tests
++ sending paramaters to getAnswers() :
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 2
+            [2] => 1
+        )
+
+    [testId] => 10
+)
+
++ getAnswers(bullet2) output and formed the arrayofAnswers: 
+Array
+(
+    [type] => getAnswers
+    [error] => 0
+    [answers] => Array
+        (
+            [0] => Array
+                (
+                    [qId] => 3
+                    [text] => def Sub(a, b):
+    return a-b
+                    [tests] => Array
+                        (
+                            [0] => sub(3,2)=1
+                            [1] => sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [qId] => 2
+                    [text] => def Mult(a, b):
+    return a*b
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [qId] => 1
+                    [text] => def add (a, b):
+    return a+b
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [0] => Array
+        (
+            [qId] => 3
+            [text] => def Sub(a, b):
+    return a-b
+            [tests] => Array
+                (
+                    [0] => sub(3,2)=1
+                    [1] => sub(4,2)=2
+                )
+
+        )
+
+    [1] => Array
+        (
+            [qId] => 2
+            [text] => def Mult(a, b):
+    return a*b
+            [tests] => Array
+                (
+                    [0] => Mult(2,4)=8
+                )
+
+        )
+
+    [2] => Array
+        (
+            [qId] => 1
+            [text] => def add (a, b):
+    return a+b
+            [tests] => Array
+                (
+                    [0] => add(2,3)=5
+                    [1] => add(4,4)=8
+                )
+
+        )
+
+)
+counter is 1
++ clearning the python file for 3
++ clearning the python file for 3
++ writing answer to python file : def Sub(a, b):
+    return a-b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  sub(3,2)=1
++ current function : sub(3,2)
++ printout : print(sub(3,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 1
+)
+
++ now we are writing the testcase function sub(3,2) on the python file : 
++ current testcase :  sub(4,2)=2
++ current function : sub(4,2)
++ printout : print(sub(4,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 1
+    [1] => 2
+)
+
++ now we are writing the testcase function sub(4,2) on the python file : 
++ running execom() with pars for id : 10, qId : 3
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ exec() failed. returning 0. function did not match testcase or program syntax errors 		
++ execom failed. pls check logs. 
++ execom failed. pls check logs. 
++ calling updatePoints() to provide feedback
++ b user function doesn't match test cases. python failed to execute. 
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b user function doesn't match test cases. python failed to execute. 
+    [subpoints] => .8
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b user function doesn\'t match test cases. python failed to execute. 
+    [points] => 20
+)
+
+counter is 2
++ clearning the python file for 2
++ clearning the python file for 2
++ writing answer to python file : def Mult(a, b):
+    return a*b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  Mult(2,4)=8
++ current function : Mult(2,4)
++ printout : print(Mult(2,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 8
+)
+
++ now we are writing the testcase function Mult(2,4) on the python file : 
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing Mult(2,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'Mult(2,4)=8' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g testcase 'Mult(2,4)=8' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g testcase \'Mult(2,4)=8\' passed!
+    [points] => 100
+)
+
++ execom() returned 1
+counter is 3
++ clearning the python file for 1
++ clearning the python file for 1
++ writing answer to python file : def add (a, b):
+    return a+b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  add(2,3)=5
++ current function : add(2,3)
++ printout : print(add(2,3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 5
+)
+
++ now we are writing the testcase function add(2,3) on the python file : 
++ current testcase :  add(4,4)=8
++ current function : add(4,4)
++ printout : print(add(4,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 5
+    [1] => 8
+)
+
++ now we are writing the testcase function add(4,4) on the python file : 
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing add(2,3)=5 with output : 5
++ comparing c: 5 with output : 5
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'add(2,3)=5' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase \'add(2,3)=5\' passed!
+    [points] => 100
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase \'add(2,3)=5\' passed!
+    [points] => 100
+)
+
++ comparing add(4,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'add(4,4)=8' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(4,4)=8' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase \'add(4,4)=8\' passed!
+    [points] => 100
+)
+
++ execom() returned 1
++ updatePoints() 2 was called. Received:  
+
+error: 0
+[+] page accessed AUTOGRADER 2019-04-10 05:02:46pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 88444
++ an array of submittedTests: 
+Array
+(
+    [0] => Array
+        (
+            [id] => 10
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+        )
+
+)
+
++ proceed with task B: obtain test cases
++ obtaining the array of ques from subm. tests
++ sending paramaters to getAnswers() :
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 2
+            [2] => 1
+        )
+
+    [testId] => 10
+)
+
++ getAnswers(bullet2) output and formed the arrayofAnswers: 
+Array
+(
+    [type] => getAnswers
+    [error] => 0
+    [answers] => Array
+        (
+            [0] => Array
+                (
+                    [qId] => 3
+                    [text] => def Sub(a, b):
+    return a-b
+                    [tests] => Array
+                        (
+                            [0] => sub(3,2)=1
+                            [1] => sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [qId] => 2
+                    [text] => def Mult(a, b):
+    return a*b
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [qId] => 1
+                    [text] => def add (a, b):
+    return a+b
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [0] => Array
+        (
+            [qId] => 3
+            [text] => def Sub(a, b):
+    return a-b
+            [tests] => Array
+                (
+                    [0] => sub(3,2)=1
+                    [1] => sub(4,2)=2
+                )
+
+        )
+
+    [1] => Array
+        (
+            [qId] => 2
+            [text] => def Mult(a, b):
+    return a*b
+            [tests] => Array
+                (
+                    [0] => Mult(2,4)=8
+                )
+
+        )
+
+    [2] => Array
+        (
+            [qId] => 1
+            [text] => def add (a, b):
+    return a+b
+            [tests] => Array
+                (
+                    [0] => add(2,3)=5
+                    [1] => add(4,4)=8
+                )
+
+        )
+
+)
+counter is 1
++ clearning the python file for 3
++ clearning the python file for 3
++ writing answer to python file : def Sub(a, b):
+    return a-b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  sub(3,2)=1
++ current function : sub(3,2)
++ printout : print(sub(3,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 1
+)
+
++ now we are writing the testcase function sub(3,2) on the python file : 
++ current testcase :  sub(4,2)=2
++ current function : sub(4,2)
++ printout : print(sub(4,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 1
+    [1] => 2
+)
+
++ now we are writing the testcase function sub(4,2) on the python file : 
++ running execom() with pars for id : 10, qId : 3
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ exec() failed. returning 0. function did not match testcase or program syntax errors 		
++ execom failed. pls check logs. 
++ execom failed. pls check logs. 
++ calling updatePoints() to provide feedback
++ b user function doesn't match test cases. python failed to execute. 
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b user function doesn't match test cases. python failed to execute. 
+    [subpoints] => .8
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b user function doesn't match test cases. python failed to execute. 
+    [points] => 20
+)
+
+counter is 2
++ clearning the python file for 2
++ clearning the python file for 2
++ writing answer to python file : def Mult(a, b):
+    return a*b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  Mult(2,4)=8
++ current function : Mult(2,4)
++ printout : print(Mult(2,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 8
+)
+
++ now we are writing the testcase function Mult(2,4) on the python file : 
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing Mult(2,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'Mult(2,4)=8' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g testcase 'Mult(2,4)=8' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g testcase 'Mult(2,4)=8' passed!
+    [points] => 100
+)
+
++ execom() returned 1
+counter is 3
++ clearning the python file for 1
++ clearning the python file for 1
++ writing answer to python file : def add (a, b):
+    return a+b
+/afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py
++ current testcase :  add(2,3)=5
++ current function : add(2,3)
++ printout : print(add(2,3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 5
+)
+
++ now we are writing the testcase function add(2,3) on the python file : 
++ current testcase :  add(4,4)=8
++ current function : add(4,4)
++ printout : print(add(4,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 5
+    [1] => 8
+)
+
++ now we are writing the testcase function add(4,4) on the python file : 
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing add(2,3)=5 with output : 5
++ comparing c: 5 with output : 5
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'add(2,3)=5' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [points] => 100
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(2,3)=5' passed!
+    [points] => 100
+)
+
++ comparing add(4,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ g testcase 'add(4,4)=8' passed!
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(4,4)=8' passed!
+    [subpoints] => 0
+)
+
+error: 0
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g testcase 'add(4,4)=8' passed!
+    [points] => 100
+)
+
++ execom() returned 1

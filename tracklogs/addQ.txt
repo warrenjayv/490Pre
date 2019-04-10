@@ -874,3 +874,43 @@ Array
 
 )
 
+[ + ]  page accessd addQ 2019-04-10 01:44:08am
+Array
+(
+    [type] => addQ
+    [desc] => Write a function called strMult() that takes two parameters: s, a string, and n, an integer. It should return the string concatenated with itself n times. Must use a for loop.
+    [topic] => Strings
+    [cons] => Array
+        (
+            [0] => for
+        )
+
+    [diff] => 2
+    [tests] => Array
+        (
+            [0] => strMult("hi", 3)  =  "hihihi"
+            [1] => strMult("bye"   ,   2)= "byebye"
+        )
+
+)
+
+formed the questiobObj, here: 
+Array
+(
+    [id] => 90
+    [desc] => Write a function called strMult() that takes two parameters: s, a string, and n, an integer. It should return the string concatenated with itself n times. Must use a for loop.
+    [topic] => Strings
+    [cons] => Array
+        (
+            [0] => for
+        )
+
+    [diff] => 2
+    [tests] => Array
+        (
+            [0] => strMult("hi", 3)  =  "hihihi"
+            [1] => strMult("bye"   ,   2)= "byebye"
+        )
+
+)
+

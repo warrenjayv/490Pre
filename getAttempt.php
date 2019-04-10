@@ -102,8 +102,9 @@ function getAttempt($conn, $decoder) {
 }//getAttempt(); 
 
 function ansObject($conn, $id) {
-	$ansArray = array(); 
+       $ansArray = array(); 
 	     $userAnswers = array(); 
+       $grades = array(); 
 	     $feedbacks = array(); 
 	     $comments = array(); 
 
@@ -119,11 +120,12 @@ function ansObject($conn, $id) {
 			while($row = mysqli_fetch_assoc($result)) {
 				array_push($userAnswers, $row['userAnswer']); 
 			//	array_push($feedbacks, $row['feedback']); 
+        array_push($grades, $row['points']); 
 				$afeedbacks = getFeedbacks($conn, $id, $row['questionId']); 
 				array_push($feedbacks, $afeedbacks); 
 				array_push($comments, $row['comment']); 
 			}//while row mysqli 
-			$ansArray = array('answers' => $userAnswers, 'feedback' => $feedbacks, 'remarks' => $comments); 
+			$ansArray = array('answers' => $userAnswers, 'grades' => $grades, 'feedback' => $feedbacks, 'remarks' => $comments); 
 
 			$write = "ansObject() formed the ansArray\n"; 
 			$write .= print_r($ansArray, true) . "\n"; 
@@ -156,7 +158,7 @@ function getFeedbacks($conn, $id, $qId) {
 	$feedbacks = array(); 
 	$write = "executing getFeedbacks() for testId " . $id . " & qId " . $qId . "\n"; 
 	autolog($write, $target); 
-	$sql = "SELECT feedback FROM Feedback WHERE testId = '$testId' AND questionId = '$qId' "; 
+	$sql = "SELECT feedback FROM Feedback WHERE testId = '$id' AND questionId = '$qId' "; 
 		if (! $result = $conn->query($sql)) {
 			$sqlerror = $conn->error; 
 			$error = "sql: " . $sqlerror . " "; 
@@ -164,11 +166,11 @@ function getFeedbacks($conn, $id, $qId) {
 			return false; 
 		} else {
 			while($row = mysqli_fetch_assoc($result)) {
-				array_push($feedbacks, $row); 
+				array_push($feedbacks, $row['feedback']); 
 			}
 		}//result conn 
     $write = "getFeedback() formed an array of feedbacks:\n"; 
-	$write = print_r($feedbacks, true) . "\n"; autolog($write, $target); 
+	  $write = print_r($feedbacks, true) . "\n"; autolog($write, $target); 
  	return $feedbacks;  
 }//getFeedbacks(); 
 

@@ -107,16 +107,18 @@ function grade() {
 				$write .= "+ obtaining the output part to be compared later.  \n"; 
 				$output = getOut($b); array_push($arrayofOuts, $output);
 				$write .= "+ formed the arrayofOuts : \n" . print_r($arrayofOuts, true) . "\n"; 
-				$write .= "+ now we are writing the testcase function " . $function . " on the python file : \n"; 			    autolog($write, $target); append($source, $printout); 		 		
+				$write .= "+ now we are writing the testcase function " . $function . " on the python file : \n"; 			   
+				 autolog($write, $target); append($source, $printout); 		 		
 			}//foreach tests as b
 
 			/* task D: run each testcase and compare (pass or fail) */ 
 			if (! $ex = execom($source, $tests, $arrayofOuts, $id, $qId)) {
 				$write = "+ execom failed. pls check logs. \n"; autolog($write, $target); 
 				$write .= "+ calling updatePoints() to provide feedback\n"; 
-				$feed = "b user function doesn't match test cases. python failed to execute. -10 pts "; 
+				$feed = "b user function doesn't match test cases. python failed to execute. "; 
 				$write .= "+ " . $feed . "\n"; autolog($write, $target); 
-				$bullet3  = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '10'); 
+				$bullet3  = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '.8'); 
+        /*subpoints should be a percent*/
 				if (! $hole3  = updatePoints($bullet3)) {
 					$write = "+error; failure to execute updatePoints('bullet3') for fail execom()\n"; 
 					autolog($write, $target); 
@@ -164,9 +166,9 @@ function execom($source, $tests, $arrayofOuts, $id, $qId) {
 			else {
 				$write = "fail!\n"; autolog($write, $target); 
 				$write = "+ calling updatePoints() to provide feedback\n"; 
-				$feed = "b testcase '" . $tests[$key] . "' failed! -5 pts"; 
+				$feed = "b testcase '" . $tests[$key] . "' failed!"; 
 				$write .= "+ " . $feed . "\n"; autolog($write, $target); 
-				$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '5'); 
+				$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '.20'); 
 				if (! $hole = updatePoints($bullet)) {
 					$write = "+ error; failure to execute updatePoints('bullet')\n";
 					autolog($write, $target); 

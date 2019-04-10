@@ -112,7 +112,7 @@ function addExam($conn, $decoder) {
       $write = "insert to QuestionStudentRelation: test " . $id . " qId " . $qId .
       " points " . $points[$index] . "\n"; autolog($write, $target ); 
       $sql3 = "INSERT INTO QuestionStudentRelation (testId, questionId, testName,
-      points) VALUES ('$id', '$qId', '$testName', '$points[$index]') "; 
+      maxpoints, points ) VALUES ('$id', '$qId', '$testName', '$points[$index]', '$points[$index]') "; 
       if ( ! $result3 = $conn->query($sql3)) { 
 	$sqlerror3 = $conn->error; 
 	$error .= "sql3: " . $sqlerror3 . " ";

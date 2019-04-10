@@ -26,15 +26,10 @@ function updatePoints($conn, $decoder) {
 		$testId = $decoder['testId'];
 		$qId = $decoder['qId'];
 		$feedback = $decoder['feedback']; 
-		$feedback = addslashes($feedback); 
+//		$feedback = addslashes($feedback); 
 		$subpoints = $decoder['subpoints']; 
-		
-		$sql = "INSERT INTO Feedback (testId, questionId, feedback) VALUES ('$testId', '$qId', '$feedback')";
-		if (! $result = $conn->query($sql)) {
-				$sqlerror = $conn->error; 
-				$error .= "sql " . $sqlerror . " "; 
-			 $write = "updatePoints SQL : " . $error . "\n"; autolog($write, $target);  
-		}//if result conn query	
+		/*warning, subpoints is a percent*/
+
 
 		/* task A : get the points for this current test and question */ 
 
@@ -44,7 +39,8 @@ function updatePoints($conn, $decoder) {
 			 $write = "updatePoints SQL : " . $error . "\n"; autolog($write, $target);  
 		} else { 
 			    while($row  = mysqli_fetch_assoc($result2)) {
-    	    	  $points = $row['points'] - $subpoints; 			  
+              $ded = $row['points'] * $subpoints; 
+    	    	  $points = $row['points'] - $ded; 			  
 					}
     }
 
@@ -56,17 +52,26 @@ function updatePoints($conn, $decoder) {
 	   $error3 .= "sql3 " . $sqlerror3 . " "; 
 			 $write = "updatePoints SQL : " . $error . "\n"; autolog($write, $target);  
 	  }
-   
+
+   /* task C : submit feedback into the database */ 
+    $newfeedback = $feedback + " -" + $ded; 
+    $newfeedback = addslashes($feedback); 
+		$sql = "INSERT INTO Feedback (testId, questionId, feedback) VALUES ('$testId', '$qId', '$newfeedback')";
+		if (! $result = $conn->query($sql)) {
+				$sqlerror = $conn->error; 
+				$error .= "sql " . $sqlerror . " "; 
+			 $write = "updatePoints SQL : " . $error . "\n"; autolog($write, $target);  
+		}//if result conn query	
 	 
 		if(empty($error)) {
 				$error = 0; 
 		}
 	
-  $write = "+ updatePoints()2 returned error: \n"; 
-  $write = "error: " . $error . "\n"; 
-	 autolog($write, $target); 
-  $feedback = stripslashes($feedback); 
-		$package = array("type" => "updatePoints", "error" => $error, "testId" => $testId, "qId" => $qId, "feedback" => $feedback, 'points' => $points);
+  $write = "+ updatePoints()2 returned error: \n"; $write = "error: " . $error . "\n"; 
+	autolog($write, $target); 
+  $newfeedback = stripslashes($newfeedback); 
+  
+		$package = array("type" => "updatePoints", "error" => $error, "testId" => $testId, "qId" => $qId, "feedback" => $newfeedback, 'points' => $points);
 		return json_encode($package);
 
 } //updatePoints

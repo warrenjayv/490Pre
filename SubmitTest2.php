@@ -71,11 +71,12 @@ function submitExam($conn, $decoder) {
 
  //   $target = '/afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/addA.txt'; 
     $target = targetIs('addA'); 
-   	$test = $decoder['test']; 
-	$testId = $test['id']; 
+    $test = $decoder['test']; 
+    $testId = $test['id']; 
     $answers = $decoder['answers']; /*array of answers*/
     $comment = $decoder['comment'];
-	$qIds = getqIds($conn, $testId);   //array of qIds
+    $remarks = $decoder['remarks'];   
+   $qIds = getqIds($conn, $testId);   //array of qIds
 
     $comment = addslashes($comment);
 

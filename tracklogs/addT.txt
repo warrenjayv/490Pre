@@ -160,3 +160,325 @@ Array
 
 )
 
+page access 2019-04-10 01:44:34am
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/addT.txt = 4392
+received data 
+Array
+(
+    [type] => addT
+    [desc] => strMult Test
+    [rel] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 90
+                    [desc] => Write a function called strMult() that takes two parameters: s, a string, and n, an integer. It should return the string concatenated with itself n times. Must use a for loop.
+                    [topic] => Strings
+                    [cons] => Array
+                        (
+                            [0] => for
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => strMult("hi", 3)  =  "hihihi"
+                            [1] => strMult("bye"   ,   2)= "byebye"
+                        )
+
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 20
+        )
+
+)
+
+checking each questionId to ensure they are valid
+checking id: 90
+ensure that id is in the database. running qIdcheck()
+checking the database for 90
+qIdcheck - number of rows 1
+90
+ensure that id is in the database. running qIdcheck()
+checking the database for 90
+qIdcheck - number of rows 1
+insert to QuestionStudentRelation: test 29 qId 90 points 20
+addT() function results: 
+Array
+(
+    [type] => addT
+    [error] => 0
+    [test] => Array
+        (
+            [id] => 29
+            [desc] => strMult Test
+            [rel] => 1
+            [sub] => 0
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 90
+                            [desc] => Write a function called strMult() that takes two parameters: s, a string, and n, an integer. It should return the string concatenated with itself n times. Must use a for loop.
+                            [topic] => Strings
+                            [diff] => 2
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 20
+                )
+
+        )
+
+)
+
+page access 2019-04-10 03:11:12pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/addT.txt = 6580
+received data 
+
+backend received nothing.
+page access 2019-04-10 03:12:10pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/addT.txt = 6745
+received data 
+Array
+(
+    [type] => addT
+    [desc] => testing if points are updated properly
+    [rel] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 38
+                    [desc] => What is life?
+                    [topic] => Life and Blue
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => Life(a)=life
+                            [1] => Life(b)=blue
+                        )
+
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 600
+            [1] => 600
+        )
+
+)
+
+checking each questionId to ensure they are valid
+checking id: 1
+ensure that id is in the database. running qIdcheck()
+checking the database for 1
+qIdcheck - number of rows 1
+checking id: 38
+ensure that id is in the database. running qIdcheck()
+checking the database for 38
+qIdcheck - number of rows 1
+1
+ensure that id is in the database. running qIdcheck()
+checking the database for 1
+qIdcheck - number of rows 1
+insert to QuestionStudentRelation: test 30 qId 1 points 600
+38
+ensure that id is in the database. running qIdcheck()
+checking the database for 38
+qIdcheck - number of rows 1
+insert to QuestionStudentRelation: test 30 qId 38 points 600
+addT() function results: 
+Array
+(
+    [type] => addT
+    [error] => 0
+    [test] => Array
+        (
+            [id] => 30
+            [desc] => testing if points are updated properly
+            [rel] => 0
+            [sub] => 0
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 38
+                            [desc] => What is life?
+                            [topic] => Life and Blue
+                            [diff] => 1
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 600
+                    [1] => 600
+                )
+
+        )
+
+)
+
+page access 2019-04-10 03:14:27pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/addT.txt = 9792
+received data 
+
+backend received nothing.
+page access 2019-04-10 03:15:02pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/addT.txt = 9957
+received data 
+Array
+(
+    [type] => addT
+    [desc] => just testing if points work
+    [rel] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 38
+                    [desc] => What is life?
+                    [topic] => Life and Blue
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => Life(a)=life
+                            [1] => Life(b)=blue
+                        )
+
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 800
+            [1] => 800
+        )
+
+)
+
+checking each questionId to ensure they are valid
+checking id: 1
+ensure that id is in the database. running qIdcheck()
+checking the database for 1
+qIdcheck - number of rows 1
+checking id: 38
+ensure that id is in the database. running qIdcheck()
+checking the database for 38
+qIdcheck - number of rows 1
+1
+ensure that id is in the database. running qIdcheck()
+checking the database for 1
+qIdcheck - number of rows 1
+insert to QuestionStudentRelation: test 31 qId 1 points 800
+38
+ensure that id is in the database. running qIdcheck()
+checking the database for 38
+qIdcheck - number of rows 1
+insert to QuestionStudentRelation: test 31 qId 38 points 800
+addT() function results: 
+Array
+(
+    [type] => addT
+    [error] => 0
+    [test] => Array
+        (
+            [id] => 31
+            [desc] => just testing if points work
+            [rel] => 0
+            [sub] => 0
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 38
+                            [desc] => What is life?
+                            [topic] => Life and Blue
+                            [diff] => 1
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 800
+                    [1] => 800
+                )
+
+        )
+
+)
+

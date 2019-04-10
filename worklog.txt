@@ -1,5 +1,18 @@
 worklog brief
 
+LOG Wed Apr 10 14:41:03 EDT 2019
+
+    [+] send grades. zone. 
+    [+] exchange `points` with `maxpoints` in table. 
+        - points are updated in `getT`, `getA`, and `addT`. 
+    [+] in autograder or updatepoints, instead of points, submit a percent. 
+
+LOG Wed Apr 10 12:58:00 EDT 2019
+
+    [B] today we will update getQ propery to the designated JSON format.
+	we will be using the "Unlimited Theory" using unlimited amount
+	of if statements and functions to accomplish the objective. 
+
 LOG Fri Apr  5 09:19:59 EDT 2019
 
     [R] formed testBuilder.php, quesBuilder.php, and created getAttempt.php.

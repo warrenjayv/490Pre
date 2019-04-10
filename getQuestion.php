@@ -1,17 +1,28 @@
 <?php
+date_default_timezone_set("America/New_York"); 
+
 
 include 'dblogin_interface.php';
+include 'autolog.php'; 
+include 'targets.php'; 
 
+$target = targetIs('getQ'); 
 $response   = file_get_contents('php://input');
 $decoder    = json_decode($response, true);
-
+$write = "[ + ] page accessed getQ " . date("Y-m-d h:i:sa") . "\n"; 
+$write .= "+ target file size of : " . $target . " = " . filesize($target) . "\n"; 
+autolog($write, $target); 
+if (filesize($target) >= 100000) {
+	autoclear($target); 
+	$write = "+ log reached max; it is cleared \n"; autolog($write, $target); 
+}
 /*testpoint*/
 //$difficulty = array("2", "4"); ///test purpose.
 
 ///note, $decoder is an array of difficulties. 
 
 if (! $feedback = getQUEST($conn, $decoder)) { //calls the function getQUEST() ; 
-  $error = "backend getQUEST() failed."; 
+  $error = "backend getQUEST() failed. please check logs! "; 
   $report = array("type" => "getQ", "error" => $error); 
   echo json_encode ($report); 
 } else {
@@ -21,11 +32,13 @@ if (! $feedback = getQUEST($conn, $decoder)) { //calls the function getQUEST() ;
 
 function getQUEST($conn, $decoder) { 
 
+  $target = targetIs('getQ'); 
   $array = array();  //array of questions
   $arrayID = array(); //array of ids
   $arrayCASES = array(); //array of testcases
   $arrayDIF = array(); //array of difficulty levels
   $arrayofRows = array(); //array of rows from SQL 
+  $cons = array(); //array of constraints 
 
   foreach ($decoder as $v) { //runs a SELECT query for each difficulty and store it. 
     $sql= " SELECT * FROM Question WHERE difficulty = '$v' ";
@@ -37,6 +50,7 @@ function getQUEST($conn, $decoder) {
       while($row = mysqli_fetch_assoc($result)) { 
 	//array_push($arrayofRows, $row); 
 	$Id = $row['Id']; 
+
 	$sql2 =  " SELECT * FROM TestCases WHERE questionId = '$Id' "; 
 	if ( ! $result2 = $conn->query($sql2)) {
 	  $errorsql2 = $conn->error; 
@@ -53,8 +67,8 @@ function getQUEST($conn, $decoder) {
 	  $question = $row['question'];
 	  $diff = $row['difficulty'];
 	  $category = $row['category']; 
-
-	  $temp2 = array("id" => $Id, "desc" => $question, "topic" => $category, "diff" => $diff);
+          $cons = getCons($conn, $qId);
+	  $temp2 = array("id" => $Id, "desc" => $question, "topic" => $category, "cons" => $cons, "diff" => $diff);
 	  $temp2 = array_merge($temp2, $temp);
 	  array_push($arrayofRows, $temp2);      
 	  $temp = array(); 
@@ -73,20 +87,30 @@ function getQUEST($conn, $decoder) {
     $error = 0; 
   }
   $output = array('type' => "getQ", 'error' => $error, 'ques' => $arrayofRows); 
-
+  $write = "+ getQuest() produced the object:\n"; 
+  $write .= print_r($output, true) . "\n"; autolog($write, $target); 
   //create the json format. 
   $package = json_encode($output); 
   return $package; 
 
 }//getQUEST()
 
-/*
-   while($row = mysqli_fetch_assoc($result))
-   {
-   $emp [] = $row;
-   }
-   echo json_encode($emp);
- */
+function getCons($conn, $qId) {
+	/* return an array of cons for qId */ 
+	$cons = array(); 
+    $sql = " SELECT * FROM QuestionsConstraints WHERE questionId = '$qId' "; 
+	if ( ! $result = $conn->query($sql)) {
+		$errorsql = $conn->error; 
+		$error = "sql :" . $errorsql . " "; 
+		return $error; 
+    }
+
+    while($row = mysqli_fetch_assoc($result)) {
+	array_push($cons, $row['constraintext']); 
+     }//while row mysqli fetch
+	
+	return $cons; 
+}//getCons() 
 mysqli_close($conn);
 
 ?>
