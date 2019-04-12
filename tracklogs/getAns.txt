@@ -4443,3 +4443,30 @@ Array
 
     return count
 )
+[ + ] page accessed getAnswer() 2019-04-12 12:11:37am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 84722
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 98
+            [1] => 69
+        )
+
+    [testId] => 42
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 98
+    [text] => def imapythonoob(n): return n
+)
+Array
+(
+    [qId] => 69
+    [text] => def double(x, y): return x
+)

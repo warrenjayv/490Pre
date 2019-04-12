@@ -1,9 +1,4 @@
 
-def Run(n): 
-    count = 0
-    while(count < n):
-        count = count + 1
-
-    return count
-print(Run(5))
-print(Run(6))
+def double(x, y): return x
+print(double(2))
+print(double(3))

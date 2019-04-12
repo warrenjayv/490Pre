@@ -761,7 +761,7 @@ Array
 )
 pushing the attempt object into array of attempts
 executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["Sub(3,2)=1","Sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def ssub(a, b): return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"grades":["100","100","100"],"feedback":[[],[],[]],"remarks":["","",""]},{"test":{"id":"32","desc":"testing the autograder","rel":"1","sub":"1","ques":[{"id":"70","desc":"please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. ","topic":"count","diff":"2","tests":["Count(20)=20","Count(50)=50","Count(10)=10","Count(5)=10"]},{"id":"91","desc":"please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. ","topic":"triple","diff":"2","tests":["Triple(2)=6","Triple(3)=9"]}],"pts":["100","100"]},"answers":["def Count(a):   \r\n    for x in range(1, a):        \r\n        if x == a-1:            \r\n          return x+1","def Triple(a):    \r\n    y = 0    \r\n    for x in range(0, 3):\r\n        y = y + a\r\n    \r\n    return y"],"grades":["80","100"],"feedback":[["n0p expecting function [Count] in answer found!","g20p called [Count(20)], expected: [20], got user answer [20]","g20p called [Count(50)], expected: [50], got user answer [50]","g20p called [Count(10)], expected: [10], got user answer [10]","b20p called [Count(5)]  expected answer: [10], got user answer [10]","n0p user program succesfully executed. ","g20p constraint [for] was found."],["n0p expecting function [Triple] in answer found!","g20p called [Triple(2)], expected: [6], got user answer [6]","g20p called [Triple(3)], expected: [9], got user answer [9]","n0p user program succesfully executed. ","g20p constraint [for] was found."]],"remarks":["i hope this works","is my remarks suppose to be here?"]},{"test":{"id":"35","desc":"testing the function name ","rel":"1","sub":"1","ques":[{"id":"94","desc":"run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. ","topic":"while","diff":"3","tests":["Run(5)=5","Run(6)=6"]}],"pts":["100"]},"answers":["def run(n): \n    count = 0\n    while(count < n):\n        count = count + 1\n\n    return count"],"grades":["95"],"feedback":[["b5p expecting function name [Run] in answer was not found!","g20p called [Run(5)], expected: [5], got user answer [5]","g20p called [Run(6)], expected: [6], got user answer [6]","n0p user program succesfully executed. ","g20p constraint [while] was found."]],"remarks":["testing with function name and while loop"]}]}[ + ] page accessed getA 2019-04-11 10:43:36pm
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["Sub(3,2)=1","Sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def ssub(a, b): return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"grades":["100","100","100"],"feedback":[[],[],[]],"remarks":["","",""]},{"test":{"id":"32","desc":"testing the autograder","rel":"1","sub":"1","ques":[{"id":"70","desc":"please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. ","topic":"count","diff":"2","tests":["Count(20)=20","Count(50)=50","Count(10)=10","Count(5)=10"]},{"id":"91","desc":"please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. ","topic":"triple","diff":"2","tests":["Triple(2)=6","Triple(3)=9"]}],"pts":["100","100"]},"answers":["def Count(a):   \r\n    for x in range(1, a):        \r\n        if x == a-1:            \r\n          return x+1","def Triple(a):    \r\n    y = 0    \r\n    for x in range(0, 3):\r\n        y = y + a\r\n    \r\n    return y"],"grades":["80","100"],"feedback":[["n0p expecting function [Count] in answer found!","g20p called [Count(20)], expected: [20], got user answer [20]","g20p called [Count(50)], expected: [50], got user answer [50]","g20p called [Count(10)], expected: [10], got user answer [10]","b20p called [Count(5)]  expected answer: [10], got user answer [10]","n0p user program succesfully executed. ","g20p constraint [for] was found."],["n0p expecting function [Triple] in answer found!","g20p called [Triple(2)], expected: [6], got user answer [6]","g20p called [Triple(3)], expected: [9], got user answer [9]","n0p user program succesfully executed. ","g20p constraint [for] was found."]],"remarks":["i hope this works","is my remarks suppose to be here?"]},{"test":{"id":"35","desc":"testing the function name ","rel":"1","sub":"1","ques":[{"id":"94","desc":"run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. ","topic":"while","diff":"3","tests":["Run(5)=5","Run(6)=6"]}],"pts":["100"]},"answers":["def run(n): \n    count = 0\n    while(count < n):\n        count = count + 1\n\n    return count"],"grades":["95"],"feedback":[["b5p expecting function name [Run] in answer was not found!","g20p called [Run(5)], expected: [5], got user answer [5]","g20p called [Run(6)], expected: [6], got user answer [6]","n0p user program succesfully executed. ","g20p constraint [while] was found."]],"remarks":["testing with function name and while loop"]}]}[ + ] page accessed getA 2019-04-11 10:59:27pm
 + target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 22961
 data received...
 Array
@@ -1524,7 +1524,7 @@ Array
 )
 pushing the attempt object into array of attempts
 executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["Sub(3,2)=1","Sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def ssub(a, b): return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"grades":["100","100","100"],"feedback":[[],[],[]],"remarks":["","",""]},{"test":{"id":"32","desc":"testing the autograder","rel":"1","sub":"1","ques":[{"id":"70","desc":"please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. ","topic":"count","diff":"2","tests":["Count(20)=20","Count(50)=50","Count(10)=10","Count(5)=10"]},{"id":"91","desc":"please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. ","topic":"triple","diff":"2","tests":["Triple(2)=6","Triple(3)=9"]}],"pts":["100","100"]},"answers":["def Count(a):   \r\n    for x in range(1, a):        \r\n        if x == a-1:            \r\n          return x+1","def Triple(a):    \r\n    y = 0    \r\n    for x in range(0, 3):\r\n        y = y + a\r\n    \r\n    return y"],"grades":["80","100"],"feedback":[["n0p expecting function [Count] in answer found!","g20p called [Count(20)], expected: [20], got user answer [20]","g20p called [Count(50)], expected: [50], got user answer [50]","g20p called [Count(10)], expected: [10], got user answer [10]","b20p called [Count(5)]  expected answer: [10], got user answer [10]","n0p user program succesfully executed. ","g20p constraint [for] was found."],["n0p expecting function [Triple] in answer found!","g20p called [Triple(2)], expected: [6], got user answer [6]","g20p called [Triple(3)], expected: [9], got user answer [9]","n0p user program succesfully executed. ","g20p constraint [for] was found."]],"remarks":["i hope this works","is my remarks suppose to be here?"]},{"test":{"id":"35","desc":"testing the function name ","rel":"1","sub":"1","ques":[{"id":"94","desc":"run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. ","topic":"while","diff":"3","tests":["Run(5)=5","Run(6)=6"]}],"pts":["100"]},"answers":["def run(n): \n    count = 0\n    while(count < n):\n        count = count + 1\n\n    return count"],"grades":["95"],"feedback":[["b5p expecting function name [Run] in answer was not found!","g20p called [Run(5)], expected: [5], got user answer [5]","g20p called [Run(6)], expected: [6], got user answer [6]","n0p user program succesfully executed. ","g20p constraint [while] was found."]],"remarks":["testing with function name and while loop"]}]}[ + ] page accessed getA 2019-04-11 10:44:07pm
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["Sub(3,2)=1","Sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def ssub(a, b): return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"grades":["100","100","100"],"feedback":[[],[],[]],"remarks":["","",""]},{"test":{"id":"32","desc":"testing the autograder","rel":"1","sub":"1","ques":[{"id":"70","desc":"please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. ","topic":"count","diff":"2","tests":["Count(20)=20","Count(50)=50","Count(10)=10","Count(5)=10"]},{"id":"91","desc":"please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. ","topic":"triple","diff":"2","tests":["Triple(2)=6","Triple(3)=9"]}],"pts":["100","100"]},"answers":["def Count(a):   \r\n    for x in range(1, a):        \r\n        if x == a-1:            \r\n          return x+1","def Triple(a):    \r\n    y = 0    \r\n    for x in range(0, 3):\r\n        y = y + a\r\n    \r\n    return y"],"grades":["80","100"],"feedback":[["n0p expecting function [Count] in answer found!","g20p called [Count(20)], expected: [20], got user answer [20]","g20p called [Count(50)], expected: [50], got user answer [50]","g20p called [Count(10)], expected: [10], got user answer [10]","b20p called [Count(5)]  expected answer: [10], got user answer [10]","n0p user program succesfully executed. ","g20p constraint [for] was found."],["n0p expecting function [Triple] in answer found!","g20p called [Triple(2)], expected: [6], got user answer [6]","g20p called [Triple(3)], expected: [9], got user answer [9]","n0p user program succesfully executed. ","g20p constraint [for] was found."]],"remarks":["i hope this works","is my remarks suppose to be here?"]},{"test":{"id":"35","desc":"testing the function name ","rel":"1","sub":"1","ques":[{"id":"94","desc":"run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. ","topic":"while","diff":"3","tests":["Run(5)=5","Run(6)=6"]}],"pts":["100"]},"answers":["def run(n): \n    count = 0\n    while(count < n):\n        count = count + 1\n\n    return count"],"grades":["95"],"feedback":[["b5p expecting function name [Run] in answer was not found!","g20p called [Run(5)], expected: [5], got user answer [5]","g20p called [Run(6)], expected: [6], got user answer [6]","n0p user program succesfully executed. ","g20p constraint [while] was found."]],"remarks":["testing with function name and while loop"]}]}[ + ] page accessed getA 2019-04-11 10:59:29pm
 + target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 46013
 data received...
 Array
@@ -2287,8 +2287,771 @@ Array
 )
 pushing the attempt object into array of attempts
 executing getAttempt()...output:
-{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["Sub(3,2)=1","Sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def ssub(a, b): return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"grades":["100","100","100"],"feedback":[[],[],[]],"remarks":["","",""]},{"test":{"id":"32","desc":"testing the autograder","rel":"1","sub":"1","ques":[{"id":"70","desc":"please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. ","topic":"count","diff":"2","tests":["Count(20)=20","Count(50)=50","Count(10)=10","Count(5)=10"]},{"id":"91","desc":"please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. ","topic":"triple","diff":"2","tests":["Triple(2)=6","Triple(3)=9"]}],"pts":["100","100"]},"answers":["def Count(a):   \r\n    for x in range(1, a):        \r\n        if x == a-1:            \r\n          return x+1","def Triple(a):    \r\n    y = 0    \r\n    for x in range(0, 3):\r\n        y = y + a\r\n    \r\n    return y"],"grades":["80","100"],"feedback":[["n0p expecting function [Count] in answer found!","g20p called [Count(20)], expected: [20], got user answer [20]","g20p called [Count(50)], expected: [50], got user answer [50]","g20p called [Count(10)], expected: [10], got user answer [10]","b20p called [Count(5)]  expected answer: [10], got user answer [10]","n0p user program succesfully executed. ","g20p constraint [for] was found."],["n0p expecting function [Triple] in answer found!","g20p called [Triple(2)], expected: [6], got user answer [6]","g20p called [Triple(3)], expected: [9], got user answer [9]","n0p user program succesfully executed. ","g20p constraint [for] was found."]],"remarks":["i hope this works","is my remarks suppose to be here?"]},{"test":{"id":"35","desc":"testing the function name ","rel":"1","sub":"1","ques":[{"id":"94","desc":"run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. ","topic":"while","diff":"3","tests":["Run(5)=5","Run(6)=6"]}],"pts":["100"]},"answers":["def run(n): \n    count = 0\n    while(count < n):\n        count = count + 1\n\n    return count"],"grades":["95"],"feedback":[["b5p expecting function name [Run] in answer was not found!","g20p called [Run(5)], expected: [5], got user answer [5]","g20p called [Run(6)], expected: [6], got user answer [6]","n0p user program succesfully executed. ","g20p constraint [while] was found."]],"remarks":["testing with function name and while loop"]}]}[ + ] page accessed getA 2019-04-11 10:44:31pm
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["Sub(3,2)=1","Sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def ssub(a, b): return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"grades":["100","100","100"],"feedback":[[],[],[]],"remarks":["","",""]},{"test":{"id":"32","desc":"testing the autograder","rel":"1","sub":"1","ques":[{"id":"70","desc":"please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. ","topic":"count","diff":"2","tests":["Count(20)=20","Count(50)=50","Count(10)=10","Count(5)=10"]},{"id":"91","desc":"please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. ","topic":"triple","diff":"2","tests":["Triple(2)=6","Triple(3)=9"]}],"pts":["100","100"]},"answers":["def Count(a):   \r\n    for x in range(1, a):        \r\n        if x == a-1:            \r\n          return x+1","def Triple(a):    \r\n    y = 0    \r\n    for x in range(0, 3):\r\n        y = y + a\r\n    \r\n    return y"],"grades":["80","100"],"feedback":[["n0p expecting function [Count] in answer found!","g20p called [Count(20)], expected: [20], got user answer [20]","g20p called [Count(50)], expected: [50], got user answer [50]","g20p called [Count(10)], expected: [10], got user answer [10]","b20p called [Count(5)]  expected answer: [10], got user answer [10]","n0p user program succesfully executed. ","g20p constraint [for] was found."],["n0p expecting function [Triple] in answer found!","g20p called [Triple(2)], expected: [6], got user answer [6]","g20p called [Triple(3)], expected: [9], got user answer [9]","n0p user program succesfully executed. ","g20p constraint [for] was found."]],"remarks":["i hope this works","is my remarks suppose to be here?"]},{"test":{"id":"35","desc":"testing the function name ","rel":"1","sub":"1","ques":[{"id":"94","desc":"run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. ","topic":"while","diff":"3","tests":["Run(5)=5","Run(6)=6"]}],"pts":["100"]},"answers":["def run(n): \n    count = 0\n    while(count < n):\n        count = count + 1\n\n    return count"],"grades":["95"],"feedback":[["b5p expecting function name [Run] in answer was not found!","g20p called [Run(5)], expected: [5], got user answer [5]","g20p called [Run(6)], expected: [6], got user answer [6]","n0p user program succesfully executed. ","g20p constraint [while] was found."]],"remarks":["testing with function name and while loop"]}]}[ + ] page accessed getA 2019-04-11 10:59:40pm
 + target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 69065
+data received...
+Array
+(
+    [type] => getA
+    [ids] => Array
+        (
+        )
+
+)
+
+decoder returned an empty array of ids! go get em!
+getallIds() is called!
+executing testObject() for test id : 10 
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Sub(3,2)=1
+                            [1] => Sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 100
+            [1] => 100
+            [2] => 100
+        )
+
+)
+
+pushed test 10 into testArray
+executing getFeedbacks() for testId 10 & qId 3
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 2
+Array
+(
+)
+
+executing getFeedbacks() for testId 10 & qId 1
+Array
+(
+)
+
+ansObject() formed the ansArray
+Array
+(
+    [answers] => Array
+        (
+            [0] => def ssub(a, b): return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [grades] => Array
+        (
+            [0] => 100
+            [1] => 100
+            [2] => 100
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+executing ansObject() for test id : 10 
+ansObject() was succesful...output: 
+Array
+(
+    [answers] => Array
+        (
+            [0] => def ssub(a, b): return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [grades] => Array
+        (
+            [0] => 100
+            [1] => 100
+            [2] => 100
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+
+warning! ansObject is an array!
+building the attempt object...
+Array
+(
+    [test] => Array
+        (
+            [id] => 10
+            [desc] => TEST 3Q's
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => Sub(3,2)=1
+                                    [1] => Sub(4,2)=2
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => Mult(2,4)=8
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                            [tests] => Array
+                                (
+                                    [0] => add(2,3)=5
+                                    [1] => add(4,4)=8
+                                )
+
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 100
+                    [1] => 100
+                    [2] => 100
+                )
+
+        )
+
+    [answers] => Array
+        (
+            [0] => def ssub(a, b): return a-b
+            [1] => def Mult(a, b):
+    return a*b
+            [2] => def add (a, b):
+    return a+b
+        )
+
+    [grades] => Array
+        (
+            [0] => 100
+            [1] => 100
+            [2] => 100
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                )
+
+            [1] => Array
+                (
+                )
+
+            [2] => Array
+                (
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+        )
+
+)
+pushing the attempt object into array of attempts
+executing testObject() for test id : 32 
+Array
+(
+    [id] => 32
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 70
+                    [desc] => please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. 
+                    [topic] => count
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => Count(20)=20
+                            [1] => Count(50)=50
+                            [2] => Count(10)=10
+                            [3] => Count(5)=10
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 91
+                    [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+                    [topic] => triple
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => Triple(2)=6
+                            [1] => Triple(3)=9
+                        )
+
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 100
+            [1] => 100
+        )
+
+)
+
+pushed test 32 into testArray
+executing getFeedbacks() for testId 32 & qId 70
+Array
+(
+    [0] => n0p expecting function [Count] in answer found!
+    [1] => g20p called [Count(20)], expected: [20], got user answer [20]
+    [2] => g20p called [Count(50)], expected: [50], got user answer [50]
+    [3] => g20p called [Count(10)], expected: [10], got user answer [10]
+    [4] => b20p called [Count(5)]  expected answer: [10], got user answer [10]
+    [5] => n0p user program succesfully executed. 
+    [6] => g20p constraint [for] was found.
+)
+
+executing getFeedbacks() for testId 32 & qId 91
+Array
+(
+    [0] => n0p expecting function [Triple] in answer found!
+    [1] => g20p called [Triple(2)], expected: [6], got user answer [6]
+    [2] => g20p called [Triple(3)], expected: [9], got user answer [9]
+    [3] => n0p user program succesfully executed. 
+    [4] => g20p constraint [for] was found.
+)
+
+ansObject() formed the ansArray
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
+            [1] => def Triple(a):    
+    y = 0    
+    for x in range(0, 3):
+        y = y + a
+    
+    return y
+        )
+
+    [grades] => Array
+        (
+            [0] => 80
+            [1] => 100
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                    [0] => n0p expecting function [Count] in answer found!
+                    [1] => g20p called [Count(20)], expected: [20], got user answer [20]
+                    [2] => g20p called [Count(50)], expected: [50], got user answer [50]
+                    [3] => g20p called [Count(10)], expected: [10], got user answer [10]
+                    [4] => b20p called [Count(5)]  expected answer: [10], got user answer [10]
+                    [5] => n0p user program succesfully executed. 
+                    [6] => g20p constraint [for] was found.
+                )
+
+            [1] => Array
+                (
+                    [0] => n0p expecting function [Triple] in answer found!
+                    [1] => g20p called [Triple(2)], expected: [6], got user answer [6]
+                    [2] => g20p called [Triple(3)], expected: [9], got user answer [9]
+                    [3] => n0p user program succesfully executed. 
+                    [4] => g20p constraint [for] was found.
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => i hope this works
+            [1] => is my remarks suppose to be here?
+        )
+
+)
+
+executing ansObject() for test id : 32 
+ansObject() was succesful...output: 
+Array
+(
+    [answers] => Array
+        (
+            [0] => def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
+            [1] => def Triple(a):    
+    y = 0    
+    for x in range(0, 3):
+        y = y + a
+    
+    return y
+        )
+
+    [grades] => Array
+        (
+            [0] => 80
+            [1] => 100
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                    [0] => n0p expecting function [Count] in answer found!
+                    [1] => g20p called [Count(20)], expected: [20], got user answer [20]
+                    [2] => g20p called [Count(50)], expected: [50], got user answer [50]
+                    [3] => g20p called [Count(10)], expected: [10], got user answer [10]
+                    [4] => b20p called [Count(5)]  expected answer: [10], got user answer [10]
+                    [5] => n0p user program succesfully executed. 
+                    [6] => g20p constraint [for] was found.
+                )
+
+            [1] => Array
+                (
+                    [0] => n0p expecting function [Triple] in answer found!
+                    [1] => g20p called [Triple(2)], expected: [6], got user answer [6]
+                    [2] => g20p called [Triple(3)], expected: [9], got user answer [9]
+                    [3] => n0p user program succesfully executed. 
+                    [4] => g20p constraint [for] was found.
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => i hope this works
+            [1] => is my remarks suppose to be here?
+        )
+
+)
+
+warning! ansObject is an array!
+building the attempt object...
+Array
+(
+    [test] => Array
+        (
+            [id] => 32
+            [desc] => testing the autograder
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 70
+                            [desc] => please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. 
+                            [topic] => count
+                            [diff] => 2
+                            [tests] => Array
+                                (
+                                    [0] => Count(20)=20
+                                    [1] => Count(50)=50
+                                    [2] => Count(10)=10
+                                    [3] => Count(5)=10
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 91
+                            [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+                            [topic] => triple
+                            [diff] => 2
+                            [tests] => Array
+                                (
+                                    [0] => Triple(2)=6
+                                    [1] => Triple(3)=9
+                                )
+
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 100
+                    [1] => 100
+                )
+
+        )
+
+    [answers] => Array
+        (
+            [0] => def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
+            [1] => def Triple(a):    
+    y = 0    
+    for x in range(0, 3):
+        y = y + a
+    
+    return y
+        )
+
+    [grades] => Array
+        (
+            [0] => 80
+            [1] => 100
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                    [0] => n0p expecting function [Count] in answer found!
+                    [1] => g20p called [Count(20)], expected: [20], got user answer [20]
+                    [2] => g20p called [Count(50)], expected: [50], got user answer [50]
+                    [3] => g20p called [Count(10)], expected: [10], got user answer [10]
+                    [4] => b20p called [Count(5)]  expected answer: [10], got user answer [10]
+                    [5] => n0p user program succesfully executed. 
+                    [6] => g20p constraint [for] was found.
+                )
+
+            [1] => Array
+                (
+                    [0] => n0p expecting function [Triple] in answer found!
+                    [1] => g20p called [Triple(2)], expected: [6], got user answer [6]
+                    [2] => g20p called [Triple(3)], expected: [9], got user answer [9]
+                    [3] => n0p user program succesfully executed. 
+                    [4] => g20p constraint [for] was found.
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => i hope this works
+            [1] => is my remarks suppose to be here?
+        )
+
+)
+pushing the attempt object into array of attempts
+executing testObject() for test id : 35 
+Array
+(
+    [id] => 35
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 94
+                    [desc] => run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. 
+                    [topic] => while
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Run(5)=5
+                            [1] => Run(6)=6
+                        )
+
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 100
+        )
+
+)
+
+pushed test 35 into testArray
+executing getFeedbacks() for testId 35 & qId 94
+Array
+(
+    [0] => b5p expecting function name [Run] in answer was not found!
+    [1] => g20p called [Run(5)], expected: [5], got user answer [5]
+    [2] => g20p called [Run(6)], expected: [6], got user answer [6]
+    [3] => n0p user program succesfully executed. 
+    [4] => g20p constraint [while] was found.
+)
+
+ansObject() formed the ansArray
+Array
+(
+    [answers] => Array
+        (
+            [0] => def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
+        )
+
+    [grades] => Array
+        (
+            [0] => 95
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                    [0] => b5p expecting function name [Run] in answer was not found!
+                    [1] => g20p called [Run(5)], expected: [5], got user answer [5]
+                    [2] => g20p called [Run(6)], expected: [6], got user answer [6]
+                    [3] => n0p user program succesfully executed. 
+                    [4] => g20p constraint [while] was found.
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => testing with function name and while loop
+        )
+
+)
+
+executing ansObject() for test id : 35 
+ansObject() was succesful...output: 
+Array
+(
+    [answers] => Array
+        (
+            [0] => def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
+        )
+
+    [grades] => Array
+        (
+            [0] => 95
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                    [0] => b5p expecting function name [Run] in answer was not found!
+                    [1] => g20p called [Run(5)], expected: [5], got user answer [5]
+                    [2] => g20p called [Run(6)], expected: [6], got user answer [6]
+                    [3] => n0p user program succesfully executed. 
+                    [4] => g20p constraint [while] was found.
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => testing with function name and while loop
+        )
+
+)
+
+warning! ansObject is an array!
+building the attempt object...
+Array
+(
+    [test] => Array
+        (
+            [id] => 35
+            [desc] => testing the function name 
+            [rel] => 1
+            [sub] => 1
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 94
+                            [desc] => run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. 
+                            [topic] => while
+                            [diff] => 3
+                            [tests] => Array
+                                (
+                                    [0] => Run(5)=5
+                                    [1] => Run(6)=6
+                                )
+
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 100
+                )
+
+        )
+
+    [answers] => Array
+        (
+            [0] => def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
+        )
+
+    [grades] => Array
+        (
+            [0] => 95
+        )
+
+    [feedback] => Array
+        (
+            [0] => Array
+                (
+                    [0] => b5p expecting function name [Run] in answer was not found!
+                    [1] => g20p called [Run(5)], expected: [5], got user answer [5]
+                    [2] => g20p called [Run(6)], expected: [6], got user answer [6]
+                    [3] => n0p user program succesfully executed. 
+                    [4] => g20p constraint [while] was found.
+                )
+
+        )
+
+    [remarks] => Array
+        (
+            [0] => testing with function name and while loop
+        )
+
+)
+pushing the attempt object into array of attempts
+executing getAttempt()...output:
+{"type":"getA","error":0,"attempts":[{"test":{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3","tests":["Sub(3,2)=1","Sub(4,2)=2"]},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3","tests":["Mult(2,4)=8"]},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1","tests":["add(2,3)=5","add(4,4)=8"]}],"pts":["100","100","100"]},"answers":["def ssub(a, b): return a-b","def Mult(a, b):\r\n    return a*b","def add (a, b):\r\n    return a+b"],"grades":["100","100","100"],"feedback":[[],[],[]],"remarks":["","",""]},{"test":{"id":"32","desc":"testing the autograder","rel":"1","sub":"1","ques":[{"id":"70","desc":"please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. ","topic":"count","diff":"2","tests":["Count(20)=20","Count(50)=50","Count(10)=10","Count(5)=10"]},{"id":"91","desc":"please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. ","topic":"triple","diff":"2","tests":["Triple(2)=6","Triple(3)=9"]}],"pts":["100","100"]},"answers":["def Count(a):   \r\n    for x in range(1, a):        \r\n        if x == a-1:            \r\n          return x+1","def Triple(a):    \r\n    y = 0    \r\n    for x in range(0, 3):\r\n        y = y + a\r\n    \r\n    return y"],"grades":["80","100"],"feedback":[["n0p expecting function [Count] in answer found!","g20p called [Count(20)], expected: [20], got user answer [20]","g20p called [Count(50)], expected: [50], got user answer [50]","g20p called [Count(10)], expected: [10], got user answer [10]","b20p called [Count(5)]  expected answer: [10], got user answer [10]","n0p user program succesfully executed. ","g20p constraint [for] was found."],["n0p expecting function [Triple] in answer found!","g20p called [Triple(2)], expected: [6], got user answer [6]","g20p called [Triple(3)], expected: [9], got user answer [9]","n0p user program succesfully executed. ","g20p constraint [for] was found."]],"remarks":["i hope this works","is my remarks suppose to be here?"]},{"test":{"id":"35","desc":"testing the function name ","rel":"1","sub":"1","ques":[{"id":"94","desc":"run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. ","topic":"while","diff":"3","tests":["Run(5)=5","Run(6)=6"]}],"pts":["100"]},"answers":["def run(n): \n    count = 0\n    while(count < n):\n        count = count + 1\n\n    return count"],"grades":["95"],"feedback":[["b5p expecting function name [Run] in answer was not found!","g20p called [Run(5)], expected: [5], got user answer [5]","g20p called [Run(6)], expected: [6], got user answer [6]","n0p user program succesfully executed. ","g20p constraint [while] was found."]],"remarks":["testing with function name and while loop"]}]}[ + ] page accessed getA 2019-04-11 10:59:42pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAt.txt = 92117
 data received...
 Array
 (

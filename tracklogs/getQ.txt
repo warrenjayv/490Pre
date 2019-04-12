@@ -3648,3 +3648,1791 @@ Array
 
 )
 
+[ + ] page accessed getQ 2019-04-12 02:00:07am
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getQ.txt = 98302
++ getQuest() produced the object:
+Array
+(
+    [type] => getQ
+    [error] => 0
+    [ques] => Array
+        (
+        )
+
+)
+
+[ + ] page accessed getQ 2019-04-12 02:03:56am
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getQ.txt = 98561
++ getQuest() produced the object:
+Array
+(
+    [type] => getQ
+    [error] => 0
+    [ques] => Array
+        (
+        )
+
+)
+
+[ + ] page accessed getQ 2019-04-12 02:04:43am
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getQ.txt = 98820
++ getQuest() produced the object:
+Array
+(
+    [type] => getQ
+    [error] => 0
+    [ques] => Array
+        (
+        )
+
+)
+
+[ + ] page accessed getQ 2019-04-12 02:05:55am
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getQ.txt = 99079
++ getQuest() produced the object:
+Array
+(
+    [type] => getQ
+    [error] => 0
+    [ques] => Array
+        (
+        )
+
+)
+
+[ + ] page accessed getQ 2019-04-12 02:08:19am
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getQ.txt = 99338
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ pushing into cons array : 
+for
++ calling getCons() ... 
++ pushing into cons array : 
+1
++ pushing into cons array : 
+2
++ pushing into cons array : 
+3
++ pushing into cons array : 
+4
++ pushing into cons array : 
+5
++ calling getCons() ... 
++ pushing into cons array : 
+while
++ pushing into cons array : 
+print
++ calling getCons() ... 
++ pushing into cons array : 
+for
++ pushing into cons array : 
+print
++ calling getCons() ... 
++ pushing into cons array : 
+for
++ calling getCons() ... 
++ pushing into cons array : 
+for
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ pushing into cons array : 
+for
++ pushing into cons array : 
+print
++ calling getCons() ... 
++ pushing into cons array : 
+1
++ pushing into cons array : 
+2
++ pushing into cons array : 
+3
++ pushing into cons array : 
+4
++ pushing into cons array : 
+5
++ calling getCons() ... 
++ pushing into cons array : 
+1
++ pushing into cons array : 
+2
++ pushing into cons array : 
+3
++ pushing into cons array : 
+4
++ pushing into cons array : 
+5
++ calling getCons() ... 
++ pushing into cons array : 
+1
++ pushing into cons array : 
+2
++ pushing into cons array : 
+3
++ pushing into cons array : 
+4
++ pushing into cons array : 
+5
++ calling getCons() ... 
++ pushing into cons array : 
+for
++ pushing into cons array : 
+while
++ calling getCons() ... 
++ pushing into cons array : 
+while
++ pushing into cons array : 
+print
++ calling getCons() ... 
++ pushing into cons array : 
+1
++ pushing into cons array : 
+2
++ pushing into cons array : 
+3
++ pushing into cons array : 
+4
++ pushing into cons array : 
+5
++ calling getCons() ... 
++ pushing into cons array : 
+print
++ calling getCons() ... 
++ pushing into cons array : 
+while
++ calling getCons() ... 
++ pushing into cons array : 
+while
++ calling getCons() ... 
++ pushing into cons array : 
+while
++ calling getCons() ... 
++ pushing into cons array : 
+while
++ calling getCons() ... 
++ pushing into cons array : 
+while
++ calling getCons() ... 
++ pushing into cons array : 
+print
++ calling getCons() ... 
++ pushing into cons array : 
+while
++ calling getCons() ... 
++ pushing into cons array : 
+while
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ getQuest() produced the object:
+Array
+(
+    [type] => getQ
+    [error] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 38
+                    [desc] => What is life?
+                    [topic] => Life and Blue
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => Life(a)=life
+                            [1] => Life(b)=blue
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 69
+                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                    [topic] => easy
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 1
+                    [tests] => Array
+                        (
+                            [0] => double(2)=4
+                            [1] => double(3)=9
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => 5
+                    [desc] => TEST here's a new Q blah blah
+                    [topic] => blah blah
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => kj()
+                            [1] => lk()
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => 8
+                    [desc] => blahblabhlbhsl
+                    [topic] => ndla
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => dlkfj()
+                            [1] => ddosaj()
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [id] => 10
+                    [desc] => TEST here's a new Q FOR you
+                    [topic] => For
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => ab()=ad
+                            [1] => dlkj()=dsa
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [id] => 12
+                    [desc] => dfgdfg
+                    [topic] => sdg
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => sdg()
+                            [1] => ghfg()
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [id] => 32
+                    [desc] => TEST timingg
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => klj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [id] => 39
+                    [desc] => TEST disabling button
+                    [topic] => top
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => ;lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [id] => 40
+                    [desc] => TEST diabling butns
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [10] => Array
+                (
+                    [id] => 50
+                    [desc] => TEST trying to stop the multiples
+                    [topic] => top
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => ;lkj()
+                        )
+
+                )
+
+            [11] => Array
+                (
+                    [id] => 57
+                    [desc] => TEST globertobs
+                    [topic] => topernops
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [12] => Array
+                (
+                    [id] => 70
+                    [desc] => please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. 
+                    [topic] => count
+                    [cons] => Array
+                        (
+                            [0] => for
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => Count(20)=20
+                            [1] => Count(50)=50
+                            [2] => Count(10)=10
+                            [3] => Count(5)=10
+                        )
+
+                )
+
+            [13] => Array
+                (
+                    [id] => 77
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 5
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => asdf()=ds
+                            [1] => lkjh()=ds
+                        )
+
+                )
+
+            [14] => Array
+                (
+                    [id] => 87
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => while
+                            [1] => print
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => asdf()=d
+                            [1] => asdf()=a
+                        )
+
+                )
+
+            [15] => Array
+                (
+                    [id] => 88
+                    [desc] => New Q comin in hot
+                    [topic] => hotness
+                    [cons] => Array
+                        (
+                            [0] => for
+                            [1] => print
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => blop("a")="a"
+                            [1] => blip("b")="b"
+                        )
+
+                )
+
+            [16] => Array
+                (
+                    [id] => 90
+                    [desc] => Write a function called strMult() that takes two parameters: s, a string, and n, an integer. It should return the string concatenated with itself n times. Must use a for loop.
+                    [topic] => Strings
+                    [cons] => Array
+                        (
+                            [0] => for
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => strMult("hi", 3)  =  "hihihi"
+                            [1] => strMult("bye"   ,   2)= "byebye"
+                        )
+
+                )
+
+            [17] => Array
+                (
+                    [id] => 91
+                    [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+                    [topic] => triple
+                    [cons] => Array
+                        (
+                            [0] => for
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => Triple(2)=6
+                            [1] => Triple(3)=9
+                        )
+
+                )
+
+            [18] => Array
+                (
+                    [id] => 2
+                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                    [topic] => multi
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [19] => Array
+                (
+                    [id] => 3
+                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                    [topic] => Sub
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Sub(3,2)=1
+                            [1] => Sub(4,2)=2
+                        )
+
+                )
+
+            [20] => Array
+                (
+                    [id] => 11
+                    [desc] => blaksdhfak
+                    [topic] => dlskajf
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkasjdf()
+                            [1] => lksdjf()
+                        )
+
+                )
+
+            [21] => Array
+                (
+                    [id] => 13
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asdf()
+                            [1] => asdf()
+                        )
+
+                )
+
+            [22] => Array
+                (
+                    [id] => 14
+                    [desc] => TEST new alerts
+                    [topic] => asl;kdfj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asd()
+                            [1] => asd()
+                        )
+
+                )
+
+            [23] => Array
+                (
+                    [id] => 15
+                    [desc] => TEST success alerts
+                    [topic] => lk;j
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => kj()
+                            [1] => klj()
+                        )
+
+                )
+
+            [24] => Array
+                (
+                    [id] => 16
+                    [desc] => TEST success
+                    [topic] => l;kj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => kj()l
+                            [1] => lkj()
+                        )
+
+                )
+
+            [25] => Array
+                (
+                    [id] => 17
+                    [desc] => TEST clearing
+                    [topic] => a;lskj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asd()
+                            [1] => lkjd()
+                        )
+
+                )
+
+            [26] => Array
+                (
+                    [id] => 18
+                    [desc] => TEST clearing TA
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => kj()
+                            [1] => klj()
+                        )
+
+                )
+
+            [27] => Array
+                (
+                    [id] => 19
+                    [desc] => TEST clearing TA value
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [28] => Array
+                (
+                    [id] => 20
+                    [desc] => TESTING clearing value and inner
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => kj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [29] => Array
+                (
+                    [id] => 21
+                    [desc] => TEST clearing this hsti
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => kj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [30] => Array
+                (
+                    [id] => 22
+                    [desc] => TEST timing
+                    [topic] => lk
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => kj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [31] => Array
+                (
+                    [id] => 23
+                    [desc] => TEST ldkj
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => kj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [32] => Array
+                (
+                    [id] => 24
+                    [desc] => TEST testin
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [33] => Array
+                (
+                    [id] => 25
+                    [desc] => TEST kdajf;
+                    [topic] => lkkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => kj()
+                            [1] => kj()
+                        )
+
+                )
+
+            [34] => Array
+                (
+                    [id] => 26
+                    [desc] => TEST lkja
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [35] => Array
+                (
+                    [id] => 27
+                    [desc] => kldj;
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [36] => Array
+                (
+                    [id] => 29
+                    [desc] => TEST timing
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => klj()
+                            [1] => kj()
+                        )
+
+                )
+
+            [37] => Array
+                (
+                    [id] => 30
+                    [desc] => TEST timinggg
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkj()k
+                            [1] => lkj()
+                        )
+
+                )
+
+            [38] => Array
+                (
+                    [id] => 31
+                    [desc] => TEST timinng
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [39] => Array
+                (
+                    [id] => 33
+                    [desc] => TEST checkboxes
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [40] => Array
+                (
+                    [id] => 58
+                    [desc] => ;alskj
+                    [topic] => ;lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [41] => Array
+                (
+                    [id] => 60
+                    [desc] => TEST testcasesregex
+                    [topic] => regex
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkj()=lkj
+                            [1] => lkj()=lkj
+                        )
+
+                )
+
+            [42] => Array
+                (
+                    [id] => 61
+                    [desc] => TEST regex
+                    [topic] => re
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkj()=
+                            [1] => lkj()=
+                        )
+
+                )
+
+            [43] => Array
+                (
+                    [id] => 62
+                    [desc] => TEST LKJ
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkj()=
+                            [1] => lkj()=
+                        )
+
+                )
+
+            [44] => Array
+                (
+                    [id] => 63
+                    [desc] => TEST re
+                    [topic] => re
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkj()=
+                            [1] => lkj(   )  =    
+                        )
+
+                )
+
+            [45] => Array
+                (
+                    [id] => 64
+                    [desc] => adsf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkj(   )  = alkj
+                            [1] => lkj()=lkj
+                        )
+
+                )
+
+            [46] => Array
+                (
+                    [id] => 65
+                    [desc] => TEST testsdfs
+                    [topic] => j
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lkj()=a
+                            [1] => k(lkadjfaoiwefjasdfja;lsdkfj)=a
+                        )
+
+                )
+
+            [47] => Array
+                (
+                    [id] => 66
+                    [desc] => TEST params
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => func()=b
+                            [1] => func()=b
+                        )
+
+                )
+
+            [48] => Array
+                (
+                    [id] => 67
+                    [desc] => lkj
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => func()=a
+                            [1] => func(  )  =  a
+                            [2] => func(a)=a
+                            [3] => func( a ) = a
+                            [4] => func( a , a , a) = b
+                        )
+
+                )
+
+            [49] => Array
+                (
+                    [id] => 68
+                    [desc] => l;kj
+                    [topic] => ;lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => lk
+                            [1] => lkj
+                        )
+
+                )
+
+            [50] => Array
+                (
+                    [id] => 71
+                    [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
+                    [topic] => Herdederms
+                    [cons] => Array
+                        (
+                            [0] => for
+                            [1] => print
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => elephant()="dumbo"
+                            [1] => elephant()="surus"
+                            [2] => elephant()="pyrrhus"
+                            [3] => elephant()="kandula"
+                        )
+
+                )
+
+            [51] => Array
+                (
+                    [id] => 72
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 5
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asdf()=asdf
+                            [1] => asdf()=d
+                        )
+
+                )
+
+            [52] => Array
+                (
+                    [id] => 73
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 5
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asdf()=asd
+                            [1] => kjh()=asd
+                        )
+
+                )
+
+            [53] => Array
+                (
+                    [id] => 74
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 5
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => gfgfg()=ghf
+                            [1] => fgh()=ghj
+                        )
+
+                )
+
+            [54] => Array
+                (
+                    [id] => 75
+                    [desc] => asdf
+                    [topic] => asd
+                    [cons] => Array
+                        (
+                            [0] => for
+                            [1] => while
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asdf()=ds
+                            [1] => lkj()=dsf
+                        )
+
+                )
+
+            [55] => Array
+                (
+                    [id] => 76
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => while
+                            [1] => print
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asdf()=dg
+                            [1] => asdf()=dg
+                        )
+
+                )
+
+            [56] => Array
+                (
+                    [id] => 78
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 5
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asd
+                        )
+
+                )
+
+            [57] => Array
+                (
+                    [id] => 79
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => print
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asdf()=dsf
+                            [1] => asdf()=lkj
+                        )
+
+                )
+
+            [58] => Array
+                (
+                    [id] => 80
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => while
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asdf()=d
+                            [1] => asdf()=g
+                        )
+
+                )
+
+            [59] => Array
+                (
+                    [id] => 81
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => while
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asdf()=kj
+                            [1] => asdlkj()=ds
+                        )
+
+                )
+
+            [60] => Array
+                (
+                    [id] => 82
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => while
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asdf()=kj
+                            [1] => asdlkj()=ds
+                        )
+
+                )
+
+            [61] => Array
+                (
+                    [id] => 83
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => while
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asdf()=kj
+                            [1] => asdlkj()=ds
+                        )
+
+                )
+
+            [62] => Array
+                (
+                    [id] => 84
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => while
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asdf()=ds
+                            [1] => asdf()=ds
+                        )
+
+                )
+
+            [63] => Array
+                (
+                    [id] => 85
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => print
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asdf()=sd
+                            [1] => asdf()=sd
+                        )
+
+                )
+
+            [64] => Array
+                (
+                    [id] => 86
+                    [desc] => asdf
+                    [topic] => asdf
+                    [cons] => Array
+                        (
+                            [0] => while
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => asdf()=ds
+                            [1] => asdf()=ds
+                        )
+
+                )
+
+            [65] => Array
+                (
+                    [id] => 94
+                    [desc] => run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. 
+                    [topic] => while
+                    [cons] => Array
+                        (
+                            [0] => while
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Run(5)=5
+                            [1] => Run(6)=6
+                        )
+
+                )
+
+            [66] => Array
+                (
+                    [id] => 4
+                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
+                    [topic] => Random
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => blah()=yr8dc64a32
+                            [1] => blah()=zyx943he21
+                        )
+
+                )
+
+            [67] => Array
+                (
+                    [id] => 6
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => asd()
+                            [1] => ;alksdjf()
+                        )
+
+                )
+
+            [68] => Array
+                (
+                    [id] => 7
+                    [desc] => TEST blah Q
+                    [topic] => Q blah
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => asd()
+                            [1] => ;alksdjf()
+                        )
+
+                )
+
+            [69] => Array
+                (
+                    [id] => 36
+                    [desc] => TEST safari mobile
+                    [topic] => Tip-top 
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => Jdj()
+                            [1] => Jdjd()
+                        )
+
+                )
+
+            [70] => Array
+                (
+                    [id] => 37
+                    [desc] => TEST newQ forU
+                    [topic] => BloopBoop
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [71] => Array
+                (
+                    [id] => 41
+                    [desc] => TEST new Q comin in hot, and only once
+                    [topic] => top
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => asd()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [72] => Array
+                (
+                    [id] => 42
+                    [desc] => TEST new Q comin in hot, and only once
+                    [topic] => top
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => asd()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [73] => Array
+                (
+                    [id] => 43
+                    [desc] => TEST new Q comin in hot, and only once
+                    [topic] => top
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => asd()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [74] => Array
+                (
+                    [id] => 44
+                    [desc] => TEST new Q comin in hot, and only once
+                    [topic] => top
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => asd()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [75] => Array
+                (
+                    [id] => 45
+                    [desc] => TEST new Q comin in hot, and only once
+                    [topic] => top
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => asd()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [76] => Array
+                (
+                    [id] => 46
+                    [desc] => TEST new Q comin in hot, and only once
+                    [topic] => top
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => asd()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [77] => Array
+                (
+                    [id] => 47
+                    [desc] => TEST new Q comin in hot, and only once
+                    [topic] => top
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => asd()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [78] => Array
+                (
+                    [id] => 48
+                    [desc] => TEST Should only get in once
+                    [topic] => top
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [79] => Array
+                (
+                    [id] => 49
+                    [desc] => TEST Should only get in once
+                    [topic] => top
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [80] => Array
+                (
+                    [id] => 51
+                    [desc] => TEST will this stop it?
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [81] => Array
+                (
+                    [id] => 52
+                    [desc] => TEST will this stop it?
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+            [82] => Array
+                (
+                    [id] => 53
+                    [desc] => TEST will this stop it?
+                    [topic] => lkj
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 4
+                    [tests] => Array
+                        (
+                            [0] => lkj()
+                            [1] => lkj()
+                        )
+
+                )
+
+        )
+
+)
+

@@ -17,7 +17,7 @@ if (filesize($target) >= 100000) {
 	$write = "+ log reached max; it is cleared \n"; autolog($write, $target); 
 }
 /*testpoint*/
-//$difficulty = array("2", "4"); ///test purpose.
+$decoder = array("1", "2", "3", "4"); ///test purpose.
 
 ///note, $decoder is an array of difficulties. 
 
@@ -49,9 +49,9 @@ function getQUEST($conn, $decoder) {
     } else {
       while($row = mysqli_fetch_assoc($result)) { 
 	//array_push($arrayofRows, $row); 
-	$Id = $row['Id']; 
+     	$qId = $row['Id']; 
 
-	$sql2 =  " SELECT * FROM TestCases WHERE questionId = '$Id' "; 
+	$sql2 =  " SELECT * FROM TestCases WHERE questionId = '$qId' "; 
 	if ( ! $result2 = $conn->query($sql2)) {
 	  $errorsql2 = $conn->error; 
 	  $error .= "sql2 : " . $errorsql2 . " " ; 
@@ -68,7 +68,7 @@ function getQUEST($conn, $decoder) {
 	  $diff = $row['difficulty'];
 	  $category = $row['category']; 
           $cons = getCons($conn, $qId);
-	  $temp2 = array("id" => $Id, "desc" => $question, "topic" => $category, "cons" => (array)$cons, "diff" => $diff);
+	  $temp2 = array("id" => $qId, "desc" => $question, "topic" => $category, "cons" => (array)$cons, "diff" => $diff);
 	  $temp2 = array_merge($temp2, $temp);
 	  array_push($arrayofRows, $temp2);      
 	  $temp = array(); 

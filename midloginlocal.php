@@ -1,5 +1,4 @@
 <?php
-
 //include 'Autograder.php';
 date_default_timezone_set("America/New_York"); 
 /* stores activities via a log */ 
@@ -115,8 +114,8 @@ function trace($note) {
 //************************login****************************************
 
 function loginVERIFY($user, $pass) {
-   // $url = "https://web.njit.edu/~rd248/download/backend.php";
-    $url = "https://web.njit.edu/~rd248/download/beta/back/Student&Teacher.php"; 
+// $url = "https://web.njit.edu/~rd248/download/backend.php";
+    $url = "https://web.njit.edu/~rd248/download/Student&Teacher.php"; 
     $payload = array("username" => $user, "password" => $pass, "njit" => $njit);
 // echo http_build_query($payload) . "<br>"; 
     $fac2 = curl_init(); 
@@ -137,8 +136,8 @@ function loginVERIFY($user, $pass) {
 //************************get question**********************************
 
 function getQUEST($ammo) {
-   // $tgt  = 'https://web.njit.edu/~wbv4/Middle/getQuestion.php'; 
-    $tgt  = 'https://web.njit.edu/~rd248/download/beta/back/getQuestion.php' ; 
+    $tgt  = 'https://web.njit.edu/~wbv4/Middle/getQuestion.php'; 
+    //$tgt  = 'https://web.njit.edu/~rd248/download/beta/getQuestion.php' ; 
     $proj = curl_init(); 
     curl_setopt($proj , CURLOPT_URL, $tgt); 
     curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1); 
@@ -157,8 +156,8 @@ function getQUEST($ammo) {
 //*************************add question**********************************
 
 function addQUEST($ammo) {
-    $tgt = 'https://web.njit.edu/~rd248/download/beta/back/addQuestion.php'; 
-   //$tgt  = 'https://web.njit.edu/~wbv4/Middle/addQuestion.php'; 
+    //$tgt = 'https://web.njit.edu/~rd248/download/beta/InsertQuestion.php'; 
+    $tgt  = 'https://web.njit.edu/~wbv4/Middle/addQuestion.php'; 
     $proj  = curl_init(); 
     curl_setopt($proj , CURLOPT_URL, $tgt);
     curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
@@ -185,8 +184,8 @@ if ($error = error_get_last()) {
 //*************************add exam***********************************
 
 function addExam($ammo) {
-      $tgt = 'https://web.njit.edu/~rd248/download/beta/back/MakeTest2.php';
-     // $tgt = 'https://web.njit.edu/~wbv4/Middle/MakeTest2.php';
+      //$tgt = 'https://web.njit.edu/~rd248/download/beta/MakeTest.php';
+      $tgt = 'https://web.njit.edu/~wbv4/Middle/MakeTest2.php';
       $proj = curl_init();
       curl_setopt($proj , CURLOPT_URL, $tgt);
       curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
@@ -208,8 +207,8 @@ fclose($log);
 //****************************get exam**********************************
 
 function getExam($ammo) {
-      $tgt = 'https://web.njit.edu/~rd248/download/beta/back/getTest2.php';
-     // $tgt = 'https://web.njit.edu/~wbv4/Middle/getTest2.php';
+      //$tgt = 'https://web.njit.edu/~rd248/download/beta/getTest2.php';
+      $tgt = 'https://web.njit.edu/~wbv4/Middle/getTest2.php';
       $proj = curl_init();
       curl_setopt($proj , CURLOPT_URL, $tgt);
       curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
@@ -229,8 +228,8 @@ function getExam($ammo) {
 //****************************get exam**********************************
 
 function submitExam($ammo) {
-      $tgt = 'https://web.njit.edu/~rd248/download/beta/back/SubmitTest2.php';
-     // $tgt = 'https://web.njit.edu/~wbv4/Middle/SubmitTest2.php';
+      //$tgt = 'https://web.njit.edu/~rd248/download/beta/SubmitTest.php';
+      $tgt = 'https://web.njit.edu/~wbv4/Middle/SubmitTest2.php';
       $proj = curl_init();
       curl_setopt($proj , CURLOPT_URL, $tgt);
       curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
@@ -249,8 +248,8 @@ function submitExam($ammo) {
 //****************************get answers**********************************
 
 function getAnswers($ammo) {
-      $tgt = 'https://web.njit.edu/~rd248/download/beta/back/getAnswers.php'; 
-     // $tgt = 'https://web.njit.edu/~wbv4/Middle/getAnswers.php';
+      $tgt = 'https://web.njit.edu/~rd248/download/beta/getAnswers.php'; 
+      //$tgt = 'https://web.njit.edu/~wbv4/Middle/getAnswers.php';
       $proj = curl_init();
       curl_setopt($proj , CURLOPT_URL, $tgt);
       curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
@@ -270,8 +269,7 @@ function getAnswers($ammo) {
 //****************************get attempt **********************************
 
 function getAttempt($ammo) {
-     //$tgt = 'https://web.njit.edu/~wbv4/Middle/getAttempt.php'; 
-      $tgt = 'https://web.njit.edu/~rd248/download/beta/back/getAttempt.php'; 
+      $tgt = 'https://web.njit.edu/~wbv4/Middle/getAttempt.php'; 
       $proj = curl_init();
       curl_setopt($proj , CURLOPT_URL, $tgt);
       curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);

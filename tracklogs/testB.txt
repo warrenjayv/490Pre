@@ -86,3 +86,960 @@ question object for test built!
 
 obtaining points from each question id: 94 
 pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:47:32pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:47:32pm
+executing testObject() with testId = 32
+SELECT * FROM Test WHERE Id = '32' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 32
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 70 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 91 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:47:32pm
+executing testObject() with testId = 35
+SELECT * FROM Test WHERE Id = '35' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 35
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 94 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:47:40pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:47:40pm
+executing testObject() with testId = 32
+SELECT * FROM Test WHERE Id = '32' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 32
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 70 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 91 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:47:40pm
+executing testObject() with testId = 35
+SELECT * FROM Test WHERE Id = '35' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 35
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 94 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:49:59pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:49:59pm
+executing testObject() with testId = 32
+SELECT * FROM Test WHERE Id = '32' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 32
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 70 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 91 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:49:59pm
+executing testObject() with testId = 35
+SELECT * FROM Test WHERE Id = '35' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 35
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 94 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:52:49pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:52:49pm
+executing testObject() with testId = 32
+SELECT * FROM Test WHERE Id = '32' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 32
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 70 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 91 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:52:49pm
+executing testObject() with testId = 35
+SELECT * FROM Test WHERE Id = '35' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 35
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 94 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:55:31pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:55:31pm
+executing testObject() with testId = 32
+SELECT * FROM Test WHERE Id = '32' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 32
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 70 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 91 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:55:31pm
+executing testObject() with testId = 35
+SELECT * FROM Test WHERE Id = '35' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 35
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 94 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:55:59pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:56:00pm
+executing testObject() with testId = 32
+SELECT * FROM Test WHERE Id = '32' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 32
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 70 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 91 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:56:00pm
+executing testObject() with testId = 35
+SELECT * FROM Test WHERE Id = '35' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 35
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 94 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:25pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:25pm
+executing testObject() with testId = 32
+SELECT * FROM Test WHERE Id = '32' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 32
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 70 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 91 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:25pm
+executing testObject() with testId = 35
+SELECT * FROM Test WHERE Id = '35' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 35
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 94 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:27pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:27pm
+executing testObject() with testId = 32
+SELECT * FROM Test WHERE Id = '32' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 32
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 70 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 91 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:27pm
+executing testObject() with testId = 35
+SELECT * FROM Test WHERE Id = '35' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 35
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 94 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:29pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:29pm
+executing testObject() with testId = 32
+SELECT * FROM Test WHERE Id = '32' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 32
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 70 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 91 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:29pm
+executing testObject() with testId = 35
+SELECT * FROM Test WHERE Id = '35' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 35
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 94 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:40pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:40pm
+executing testObject() with testId = 32
+SELECT * FROM Test WHERE Id = '32' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 32
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 70 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 91 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:40pm
+executing testObject() with testId = 35
+SELECT * FROM Test WHERE Id = '35' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 35
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 94 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:42pm
+executing testObject() with testId = 10
+SELECT * FROM Test WHERE Id = '10' 
+test being formed (temp1)...
+Array
+(
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 10
+    [desc] => TEST 3Q's
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 3 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 2 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 1 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:42pm
+executing testObject() with testId = 32
+SELECT * FROM Test WHERE Id = '32' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 32
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 70 
+pts for this question : 100 
+question object for test built!
+
+obtaining points from each question id: 91 
+pts for this question : 100 
+[ + ] page accessed testB 2019-04-11 10:59:42pm
+executing testObject() with testId = 35
+SELECT * FROM Test WHERE Id = '35' 
+test being formed (temp1)...
+Array
+(
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+test being formed (temp) ...
+Array
+(
+    [id] => 35
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 1
+)
+
+building question object for test...
+question object for test built!
+
+obtaining points from each question id: 94 
+pts for this question : 100 
