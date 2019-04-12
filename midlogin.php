@@ -2,6 +2,7 @@
 //include 'Autograder.php';
 date_default_timezone_set("America/New_York"); 
 /* stores activities via a log */ 
+include 'autogradermid2.php'; 
 
 $log = fopen('/afs/cad/u/w/b/wbv4/public_html/Middle/log.txt', 'a'); 
 $write .= "page accessed " . date("Y-m-d h:i:sa") . "\n"; 
@@ -94,7 +95,8 @@ if (! empty($demux['type']) && ($demux['type'] == 'getAnswers')) {
 if (! empty($demux['type']) && ($demux['type'] == 'getA')) {
     $note = "running getAttempt() \n"; 
     $write .= trace($note); 
-    echo getAttempt($demux); 
+    echo getAttempt($demux);
+    grade();  
 }
 
 /*

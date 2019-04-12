@@ -68,7 +68,7 @@ function getQUEST($conn, $decoder) {
 	  $diff = $row['difficulty'];
 	  $category = $row['category']; 
           $cons = getCons($conn, $qId);
-	  $temp2 = array("id" => $Id, "desc" => $question, "topic" => $category, "cons" => $cons, "diff" => $diff);
+	  $temp2 = array("id" => $Id, "desc" => $question, "topic" => $category, "cons" => (array)$cons, "diff" => $diff);
 	  $temp2 = array_merge($temp2, $temp);
 	  array_push($arrayofRows, $temp2);      
 	  $temp = array(); 
@@ -96,20 +96,24 @@ function getQUEST($conn, $decoder) {
 }//getQUEST()
 
 function getCons($conn, $qId) {
+    $target = targetIs('getQ'); 
+    $write = "+ calling getCons() ... \n"; autolog($write, $target); 
 	/* return an array of cons for qId */ 
-	$cons = array(); 
+    $cons = array(); 
     $sql = " SELECT * FROM QuestionsConstraints WHERE questionId = '$qId' "; 
 	if ( ! $result = $conn->query($sql)) {
 		$errorsql = $conn->error; 
 		$error = "sql :" . $errorsql . " "; 
-		return $error; 
-    }
+		return  $error; 
+        }
 
     while($row = mysqli_fetch_assoc($result)) {
+        $write = "+ pushing into cons array : \n" . $row['constraintext'] . "\n"; 
+        autolog($write, $target); 
 	array_push($cons, $row['constraintext']); 
      }//while row mysqli fetch
 	
-	return $cons; 
+     return $cons; 
 }//getCons() 
 mysqli_close($conn);
 

@@ -1,5 +1,100 @@
 
 + log reached max; it is cleared 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
 + getQuest() produced the object:
 Array
 (
@@ -235,8 +330,8 @@ Array
                     [diff] => 2
                     [tests] => Array
                         (
-                            [0] => count(20)=20
-                            [1] => count(50)=50
+                            [0] => Count(20)=20
+                            [1] => Count(50)=50
                             [2] => Count(10)=10
                             [3] => Count(5)=10
                         )
@@ -317,6 +412,24 @@ Array
 
             [17] => Array
                 (
+                    [id] => 91
+                    [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+                    [topic] => triple
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => Triple(2)=6
+                            [1] => Triple(3)=9
+                        )
+
+                )
+
+            [18] => Array
+                (
                     [id] => 2
                     [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
                     [topic] => multi
@@ -332,7 +445,7 @@ Array
 
                 )
 
-            [18] => Array
+            [19] => Array
                 (
                     [id] => 3
                     [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
@@ -344,13 +457,13 @@ Array
                     [diff] => 3
                     [tests] => Array
                         (
-                            [0] => sub(3,2)=1
-                            [1] => sub(4,2)=2
+                            [0] => Sub(3,2)=1
+                            [1] => Sub(4,2)=2
                         )
 
                 )
 
-            [19] => Array
+            [20] => Array
                 (
                     [id] => 11
                     [desc] => blaksdhfak
@@ -368,7 +481,7 @@ Array
 
                 )
 
-            [20] => Array
+            [21] => Array
                 (
                     [id] => 13
                     [desc] => asdf
@@ -386,7 +499,7 @@ Array
 
                 )
 
-            [21] => Array
+            [22] => Array
                 (
                     [id] => 14
                     [desc] => TEST new alerts
@@ -404,7 +517,7 @@ Array
 
                 )
 
-            [22] => Array
+            [23] => Array
                 (
                     [id] => 15
                     [desc] => TEST success alerts
@@ -422,7 +535,7 @@ Array
 
                 )
 
-            [23] => Array
+            [24] => Array
                 (
                     [id] => 16
                     [desc] => TEST success
@@ -440,7 +553,7 @@ Array
 
                 )
 
-            [24] => Array
+            [25] => Array
                 (
                     [id] => 17
                     [desc] => TEST clearing
@@ -458,7 +571,7 @@ Array
 
                 )
 
-            [25] => Array
+            [26] => Array
                 (
                     [id] => 18
                     [desc] => TEST clearing TA
@@ -476,7 +589,7 @@ Array
 
                 )
 
-            [26] => Array
+            [27] => Array
                 (
                     [id] => 19
                     [desc] => TEST clearing TA value
@@ -494,7 +607,7 @@ Array
 
                 )
 
-            [27] => Array
+            [28] => Array
                 (
                     [id] => 20
                     [desc] => TESTING clearing value and inner
@@ -512,7 +625,7 @@ Array
 
                 )
 
-            [28] => Array
+            [29] => Array
                 (
                     [id] => 21
                     [desc] => TEST clearing this hsti
@@ -530,7 +643,7 @@ Array
 
                 )
 
-            [29] => Array
+            [30] => Array
                 (
                     [id] => 22
                     [desc] => TEST timing
@@ -548,7 +661,7 @@ Array
 
                 )
 
-            [30] => Array
+            [31] => Array
                 (
                     [id] => 23
                     [desc] => TEST ldkj
@@ -566,7 +679,7 @@ Array
 
                 )
 
-            [31] => Array
+            [32] => Array
                 (
                     [id] => 24
                     [desc] => TEST testin
@@ -584,7 +697,7 @@ Array
 
                 )
 
-            [32] => Array
+            [33] => Array
                 (
                     [id] => 25
                     [desc] => TEST kdajf;
@@ -602,7 +715,7 @@ Array
 
                 )
 
-            [33] => Array
+            [34] => Array
                 (
                     [id] => 26
                     [desc] => TEST lkja
@@ -620,7 +733,7 @@ Array
 
                 )
 
-            [34] => Array
+            [35] => Array
                 (
                     [id] => 27
                     [desc] => kldj;
@@ -638,7 +751,7 @@ Array
 
                 )
 
-            [35] => Array
+            [36] => Array
                 (
                     [id] => 29
                     [desc] => TEST timing
@@ -656,7 +769,7 @@ Array
 
                 )
 
-            [36] => Array
+            [37] => Array
                 (
                     [id] => 30
                     [desc] => TEST timinggg
@@ -674,7 +787,7 @@ Array
 
                 )
 
-            [37] => Array
+            [38] => Array
                 (
                     [id] => 31
                     [desc] => TEST timinng
@@ -692,7 +805,7 @@ Array
 
                 )
 
-            [38] => Array
+            [39] => Array
                 (
                     [id] => 33
                     [desc] => TEST checkboxes
@@ -710,7 +823,7 @@ Array
 
                 )
 
-            [39] => Array
+            [40] => Array
                 (
                     [id] => 58
                     [desc] => ;alskj
@@ -728,7 +841,7 @@ Array
 
                 )
 
-            [40] => Array
+            [41] => Array
                 (
                     [id] => 60
                     [desc] => TEST testcasesregex
@@ -746,7 +859,7 @@ Array
 
                 )
 
-            [41] => Array
+            [42] => Array
                 (
                     [id] => 61
                     [desc] => TEST regex
@@ -764,7 +877,7 @@ Array
 
                 )
 
-            [42] => Array
+            [43] => Array
                 (
                     [id] => 62
                     [desc] => TEST LKJ
@@ -782,7 +895,7 @@ Array
 
                 )
 
-            [43] => Array
+            [44] => Array
                 (
                     [id] => 63
                     [desc] => TEST re
@@ -800,7 +913,7 @@ Array
 
                 )
 
-            [44] => Array
+            [45] => Array
                 (
                     [id] => 64
                     [desc] => adsf
@@ -818,7 +931,7 @@ Array
 
                 )
 
-            [45] => Array
+            [46] => Array
                 (
                     [id] => 65
                     [desc] => TEST testsdfs
@@ -836,7 +949,7 @@ Array
 
                 )
 
-            [46] => Array
+            [47] => Array
                 (
                     [id] => 66
                     [desc] => TEST params
@@ -854,7 +967,7 @@ Array
 
                 )
 
-            [47] => Array
+            [48] => Array
                 (
                     [id] => 67
                     [desc] => lkj
@@ -875,7 +988,7 @@ Array
 
                 )
 
-            [48] => Array
+            [49] => Array
                 (
                     [id] => 68
                     [desc] => l;kj
@@ -893,7 +1006,7 @@ Array
 
                 )
 
-            [49] => Array
+            [50] => Array
                 (
                     [id] => 71
                     [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
@@ -913,7 +1026,7 @@ Array
 
                 )
 
-            [50] => Array
+            [51] => Array
                 (
                     [id] => 72
                     [desc] => asdf
@@ -931,7 +1044,7 @@ Array
 
                 )
 
-            [51] => Array
+            [52] => Array
                 (
                     [id] => 73
                     [desc] => asdf
@@ -949,7 +1062,7 @@ Array
 
                 )
 
-            [52] => Array
+            [53] => Array
                 (
                     [id] => 74
                     [desc] => asdf
@@ -967,7 +1080,7 @@ Array
 
                 )
 
-            [53] => Array
+            [54] => Array
                 (
                     [id] => 75
                     [desc] => asdf
@@ -985,7 +1098,7 @@ Array
 
                 )
 
-            [54] => Array
+            [55] => Array
                 (
                     [id] => 76
                     [desc] => asdf
@@ -1003,7 +1116,7 @@ Array
 
                 )
 
-            [55] => Array
+            [56] => Array
                 (
                     [id] => 78
                     [desc] => asdf
@@ -1020,7 +1133,7 @@ Array
 
                 )
 
-            [56] => Array
+            [57] => Array
                 (
                     [id] => 79
                     [desc] => asdf
@@ -1038,7 +1151,7 @@ Array
 
                 )
 
-            [57] => Array
+            [58] => Array
                 (
                     [id] => 80
                     [desc] => asdf
@@ -1056,7 +1169,7 @@ Array
 
                 )
 
-            [58] => Array
+            [59] => Array
                 (
                     [id] => 81
                     [desc] => asdf
@@ -1074,7 +1187,7 @@ Array
 
                 )
 
-            [59] => Array
+            [60] => Array
                 (
                     [id] => 82
                     [desc] => asdf
@@ -1092,7 +1205,7 @@ Array
 
                 )
 
-            [60] => Array
+            [61] => Array
                 (
                     [id] => 83
                     [desc] => asdf
@@ -1110,7 +1223,7 @@ Array
 
                 )
 
-            [61] => Array
+            [62] => Array
                 (
                     [id] => 84
                     [desc] => asdf
@@ -1128,7 +1241,7 @@ Array
 
                 )
 
-            [62] => Array
+            [63] => Array
                 (
                     [id] => 85
                     [desc] => asdf
@@ -1146,7 +1259,7 @@ Array
 
                 )
 
-            [63] => Array
+            [64] => Array
                 (
                     [id] => 86
                     [desc] => asdf
@@ -1164,7 +1277,25 @@ Array
 
                 )
 
-            [64] => Array
+            [65] => Array
+                (
+                    [id] => 94
+                    [desc] => run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. 
+                    [topic] => while
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Run(5)=5
+                            [1] => Run(6)=6
+                        )
+
+                )
+
+            [66] => Array
                 (
                     [id] => 4
                     [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
@@ -1182,7 +1313,7 @@ Array
 
                 )
 
-            [65] => Array
+            [67] => Array
                 (
                     [id] => 6
                     [desc] => TEST blah Q
@@ -1200,7 +1331,7 @@ Array
 
                 )
 
-            [66] => Array
+            [68] => Array
                 (
                     [id] => 7
                     [desc] => TEST blah Q
@@ -1218,7 +1349,7 @@ Array
 
                 )
 
-            [67] => Array
+            [69] => Array
                 (
                     [id] => 36
                     [desc] => TEST safari mobile
@@ -1236,7 +1367,7 @@ Array
 
                 )
 
-            [68] => Array
+            [70] => Array
                 (
                     [id] => 37
                     [desc] => TEST newQ forU
@@ -1254,7 +1385,7 @@ Array
 
                 )
 
-            [69] => Array
+            [71] => Array
                 (
                     [id] => 41
                     [desc] => TEST new Q comin in hot, and only once
@@ -1272,7 +1403,7 @@ Array
 
                 )
 
-            [70] => Array
+            [72] => Array
                 (
                     [id] => 42
                     [desc] => TEST new Q comin in hot, and only once
@@ -1290,7 +1421,7 @@ Array
 
                 )
 
-            [71] => Array
+            [73] => Array
                 (
                     [id] => 43
                     [desc] => TEST new Q comin in hot, and only once
@@ -1308,7 +1439,7 @@ Array
 
                 )
 
-            [72] => Array
+            [74] => Array
                 (
                     [id] => 44
                     [desc] => TEST new Q comin in hot, and only once
@@ -1326,7 +1457,7 @@ Array
 
                 )
 
-            [73] => Array
+            [75] => Array
                 (
                     [id] => 45
                     [desc] => TEST new Q comin in hot, and only once
@@ -1344,7 +1475,7 @@ Array
 
                 )
 
-            [74] => Array
+            [76] => Array
                 (
                     [id] => 46
                     [desc] => TEST new Q comin in hot, and only once
@@ -1362,7 +1493,7 @@ Array
 
                 )
 
-            [75] => Array
+            [77] => Array
                 (
                     [id] => 47
                     [desc] => TEST new Q comin in hot, and only once
@@ -1380,7 +1511,7 @@ Array
 
                 )
 
-            [76] => Array
+            [78] => Array
                 (
                     [id] => 48
                     [desc] => TEST Should only get in once
@@ -1398,7 +1529,7 @@ Array
 
                 )
 
-            [77] => Array
+            [79] => Array
                 (
                     [id] => 49
                     [desc] => TEST Should only get in once
@@ -1416,7 +1547,7 @@ Array
 
                 )
 
-            [78] => Array
+            [80] => Array
                 (
                     [id] => 51
                     [desc] => TEST will this stop it?
@@ -1434,7 +1565,7 @@ Array
 
                 )
 
-            [79] => Array
+            [81] => Array
                 (
                     [id] => 52
                     [desc] => TEST will this stop it?
@@ -1452,7 +1583,7 @@ Array
 
                 )
 
-            [80] => Array
+            [82] => Array
                 (
                     [id] => 53
                     [desc] => TEST will this stop it?
@@ -1470,7 +1601,7 @@ Array
 
                 )
 
-            [81] => Array
+            [83] => Array
                 (
                     [id] => 9
                     [desc] => This will be the first Q with constraints
@@ -1488,7 +1619,7 @@ Array
 
                 )
 
-            [82] => Array
+            [84] => Array
                 (
                     [id] => 28
                     [desc] => TEST finally got it i think
@@ -1508,7 +1639,7 @@ Array
 
                 )
 
-            [83] => Array
+            [85] => Array
                 (
                     [id] => 34
                     [desc] => TEST range
@@ -1526,7 +1657,7 @@ Array
 
                 )
 
-            [84] => Array
+            [86] => Array
                 (
                     [id] => 35
                     [desc] => TEST new Q coming through
@@ -1544,7 +1675,7 @@ Array
 
                 )
 
-            [85] => Array
+            [87] => Array
                 (
                     [id] => 54
                     [desc] => TEST i think i got it
@@ -1562,7 +1693,7 @@ Array
 
                 )
 
-            [86] => Array
+            [88] => Array
                 (
                     [id] => 55
                     [desc] => TEST this can only be submitted once
@@ -1580,7 +1711,7 @@ Array
 
                 )
 
-            [87] => Array
+            [89] => Array
                 (
                     [id] => 56
                     [desc] => TEST testin
@@ -1598,7 +1729,7 @@ Array
 
                 )
 
-            [88] => Array
+            [90] => Array
                 (
                     [id] => 59
                     [desc] => TEST testcases
@@ -1616,7 +1747,7 @@ Array
 
                 )
 
-            [89] => Array
+            [91] => Array
                 (
                     [id] => 89
                     [desc] => TEST Here's a question with a For-loop constraint
@@ -1630,6 +1761,60 @@ Array
                         (
                             [0] => blah()=a
                             [1] => blah()=b
+                        )
+
+                )
+
+            [92] => Array
+                (
+                    [id] => 92
+                    [desc] => This Question Has All Constraints
+                    [topic] => Constraints
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 5
+                    [tests] => Array
+                        (
+                            [0] => con()=con
+                            [1] => con()=con
+                        )
+
+                )
+
+            [93] => Array
+                (
+                    [id] => 93
+                    [desc] => New Q for with really long topic
+                    [topic] => Strings and Numbers and Floats and Stff
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 5
+                    [tests] => Array
+                        (
+                            [0] => abc()=sd
+                            [1] => abc()=d
+                        )
+
+                )
+
+            [94] => Array
+                (
+                    [id] => 95
+                    [desc] => Here's a new Q with some constraints.
+                    [topic] => Constraints
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 5
+                    [tests] => Array
+                        (
+                            [0] => con()=d
+                            [1] => con()=d
                         )
 
                 )
@@ -1638,8 +1823,103 @@ Array
 
 )
 
-[ + ] page accessed getQ 2019-04-10 04:34:26pm
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getQ.txt = 44046
+[ + ] page accessed getQ 2019-04-11 10:37:30pm
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getQ.txt = 49100
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
++ calling getCons() ... 
 + getQuest() produced the object:
 Array
 (
@@ -1875,8 +2155,8 @@ Array
                     [diff] => 2
                     [tests] => Array
                         (
-                            [0] => count(20)=20
-                            [1] => count(50)=50
+                            [0] => Count(20)=20
+                            [1] => Count(50)=50
                             [2] => Count(10)=10
                             [3] => Count(5)=10
                         )
@@ -1957,6 +2237,24 @@ Array
 
             [17] => Array
                 (
+                    [id] => 91
+                    [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+                    [topic] => triple
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 2
+                    [tests] => Array
+                        (
+                            [0] => Triple(2)=6
+                            [1] => Triple(3)=9
+                        )
+
+                )
+
+            [18] => Array
+                (
                     [id] => 2
                     [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
                     [topic] => multi
@@ -1972,7 +2270,7 @@ Array
 
                 )
 
-            [18] => Array
+            [19] => Array
                 (
                     [id] => 3
                     [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
@@ -1984,13 +2282,13 @@ Array
                     [diff] => 3
                     [tests] => Array
                         (
-                            [0] => sub(3,2)=1
-                            [1] => sub(4,2)=2
+                            [0] => Sub(3,2)=1
+                            [1] => Sub(4,2)=2
                         )
 
                 )
 
-            [19] => Array
+            [20] => Array
                 (
                     [id] => 11
                     [desc] => blaksdhfak
@@ -2008,7 +2306,7 @@ Array
 
                 )
 
-            [20] => Array
+            [21] => Array
                 (
                     [id] => 13
                     [desc] => asdf
@@ -2026,7 +2324,7 @@ Array
 
                 )
 
-            [21] => Array
+            [22] => Array
                 (
                     [id] => 14
                     [desc] => TEST new alerts
@@ -2044,7 +2342,7 @@ Array
 
                 )
 
-            [22] => Array
+            [23] => Array
                 (
                     [id] => 15
                     [desc] => TEST success alerts
@@ -2062,7 +2360,7 @@ Array
 
                 )
 
-            [23] => Array
+            [24] => Array
                 (
                     [id] => 16
                     [desc] => TEST success
@@ -2080,7 +2378,7 @@ Array
 
                 )
 
-            [24] => Array
+            [25] => Array
                 (
                     [id] => 17
                     [desc] => TEST clearing
@@ -2098,7 +2396,7 @@ Array
 
                 )
 
-            [25] => Array
+            [26] => Array
                 (
                     [id] => 18
                     [desc] => TEST clearing TA
@@ -2116,7 +2414,7 @@ Array
 
                 )
 
-            [26] => Array
+            [27] => Array
                 (
                     [id] => 19
                     [desc] => TEST clearing TA value
@@ -2134,7 +2432,7 @@ Array
 
                 )
 
-            [27] => Array
+            [28] => Array
                 (
                     [id] => 20
                     [desc] => TESTING clearing value and inner
@@ -2152,7 +2450,7 @@ Array
 
                 )
 
-            [28] => Array
+            [29] => Array
                 (
                     [id] => 21
                     [desc] => TEST clearing this hsti
@@ -2170,7 +2468,7 @@ Array
 
                 )
 
-            [29] => Array
+            [30] => Array
                 (
                     [id] => 22
                     [desc] => TEST timing
@@ -2188,7 +2486,7 @@ Array
 
                 )
 
-            [30] => Array
+            [31] => Array
                 (
                     [id] => 23
                     [desc] => TEST ldkj
@@ -2206,7 +2504,7 @@ Array
 
                 )
 
-            [31] => Array
+            [32] => Array
                 (
                     [id] => 24
                     [desc] => TEST testin
@@ -2224,7 +2522,7 @@ Array
 
                 )
 
-            [32] => Array
+            [33] => Array
                 (
                     [id] => 25
                     [desc] => TEST kdajf;
@@ -2242,7 +2540,7 @@ Array
 
                 )
 
-            [33] => Array
+            [34] => Array
                 (
                     [id] => 26
                     [desc] => TEST lkja
@@ -2260,7 +2558,7 @@ Array
 
                 )
 
-            [34] => Array
+            [35] => Array
                 (
                     [id] => 27
                     [desc] => kldj;
@@ -2278,7 +2576,7 @@ Array
 
                 )
 
-            [35] => Array
+            [36] => Array
                 (
                     [id] => 29
                     [desc] => TEST timing
@@ -2296,7 +2594,7 @@ Array
 
                 )
 
-            [36] => Array
+            [37] => Array
                 (
                     [id] => 30
                     [desc] => TEST timinggg
@@ -2314,7 +2612,7 @@ Array
 
                 )
 
-            [37] => Array
+            [38] => Array
                 (
                     [id] => 31
                     [desc] => TEST timinng
@@ -2332,7 +2630,7 @@ Array
 
                 )
 
-            [38] => Array
+            [39] => Array
                 (
                     [id] => 33
                     [desc] => TEST checkboxes
@@ -2350,7 +2648,7 @@ Array
 
                 )
 
-            [39] => Array
+            [40] => Array
                 (
                     [id] => 58
                     [desc] => ;alskj
@@ -2368,7 +2666,7 @@ Array
 
                 )
 
-            [40] => Array
+            [41] => Array
                 (
                     [id] => 60
                     [desc] => TEST testcasesregex
@@ -2386,7 +2684,7 @@ Array
 
                 )
 
-            [41] => Array
+            [42] => Array
                 (
                     [id] => 61
                     [desc] => TEST regex
@@ -2404,7 +2702,7 @@ Array
 
                 )
 
-            [42] => Array
+            [43] => Array
                 (
                     [id] => 62
                     [desc] => TEST LKJ
@@ -2422,7 +2720,7 @@ Array
 
                 )
 
-            [43] => Array
+            [44] => Array
                 (
                     [id] => 63
                     [desc] => TEST re
@@ -2440,7 +2738,7 @@ Array
 
                 )
 
-            [44] => Array
+            [45] => Array
                 (
                     [id] => 64
                     [desc] => adsf
@@ -2458,7 +2756,7 @@ Array
 
                 )
 
-            [45] => Array
+            [46] => Array
                 (
                     [id] => 65
                     [desc] => TEST testsdfs
@@ -2476,7 +2774,7 @@ Array
 
                 )
 
-            [46] => Array
+            [47] => Array
                 (
                     [id] => 66
                     [desc] => TEST params
@@ -2494,7 +2792,7 @@ Array
 
                 )
 
-            [47] => Array
+            [48] => Array
                 (
                     [id] => 67
                     [desc] => lkj
@@ -2515,7 +2813,7 @@ Array
 
                 )
 
-            [48] => Array
+            [49] => Array
                 (
                     [id] => 68
                     [desc] => l;kj
@@ -2533,7 +2831,7 @@ Array
 
                 )
 
-            [49] => Array
+            [50] => Array
                 (
                     [id] => 71
                     [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
@@ -2553,7 +2851,7 @@ Array
 
                 )
 
-            [50] => Array
+            [51] => Array
                 (
                     [id] => 72
                     [desc] => asdf
@@ -2571,7 +2869,7 @@ Array
 
                 )
 
-            [51] => Array
+            [52] => Array
                 (
                     [id] => 73
                     [desc] => asdf
@@ -2589,7 +2887,7 @@ Array
 
                 )
 
-            [52] => Array
+            [53] => Array
                 (
                     [id] => 74
                     [desc] => asdf
@@ -2607,7 +2905,7 @@ Array
 
                 )
 
-            [53] => Array
+            [54] => Array
                 (
                     [id] => 75
                     [desc] => asdf
@@ -2625,7 +2923,7 @@ Array
 
                 )
 
-            [54] => Array
+            [55] => Array
                 (
                     [id] => 76
                     [desc] => asdf
@@ -2643,7 +2941,7 @@ Array
 
                 )
 
-            [55] => Array
+            [56] => Array
                 (
                     [id] => 78
                     [desc] => asdf
@@ -2660,7 +2958,7 @@ Array
 
                 )
 
-            [56] => Array
+            [57] => Array
                 (
                     [id] => 79
                     [desc] => asdf
@@ -2678,7 +2976,7 @@ Array
 
                 )
 
-            [57] => Array
+            [58] => Array
                 (
                     [id] => 80
                     [desc] => asdf
@@ -2696,7 +2994,7 @@ Array
 
                 )
 
-            [58] => Array
+            [59] => Array
                 (
                     [id] => 81
                     [desc] => asdf
@@ -2714,7 +3012,7 @@ Array
 
                 )
 
-            [59] => Array
+            [60] => Array
                 (
                     [id] => 82
                     [desc] => asdf
@@ -2732,7 +3030,7 @@ Array
 
                 )
 
-            [60] => Array
+            [61] => Array
                 (
                     [id] => 83
                     [desc] => asdf
@@ -2750,7 +3048,7 @@ Array
 
                 )
 
-            [61] => Array
+            [62] => Array
                 (
                     [id] => 84
                     [desc] => asdf
@@ -2768,7 +3066,7 @@ Array
 
                 )
 
-            [62] => Array
+            [63] => Array
                 (
                     [id] => 85
                     [desc] => asdf
@@ -2786,7 +3084,7 @@ Array
 
                 )
 
-            [63] => Array
+            [64] => Array
                 (
                     [id] => 86
                     [desc] => asdf
@@ -2804,7 +3102,25 @@ Array
 
                 )
 
-            [64] => Array
+            [65] => Array
+                (
+                    [id] => 94
+                    [desc] => run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. 
+                    [topic] => while
+                    [cons] => Array
+                        (
+                        )
+
+                    [diff] => 3
+                    [tests] => Array
+                        (
+                            [0] => Run(5)=5
+                            [1] => Run(6)=6
+                        )
+
+                )
+
+            [66] => Array
                 (
                     [id] => 4
                     [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
@@ -2822,7 +3138,7 @@ Array
 
                 )
 
-            [65] => Array
+            [67] => Array
                 (
                     [id] => 6
                     [desc] => TEST blah Q
@@ -2840,7 +3156,7 @@ Array
 
                 )
 
-            [66] => Array
+            [68] => Array
                 (
                     [id] => 7
                     [desc] => TEST blah Q
@@ -2858,7 +3174,7 @@ Array
 
                 )
 
-            [67] => Array
+            [69] => Array
                 (
                     [id] => 36
                     [desc] => TEST safari mobile
@@ -2876,7 +3192,7 @@ Array
 
                 )
 
-            [68] => Array
+            [70] => Array
                 (
                     [id] => 37
                     [desc] => TEST newQ forU
@@ -2894,7 +3210,7 @@ Array
 
                 )
 
-            [69] => Array
+            [71] => Array
                 (
                     [id] => 41
                     [desc] => TEST new Q comin in hot, and only once
@@ -2912,7 +3228,7 @@ Array
 
                 )
 
-            [70] => Array
+            [72] => Array
                 (
                     [id] => 42
                     [desc] => TEST new Q comin in hot, and only once
@@ -2930,7 +3246,7 @@ Array
 
                 )
 
-            [71] => Array
+            [73] => Array
                 (
                     [id] => 43
                     [desc] => TEST new Q comin in hot, and only once
@@ -2948,7 +3264,7 @@ Array
 
                 )
 
-            [72] => Array
+            [74] => Array
                 (
                     [id] => 44
                     [desc] => TEST new Q comin in hot, and only once
@@ -2966,7 +3282,7 @@ Array
 
                 )
 
-            [73] => Array
+            [75] => Array
                 (
                     [id] => 45
                     [desc] => TEST new Q comin in hot, and only once
@@ -2984,7 +3300,7 @@ Array
 
                 )
 
-            [74] => Array
+            [76] => Array
                 (
                     [id] => 46
                     [desc] => TEST new Q comin in hot, and only once
@@ -3002,7 +3318,7 @@ Array
 
                 )
 
-            [75] => Array
+            [77] => Array
                 (
                     [id] => 47
                     [desc] => TEST new Q comin in hot, and only once
@@ -3020,7 +3336,7 @@ Array
 
                 )
 
-            [76] => Array
+            [78] => Array
                 (
                     [id] => 48
                     [desc] => TEST Should only get in once
@@ -3038,7 +3354,7 @@ Array
 
                 )
 
-            [77] => Array
+            [79] => Array
                 (
                     [id] => 49
                     [desc] => TEST Should only get in once
@@ -3056,7 +3372,7 @@ Array
 
                 )
 
-            [78] => Array
+            [80] => Array
                 (
                     [id] => 51
                     [desc] => TEST will this stop it?
@@ -3074,7 +3390,7 @@ Array
 
                 )
 
-            [79] => Array
+            [81] => Array
                 (
                     [id] => 52
                     [desc] => TEST will this stop it?
@@ -3092,7 +3408,7 @@ Array
 
                 )
 
-            [80] => Array
+            [82] => Array
                 (
                     [id] => 53
                     [desc] => TEST will this stop it?
@@ -3110,7 +3426,7 @@ Array
 
                 )
 
-            [81] => Array
+            [83] => Array
                 (
                     [id] => 9
                     [desc] => This will be the first Q with constraints
@@ -3128,7 +3444,7 @@ Array
 
                 )
 
-            [82] => Array
+            [84] => Array
                 (
                     [id] => 28
                     [desc] => TEST finally got it i think
@@ -3148,7 +3464,7 @@ Array
 
                 )
 
-            [83] => Array
+            [85] => Array
                 (
                     [id] => 34
                     [desc] => TEST range
@@ -3166,7 +3482,7 @@ Array
 
                 )
 
-            [84] => Array
+            [86] => Array
                 (
                     [id] => 35
                     [desc] => TEST new Q coming through
@@ -3184,7 +3500,7 @@ Array
 
                 )
 
-            [85] => Array
+            [87] => Array
                 (
                     [id] => 54
                     [desc] => TEST i think i got it
@@ -3202,7 +3518,7 @@ Array
 
                 )
 
-            [86] => Array
+            [88] => Array
                 (
                     [id] => 55
                     [desc] => TEST this can only be submitted once
@@ -3220,7 +3536,7 @@ Array
 
                 )
 
-            [87] => Array
+            [89] => Array
                 (
                     [id] => 56
                     [desc] => TEST testin
@@ -3238,7 +3554,7 @@ Array
 
                 )
 
-            [88] => Array
+            [90] => Array
                 (
                     [id] => 59
                     [desc] => TEST testcases
@@ -3256,7 +3572,7 @@ Array
 
                 )
 
-            [89] => Array
+            [91] => Array
                 (
                     [id] => 89
                     [desc] => TEST Here's a question with a For-loop constraint
@@ -3274,1487 +3590,11 @@ Array
 
                 )
 
-        )
-
-)
-
-[ + ] page accessed getQ 2019-04-10 04:35:26pm
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getQ.txt = 88194
-+ getQuest() produced the object:
-Array
-(
-    [type] => getQ
-    [error] => 0
-    [ques] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 1
-                    [desc] => create a function add which takes 2 parameters and returns the sum.
-                    [topic] => add
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 1
-                    [tests] => Array
-                        (
-                            [0] => add(2,3)=5
-                            [1] => add(4,4)=8
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [id] => 38
-                    [desc] => What is life?
-                    [topic] => Life and Blue
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 1
-                    [tests] => Array
-                        (
-                            [0] => Life(a)=life
-                            [1] => Life(b)=blue
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [id] => 69
-                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
-                    [topic] => easy
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 1
-                    [tests] => Array
-                        (
-                            [0] => double(2)=4
-                            [1] => double(3)=9
-                        )
-
-                )
-
-            [3] => Array
-                (
-                    [id] => 5
-                    [desc] => TEST here's a new Q blah blah
-                    [topic] => blah blah
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => kj()
-                            [1] => lk()
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [id] => 8
-                    [desc] => blahblabhlbhsl
-                    [topic] => ndla
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => dlkfj()
-                            [1] => ddosaj()
-                        )
-
-                )
-
-            [5] => Array
-                (
-                    [id] => 10
-                    [desc] => TEST here's a new Q FOR you
-                    [topic] => For
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => ab()=ad
-                            [1] => dlkj()=dsa
-                        )
-
-                )
-
-            [6] => Array
-                (
-                    [id] => 12
-                    [desc] => dfgdfg
-                    [topic] => sdg
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => sdg()
-                            [1] => ghfg()
-                        )
-
-                )
-
-            [7] => Array
-                (
-                    [id] => 32
-                    [desc] => TEST timingg
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => klj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [8] => Array
-                (
-                    [id] => 39
-                    [desc] => TEST disabling button
-                    [topic] => top
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => ;lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [9] => Array
-                (
-                    [id] => 40
-                    [desc] => TEST diabling butns
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [10] => Array
-                (
-                    [id] => 50
-                    [desc] => TEST trying to stop the multiples
-                    [topic] => top
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => ;lkj()
-                        )
-
-                )
-
-            [11] => Array
-                (
-                    [id] => 57
-                    [desc] => TEST globertobs
-                    [topic] => topernops
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [12] => Array
-                (
-                    [id] => 70
-                    [desc] => please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. 
-                    [topic] => count
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => count(20)=20
-                            [1] => count(50)=50
-                            [2] => Count(10)=10
-                            [3] => Count(5)=10
-                        )
-
-                )
-
-            [13] => Array
-                (
-                    [id] => 77
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => asdf()=ds
-                            [1] => lkjh()=ds
-                        )
-
-                )
-
-            [14] => Array
-                (
-                    [id] => 87
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => asdf()=d
-                            [1] => asdf()=a
-                        )
-
-                )
-
-            [15] => Array
-                (
-                    [id] => 88
-                    [desc] => New Q comin in hot
-                    [topic] => hotness
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => blop("a")="a"
-                            [1] => blip("b")="b"
-                        )
-
-                )
-
-            [16] => Array
-                (
-                    [id] => 90
-                    [desc] => Write a function called strMult() that takes two parameters: s, a string, and n, an integer. It should return the string concatenated with itself n times. Must use a for loop.
-                    [topic] => Strings
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 2
-                    [tests] => Array
-                        (
-                            [0] => strMult("hi", 3)  =  "hihihi"
-                            [1] => strMult("bye"   ,   2)= "byebye"
-                        )
-
-                )
-
-            [17] => Array
-                (
-                    [id] => 2
-                    [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
-                    [topic] => multi
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => Mult(2,4)=8
-                        )
-
-                )
-
-            [18] => Array
-                (
-                    [id] => 3
-                    [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
-                    [topic] => Sub
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => sub(3,2)=1
-                            [1] => sub(4,2)=2
-                        )
-
-                )
-
-            [19] => Array
-                (
-                    [id] => 11
-                    [desc] => blaksdhfak
-                    [topic] => dlskajf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkasjdf()
-                            [1] => lksdjf()
-                        )
-
-                )
-
-            [20] => Array
-                (
-                    [id] => 13
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asdf()
-                            [1] => asdf()
-                        )
-
-                )
-
-            [21] => Array
-                (
-                    [id] => 14
-                    [desc] => TEST new alerts
-                    [topic] => asl;kdfj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => asd()
-                        )
-
-                )
-
-            [22] => Array
-                (
-                    [id] => 15
-                    [desc] => TEST success alerts
-                    [topic] => lk;j
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => kj()
-                            [1] => klj()
-                        )
-
-                )
-
-            [23] => Array
-                (
-                    [id] => 16
-                    [desc] => TEST success
-                    [topic] => l;kj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => kj()l
-                            [1] => lkj()
-                        )
-
-                )
-
-            [24] => Array
-                (
-                    [id] => 17
-                    [desc] => TEST clearing
-                    [topic] => a;lskj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => lkjd()
-                        )
-
-                )
-
-            [25] => Array
-                (
-                    [id] => 18
-                    [desc] => TEST clearing TA
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => kj()
-                            [1] => klj()
-                        )
-
-                )
-
-            [26] => Array
-                (
-                    [id] => 19
-                    [desc] => TEST clearing TA value
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [27] => Array
-                (
-                    [id] => 20
-                    [desc] => TESTING clearing value and inner
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => kj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [28] => Array
-                (
-                    [id] => 21
-                    [desc] => TEST clearing this hsti
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => kj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [29] => Array
-                (
-                    [id] => 22
-                    [desc] => TEST timing
-                    [topic] => lk
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => kj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [30] => Array
-                (
-                    [id] => 23
-                    [desc] => TEST ldkj
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => kj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [31] => Array
-                (
-                    [id] => 24
-                    [desc] => TEST testin
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [32] => Array
-                (
-                    [id] => 25
-                    [desc] => TEST kdajf;
-                    [topic] => lkkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => kj()
-                            [1] => kj()
-                        )
-
-                )
-
-            [33] => Array
-                (
-                    [id] => 26
-                    [desc] => TEST lkja
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [34] => Array
-                (
-                    [id] => 27
-                    [desc] => kldj;
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [35] => Array
-                (
-                    [id] => 29
-                    [desc] => TEST timing
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => klj()
-                            [1] => kj()
-                        )
-
-                )
-
-            [36] => Array
-                (
-                    [id] => 30
-                    [desc] => TEST timinggg
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkj()k
-                            [1] => lkj()
-                        )
-
-                )
-
-            [37] => Array
-                (
-                    [id] => 31
-                    [desc] => TEST timinng
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [38] => Array
-                (
-                    [id] => 33
-                    [desc] => TEST checkboxes
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [39] => Array
-                (
-                    [id] => 58
-                    [desc] => ;alskj
-                    [topic] => ;lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [40] => Array
-                (
-                    [id] => 60
-                    [desc] => TEST testcasesregex
-                    [topic] => regex
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkj()=lkj
-                            [1] => lkj()=lkj
-                        )
-
-                )
-
-            [41] => Array
-                (
-                    [id] => 61
-                    [desc] => TEST regex
-                    [topic] => re
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkj()=
-                            [1] => lkj()=
-                        )
-
-                )
-
-            [42] => Array
-                (
-                    [id] => 62
-                    [desc] => TEST LKJ
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkj()=
-                            [1] => lkj()=
-                        )
-
-                )
-
-            [43] => Array
-                (
-                    [id] => 63
-                    [desc] => TEST re
-                    [topic] => re
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkj()=
-                            [1] => lkj(   )  =    
-                        )
-
-                )
-
-            [44] => Array
-                (
-                    [id] => 64
-                    [desc] => adsf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkj(   )  = alkj
-                            [1] => lkj()=lkj
-                        )
-
-                )
-
-            [45] => Array
-                (
-                    [id] => 65
-                    [desc] => TEST testsdfs
-                    [topic] => j
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lkj()=a
-                            [1] => k(lkadjfaoiwefjasdfja;lsdkfj)=a
-                        )
-
-                )
-
-            [46] => Array
-                (
-                    [id] => 66
-                    [desc] => TEST params
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => func()=b
-                            [1] => func()=b
-                        )
-
-                )
-
-            [47] => Array
-                (
-                    [id] => 67
-                    [desc] => lkj
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => func()=a
-                            [1] => func(  )  =  a
-                            [2] => func(a)=a
-                            [3] => func( a ) = a
-                            [4] => func( a , a , a) = b
-                        )
-
-                )
-
-            [48] => Array
-                (
-                    [id] => 68
-                    [desc] => l;kj
-                    [topic] => ;lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => lk
-                            [1] => lkj
-                        )
-
-                )
-
-            [49] => Array
-                (
-                    [id] => 71
-                    [desc] => Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. 
-                    [topic] => Herdederms
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => elephant()="dumbo"
-                            [1] => elephant()="surus"
-                            [2] => elephant()="pyrrhus"
-                            [3] => elephant()="kandula"
-                        )
-
-                )
-
-            [50] => Array
-                (
-                    [id] => 72
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asdf()=asdf
-                            [1] => asdf()=d
-                        )
-
-                )
-
-            [51] => Array
-                (
-                    [id] => 73
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asdf()=asd
-                            [1] => kjh()=asd
-                        )
-
-                )
-
-            [52] => Array
-                (
-                    [id] => 74
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => gfgfg()=ghf
-                            [1] => fgh()=ghj
-                        )
-
-                )
-
-            [53] => Array
-                (
-                    [id] => 75
-                    [desc] => asdf
-                    [topic] => asd
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asdf()=ds
-                            [1] => lkj()=dsf
-                        )
-
-                )
-
-            [54] => Array
-                (
-                    [id] => 76
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asdf()=dg
-                            [1] => asdf()=dg
-                        )
-
-                )
-
-            [55] => Array
-                (
-                    [id] => 78
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asd
-                        )
-
-                )
-
-            [56] => Array
-                (
-                    [id] => 79
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asdf()=dsf
-                            [1] => asdf()=lkj
-                        )
-
-                )
-
-            [57] => Array
-                (
-                    [id] => 80
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asdf()=d
-                            [1] => asdf()=g
-                        )
-
-                )
-
-            [58] => Array
-                (
-                    [id] => 81
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asdf()=kj
-                            [1] => asdlkj()=ds
-                        )
-
-                )
-
-            [59] => Array
-                (
-                    [id] => 82
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asdf()=kj
-                            [1] => asdlkj()=ds
-                        )
-
-                )
-
-            [60] => Array
-                (
-                    [id] => 83
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asdf()=kj
-                            [1] => asdlkj()=ds
-                        )
-
-                )
-
-            [61] => Array
-                (
-                    [id] => 84
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asdf()=ds
-                            [1] => asdf()=ds
-                        )
-
-                )
-
-            [62] => Array
-                (
-                    [id] => 85
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asdf()=sd
-                            [1] => asdf()=sd
-                        )
-
-                )
-
-            [63] => Array
-                (
-                    [id] => 86
-                    [desc] => asdf
-                    [topic] => asdf
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 3
-                    [tests] => Array
-                        (
-                            [0] => asdf()=ds
-                            [1] => asdf()=ds
-                        )
-
-                )
-
-            [64] => Array
-                (
-                    [id] => 4
-                    [desc] => TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.
-                    [topic] => Random
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => blah()=yr8dc64a32
-                            [1] => blah()=zyx943he21
-                        )
-
-                )
-
-            [65] => Array
-                (
-                    [id] => 6
-                    [desc] => TEST blah Q
-                    [topic] => Q blah
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => ;alksdjf()
-                        )
-
-                )
-
-            [66] => Array
-                (
-                    [id] => 7
-                    [desc] => TEST blah Q
-                    [topic] => Q blah
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => ;alksdjf()
-                        )
-
-                )
-
-            [67] => Array
-                (
-                    [id] => 36
-                    [desc] => TEST safari mobile
-                    [topic] => Tip-top 
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => Jdj()
-                            [1] => Jdjd()
-                        )
-
-                )
-
-            [68] => Array
-                (
-                    [id] => 37
-                    [desc] => TEST newQ forU
-                    [topic] => BloopBoop
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [69] => Array
-                (
-                    [id] => 41
-                    [desc] => TEST new Q comin in hot, and only once
-                    [topic] => top
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [70] => Array
-                (
-                    [id] => 42
-                    [desc] => TEST new Q comin in hot, and only once
-                    [topic] => top
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [71] => Array
-                (
-                    [id] => 43
-                    [desc] => TEST new Q comin in hot, and only once
-                    [topic] => top
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [72] => Array
-                (
-                    [id] => 44
-                    [desc] => TEST new Q comin in hot, and only once
-                    [topic] => top
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [73] => Array
-                (
-                    [id] => 45
-                    [desc] => TEST new Q comin in hot, and only once
-                    [topic] => top
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [74] => Array
-                (
-                    [id] => 46
-                    [desc] => TEST new Q comin in hot, and only once
-                    [topic] => top
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [75] => Array
-                (
-                    [id] => 47
-                    [desc] => TEST new Q comin in hot, and only once
-                    [topic] => top
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => asd()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [76] => Array
-                (
-                    [id] => 48
-                    [desc] => TEST Should only get in once
-                    [topic] => top
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [77] => Array
-                (
-                    [id] => 49
-                    [desc] => TEST Should only get in once
-                    [topic] => top
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [78] => Array
-                (
-                    [id] => 51
-                    [desc] => TEST will this stop it?
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [79] => Array
-                (
-                    [id] => 52
-                    [desc] => TEST will this stop it?
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [80] => Array
-                (
-                    [id] => 53
-                    [desc] => TEST will this stop it?
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 4
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [81] => Array
-                (
-                    [id] => 9
-                    [desc] => This will be the first Q with constraints
-                    [topic] => constraints
+            [92] => Array
+                (
+                    [id] => 92
+                    [desc] => This Question Has All Constraints
+                    [topic] => Constraints
                     [cons] => Array
                         (
                         )
@@ -4762,17 +3602,17 @@ Array
                     [diff] => 5
                     [tests] => Array
                         (
-                            [0] => al;ksjd()
-                            [1] => laksdjf()
+                            [0] => con()=con
+                            [1] => con()=con
                         )
 
                 )
 
-            [82] => Array
+            [93] => Array
                 (
-                    [id] => 28
-                    [desc] => TEST finally got it i think
-                    [topic] => ;lkj
+                    [id] => 93
+                    [desc] => New Q for with really long topic
+                    [topic] => Strings and Numbers and Floats and Stff
                     [cons] => Array
                         (
                         )
@@ -4780,19 +3620,17 @@ Array
                     [diff] => 5
                     [tests] => Array
                         (
-                            [0] => as()
-                            [1] => lk()
-                            [2] => lj()
-                            [3] => lk()
+                            [0] => abc()=sd
+                            [1] => abc()=d
                         )
 
                 )
 
-            [83] => Array
+            [94] => Array
                 (
-                    [id] => 34
-                    [desc] => TEST range
-                    [topic] => l;aksjdf
+                    [id] => 95
+                    [desc] => Here's a new Q with some constraints.
+                    [topic] => Constraints
                     [cons] => Array
                         (
                         )
@@ -4800,116 +3638,8 @@ Array
                     [diff] => 5
                     [tests] => Array
                         (
-                            [0] => ;lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [84] => Array
-                (
-                    [id] => 35
-                    [desc] => TEST new Q coming through
-                    [topic] => new Top
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => blah()
-                            [1] => tah()
-                        )
-
-                )
-
-            [85] => Array
-                (
-                    [id] => 54
-                    [desc] => TEST i think i got it
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [86] => Array
-                (
-                    [id] => 55
-                    [desc] => TEST this can only be submitted once
-                    [topic] => top
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => lkj()
-                        )
-
-                )
-
-            [87] => Array
-                (
-                    [id] => 56
-                    [desc] => TEST testin
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => lkj()
-                            [1] => l;kj()
-                        )
-
-                )
-
-            [88] => Array
-                (
-                    [id] => 59
-                    [desc] => TEST testcases
-                    [topic] => lkj
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => func()=ans
-                            [1] => func()
-                        )
-
-                )
-
-            [89] => Array
-                (
-                    [id] => 89
-                    [desc] => TEST Here's a question with a For-loop constraint
-                    [topic] => Constraint
-                    [cons] => Array
-                        (
-                        )
-
-                    [diff] => 5
-                    [tests] => Array
-                        (
-                            [0] => blah()=a
-                            [1] => blah()=b
+                            [0] => con()=d
+                            [1] => con()=d
                         )
 
                 )

@@ -1927,3 +1927,241 @@ updating database with answer def plongerstomps(angle, slope, tissues):
 
 executing submitExam().. 
 {"type":"addA","error":0,"attempt":{"test":{"id":"19","desc":"TEST Q w\/ pts = [9]","rel":1,"sub":"0","ques":[{"id":"10","desc":"TEST here's a new Q FOR you","topic":"For","diff":"2"}],"pts":["9"]},"answers":["def plongerstomps(angle, slope, tissues):\n    apple = \"granola\"\n    for i in range(len(apple)):\n        gooblers = 3\n        while(gooblers >= -5):\n            print apple[i]\n            goobler -= 1\n        if(false):\n            print \"whaa?!\"\n    return \"gooblers\""],"grades":null,"comment":"gooblersPlongerstomps","feedback":null,"remarks":null}}
+[+] addA page accessed 2019-04-10 06:05:53pm
++ page received data. processing the data below:
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/addA.txt = 57926
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 32
+            [desc] => testing the autograder
+            [rel] => 1
+            [sub] => 0
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 70
+                            [desc] => please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. 
+                            [topic] => count
+                            [diff] => 2
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 91
+                            [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+                            [topic] => triple
+                            [diff] => 2
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 100
+                    [1] => 100
+                )
+
+        )
+
+    [comment] => i hope this works my man
+    [answers] => Array
+        (
+            [0] => def Count(a):
+    for x in range(1, a):
+        if x == a-1:
+            return x+1
+     
+
+            [1] => def Triple(a):
+    y = 0
+    for x in range(0, 3):
+        print 
+        y = y + a;
+        print (y)
+
+        )
+
+)
+
+executing checktestId() for 32
+id found in the database!
+executing getqIds for testId 32
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 70
+    [1] => 91
+)
+
+updating database with answer def Count(a):
+    for x in range(1, a):
+        if x == a-1:
+            return x+1
+     
+ for testId 32 where qId = 70 
+updating database with answer def Triple(a):
+    y = 0
+    for x in range(0, 3):
+        print 
+        y = y + a;
+        print (y)
+ for testId 32 where qId = 91 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 32
+    [desc] => testing the autograder
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 70
+                    [desc] => please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. 
+                    [topic] => count
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 91
+                    [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+                    [topic] => triple
+                    [diff] => 2
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 100
+            [1] => 100
+        )
+
+)
+
++ comment: i hope this works my man
++ answers: Array
+(
+    [0] => def Count(a):
+    for x in range(1, a):
+        if x == a-1:
+            return x+1
+     
+
+    [1] => def Triple(a):
+    y = 0
+    for x in range(0, 3):
+        print 
+        y = y + a;
+        print (y)
+
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempt":{"test":{"id":"32","desc":"testing the autograder","rel":1,"sub":"0","ques":[{"id":"70","desc":"please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. ","topic":"count","diff":"2"},{"id":"91","desc":"please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. ","topic":"triple","diff":"2"}],"pts":["100","100"]},"answers":["def Count(a):\n    for x in range(1, a):\n        if x == a-1:\n            return x+1\n     \n","def Triple(a):\n    y = 0\n    for x in range(0, 3):\n        print \n        y = y + a;\n        print (y)\n"],"grades":null,"comment":"i hope this works my man","feedback":null,"remarks":null}}
+[+] addA page accessed 2019-04-11 05:15:05pm
++ page received data. processing the data below:
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/addA.txt = 61971
+received data....
+Array
+(
+    [type] => addA
+    [test] => Array
+        (
+            [id] => 35
+            [desc] => testing the function name 
+            [rel] => 1
+            [sub] => 0
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 94
+                            [desc] => run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. 
+                            [topic] => while
+                            [diff] => 3
+                        )
+
+                )
+
+            [pts] => Array
+                (
+                    [0] => 100
+                )
+
+        )
+
+    [comment] => testing with function name and while loop
+    [answers] => Array
+        (
+            [0] => def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
+        )
+
+)
+
+executing checktestId() for 35
+id found in the database!
+executing getqIds for testId 35
+getqIds() formed an array of qIds
+Array
+(
+    [0] => 94
+)
+
+updating database with answer def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count for testId 35 where qId = 94 
++ executing attempt Obj
++ test: Array
+(
+    [id] => 35
+    [desc] => testing the function name 
+    [rel] => 1
+    [sub] => 0
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 94
+                    [desc] => run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. 
+                    [topic] => while
+                    [diff] => 3
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 100
+        )
+
+)
+
++ comment: testing with function name and while loop
++ answers: Array
+(
+    [0] => def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
+)
+
+executing submitExam().. 
+{"type":"addA","error":0,"attempt":{"test":{"id":"35","desc":"testing the function name ","rel":1,"sub":"0","ques":[{"id":"94","desc":"run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. ","topic":"while","diff":"3"}],"pts":["100"]},"answers":["def run(n): \n    count = 0\n    while(count < n):\n        count = count + 1\n\n    return count"],"grades":null,"comment":"testing with function name and while loop","feedback":null,"remarks":null}}

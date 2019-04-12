@@ -914,3 +914,215 @@ Array
 
 )
 
+[ + ]  page accessd addQ 2019-04-10 05:39:20pm
+Array
+(
+    [type] => addQ
+    [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+    [topic] => triple
+    [cons] => Array
+        (
+            [0] => for
+        )
+
+    [diff] => 2
+    [tests] => Array
+        (
+            [0] => Triple(2)=6
+            [1] => Triple(3)=9
+        )
+
+)
+
+formed the questiobObj, here: 
+Array
+(
+    [id] => 91
+    [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+    [topic] => triple
+    [cons] => Array
+        (
+            [0] => for
+        )
+
+    [diff] => 2
+    [tests] => Array
+        (
+            [0] => Triple(2)=6
+            [1] => Triple(3)=9
+        )
+
+)
+
+[ + ]  page accessd addQ 2019-04-10 09:39:13pm
+Array
+(
+    [type] => addQ
+    [desc] => This Question Has All Constraints
+    [topic] => Constraints
+    [cons] => Array
+        (
+            [0] => for
+            [1] => while
+            [2] => print
+        )
+
+    [diff] => 5
+    [tests] => Array
+        (
+            [0] => con()=con
+            [1] => con()=con
+        )
+
+)
+
+formed the questiobObj, here: 
+Array
+(
+    [id] => 92
+    [desc] => This Question Has All Constraints
+    [topic] => Constraints
+    [cons] => Array
+        (
+            [0] => for
+            [1] => while
+            [2] => print
+        )
+
+    [diff] => 5
+    [tests] => Array
+        (
+            [0] => con()=con
+            [1] => con()=con
+        )
+
+)
+
+[ + ]  page accessd addQ 2019-04-11 02:39:03pm
+Array
+(
+    [type] => addQ
+    [desc] => New Q for with really long topic
+    [topic] => Strings and Numbers and Floats and Stff
+    [cons] => Array
+        (
+            [0] => for
+            [1] => while
+            [2] => print
+        )
+
+    [diff] => 5
+    [tests] => Array
+        (
+            [0] => abc()=sd
+            [1] => abc()=d
+        )
+
+)
+
+formed the questiobObj, here: 
+Array
+(
+    [id] => 93
+    [desc] => New Q for with really long topic
+    [topic] => Strings and Numbers and Floats and Stff
+    [cons] => Array
+        (
+            [0] => for
+            [1] => while
+            [2] => print
+        )
+
+    [diff] => 5
+    [tests] => Array
+        (
+            [0] => abc()=sd
+            [1] => abc()=d
+        )
+
+)
+
+[ + ]  page accessd addQ 2019-04-11 05:01:07pm
+Array
+(
+    [type] => addQ
+    [desc] => run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. 
+    [topic] => while
+    [cons] => Array
+        (
+            [0] => while
+        )
+
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Run(5)=5
+            [1] => Run(6)=6
+        )
+
+)
+
+formed the questiobObj, here: 
+Array
+(
+    [id] => 94
+    [desc] => run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. 
+    [topic] => while
+    [cons] => Array
+        (
+            [0] => while
+        )
+
+    [diff] => 3
+    [tests] => Array
+        (
+            [0] => Run(5)=5
+            [1] => Run(6)=6
+        )
+
+)
+
+[ + ]  page accessd addQ 2019-04-11 07:07:23pm
+Array
+(
+    [type] => addQ
+    [desc] => Here's a new Q with some constraints.
+    [topic] => Constraints
+    [cons] => Array
+        (
+            [0] => for
+            [1] => while
+            [2] => print
+        )
+
+    [diff] => 5
+    [tests] => Array
+        (
+            [0] => con()=d
+            [1] => con()=d
+        )
+
+)
+
+formed the questiobObj, here: 
+Array
+(
+    [id] => 95
+    [desc] => Here's a new Q with some constraints.
+    [topic] => Constraints
+    [cons] => Array
+        (
+            [0] => for
+            [1] => while
+            [2] => print
+        )
+
+    [diff] => 5
+    [tests] => Array
+        (
+            [0] => con()=d
+            [1] => con()=d
+        )
+
+)
+

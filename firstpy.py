@@ -1,5 +1,9 @@
 
-def add (a, b):
-    return a+b
-print(add(2,3))
-print(add(4,4))
+def Run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
+print(Run(5))
+print(Run(6))

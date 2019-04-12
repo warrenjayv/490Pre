@@ -1,4 +1,4 @@
-<?php
+<?php  
 
 include 'dblogin_interface.php';
 include 'autolog.php';
@@ -27,7 +27,8 @@ function updatePoints($conn, $decoder) {
 		$qId = $decoder['qId'];
 		$feedback = $decoder['feedback']; 
 //		$feedback = addslashes($feedback); 
-		$subpoints = $decoder['subpoints']; 
+		$subpoints = $decoder['subpoints'];
+    $max = $decoder['max']; 
 		/*warning, subpoints is a percent*/
 
 
@@ -52,10 +53,20 @@ function updatePoints($conn, $decoder) {
 	   $error3 .= "sql3 " . $sqlerror3 . " "; 
 			 $write = "updatePoints SQL : " . $error . "\n"; autolog($write, $target);  
 	  }
-
+    //$pos = strpos($hay, $needle) 
+    //$newstr = substr_replace($oldstr, $str_ins, $pos, 0) 
    /* task C : submit feedback into the database */ 
-    $newfeedback = $feedback + " -" + $ded; 
-    $newfeedback = addslashes($feedback); 
+   // $newfeedback = $feedback + " -" + $ded; 
+    
+
+     if (($pos = stripos($feedback, "gp", 0)) === false) {
+	     	$feedback = substr_replace($feedback , $ded, $pos+1, 0);
+     } else {
+        $feedback = substr_replace($feedback, $max, $pos+1, 0);   
+     }
+ 
+     $newfeedback = addslashes($feedback); 
+    
 		$sql = "INSERT INTO Feedback (testId, questionId, feedback) VALUES ('$testId', '$qId', '$newfeedback')";
 		if (! $result = $conn->query($sql)) {
 				$sqlerror = $conn->error; 
@@ -70,8 +81,11 @@ function updatePoints($conn, $decoder) {
   $write = "+ updatePoints()2 returned error: \n"; $write = "error: " . $error . "\n"; 
 	autolog($write, $target); 
   $newfeedback = stripslashes($newfeedback); 
-  
-		$package = array("type" => "updatePoints", "error" => $error, "testId" => $testId, "qId" => $qId, "feedback" => $newfeedback, 'points' => $points);
+    
+     
+		$package = array("type" => "updatePoints", "error" => $error, "testId" => $testId, "qId" => $qId, "feedback" => $newfeedback, 'points' => $points, 'max' => $max);
+    $write = "+ updatePoints() in backend returning:\n" . print_r($package, true) . "\n"; 
+    autolog($write, $target); 
 		return json_encode($package);
 
 } //updatePoints
