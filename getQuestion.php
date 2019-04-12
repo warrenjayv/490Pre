@@ -17,7 +17,7 @@ if (filesize($target) >= 100000) {
 	$write = "+ log reached max; it is cleared \n"; autolog($write, $target); 
 }
 /*testpoint*/
-$decoder = array("1", "2", "3", "4"); ///test purpose.
+// $decoder = array("1", "2", "3", "4"); ///test purpose.
 
 ///note, $decoder is an array of difficulties. 
 

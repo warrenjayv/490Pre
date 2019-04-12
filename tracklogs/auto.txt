@@ -36,6 +36,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -43,10 +52,10 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:38:00am
+[+] page accessed AUTOGRADER 2019-04-12 11:47:14am
 ********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 769
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 917
 + called checkGrade for testId . 10
 + checkGrade() returned : 
 Array
@@ -83,6 +92,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -90,10 +108,10 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:38:04am
+[+] page accessed AUTOGRADER 2019-04-12 11:49:55am
 ********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 1688
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 1984
 + called checkGrade for testId . 10
 + checkGrade() returned : 
 Array
@@ -130,6 +148,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -137,10 +164,10 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:38:51am
+[+] page accessed AUTOGRADER 2019-04-12 11:50:02am
 ********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 2608
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 3052
 + called checkGrade for testId . 10
 + checkGrade() returned : 
 Array
@@ -177,6 +204,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -184,10 +220,10 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:41:14am
+[+] page accessed AUTOGRADER 2019-04-12 11:50:17am
 ********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 3528
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 4120
 + called checkGrade for testId . 10
 + checkGrade() returned : 
 Array
@@ -224,6 +260,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -231,14 +276,10 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:41:20am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 4448
-[+] page accessed AUTOGRADER 2019-04-12 12:41:23am
+[+] page accessed AUTOGRADER 2019-04-12 11:50:23am
 ********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 4646
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 5188
 + called checkGrade for testId . 10
 + checkGrade() returned : 
 Array
@@ -275,6 +316,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -282,3672 +332,3334 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:41:25am
+[+] page accessed AUTOGRADER 2019-04-12 11:52:18am
 ********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 5566
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 6256
 + called checkGrade for testId . 10
 + checkGrade() returned : 
+Array
+(
+    [grade] => 0
+    [error] => 
+)
+
++ called setGrade for testId 10
++setGrade() returned : 
 Array
 (
     [grade] => 1
     [error] => 
 )
 
-+ checkGrade returned true . skipping 10
++ 10 will now be graded.
 + called checkGrade for testId . 32
 + checkGrade() returned : 
 Array
 (
-    [grade] => 1
+    [grade] => 0
     [error] => 
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ called setGrade for testId 32
++setGrade() returned : 
 Array
 (
     [grade] => 1
     [error] => 
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
++ 32 will now be graded.
++ called checkGrade for testId . 35
 + checkGrade() returned : 
 Array
 (
-    [grade] => 1
+    [grade] => 0
     [error] => 
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ called setGrade for testId 35
++setGrade() returned : 
 Array
 (
+    [grade] => 1
+    [error] => 
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-+ called checkGrade for testId . 10
++ 35 will now be graded.
++ called checkGrade for testId . 42
 + checkGrade() returned : 
 Array
 (
-    [grade] => 1
+    [grade] => 0
     [error] => 
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ called setGrade for testId 42
++setGrade() returned : 
 Array
 (
     [grade] => 1
     [error] => 
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
++ 42 will now be graded.
++ called checkGrade for testId . 43
 + checkGrade() returned : 
 Array
 (
-    [grade] => 1
+    [grade] => 0
     [error] => 
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ called setGrade for testId 43
++setGrade() returned : 
 Array
 (
     [grade] => 1
     [error] => 
 )
 
-+ checkGrade returned true . skipping 42
++ 43 will now be graded.
 + an array of submittedTests: 
 Array
 (
+    [0] => Array
+        (
+            [id] => 10
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 3
+                            [desc] => create a function called Sub which takes 2 parameters and subtracts and returns the difference.
+                            [topic] => Sub
+                            [diff] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2
+                            [desc] => create a function called Mult() that takes 2 parameters and returns their product. 
+                            [topic] => multi
+                            [diff] => 3
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 32
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 70
+                            [desc] => please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. 
+                            [topic] => count
+                            [diff] => 2
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 91
+                            [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+                            [topic] => triple
+                            [diff] => 2
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 35
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 94
+                            [desc] => run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. 
+                            [topic] => while
+                            [diff] => 3
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 42
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 98
+                            [desc] => make a function called Eat which takes 1 parameter and returns it.
+                            [topic] => eat
+                            [diff] => 5
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 69
+                            [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                            [topic] => easy
+                            [diff] => 1
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 43
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 69
+                            [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                            [topic] => easy
+                            [diff] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 1
+                            [desc] => create a function add which takes 2 parameters and returns the sum.
+                            [topic] => add
+                            [diff] => 1
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 91
+                            [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+                            [topic] => triple
+                            [diff] => 2
+                        )
+
+                )
+
+        )
+
 )
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:42:08am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 7208
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ sending paramaters to getAnswers() :
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 2
+            [2] => 1
+        )
+
+    [testId] => 10
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ getAnswers(bullet2) output and formed the arrayofAnswers: 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => getAnswers
+    [error] => 0
+    [answers] => Array
+        (
+            [0] => Array
+                (
+                    [qId] => 3
+                    [text] => def ssub(a, b): return a-b
+                    [tests] => Array
+                        (
+                            [0] => Sub(3,2)=1
+                            [1] => Sub(4,2)=2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [qId] => 2
+                    [text] => def Mult(a, b):
+    return a*b
+                    [tests] => Array
+                        (
+                            [0] => Mult(2,4)=8
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [qId] => 1
+                    [text] => def add (a, b):
+    return a+b
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
+
+                )
+
+        )
+
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
 Array
 (
-    [grade] => 1
-    [error] => 
-)
+    [0] => Array
+        (
+            [qId] => 3
+            [text] => def ssub(a, b): return a-b
+            [tests] => Array
+                (
+                    [0] => Sub(3,2)=1
+                    [1] => Sub(4,2)=2
+                )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
+        )
+
+    [1] => Array
+        (
+            [qId] => 2
+            [text] => def Mult(a, b):
+    return a*b
+            [tests] => Array
+                (
+                    [0] => Mult(2,4)=8
+                )
+
+        )
+
+    [2] => Array
+        (
+            [qId] => 1
+            [text] => def add (a, b):
+    return a+b
+            [tests] => Array
+                (
+                    [0] => add(2,3)=5
+                    [1] => add(4,4)=8
+                )
+
+        )
+
+)
+counter is 1
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 3
++ clearning the python file for 3
+def ssub(a, b): return a-b
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 10
+    [qId] => 3
+    [feedback] => gp missing colon [:] in user answer
+    [subpoints] => 0
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => g5p missing colon [:] in user answer
+    [points] => 100
+    [max] => 5
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:42:36am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 8128
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ operating funcom for userAnswer: def ssub(a, b): return a-b
++ obtained function Sub with funcom()
++ finding if Sub is in user answer def ssub(a, b): return a-b
++ obtained function Sub with funcom()
++ finding if Sub is in user answer def ssub(a, b): return a-b
++ function was not found at all in the user answer
++ returning the correct function : Sub
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 10
+    [qId] => 3
+    [feedback] => bp expecting function name [Sub] in answer was not found!
+    [subpoints] => .05
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => b5p expecting function name [Sub] in answer was not found!
+    [points] => 95
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ replacing def ssub(a, b): return a-b with Sub
++ funrep() called, old answer: def ssub(a, b): return a-b
++ funrep() called, new answer: def Sub(a, b): return a-b
++ writing correct answer to python file: def Sub(a, b): return a-b
++ current testcase :  Sub(3,2)=1
++ current function : Sub(3,2)
++ printout : print(Sub(3,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 1
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ now we are writing the testcase function Sub(3,2) on the python file : 
++ current testcase :  Sub(4,2)=2
++ current function : Sub(4,2)
++ printout : print(Sub(4,2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 1
+    [1] => 2
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ now we are writing the testcase function Sub(4,2) on the python file : 
++ running execom() with pars for id : 10, qId : 3
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 3
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing Sub(3,2)=1 with output : 1
++ comparing c: 1 with output : 1
+pass!
++ calling updatePoints() to provide feedback
++ gp called [Sub(3,2)], expected: [1], got user answer [1]
++ updatePoints() 2 was called. Received:  
 Array
 (
+    [testId] => 10
+    [qId] => 3
+    [feedback] => gp called [Sub(3,2)], expected: [1], got user answer [1]
+    [subpoints] => 0
+    [max] => 20
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:47:03am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 9048
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => g20p called [Sub(3,2)], expected: [1], got user answer [1]
+    [points] => 95
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => g20p called [Sub(3,2)], expected: [1], got user answer [1]
+    [points] => 95
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => g20p called [Sub(3,2)], expected: [1], got user answer [1]
+    [points] => 95
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ comparing Sub(4,2)=2 with output : 2
++ comparing c: 2 with output : 2
+pass!
++ calling updatePoints() to provide feedback
++ gp called [Sub(4,2)], expected: [2], got user answer [2]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 10
+    [qId] => 3
+    [feedback] => gp called [Sub(4,2)], expected: [2], got user answer [2]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => g20p called [Sub(4,2)], expected: [2], got user answer [2]
+    [points] => 95
+    [max] => 20
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:47:23am
-********************************************************
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => g20p called [Sub(4,2)], expected: [2], got user answer [2]
+    [points] => 95
+    [max] => 20
+)
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 9968
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ execom() returned 1
++ execom was succesful. updatePoints() feedback
++ np user program succesfully executed. 
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 10
+    [qId] => 3
+    [feedback] => np user program succesfully executed. 
+    [subpoints] => 0
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 95
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 3
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 95
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++  page accessed by getCons 2019-04-12 11:52:21am
++ received data : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [qId] => 3
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ getCons() in backend  was succesful. data: 
+{"cons":[]}
++ gunCons() retrieving array of cons
++ array of cons: 
 Array
 (
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:47:31am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 10888
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ getCons() has empty cons array. returning 0.
++ getCons(3) failed
+counter is 2
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 2
++ clearning the python file for 2
+def Mult(a, b):
+    return a*b
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 10
+    [qId] => 2
+    [feedback] => gp missing colon [:] in user answer
+    [subpoints] => 0
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g5p missing colon [:] in user answer
+    [points] => 100
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ operating funcom for userAnswer: def Mult(a, b):
+    return a*b
++ obtained function Mult with funcom()
++ finding if Mult is in user answer def Mult(a, b):
+    return a*b
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 10
+    [qId] => 2
+    [feedback] => np expecting function [Mult] in answer found!
+    [subpoints] => 0
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] => n0p expecting function [Mult] in answer found!
+    [points] => 100
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ writing answer to python file: def Mult(a, b):
+    return a*b
++ current testcase :  Mult(2,4)=8
++ current function : Mult(2,4)
++ printout : print(Mult(2,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
+    [0] => 8
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:47:41am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 11809
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ now we are writing the testcase function Mult(2,4) on the python file : 
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 2
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing Mult(2,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ gp called [Mult(2,4)], expected: [8], got user answer [8]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 10
+    [qId] => 2
+    [feedback] => gp called [Mult(2,4)], expected: [8], got user answer [8]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g20p called [Mult(2,4)], expected: [8], got user answer [8]
+    [points] => 100
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] => g20p called [Mult(2,4)], expected: [8], got user answer [8]
+    [points] => 100
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ execom() returned 1
++ execom was succesful. updatePoints() feedback
++ np user program succesfully executed. 
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 10
+    [qId] => 2
+    [feedback] => np user program succesfully executed. 
+    [subpoints] => 0
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 100
+    [max] => 80
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:48:21am
-********************************************************
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 2
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 100
+    [max] => 80
+)
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 12730
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++  page accessed by getCons 2019-04-12 11:52:21am
++ received data : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [qId] => 2
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ getCons() in backend  was succesful. data: 
+{"cons":[]}
++ gunCons() retrieving array of cons
++ array of cons: 
 Array
 (
-    [grade] => 1
-    [error] => 
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ getCons() has empty cons array. returning 0.
++ getCons(2) failed
+counter is 3
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 1
++ clearning the python file for 1
+def add (a, b):
+    return a+b
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 10
+    [qId] => 1
+    [feedback] => gp missing colon [:] in user answer
+    [subpoints] => 0
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g5p missing colon [:] in user answer
+    [points] => 100
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ operating funcom for userAnswer: def add (a, b):
+    return a+b
++ obtained function add with funcom()
++ finding if add is in user answer def add (a, b):
+    return a+b
++ obtained function add with funcom()
++ finding if add is in user answer def add (a, b):
+    return a+b
++ updatePoints() 2 was called. Received:  
 Array
 (
+    [testId] => 10
+    [qId] => 1
+    [feedback] => np expecting function [add] in answer found!
+    [subpoints] => 0
+    [max] => 5
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:48:36am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 13651
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => n0p expecting function [add] in answer found!
+    [points] => 100
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ writing answer to python file: def add (a, b):
+    return a+b
++ current testcase :  add(2,3)=5
++ current function : add(2,3)
++ printout : print(add(2,3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 5
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ now we are writing the testcase function add(2,3) on the python file : 
++ current testcase :  add(4,4)=8
++ current function : add(4,4)
++ printout : print(add(4,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 5
+    [1] => 8
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ now we are writing the testcase function add(4,4) on the python file : 
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 10, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing add(2,3)=5 with output : 5
++ comparing c: 5 with output : 5
+pass!
++ calling updatePoints() to provide feedback
++ gp called [add(2,3)], expected: [5], got user answer [5]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 10
+    [qId] => 1
+    [feedback] => gp called [add(2,3)], expected: [5], got user answer [5]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g20p called [add(2,3)], expected: [5], got user answer [5]
+    [points] => 100
+    [max] => 20
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:50:41am
-********************************************************
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g20p called [add(2,3)], expected: [5], got user answer [5]
+    [points] => 100
+    [max] => 20
+)
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 14572
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g20p called [add(2,3)], expected: [5], got user answer [5]
+    [points] => 100
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ comparing add(4,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ gp called [add(4,4)], expected: [8], got user answer [8]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 10
+    [qId] => 1
+    [feedback] => gp called [add(4,4)], expected: [8], got user answer [8]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g20p called [add(4,4)], expected: [8], got user answer [8]
+    [points] => 100
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => g20p called [add(4,4)], expected: [8], got user answer [8]
+    [points] => 100
+    [max] => 20
+)
+
++ execom() returned 1
++ execom was succesful. updatePoints() feedback
++ np user program succesfully executed. 
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 10
+    [qId] => 1
+    [feedback] => np user program succesfully executed. 
+    [subpoints] => 0
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 100
+    [max] => 80
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:51:46am
-********************************************************
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 10
+    [qId] => 1
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 100
+    [max] => 80
+)
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 15493
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++  page accessed by getCons 2019-04-12 11:52:22am
++ received data : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [qId] => 1
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ getCons() in backend  was succesful. data: 
+{"cons":[]}
++ gunCons() retrieving array of cons
++ array of cons: 
 Array
 (
-    [grade] => 1
-    [error] => 
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ getCons() has empty cons array. returning 0.
++ getCons(1) failed
++ sending paramaters to getAnswers() :
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 70
+            [1] => 91
+        )
+
+    [testId] => 32
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ getAnswers(bullet2) output and formed the arrayofAnswers: 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => getAnswers
+    [error] => 0
+    [answers] => Array
+        (
+            [0] => Array
+                (
+                    [qId] => 70
+                    [text] => def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
+                    [tests] => Array
+                        (
+                            [0] => Count(20)=20
+                            [1] => Count(50)=50
+                            [2] => Count(10)=10
+                            [3] => Count(5)=10
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [qId] => 91
+                    [text] => def Triple(a):    
+    y = 0    
+    for x in range(0, 3):
+        y = y + a
+    
+    return y
+                    [tests] => Array
+                        (
+                            [0] => Triple(2)=6
+                            [1] => Triple(3)=9
+                        )
+
+                )
+
+        )
+
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
 Array
 (
-)
+    [0] => Array
+        (
+            [qId] => 70
+            [text] => def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
+            [tests] => Array
+                (
+                    [0] => Count(20)=20
+                    [1] => Count(50)=50
+                    [2] => Count(10)=10
+                    [3] => Count(5)=10
+                )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:52:20am
-********************************************************
+        )
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 16414
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
+    [1] => Array
+        (
+            [qId] => 91
+            [text] => def Triple(a):    
+    y = 0    
+    for x in range(0, 3):
+        y = y + a
+    
+    return y
+            [tests] => Array
+                (
+                    [0] => Triple(2)=6
+                    [1] => Triple(3)=9
+                )
+
+        )
+
+)
+counter is 1
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 70
++ clearning the python file for 70
+def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 32
+    [qId] => 70
+    [feedback] => gp missing colon [:] in user answer
+    [subpoints] => 0
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => g5p missing colon [:] in user answer
+    [points] => 100
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ operating funcom for userAnswer: def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
++ obtained function Count with funcom()
++ finding if Count is in user answer def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
++ obtained function Count with funcom()
++ finding if Count is in user answer def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
++ obtained function Count with funcom()
++ finding if Count is in user answer def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
++ obtained function Count with funcom()
++ finding if Count is in user answer def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 32
+    [qId] => 70
+    [feedback] => np expecting function [Count] in answer found!
+    [subpoints] => 0
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => n0p expecting function [Count] in answer found!
+    [points] => 100
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ writing answer to python file: def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
++ current testcase :  Count(20)=20
++ current function : Count(20)
++ printout : print(Count(20))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
+    [0] => 20
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:53:58am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 17335
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ now we are writing the testcase function Count(20) on the python file : 
++ current testcase :  Count(50)=50
++ current function : Count(50)
++ printout : print(Count(50))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 20
+    [1] => 50
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ now we are writing the testcase function Count(50) on the python file : 
++ current testcase :  Count(10)=10
++ current function : Count(10)
++ printout : print(Count(10))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 20
+    [1] => 50
+    [2] => 10
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ now we are writing the testcase function Count(10) on the python file : 
++ current testcase :  Count(5)=10
++ current function : Count(5)
++ printout : print(Count(5))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 20
+    [1] => 50
+    [2] => 10
+    [3] => 10
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ now we are writing the testcase function Count(5) on the python file : 
++ running execom() with pars for id : 32, qId : 70
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 32, qId : 70
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing Count(20)=20 with output : 20
++ comparing c: 20 with output : 20
+pass!
++ calling updatePoints() to provide feedback
++ gp called [Count(20)], expected: [20], got user answer [20]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 32
+    [qId] => 70
+    [feedback] => gp called [Count(20)], expected: [20], got user answer [20]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => g20p called [Count(20)], expected: [20], got user answer [20]
+    [points] => 100
+    [max] => 20
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:54:10am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 18256
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => g20p called [Count(20)], expected: [20], got user answer [20]
+    [points] => 100
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => g20p called [Count(20)], expected: [20], got user answer [20]
+    [points] => 100
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ comparing Count(50)=50 with output : 50
++ comparing c: 50 with output : 50
+pass!
++ calling updatePoints() to provide feedback
++ gp called [Count(50)], expected: [50], got user answer [50]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 32
+    [qId] => 70
+    [feedback] => gp called [Count(50)], expected: [50], got user answer [50]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => g20p called [Count(50)], expected: [50], got user answer [50]
+    [points] => 100
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
++ updatePoints() : 
+stdClass Object
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => g20p called [Count(50)], expected: [50], got user answer [50]
+    [points] => 100
+    [max] => 20
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:54:31am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 19177
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => g20p called [Count(50)], expected: [50], got user answer [50]
+    [points] => 100
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ comparing Count(10)=10 with output : 10
++ comparing c: 10 with output : 10
+pass!
++ calling updatePoints() to provide feedback
++ gp called [Count(10)], expected: [10], got user answer [10]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 32
+    [qId] => 70
+    [feedback] => gp called [Count(10)], expected: [10], got user answer [10]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => g20p called [Count(10)], expected: [10], got user answer [10]
+    [points] => 100
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => g20p called [Count(10)], expected: [10], got user answer [10]
+    [points] => 100
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
++ updatePoints() : 
+stdClass Object
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => g20p called [Count(10)], expected: [10], got user answer [10]
+    [points] => 100
+    [max] => 20
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:54:48am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 20098
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ comparing Count(5)=10 with output : 10
++ comparing c: 5 with output : 10
+fail!
++ calling updatePoints() to provide feedback
++ bp called [Count(5)]  expected answer: [10], got user answer [10]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 32
+    [qId] => 70
+    [feedback] => bp called [Count(5)]  expected answer: [10], got user answer [10]
+    [subpoints] => .20
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => b20p called [Count(5)]  expected answer: [10], got user answer [10]
+    [points] => 80
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => b20p called [Count(5)]  expected answer: [10], got user answer [10]
+    [points] => 80
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ execom() returned 1
++ execom was succesful. updatePoints() feedback
++ np user program succesfully executed. 
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 32
+    [qId] => 70
+    [feedback] => np user program succesfully executed. 
+    [subpoints] => 0
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 80
+    [max] => 80
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:54:53am
-********************************************************
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 80
+    [max] => 80
+)
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 21019
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++  page accessed by getCons 2019-04-12 11:52:23am
++ received data : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [qId] => 70
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ getCons() in backend  was succesful. data: 
+{"cons":["for"]}
++ gunCons() retrieving array of cons
++ array of cons: 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => for
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ getCons (70) success:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => for
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ checkCons() is checking if constraints are found in user answer
++ checkCons() found for in user answer
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 32
+    [qId] => 70
+    [feedback] => gp constraint [for] was found.
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 70
+    [feedback] => g20p constraint [for] was found.
+    [points] => 80
+    [max] => 20
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:55:09am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 21940
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ checkCons() was succesful at test 32, qid 70
+counter is 2
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 91
++ clearning the python file for 91
+def Triple(a):    
+    y = 0    
+    for x in range(0, 3):
+        y = y + a
+    
+    return y
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 32
+    [qId] => 91
+    [feedback] => gp missing colon [:] in user answer
+    [subpoints] => 0
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 91
+    [feedback] => g5p missing colon [:] in user answer
+    [points] => 100
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ operating funcom for userAnswer: def Triple(a):    
+    y = 0    
+    for x in range(0, 3):
+        y = y + a
+    
+    return y
++ obtained function Triple with funcom()
++ finding if Triple is in user answer def Triple(a):    
+    y = 0    
+    for x in range(0, 3):
+        y = y + a
+    
+    return y
++ obtained function Triple with funcom()
++ finding if Triple is in user answer def Triple(a):    
+    y = 0    
+    for x in range(0, 3):
+        y = y + a
+    
+    return y
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 32
+    [qId] => 91
+    [feedback] => np expecting function [Triple] in answer found!
+    [subpoints] => 0
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 91
+    [feedback] => n0p expecting function [Triple] in answer found!
+    [points] => 100
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ writing answer to python file: def Triple(a):    
+    y = 0    
+    for x in range(0, 3):
+        y = y + a
+    
+    return y
++ current testcase :  Triple(2)=6
++ current function : Triple(2)
++ printout : print(Triple(2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
+    [0] => 6
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:55:19am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 22861
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ now we are writing the testcase function Triple(2) on the python file : 
++ current testcase :  Triple(3)=9
++ current function : Triple(3)
++ printout : print(Triple(3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 6
+    [1] => 9
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ now we are writing the testcase function Triple(3) on the python file : 
++ running execom() with pars for id : 32, qId : 91
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 32, qId : 91
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing Triple(2)=6 with output : 6
++ comparing c: 6 with output : 6
+pass!
++ calling updatePoints() to provide feedback
++ gp called [Triple(2)], expected: [6], got user answer [6]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 32
+    [qId] => 91
+    [feedback] => gp called [Triple(2)], expected: [6], got user answer [6]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 91
+    [feedback] => g20p called [Triple(2)], expected: [6], got user answer [6]
+    [points] => 100
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 91
+    [feedback] => g20p called [Triple(2)], expected: [6], got user answer [6]
+    [points] => 100
+    [max] => 20
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 91
+    [feedback] => g20p called [Triple(2)], expected: [6], got user answer [6]
+    [points] => 100
+    [max] => 20
+)
+
++ comparing Triple(3)=9 with output : 9
++ comparing c: 9 with output : 9
+pass!
++ calling updatePoints() to provide feedback
++ gp called [Triple(3)], expected: [9], got user answer [9]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 32
+    [qId] => 91
+    [feedback] => gp called [Triple(3)], expected: [9], got user answer [9]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 91
+    [feedback] => g20p called [Triple(3)], expected: [9], got user answer [9]
+    [points] => 100
+    [max] => 20
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:56:04am
-********************************************************
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 91
+    [feedback] => g20p called [Triple(3)], expected: [9], got user answer [9]
+    [points] => 100
+    [max] => 20
+)
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 23782
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ execom() returned 1
++ execom was succesful. updatePoints() feedback
++ np user program succesfully executed. 
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 32
+    [qId] => 91
+    [feedback] => np user program succesfully executed. 
+    [subpoints] => 0
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 91
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 100
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 91
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 100
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++  page accessed by getCons 2019-04-12 11:52:24am
++ received data : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [qId] => 91
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ getCons() in backend  was succesful. data: 
+{"cons":["for"]}
++ gunCons() retrieving array of cons
++ array of cons: 
 Array
 (
+    [0] => for
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:56:27am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 24703
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ getCons (91) success:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => for
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ checkCons() is checking if constraints are found in user answer
++ checkCons() found for in user answer
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 32
+    [qId] => 91
+    [feedback] => gp constraint [for] was found.
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 32
+    [qId] => 91
+    [feedback] => g20p constraint [for] was found.
+    [points] => 100
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ checkCons() was succesful at test 32, qid 91
++ sending paramaters to getAnswers() :
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 94
+        )
+
+    [testId] => 35
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ getAnswers(bullet2) output and formed the arrayofAnswers: 
 Array
 (
-)
+    [type] => getAnswers
+    [error] => 0
+    [answers] => Array
+        (
+            [0] => Array
+                (
+                    [qId] => 94
+                    [text] => def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:56:52am
-********************************************************
+    return count
+                    [tests] => Array
+                        (
+                            [0] => Run(5)=5
+                            [1] => Run(6)=6
+                        )
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 25624
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
+                )
+
+        )
+
+)
+
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => Array
+        (
+            [qId] => 94
+            [text] => def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
+            [tests] => Array
+                (
+                    [0] => Run(5)=5
+                    [1] => Run(6)=6
+                )
+
+        )
+
 )
+counter is 1
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 94
++ clearning the python file for 94
+def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
+    return count
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 35
+    [qId] => 94
+    [feedback] => gp missing colon [:] in user answer
+    [subpoints] => 0
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 35
+    [qId] => 94
+    [feedback] => g5p missing colon [:] in user answer
+    [points] => 100
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ operating funcom for userAnswer: def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
++ obtained function Run with funcom()
++ finding if Run is in user answer def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
++ obtained function Run with funcom()
++ finding if Run is in user answer def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
++ function was not found at all in the user answer
++ returning the correct function : Run
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 35
+    [qId] => 94
+    [feedback] => bp expecting function name [Run] in answer was not found!
+    [subpoints] => .05
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 35
+    [qId] => 94
+    [feedback] => b5p expecting function name [Run] in answer was not found!
+    [points] => 95
+    [max] => 5
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:56:59am
-********************************************************
++ replacing def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 26545
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
+    return count with Run
++ funrep() called, old answer: def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
++ funrep() called, new answer: def Run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
++ writing correct answer to python file: def Run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
++ current testcase :  Run(5)=5
++ current function : Run(5)
++ printout : print(Run(5))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 5
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ now we are writing the testcase function Run(5) on the python file : 
++ current testcase :  Run(6)=6
++ current function : Run(6)
++ printout : print(Run(6))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 5
+    [1] => 6
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ now we are writing the testcase function Run(6) on the python file : 
++ running execom() with pars for id : 35, qId : 94
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 35, qId : 94
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing Run(5)=5 with output : 5
++ comparing c: 5 with output : 5
+pass!
++ calling updatePoints() to provide feedback
++ gp called [Run(5)], expected: [5], got user answer [5]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 35
+    [qId] => 94
+    [feedback] => gp called [Run(5)], expected: [5], got user answer [5]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 35
+    [qId] => 94
+    [feedback] => g20p called [Run(5)], expected: [5], got user answer [5]
+    [points] => 95
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
++ updatePoints() : 
+stdClass Object
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 35
+    [qId] => 94
+    [feedback] => g20p called [Run(5)], expected: [5], got user answer [5]
+    [points] => 95
+    [max] => 20
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:57:13am
-********************************************************
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 35
+    [qId] => 94
+    [feedback] => g20p called [Run(5)], expected: [5], got user answer [5]
+    [points] => 95
+    [max] => 20
+)
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 27466
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ comparing Run(6)=6 with output : 6
++ comparing c: 6 with output : 6
+pass!
++ calling updatePoints() to provide feedback
++ gp called [Run(6)], expected: [6], got user answer [6]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 35
+    [qId] => 94
+    [feedback] => gp called [Run(6)], expected: [6], got user answer [6]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 35
+    [qId] => 94
+    [feedback] => g20p called [Run(6)], expected: [6], got user answer [6]
+    [points] => 95
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 35
+    [qId] => 94
+    [feedback] => g20p called [Run(6)], expected: [6], got user answer [6]
+    [points] => 95
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ execom() returned 1
++ execom was succesful. updatePoints() feedback
++ np user program succesfully executed. 
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 35
+    [qId] => 94
+    [feedback] => np user program succesfully executed. 
+    [subpoints] => 0
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 35
+    [qId] => 94
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 95
+    [max] => 80
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:57:27am
-********************************************************
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 35
+    [qId] => 94
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 95
+    [max] => 80
+)
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 28387
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++  page accessed by getCons 2019-04-12 11:52:24am
++ received data : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [qId] => 94
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ getCons() in backend  was succesful. data: 
+{"cons":["while"]}
++ gunCons() retrieving array of cons
++ array of cons: 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => while
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ getCons (94) success:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => while
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ checkCons() is checking if constraints are found in user answer
++ checkCons() found while in user answer
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 35
+    [qId] => 94
+    [feedback] => gp constraint [while] was found.
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 35
+    [qId] => 94
+    [feedback] => g20p constraint [while] was found.
+    [points] => 95
+    [max] => 20
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:57:32am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 29308
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ checkCons() was succesful at test 35, qid 94
++ sending paramaters to getAnswers() :
 Array
 (
-    [grade] => 1
-    [error] => 
-)
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 98
+            [1] => 69
+        )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
+    [testId] => 42
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ getAnswers(bullet2) output and formed the arrayofAnswers: 
 Array
 (
-    [grade] => 1
-    [error] => 
-)
+    [type] => getAnswers
+    [error] => 0
+    [answers] => Array
+        (
+            [0] => Array
+                (
+                    [qId] => 98
+                    [text] => def imapythonoob(n): return n
+                    [tests] => Array
+                        (
+                            [0] => Eat(2)=2
+                            [1] => Eat(3)=3
+                        )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
+                )
+
+            [1] => Array
+                (
+                    [qId] => 69
+                    [text] => def double(x, y): return x
+                    [tests] => Array
+                        (
+                            [0] => double(2)=4
+                            [1] => double(3)=9
+                        )
+
+                )
+
+        )
+
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
 Array
 (
-)
+    [0] => Array
+        (
+            [qId] => 98
+            [text] => def imapythonoob(n): return n
+            [tests] => Array
+                (
+                    [0] => Eat(2)=2
+                    [1] => Eat(3)=3
+                )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:57:40am
-********************************************************
+        )
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 30229
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
+    [1] => Array
+        (
+            [qId] => 69
+            [text] => def double(x, y): return x
+            [tests] => Array
+                (
+                    [0] => double(2)=4
+                    [1] => double(3)=9
+                )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
+        )
+
+)
+counter is 1
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 98
++ clearning the python file for 98
+def imapythonoob(n): return n
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 42
+    [qId] => 98
+    [feedback] => gp missing colon [:] in user answer
+    [subpoints] => 0
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 42
+    [qId] => 98
+    [feedback] => g5p missing colon [:] in user answer
+    [points] => 100
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ operating funcom for userAnswer: def imapythonoob(n): return n
++ obtained function Eat with funcom()
++ finding if Eat is in user answer def imapythonoob(n): return n
++ obtained function Eat with funcom()
++ finding if Eat is in user answer def imapythonoob(n): return n
++ function was not found at all in the user answer
++ returning the correct function : Eat
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 42
+    [qId] => 98
+    [feedback] => bp expecting function name [Eat] in answer was not found!
+    [subpoints] => .05
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 42
+    [qId] => 98
+    [feedback] => b5p expecting function name [Eat] in answer was not found!
+    [points] => 95
+    [max] => 5
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:57:48am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 31150
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ replacing def imapythonoob(n): return n with Eat
++ funrep() called, old answer: def imapythonoob(n): return n
++ funrep() called, new answer: def Eat(n): return n
++ writing correct answer to python file: def Eat(n): return n
++ current testcase :  Eat(2)=2
++ current function : Eat(2)
++ printout : print(Eat(2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 2
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ now we are writing the testcase function Eat(2) on the python file : 
++ current testcase :  Eat(3)=3
++ current function : Eat(3)
++ printout : print(Eat(3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 2
+    [1] => 3
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ now we are writing the testcase function Eat(3) on the python file : 
++ running execom() with pars for id : 42, qId : 98
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 42, qId : 98
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing Eat(2)=2 with output : 2
++ comparing c: 2 with output : 2
+pass!
++ calling updatePoints() to provide feedback
++ gp called [Eat(2)], expected: [2], got user answer [2]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 42
+    [qId] => 98
+    [feedback] => gp called [Eat(2)], expected: [2], got user answer [2]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 42
+    [qId] => 98
+    [feedback] => g20p called [Eat(2)], expected: [2], got user answer [2]
+    [points] => 95
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
++ updatePoints() : 
+stdClass Object
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 42
+    [qId] => 98
+    [feedback] => g20p called [Eat(2)], expected: [2], got user answer [2]
+    [points] => 95
+    [max] => 20
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:57:55am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 32071
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 42
+    [qId] => 98
+    [feedback] => g20p called [Eat(2)], expected: [2], got user answer [2]
+    [points] => 95
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ comparing Eat(3)=3 with output : 3
++ comparing c: 3 with output : 3
+pass!
++ calling updatePoints() to provide feedback
++ gp called [Eat(3)], expected: [3], got user answer [3]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 42
+    [qId] => 98
+    [feedback] => gp called [Eat(3)], expected: [3], got user answer [3]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 42
+    [qId] => 98
+    [feedback] => g20p called [Eat(3)], expected: [3], got user answer [3]
+    [points] => 95
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 42
+    [qId] => 98
+    [feedback] => g20p called [Eat(3)], expected: [3], got user answer [3]
+    [points] => 95
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ execom() returned 1
++ execom was succesful. updatePoints() feedback
++ np user program succesfully executed. 
++ updatePoints() 2 was called. Received:  
 Array
 (
+    [testId] => 42
+    [qId] => 98
+    [feedback] => np user program succesfully executed. 
+    [subpoints] => 0
+    [max] => 80
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:58:27am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 32992
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 42
+    [qId] => 98
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 95
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 42
+    [qId] => 98
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 95
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++  page accessed by getCons 2019-04-12 11:52:25am
++ received data : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [qId] => 98
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ getCons() in backend  was succesful. data: 
+{"cons":["print"]}
++ gunCons() retrieving array of cons
++ array of cons: 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => print
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ getCons (98) success:
 Array
 (
+    [0] => print
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:58:35am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 33913
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ checkCons() is checking if constraints are found in user answer
++ checkCons() did not find print in user answer
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 42
+    [qId] => 98
+    [feedback] => bp constraint [print]  was not found.
+    [subpoints] => .2
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 42
+    [qId] => 98
+    [feedback] => b19p constraint [print]  was not found.
+    [points] => 76
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ checkCons() was succesful at test 42, qid 98
+counter is 2
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 69
++ clearning the python file for 69
+def double(x, y): return x
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 42
+    [qId] => 69
+    [feedback] => gp missing colon [:] in user answer
+    [subpoints] => 0
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 42
+    [qId] => 69
+    [feedback] => g5p missing colon [:] in user answer
+    [points] => 100
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ operating funcom for userAnswer: def double(x, y): return x
++ obtained function double with funcom()
++ finding if double is in user answer def double(x, y): return x
++ obtained function double with funcom()
++ finding if double is in user answer def double(x, y): return x
++ updatePoints() 2 was called. Received:  
 Array
 (
+    [testId] => 42
+    [qId] => 69
+    [feedback] => np expecting function [double] in answer found!
+    [subpoints] => 0
+    [max] => 5
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:58:41am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 34834
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 42
+    [qId] => 69
+    [feedback] => n0p expecting function [double] in answer found!
+    [points] => 100
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ writing answer to python file: def double(x, y): return x
++ current testcase :  double(2)=4
++ current function : double(2)
++ printout : print(double(2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 4
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ now we are writing the testcase function double(2) on the python file : 
++ current testcase :  double(3)=9
++ current function : double(3)
++ printout : print(double(3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 4
+    [1] => 9
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ now we are writing the testcase function double(3) on the python file : 
++ running execom() with pars for id : 42, qId : 69
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ exec() failed. returning 0. function did not match testcase or program syntax errors 		
++ execom failed. pls check logs. 
++ execom failed. pls check logs. 
++ calling updatePoints() to provide feedback
++ bp user program failed to execute. 
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 42
+    [qId] => 69
+    [feedback] => bp user program failed to execute. 
+    [subpoints] => .8
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 42
+    [qId] => 69
+    [feedback] => b80p user program failed to execute. 
+    [points] => 20
+    [max] => 80
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:58:54am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 35755
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 42
+    [qId] => 69
+    [feedback] => b80p user program failed to execute. 
+    [points] => 20
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++  page accessed by getCons 2019-04-12 11:52:26am
++ received data : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [qId] => 69
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ getCons() in backend  was succesful. data: 
+{"cons":[]}
++ gunCons() retrieving array of cons
++ array of cons: 
 Array
 (
-    [grade] => 1
-    [error] => 
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ getCons() has empty cons array. returning 0.
++ getCons(69) failed
++ sending paramaters to getAnswers() :
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 69
+            [1] => 1
+            [2] => 91
+        )
+
+    [testId] => 43
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ getAnswers(bullet2) output and formed the arrayofAnswers: 
 Array
 (
-)
+    [type] => getAnswers
+    [error] => 0
+    [answers] => Array
+        (
+            [0] => Array
+                (
+                    [qId] => 69
+                    [text] => def ddouble(a, b) return a
+                    [tests] => Array
+                        (
+                            [0] => double(2)=4
+                            [1] => double(3)=9
+                        )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 12:59:09am
-********************************************************
+                )
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 36676
-[+] page accessed AUTOGRADER 2019-04-12 12:59:31am
-********************************************************
+            [1] => Array
+                (
+                    [qId] => 1
+                    [text] => def whatisthis(a, b) return a+b
+                    [tests] => Array
+                        (
+                            [0] => add(2,3)=5
+                            [1] => add(4,4)=8
+                        )
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 36875
-[+] page accessed AUTOGRADER 2019-04-12 12:59:21am
-********************************************************
+                )
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 36875
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
+            [2] => Array
+                (
+                    [qId] => 91
+                    [text] => def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
+                    [tests] => Array
+                        (
+                            [0] => Triple(2)=6
+                            [1] => Triple(3)=9
+                        )
+
+                )
+
+        )
+
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
 Array
 (
-    [grade] => 1
-    [error] => 
-)
+    [0] => Array
+        (
+            [qId] => 69
+            [text] => def ddouble(a, b) return a
+            [tests] => Array
+                (
+                    [0] => double(2)=4
+                    [1] => double(3)=9
+                )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
+        )
+
+    [1] => Array
+        (
+            [qId] => 1
+            [text] => def whatisthis(a, b) return a+b
+            [tests] => Array
+                (
+                    [0] => add(2,3)=5
+                    [1] => add(4,4)=8
+                )
+
+        )
+
+    [2] => Array
+        (
+            [qId] => 91
+            [text] => def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
+            [tests] => Array
+                (
+                    [0] => Triple(2)=6
+                    [1] => Triple(3)=9
+                )
+
+        )
+
+)
+counter is 1
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 69
++ clearning the python file for 69
++ colon was not found in user answer
++ new answer: 
+ def ddouble(a, b): return a
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 43
+    [qId] => 69
+    [feedback] => bp missing colon [:] in user answer
+    [subpoints] => .05
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 69
+    [feedback] => b5p missing colon [:] in user answer
+    [points] => 95
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ operating funcom for userAnswer: def ddouble(a, b): return a
++ obtained function double with funcom()
++ finding if double is in user answer def ddouble(a, b): return a
++ obtained function double with funcom()
++ finding if double is in user answer def ddouble(a, b): return a
++ updatePoints() 2 was called. Received:  
 Array
 (
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:00:13am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 39439
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:00:32am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 40360
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:00:43am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 41281
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:00:51am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 42202
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:01:02am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 43123
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:01:28am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 44044
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:01:39am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 44965
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:01:51am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 45886
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:02:43am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 46807
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:02:52am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 47728
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:05:54am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 48649
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:37:13am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 49570
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:37:22am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 50491
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:37:43am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 51412
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:37:46am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 52333
-[+] page accessed AUTOGRADER 2019-04-12 01:37:49am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 52532
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:38:22am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 54175
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:39:40am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 55096
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:40:03am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 56017
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:40:39am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 56938
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:41:54am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 57859
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-[+] page accessed AUTOGRADER 2019-04-12 01:42:05am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 58242
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:42:19am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 59701
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:42:26am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 60622
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:42:40am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 61543
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:42:46am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 62464
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:43:20am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 63385
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:43:55am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 64306
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:49:46am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 65227
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:52:50am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 66148
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:53:05am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 67069
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:54:44am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 67990
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:54:57am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 68911
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:55:29am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 69832
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
-Array
-(
-    [grade] => 1
-    [error] => 
-)
-
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
-Array
-(
-)
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 01:58:44am
-********************************************************
+    [testId] => 43
+    [qId] => 69
+    [feedback] => np expecting function [double] in answer found!
+    [subpoints] => 0
+    [max] => 5
+)
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 70753
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 69
+    [feedback] => n0p expecting function [double] in answer found!
+    [points] => 95
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ writing answer to python file: def ddouble(a, b): return a
++ current testcase :  double(2)=4
++ current function : double(2)
++ printout : print(double(2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 4
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ now we are writing the testcase function double(2) on the python file : 
++ current testcase :  double(3)=9
++ current function : double(3)
++ printout : print(double(3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 4
+    [1] => 9
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ now we are writing the testcase function double(3) on the python file : 
++ running execom() with pars for id : 43, qId : 69
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ exec() failed. returning 0. function did not match testcase or program syntax errors 		
++ execom failed. pls check logs. 
++ execom failed. pls check logs. 
++ calling updatePoints() to provide feedback
++ bp user program failed to execute. 
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 43
+    [qId] => 69
+    [feedback] => bp user program failed to execute. 
+    [subpoints] => .8
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 69
+    [feedback] => b76p user program failed to execute. 
+    [points] => 19
+    [max] => 80
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 02:04:22am
-********************************************************
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 69
+    [feedback] => b76p user program failed to execute. 
+    [points] => 19
+    [max] => 80
+)
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 71674
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++  page accessed by getCons 2019-04-12 11:52:26am
++ received data : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [qId] => 69
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ getCons() in backend  was succesful. data: 
+{"cons":[]}
++ gunCons() retrieving array of cons
++ array of cons: 
 Array
 (
-    [grade] => 1
-    [error] => 
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ getCons() has empty cons array. returning 0.
++ getCons(69) failed
+counter is 2
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 1
++ clearning the python file for 1
++ colon was not found in user answer
++ new answer: 
+ def whatisthis(a, b): return a+b
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 43
+    [qId] => 1
+    [feedback] => bp missing colon [:] in user answer
+    [subpoints] => .05
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 1
+    [feedback] => b5p missing colon [:] in user answer
+    [points] => 95
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ operating funcom for userAnswer: def whatisthis(a, b): return a+b
++ obtained function add with funcom()
++ finding if add is in user answer def whatisthis(a, b): return a+b
++ obtained function add with funcom()
++ finding if add is in user answer def whatisthis(a, b): return a+b
++ function was not found at all in the user answer
++ returning the correct function : add
++ updatePoints() 2 was called. Received:  
 Array
 (
+    [testId] => 43
+    [qId] => 1
+    [feedback] => bp expecting function name [add] in answer was not found!
+    [subpoints] => .05
+    [max] => 5
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 02:04:58am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 72595
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 1
+    [feedback] => b4.75p expecting function name [add] in answer was not found!
+    [points] => 90.25
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ replacing def whatisthis(a, b): return a+b with add
++ funrep() called, old answer: def whatisthis(a, b): return a+b
++ funrep() called, new answer: def add(a, b): return a+b
++ writing correct answer to python file: def add(a, b): return a+b
++ current testcase :  add(2,3)=5
++ current function : add(2,3)
++ printout : print(add(2,3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 5
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ now we are writing the testcase function add(2,3) on the python file : 
++ current testcase :  add(4,4)=8
++ current function : add(4,4)
++ printout : print(add(4,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 5
+    [1] => 8
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ now we are writing the testcase function add(4,4) on the python file : 
++ running execom() with pars for id : 43, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ running execom() with pars for id : 43, qId : 1
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ comparing add(2,3)=5 with output : 5
++ comparing c: 5 with output : 5
+pass!
++ calling updatePoints() to provide feedback
++ gp called [add(2,3)], expected: [5], got user answer [5]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 43
+    [qId] => 1
+    [feedback] => gp called [add(2,3)], expected: [5], got user answer [5]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 1
+    [feedback] => g20p called [add(2,3)], expected: [5], got user answer [5]
+    [points] => 90
+    [max] => 20
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 02:05:31am
-********************************************************
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 1
+    [feedback] => g20p called [add(2,3)], expected: [5], got user answer [5]
+    [points] => 90
+    [max] => 20
+)
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 73516
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
-Array
++ updatePoints() : 
+stdClass Object
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 1
+    [feedback] => g20p called [add(2,3)], expected: [5], got user answer [5]
+    [points] => 90
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ comparing add(4,4)=8 with output : 8
++ comparing c: 8 with output : 8
+pass!
++ calling updatePoints() to provide feedback
++ gp called [add(4,4)], expected: [8], got user answer [8]
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 43
+    [qId] => 1
+    [feedback] => gp called [add(4,4)], expected: [8], got user answer [8]
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 1
+    [feedback] => g20p called [add(4,4)], expected: [8], got user answer [8]
+    [points] => 90
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 1
+    [feedback] => g20p called [add(4,4)], expected: [8], got user answer [8]
+    [points] => 90
+    [max] => 20
+)
+
++ execom() returned 1
++ execom was succesful. updatePoints() feedback
++ np user program succesfully executed. 
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 43
+    [qId] => 1
+    [feedback] => np user program succesfully executed. 
+    [subpoints] => 0
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 1
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 90
+    [max] => 80
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 02:07:12am
-********************************************************
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 1
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 90
+    [max] => 80
+)
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 74437
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++  page accessed by getCons 2019-04-12 11:52:27am
++ received data : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [qId] => 1
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ getCons() in backend  was succesful. data: 
+{"cons":[]}
++ gunCons() retrieving array of cons
++ array of cons: 
 Array
 (
-    [grade] => 1
-    [error] => 
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ getCons() has empty cons array. returning 0.
++ getCons(1) failed
+counter is 3
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 91
++ clearning the python file for 91
+def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 43
+    [qId] => 91
+    [feedback] => gp missing colon [:] in user answer
+    [subpoints] => 0
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 91
+    [feedback] => g5p missing colon [:] in user answer
+    [points] => 100
+    [max] => 5
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
++ operating funcom for userAnswer: def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
++ obtained function Triple with funcom()
++ finding if Triple is in user answer def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
++ obtained function Triple with funcom()
++ finding if Triple is in user answer def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
++ function was not found at all in the user answer
++ returning the correct function : Triple
++ updatePoints() 2 was called. Received:  
 Array
 (
+    [testId] => 43
+    [qId] => 91
+    [feedback] => bp expecting function name [Triple] in answer was not found!
+    [subpoints] => .05
+    [max] => 5
 )
-
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 02:07:20am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 75358
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 91
+    [feedback] => b5p expecting function name [Triple] in answer was not found!
+    [points] => 95
+    [max] => 5
 )
-
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-[+] page accessed AUTOGRADER 2019-04-12 02:07:23am
-********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 75741
-+ checkGrade() returned : 
++ replacing def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y with Triple
++ funrep() called, old answer: def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
++ funrep() called, new answer: def Triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
++ writing correct answer to python file: def Triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
++ current testcase :  Triple(2)=6
++ current function : Triple(2)
++ printout : print(Triple(2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 6
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ now we are writing the testcase function Triple(2) on the python file : 
++ current testcase :  Triple(3)=9
++ current function : Triple(3)
++ printout : print(Triple(3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => 6
+    [1] => 9
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ now we are writing the testcase function Triple(3) on the python file : 
++ running execom() with pars for id : 43, qId : 91
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ exec() failed. returning 0. function did not match testcase or program syntax errors 		
++ execom failed. pls check logs. 
++ execom failed. pls check logs. 
++ calling updatePoints() to provide feedback
++ bp user program failed to execute. 
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 43
+    [qId] => 91
+    [feedback] => bp user program failed to execute. 
+    [subpoints] => .8
+    [max] => 80
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 91
+    [feedback] => b76p user program failed to execute. 
+    [points] => 19
+    [max] => 80
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-+ called checkGrade for testId . 10
-+ checkGrade() returned : 
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 91
+    [feedback] => b76p user program failed to execute. 
+    [points] => 19
+    [max] => 80
+)
+
++  page accessed by getCons 2019-04-12 11:52:27am
++ received data : 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [qId] => 91
 )
 
-+ checkGrade returned true . skipping 10
-+ called checkGrade for testId . 32
-+ checkGrade() returned : 
++ getCons() in backend  was succesful. data: 
+{"cons":["for"]}
++ gunCons() retrieving array of cons
++ array of cons: 
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => for
 )
 
-+ checkGrade returned true . skipping 32
-+ called checkGrade for testId . 35
-+ checkGrade() returned : 
++ getCons (91) success:
 Array
 (
-    [grade] => 1
-    [error] => 
+    [0] => for
 )
 
-+ checkGrade returned true . skipping 35
-+ called checkGrade for testId . 42
-+ checkGrade() returned : 
++ checkCons() is checking if constraints are found in user answer
++ checkCons() found for in user answer
++ updatePoints() 2 was called. Received:  
 Array
 (
-    [grade] => 1
-    [error] => 
+    [testId] => 43
+    [qId] => 91
+    [feedback] => gp constraint [for] was found.
+    [subpoints] => 0
+    [max] => 20
 )
 
-+ checkGrade returned true . skipping 42
-+ an array of submittedTests: 
+error: 0
++ updatePoints() in backend returning:
 Array
 (
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 43
+    [qId] => 91
+    [feedback] => g20p constraint [for] was found.
+    [points] => 19
+    [max] => 20
 )
 
-+ proceed with task B: obtain test cases
-+ obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 02:07:26am
++ checkCons() was succesful at test 43, qid 91
+[+] page accessed AUTOGRADER 2019-04-12 11:52:37am
 ********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 77200
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 79363
 + called checkGrade for testId . 10
 + checkGrade() returned : 
 Array
@@ -3976,10 +3688,6 @@ Array
 
 + checkGrade returned true . skipping 35
 + called checkGrade for testId . 42
-[+] page accessed AUTOGRADER 2019-04-12 02:07:31am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 77879
 + checkGrade() returned : 
 Array
 (
@@ -3988,6 +3696,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -3995,6 +3712,10 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
+[+] page accessed AUTOGRADER 2019-04-12 11:54:42am
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 80432
 + called checkGrade for testId . 10
 + checkGrade() returned : 
 Array
@@ -4031,6 +3752,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -4038,10 +3768,10 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 02:08:59am
+[+] page accessed AUTOGRADER 2019-04-12 11:55:40am
 ********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 79042
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 81501
 + called checkGrade for testId . 10
 + checkGrade() returned : 
 Array
@@ -4078,6 +3808,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -4085,10 +3824,10 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 02:09:21am
+[+] page accessed AUTOGRADER 2019-04-12 11:55:47am
 ********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 79963
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 82570
 + called checkGrade for testId . 10
 + checkGrade() returned : 
 Array
@@ -4125,6 +3864,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -4132,10 +3880,10 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 02:09:29am
+[+] page accessed AUTOGRADER 2019-04-12 11:55:56am
 ********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 80884
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 83639
 + called checkGrade for testId . 10
 + checkGrade() returned : 
 Array
@@ -4172,6 +3920,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -4179,10 +3936,10 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 02:09:37am
+[+] page accessed AUTOGRADER 2019-04-12 11:56:01am
 ********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 81805
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 84708
 + called checkGrade for testId . 10
 + checkGrade() returned : 
 Array
@@ -4219,6 +3976,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -4226,10 +3992,10 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 02:09:45am
+[+] page accessed AUTOGRADER 2019-04-12 11:56:08am
 ********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 82726
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 85777
 + called checkGrade for testId . 10
 + checkGrade() returned : 
 Array
@@ -4240,10 +4006,6 @@ Array
 
 + checkGrade returned true . skipping 10
 + called checkGrade for testId . 32
-[+] page accessed AUTOGRADER 2019-04-12 02:09:52am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 83109
 + checkGrade() returned : 
 Array
 (
@@ -4270,6 +4032,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -4277,6 +4048,10 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
+[+] page accessed AUTOGRADER 2019-04-12 11:56:17am
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 86846
 + called checkGrade for testId . 10
 + checkGrade() returned : 
 Array
@@ -4313,6 +4088,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -4320,10 +4104,10 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 02:10:53am
+[+] page accessed AUTOGRADER 2019-04-12 11:57:23am
 ********************************************************
 
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 84568
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 87915
 + called checkGrade for testId . 10
 + checkGrade() returned : 
 Array
@@ -4360,6 +4144,15 @@ Array
 )
 
 + checkGrade returned true . skipping 42
++ called checkGrade for testId . 43
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 43
 + an array of submittedTests: 
 Array
 (
@@ -4367,7 +4160,3 @@ Array
 
 + proceed with task B: obtain test cases
 + obtaining the array of ques from subm. tests
-[+] page accessed AUTOGRADER 2019-04-12 02:11:06am
-********************************************************
-
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 85489

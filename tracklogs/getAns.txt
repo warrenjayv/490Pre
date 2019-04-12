@@ -4470,3 +4470,831 @@ Array
     [qId] => 69
     [text] => def double(x, y): return x
 )
+[ + ] page accessed getAnswer() 2019-04-12 09:47:08am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 85268
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 69
+            [1] => 1
+            [2] => 91
+        )
+
+    [testId] => 43
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 69
+    [text] => def ddouble(a, b) return a
+)
+Array
+(
+    [qId] => 1
+    [text] => def whatisthis(a, b) return a+b
+)
+Array
+(
+    [qId] => 91
+    [text] => def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
+)
+[ + ] page accessed getAnswer() 2019-04-12 09:55:45am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 85954
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 98
+            [1] => 69
+        )
+
+    [testId] => 42
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 98
+    [text] => def imapythonoob(n): return n
+)
+Array
+(
+    [qId] => 69
+    [text] => def double(x, y): return x
+)
+[ + ] page accessed getAnswer() 2019-04-12 09:55:46am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 86500
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 69
+            [1] => 1
+            [2] => 91
+        )
+
+    [testId] => 43
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 69
+    [text] => def ddouble(a, b) return a
+)
+Array
+(
+    [qId] => 1
+    [text] => def whatisthis(a, b) return a+b
+)
+Array
+(
+    [qId] => 91
+    [text] => def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
+)
+[ + ] page accessed getAnswer() 2019-04-12 10:13:11am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 87186
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 69
+            [1] => 1
+            [2] => 91
+        )
+
+    [testId] => 43
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 69
+    [text] => def ddouble(a, b) return a
+)
+Array
+(
+    [qId] => 1
+    [text] => def whatisthis(a, b) return a+b
+)
+Array
+(
+    [qId] => 91
+    [text] => def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
+)
+[ + ] page accessed getAnswer() 2019-04-12 10:24:16am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 87872
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 98
+            [1] => 69
+        )
+
+    [testId] => 42
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 98
+    [text] => def imapythonoob(n): return n
+)
+Array
+(
+    [qId] => 69
+    [text] => def double(x, y): return x
+)
+[ + ] page accessed getAnswer() 2019-04-12 10:24:17am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 88418
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 69
+            [1] => 1
+            [2] => 91
+        )
+
+    [testId] => 43
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 69
+    [text] => def ddouble(a, b) return a
+)
+Array
+(
+    [qId] => 1
+    [text] => def whatisthis(a, b) return a+b
+)
+Array
+(
+    [qId] => 91
+    [text] => def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
+)
+[ + ] page accessed getAnswer() 2019-04-12 10:47:50am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 89104
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 98
+            [1] => 69
+        )
+
+    [testId] => 42
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 98
+    [text] => def imapythonoob(n): return n
+)
+Array
+(
+    [qId] => 69
+    [text] => def double(x, y): return x
+)
+[ + ] page accessed getAnswer() 2019-04-12 10:47:51am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 89650
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 69
+            [1] => 1
+            [2] => 91
+        )
+
+    [testId] => 43
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 69
+    [text] => def ddouble(a, b) return a
+)
+Array
+(
+    [qId] => 1
+    [text] => def whatisthis(a, b) return a+b
+)
+Array
+(
+    [qId] => 91
+    [text] => def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
+)
+[ + ] page accessed getAnswer() 2019-04-12 10:57:43am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 90336
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 98
+            [1] => 69
+        )
+
+    [testId] => 42
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 98
+    [text] => def imapythonoob(n): return n
+)
+Array
+(
+    [qId] => 69
+    [text] => def double(x, y): return x
+)
+[ + ] page accessed getAnswer() 2019-04-12 10:57:44am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 90882
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 69
+            [1] => 1
+            [2] => 91
+        )
+
+    [testId] => 43
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 69
+    [text] => def ddouble(a, b) return a
+)
+Array
+(
+    [qId] => 1
+    [text] => def whatisthis(a, b) return a+b
+)
+Array
+(
+    [qId] => 91
+    [text] => def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
+)
+[ + ] page accessed getAnswer() 2019-04-12 10:59:09am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 91568
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 98
+            [1] => 69
+        )
+
+    [testId] => 42
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 98
+    [text] => def imapythonoob(n): return n
+)
+Array
+(
+    [qId] => 69
+    [text] => def double(x, y): return x
+)
+[ + ] page accessed getAnswer() 2019-04-12 10:59:10am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 92114
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 69
+            [1] => 1
+            [2] => 91
+        )
+
+    [testId] => 43
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 69
+    [text] => def ddouble(a, b) return a
+)
+Array
+(
+    [qId] => 1
+    [text] => def whatisthis(a, b) return a+b
+)
+Array
+(
+    [qId] => 91
+    [text] => def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
+)
+[ + ] page accessed getAnswer() 2019-04-12 11:10:08am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 92800
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 2
+            [2] => 1
+        )
+
+    [testId] => 10
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 3
+    [text] => def ssub(a, b): return a-b
+)
+Array
+(
+    [qId] => 2
+    [text] => def Mult(a, b):
+    return a*b
+)
+Array
+(
+    [qId] => 1
+    [text] => def add (a, b):
+    return a+b
+)
+[ + ] page accessed getAnswer() 2019-04-12 11:16:26am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 93436
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 2
+            [2] => 1
+        )
+
+    [testId] => 10
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 3
+    [text] => def ssub(a, b): return a-b
+)
+Array
+(
+    [qId] => 2
+    [text] => def Mult(a, b):
+    return a*b
+)
+Array
+(
+    [qId] => 1
+    [text] => def add (a, b):
+    return a+b
+)
+[ + ] page accessed getAnswer() 2019-04-12 11:38:42am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 94072
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 2
+            [2] => 1
+        )
+
+    [testId] => 10
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 3
+    [text] => def ssub(a, b): return a-b
+)
+Array
+(
+    [qId] => 2
+    [text] => def Mult(a, b):
+    return a*b
+)
+Array
+(
+    [qId] => 1
+    [text] => def add (a, b):
+    return a+b
+)
+[ + ] page accessed getAnswer() 2019-04-12 11:39:25am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 94708
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 70
+            [1] => 91
+        )
+
+    [testId] => 32
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 70
+    [text] => def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
+)
+Array
+(
+    [qId] => 91
+    [text] => def Triple(a):    
+    y = 0    
+    for x in range(0, 3):
+        y = y + a
+    
+    return y
+)
+[ + ] page accessed getAnswer() 2019-04-12 11:39:27am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 95405
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 94
+        )
+
+    [testId] => 35
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 94
+    [text] => def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
+)
+[ + ] page accessed getAnswer() 2019-04-12 11:39:28am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 95925
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 98
+            [1] => 69
+        )
+
+    [testId] => 42
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 98
+    [text] => def imapythonoob(n): return n
+)
+Array
+(
+    [qId] => 69
+    [text] => def double(x, y): return x
+)
+[ + ] page accessed getAnswer() 2019-04-12 11:39:29am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 96471
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 69
+            [1] => 1
+            [2] => 91
+        )
+
+    [testId] => 43
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 69
+    [text] => def ddouble(a, b) return a
+)
+Array
+(
+    [qId] => 1
+    [text] => def whatisthis(a, b) return a+b
+)
+Array
+(
+    [qId] => 91
+    [text] => def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
+)
+[ + ] page accessed getAnswer() 2019-04-12 11:46:52am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 97157
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 70
+            [1] => 91
+        )
+
+    [testId] => 32
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 70
+    [text] => def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
+)
+Array
+(
+    [qId] => 91
+    [text] => def Triple(a):    
+    y = 0    
+    for x in range(0, 3):
+        y = y + a
+    
+    return y
+)
+[ + ] page accessed getAnswer() 2019-04-12 11:52:20am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 97854
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 2
+            [2] => 1
+        )
+
+    [testId] => 10
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 3
+    [text] => def ssub(a, b): return a-b
+)
+Array
+(
+    [qId] => 2
+    [text] => def Mult(a, b):
+    return a*b
+)
+Array
+(
+    [qId] => 1
+    [text] => def add (a, b):
+    return a+b
+)
+[ + ] page accessed getAnswer() 2019-04-12 11:52:22am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 98490
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 70
+            [1] => 91
+        )
+
+    [testId] => 32
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 70
+    [text] => def Count(a):   
+    for x in range(1, a):        
+        if x == a-1:            
+          return x+1
+)
+Array
+(
+    [qId] => 91
+    [text] => def Triple(a):    
+    y = 0    
+    for x in range(0, 3):
+        y = y + a
+    
+    return y
+)
+[ + ] page accessed getAnswer() 2019-04-12 11:52:24am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 99187
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 94
+        )
+
+    [testId] => 35
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 94
+    [text] => def run(n): 
+    count = 0
+    while(count < n):
+        count = count + 1
+
+    return count
+)
+[ + ] page accessed getAnswer() 2019-04-12 11:52:24am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 99707
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 98
+            [1] => 69
+        )
+
+    [testId] => 42
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 98
+    [text] => def imapythonoob(n): return n
+)
+Array
+(
+    [qId] => 69
+    [text] => def double(x, y): return x
+)
+[ + ] page accessed getAnswer() 2019-04-12 11:52:26am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 100253
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 69
+            [1] => 1
+            [2] => 91
+        )
+
+    [testId] => 43
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 69
+    [text] => def ddouble(a, b) return a
+)
+Array
+(
+    [qId] => 1
+    [text] => def whatisthis(a, b) return a+b
+)
+Array
+(
+    [qId] => 91
+    [text] => def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
+)

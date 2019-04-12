@@ -41,7 +41,8 @@ function updatePoints($conn, $decoder) {
 		} else { 
 			    while($row  = mysqli_fetch_assoc($result2)) {
               $ded = $row['points'] * $subpoints; 
-    	    	  $points = $row['points'] - $ded; 			  
+    	    	  $points = $row['points'] - $ded; 
+              $points = round($points); 			  
 					}
     }
 

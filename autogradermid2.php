@@ -106,9 +106,22 @@ function grade() {
 			autolog($write, $target); clear($source); 
 		//	$write = "+ writing answer to python file : " . $text . "\n";  
 
-      /* warning... we dont want to write to python yet until we verify function name */ 
-		//	append($source, $text); $write .= print_r($source, true) . "\n"; autolog($write, $target); 
-
+     /* TASK F2: check for colon */ 
+      if ($ext = colonfixer($text)) {
+					$write = "+ colon was not found in user answer\n"; 
+          $write .= "+ new answer: \n " . $ext . "\n";
+          autolog($write, $target); 
+          $feed = "bp missing colon [:] in user answer"; 
+          update($id, $qId, $feed, '.05', '5'); 
+          $text = $ext;
+      } else {
+			    $write = "+ colon was found in the user answer:\n";
+          $write = $text . "\n"; 
+          $feed = "gp missing colon [:] in user answer"; 
+          autolog($write, $target); 
+          update($id, $qId, $feed, '0' , '5'); 
+      }
+     
 				 if ($fun = funcom($text, $tests, $id, $qId)) {
 				    $write = "+ replacing " . $text . " with " . $fun . "\n"; autolog($write, $target); 	
 				   // $text = $fun; <-- this is wrong, why would u replace the answer with a function
@@ -201,7 +214,34 @@ function grade() {
           autolog($write, $target); 
        }
   }//updatePoints
+  
+  function colonfixer($text) {
+  /* returns the correct text that includes the colon =] */
+		$pranto=')'; $col=':';
 
+   /*
+    $length = strlen($text);
+    $funcend = stripos($text, $pranto, 0); 
+ 
+    if (($fors = stripos($text, $col, $funcend+2)) == true) {
+       $off = $fors;
+       $offset = $length - $off;
+    } else {
+       $offset = 0; 
+    }
+   
+    */
+  
+    $offset = 0; 
+    if (($pos = stripos($text, $col, -1*$offset)) === false) {
+        $start = stripos($text, $pranto, 0);
+        $newtext = substr_replace($text, $col, $start+1, 0);
+      return $newtext; 
+    } else { 
+      return false; 
+    }
+  }//colonfixer
+  
 	function getCons($qId) {
 		/* returns an array of constraints */ 
 		$target = targetIs('auto'); 

@@ -1,4 +1,9 @@
 
-def double(x, y): return x
-print(double(2))
-print(double(3))
+def Triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
+print(Triple(2))
+print(Triple(3))

@@ -1299,7 +1299,7 @@ Array
     [userAnswer] => 
     [feedback] => 
     [points] => 10
-    [maxpoints] => 0
+    [maxpoints] => 10
     [testId] => 15
     [questionId] => 5
     [testName] => TEST points array
@@ -1313,7 +1313,7 @@ Array
     [userAnswer] => 
     [feedback] => 
     [points] => 10
-    [maxpoints] => 0
+    [maxpoints] => 10
     [testId] => 15
     [questionId] => 8
     [testName] => TEST points array
@@ -1327,7 +1327,7 @@ Array
     [userAnswer] => 
     [feedback] => 
     [points] => 10
-    [maxpoints] => 0
+    [maxpoints] => 10
     [testId] => 15
     [questionId] => 3
     [testName] => TEST points array
@@ -1346,9 +1346,9 @@ Array
 check the contents of arrayofPts...
 Array
 (
-    [0] => 0
-    [1] => 0
-    [2] => 0
+    [0] => 10
+    [1] => 10
+    [2] => 10
 )
 
 array of questions ... 
@@ -1458,9 +1458,9 @@ Array
 
     [pts] => Array
         (
-            [0] => 0
-            [1] => 0
-            [2] => 0
+            [0] => 10
+            [1] => 10
+            [2] => 10
         )
 
 )
@@ -1502,9 +1502,9 @@ Array
 
     [pts] => Array
         (
-            [0] => 0
-            [1] => 0
-            [2] => 0
+            [0] => 10
+            [1] => 10
+            [2] => 10
         )
 
 )
@@ -2393,7 +2393,7 @@ Array
     [attemptId] => 0
     [userAnswer] => 
     [feedback] => 
-    [points] => 10
+    [points] => 600
     [maxpoints] => 600
     [testId] => 30
     [questionId] => 1
@@ -2407,7 +2407,7 @@ Array
     [attemptId] => 0
     [userAnswer] => 
     [feedback] => 
-    [points] => 10
+    [points] => 600
     [maxpoints] => 600
     [testId] => 30
     [questionId] => 38
@@ -3016,7 +3016,7 @@ Array
     [attemptId] => 0
     [userAnswer] => def ssub(a, b): return a-b
     [feedback] => 
-    [points] => 100
+    [points] => 95
     [maxpoints] => 100
     [testId] => 10
     [questionId] => 3
@@ -6761,5 +6761,227 @@ Array
         )
 
 )
+select * from questionstudentrelation where testid = 43
+Array
+(
+    [Id] => 126
+    [attemptId] => 0
+    [userAnswer] => def ddouble(a, b) return a
+    [feedback] => 
+    [points] => 19
+    [maxpoints] => 100
+    [testId] => 43
+    [questionId] => 69
+    [testName] => colon checker test
+    [comment] => this test was too hard i think i failed
+)
+
+Array
+(
+    [Id] => 127
+    [attemptId] => 0
+    [userAnswer] => def whatisthis(a, b) return a+b
+    [feedback] => 
+    [points] => 90
+    [maxpoints] => 100
+    [testId] => 43
+    [questionId] => 1
+    [testName] => colon checker test
+    [comment] => this test was too hard i think i failed
+)
+
+Array
+(
+    [Id] => 128
+    [attemptId] => 0
+    [userAnswer] => def triple(a) 
+    y=0
+    for x in range(0, 3):
+    y = y + a
+ 
+    return y
+    [feedback] => 
+    [points] => 19
+    [maxpoints] => 100
+    [testId] => 43
+    [questionId] => 91
+    [testName] => colon checker test
+    [comment] => this test was too hard i think i failed
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 43
+    [desc] => colon checker test
+    [rel] => 1
+    [sub] => 1
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 100
+    [1] => 100
+    [2] => 100
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 69
+                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                    [topic] => easy
+                    [diff] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 91
+                    [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+                    [topic] => triple
+                    [diff] => 2
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 43
+    [desc] => colon checker test
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 69
+                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                    [topic] => easy
+                    [diff] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 91
+                    [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+                    [topic] => triple
+                    [diff] => 2
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 43
+    [desc] => colon checker test
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 69
+                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                    [topic] => easy
+                    [diff] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 91
+                    [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+                    [topic] => triple
+                    [diff] => 2
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 100
+            [1] => 100
+            [2] => 100
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 43
+    [desc] => colon checker test
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 69
+                    [desc] => create a function called Double which takes 2 parameters and returns doubled.
+                    [topic] => easy
+                    [diff] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 1
+                    [desc] => create a function add which takes 2 parameters and returns the sum.
+                    [topic] => add
+                    [diff] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 91
+                    [desc] => please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. 
+                    [topic] => triple
+                    [diff] => 2
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 100
+            [1] => 100
+            [2] => 100
+        )
+
+)
 running getExam()...output:
-{"type":"getT","error":"0","tests":[{"id":"1","desc":"testing addTest","rel":"0","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["0"]},{"id":"2","desc":"autograder test 1","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["0","0"]},{"id":"3","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"4","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"5","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"6","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"7","desc":"TEST: addT w\/ valid Q","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"}],"pts":["0"]},{"id":"8","desc":"TEST addT","rel":"0","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["0"]},{"id":"9","desc":"TEST addT","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"}],"pts":["0"]},{"id":"11","desc":"the valid Ids should work now","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["0","0"]},{"id":"14","desc":"TEST no false Q","rel":"0","sub":"0","ques":[{"id":"8","desc":"blahblabhlbhsl","topic":"ndla","diff":"2"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["0","0","0"]},{"id":"15","desc":"TEST points array","rel":"0","sub":"0","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2"},{"id":"8","desc":"blahblabhlbhsl","topic":"ndla","diff":"2"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["0","0","0"]},{"id":"16","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"17","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"18","desc":"another easy exam","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["0","0"]},{"id":"21","desc":"I Need To Test This","rel":"0","sub":"0","ques":[{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["0","0"]},{"id":"25","desc":"345","rel":"0","sub":"0","ques":[{"id":"83","desc":"asdf","topic":"asdf","diff":"3"},{"id":"84","desc":"asdf","topic":"asdf","diff":"3"}],"pts":["0","0","0"]},{"id":"26","desc":"666","rel":"0","sub":"0","ques":[{"id":"9","desc":"This will be the first Q with constraints","topic":"constraints","diff":"5"},{"id":"34","desc":"TEST range","topic":"l;aksjdf","diff":"5"},{"id":"28","desc":"TEST finally got it i think","topic":";lkj","diff":"5"}],"pts":["0","0","0"]},{"id":"30","desc":"testing if points are updated properly","rel":"0","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"},{"id":"38","desc":"What is life?","topic":"Life and Blue","diff":"1"}],"pts":["600","600"]},{"id":"31","desc":"just testing if points work","rel":"0","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"},{"id":"38","desc":"What is life?","topic":"Life and Blue","diff":"1"}],"pts":["800","800"]},{"id":"33","desc":"teest","rel":"0","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"},{"id":"38","desc":"What is life?","topic":"Life and Blue","diff":"1"}],"pts":["15","15"]},{"id":"36","desc":"asd","rel":"0","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["0"]},{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["100","100","100"]},{"id":"12","desc":"TEST Here's a new test","rel":"1","sub":"0","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2"}],"pts":["0"]},{"id":"13","desc":"","rel":"1","sub":"0","ques":[{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4"}],"pts":["0"]},{"id":"19","desc":"TEST Q w\/ pts = [9]","rel":"1","sub":"0","ques":[{"id":"10","desc":"TEST here's a new Q FOR you","topic":"For","diff":"2"}],"pts":["0"]},{"id":"20","desc":"Easy and Hards","rel":"1","sub":"0","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2"},{"id":"8","desc":"blahblabhlbhsl","topic":"ndla","diff":"2"},{"id":"7","desc":"TEST blah Q","topic":"Q blah","diff":"4"},{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4"},{"id":"4","desc":"TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.","topic":"Random","diff":"4"},{"id":"10","desc":"TEST here's a new Q FOR you","topic":"For","diff":"2"}],"pts":["0","0","0","0","0","0"]},{"id":"22","desc":"TEST new boring test","rel":"1","sub":"0","ques":[{"id":"4","desc":"TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.","topic":"Random","diff":"4"},{"id":"68","desc":"l;kj","topic":";lkj","diff":"3"},{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4"}],"pts":["0","0","0"]},{"id":"23","desc":"TEST guinea pig","rel":"1","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"}],"pts":["0","0"]},{"id":"24","desc":"Herdederm","rel":"1","sub":"0","ques":[{"id":"71","desc":"Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. ","topic":"Herdederms","diff":"3"}],"pts":["0"]},{"id":"27","desc":"345","rel":"1","sub":"0","ques":[{"id":"9","desc":"This will be the first Q with constraints","topic":"constraints","diff":"5"},{"id":"34","desc":"TEST range","topic":"l;aksjdf","diff":"5"},{"id":"54","desc":"TEST i think i got it","topic":"lkj","diff":"5"}],"pts":["0","0","0"]},{"id":"28","desc":"Bloomspripts","rel":"1","sub":"0","ques":[{"id":"88","desc":"New Q comin in hot","topic":"hotness","diff":"2"},{"id":"55","desc":"TEST this can only be submitted once","topic":"top","diff":"5"},{"id":"9","desc":"This will be the first Q with constraints","topic":"constraints","diff":"5"}],"pts":["0","0","0"]},{"id":"29","desc":"strMult Test","rel":"1","sub":"0","ques":[{"id":"90","desc":"Write a function called strMult() that takes two parameters: s, a string, and n, an integer. It should return the string concatenated with itself n times. Must use a for loop.","topic":"Strings","diff":"2"}],"pts":["0"]},{"id":"32","desc":"testing the autograder","rel":"1","sub":"1","ques":[{"id":"70","desc":"please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. ","topic":"count","diff":"2"},{"id":"91","desc":"please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. ","topic":"triple","diff":"2"}],"pts":["100","100"]},{"id":"34","desc":"111","rel":"1","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"},{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"}],"pts":["15","15"]},{"id":"35","desc":"testing the function name ","rel":"1","sub":"1","ques":[{"id":"94","desc":"run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. ","topic":"while","diff":"3"}],"pts":["100"]},{"id":"37","desc":"asdf","rel":"1","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"},{"id":"38","desc":"What is life?","topic":"Life and Blue","diff":"1"},{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"}],"pts":["0","0","0"]},{"id":"38","desc":"Real Questions","rel":"1","sub":"0","ques":[{"id":"90","desc":"Write a function called strMult() that takes two parameters: s, a string, and n, an integer. It should return the string concatenated with itself n times. Must use a for loop.","topic":"Strings","diff":"2"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"},{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"},{"id":"70","desc":"please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. ","topic":"count","diff":"2"},{"id":"91","desc":"please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. ","topic":"triple","diff":"2"},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"},{"id":"94","desc":"run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. ","topic":"while","diff":"3"}],"pts":["0","0","0","0","0","0","0","0"]},{"id":"39","desc":"TEST 14","rel":"1","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["0"]},{"id":"40","desc":"TEST 14 34","rel":"1","sub":"0","ques":[{"id":"38","desc":"What is life?","topic":"Life and Blue","diff":"1"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["14","34"]},{"id":"41","desc":"Real Q 50pts","rel":"1","sub":"0","ques":[{"id":"90","desc":"Write a function called strMult() that takes two parameters: s, a string, and n, an integer. It should return the string concatenated with itself n times. Must use a for loop.","topic":"Strings","diff":"2"}],"pts":["50"]},{"id":"42","desc":"the hardest exam ever made","rel":"1","sub":"1","ques":[{"id":"98","desc":"make a function called Eat which takes 1 parameter and returns it.","topic":"eat","diff":"5"},{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"}],"pts":["100","100"]}]}
+{"type":"getT","error":"0","tests":[{"id":"1","desc":"testing addTest","rel":"0","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["0"]},{"id":"2","desc":"autograder test 1","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["0","0"]},{"id":"3","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"4","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"5","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"6","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"7","desc":"TEST: addT w\/ valid Q","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"}],"pts":["0"]},{"id":"8","desc":"TEST addT","rel":"0","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["0"]},{"id":"9","desc":"TEST addT","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"}],"pts":["0"]},{"id":"11","desc":"the valid Ids should work now","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["0","0"]},{"id":"14","desc":"TEST no false Q","rel":"0","sub":"0","ques":[{"id":"8","desc":"blahblabhlbhsl","topic":"ndla","diff":"2"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["0","0","0"]},{"id":"15","desc":"TEST points array","rel":"0","sub":"0","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2"},{"id":"8","desc":"blahblabhlbhsl","topic":"ndla","diff":"2"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["10","10","10"]},{"id":"16","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"17","desc":null,"rel":"0","sub":"0","ques":[],"pts":[]},{"id":"18","desc":"another easy exam","rel":"0","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"}],"pts":["0","0"]},{"id":"21","desc":"I Need To Test This","rel":"0","sub":"0","ques":[{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["0","0"]},{"id":"25","desc":"345","rel":"0","sub":"0","ques":[{"id":"83","desc":"asdf","topic":"asdf","diff":"3"},{"id":"84","desc":"asdf","topic":"asdf","diff":"3"}],"pts":["0","0","0"]},{"id":"26","desc":"666","rel":"0","sub":"0","ques":[{"id":"9","desc":"This will be the first Q with constraints","topic":"constraints","diff":"5"},{"id":"34","desc":"TEST range","topic":"l;aksjdf","diff":"5"},{"id":"28","desc":"TEST finally got it i think","topic":";lkj","diff":"5"}],"pts":["0","0","0"]},{"id":"30","desc":"testing if points are updated properly","rel":"0","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"},{"id":"38","desc":"What is life?","topic":"Life and Blue","diff":"1"}],"pts":["600","600"]},{"id":"31","desc":"just testing if points work","rel":"0","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"},{"id":"38","desc":"What is life?","topic":"Life and Blue","diff":"1"}],"pts":["800","800"]},{"id":"33","desc":"teest","rel":"0","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"},{"id":"38","desc":"What is life?","topic":"Life and Blue","diff":"1"}],"pts":["15","15"]},{"id":"36","desc":"asd","rel":"0","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["0"]},{"id":"10","desc":"TEST 3Q's","rel":"1","sub":"1","ques":[{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["100","100","100"]},{"id":"12","desc":"TEST Here's a new test","rel":"1","sub":"0","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2"}],"pts":["0"]},{"id":"13","desc":"","rel":"1","sub":"0","ques":[{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4"}],"pts":["0"]},{"id":"19","desc":"TEST Q w\/ pts = [9]","rel":"1","sub":"0","ques":[{"id":"10","desc":"TEST here's a new Q FOR you","topic":"For","diff":"2"}],"pts":["0"]},{"id":"20","desc":"Easy and Hards","rel":"1","sub":"0","ques":[{"id":"5","desc":"TEST here's a new Q blah blah","topic":"blah blah","diff":"2"},{"id":"8","desc":"blahblabhlbhsl","topic":"ndla","diff":"2"},{"id":"7","desc":"TEST blah Q","topic":"Q blah","diff":"4"},{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4"},{"id":"4","desc":"TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.","topic":"Random","diff":"4"},{"id":"10","desc":"TEST here's a new Q FOR you","topic":"For","diff":"2"}],"pts":["0","0","0","0","0","0"]},{"id":"22","desc":"TEST new boring test","rel":"1","sub":"0","ques":[{"id":"4","desc":"TEST write a function called blah() that prints out five random numbers and five random letters with each set being in decreasing order. All the numbers do not have to come before all the letters.","topic":"Random","diff":"4"},{"id":"68","desc":"l;kj","topic":";lkj","diff":"3"},{"id":"6","desc":"TEST blah Q","topic":"Q blah","diff":"4"}],"pts":["0","0","0"]},{"id":"23","desc":"TEST guinea pig","rel":"1","sub":"0","ques":[{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"}],"pts":["0","0"]},{"id":"24","desc":"Herdederm","rel":"1","sub":"0","ques":[{"id":"71","desc":"Make a function called elephant that takes no parameters and prints out the name of a famous pachyderm. ","topic":"Herdederms","diff":"3"}],"pts":["0"]},{"id":"27","desc":"345","rel":"1","sub":"0","ques":[{"id":"9","desc":"This will be the first Q with constraints","topic":"constraints","diff":"5"},{"id":"34","desc":"TEST range","topic":"l;aksjdf","diff":"5"},{"id":"54","desc":"TEST i think i got it","topic":"lkj","diff":"5"}],"pts":["0","0","0"]},{"id":"28","desc":"Bloomspripts","rel":"1","sub":"0","ques":[{"id":"88","desc":"New Q comin in hot","topic":"hotness","diff":"2"},{"id":"55","desc":"TEST this can only be submitted once","topic":"top","diff":"5"},{"id":"9","desc":"This will be the first Q with constraints","topic":"constraints","diff":"5"}],"pts":["0","0","0"]},{"id":"29","desc":"strMult Test","rel":"1","sub":"0","ques":[{"id":"90","desc":"Write a function called strMult() that takes two parameters: s, a string, and n, an integer. It should return the string concatenated with itself n times. Must use a for loop.","topic":"Strings","diff":"2"}],"pts":["0"]},{"id":"32","desc":"testing the autograder","rel":"1","sub":"1","ques":[{"id":"70","desc":"please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. ","topic":"count","diff":"2"},{"id":"91","desc":"please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. ","topic":"triple","diff":"2"}],"pts":["100","100"]},{"id":"34","desc":"111","rel":"1","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"},{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"}],"pts":["15","15"]},{"id":"35","desc":"testing the function name ","rel":"1","sub":"1","ques":[{"id":"94","desc":"run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. ","topic":"while","diff":"3"}],"pts":["100"]},{"id":"37","desc":"asdf","rel":"1","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"},{"id":"38","desc":"What is life?","topic":"Life and Blue","diff":"1"},{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"}],"pts":["0","0","0"]},{"id":"38","desc":"Real Questions","rel":"1","sub":"0","ques":[{"id":"90","desc":"Write a function called strMult() that takes two parameters: s, a string, and n, an integer. It should return the string concatenated with itself n times. Must use a for loop.","topic":"Strings","diff":"2"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"},{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"},{"id":"70","desc":"please write a function called Count which takes one parameter and counts until it reaches that parameter using a for loop. ","topic":"count","diff":"2"},{"id":"91","desc":"please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. ","topic":"triple","diff":"2"},{"id":"2","desc":"create a function called Mult() that takes 2 parameters and returns their product. ","topic":"multi","diff":"3"},{"id":"3","desc":"create a function called Sub which takes 2 parameters and subtracts and returns the difference.","topic":"Sub","diff":"3"},{"id":"94","desc":"run a function called Run which takes 1 parameter. Use a while loop to count up to the paramater and returns it. ","topic":"while","diff":"3"}],"pts":["0","0","0","0","0","0","0","0"]},{"id":"39","desc":"TEST 14","rel":"1","sub":"0","ques":[{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["0"]},{"id":"40","desc":"TEST 14 34","rel":"1","sub":"0","ques":[{"id":"38","desc":"What is life?","topic":"Life and Blue","diff":"1"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"}],"pts":["14","34"]},{"id":"41","desc":"Real Q 50pts","rel":"1","sub":"0","ques":[{"id":"90","desc":"Write a function called strMult() that takes two parameters: s, a string, and n, an integer. It should return the string concatenated with itself n times. Must use a for loop.","topic":"Strings","diff":"2"}],"pts":["50"]},{"id":"42","desc":"the hardest exam ever made","rel":"1","sub":"1","ques":[{"id":"98","desc":"make a function called Eat which takes 1 parameter and returns it.","topic":"eat","diff":"5"},{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"}],"pts":["100","100"]},{"id":"43","desc":"colon checker test","rel":"1","sub":"1","ques":[{"id":"69","desc":"create a function called Double which takes 2 parameters and returns doubled.","topic":"easy","diff":"1"},{"id":"1","desc":"create a function add which takes 2 parameters and returns the sum.","topic":"add","diff":"1"},{"id":"91","desc":"please write a function called Triple which takes 1 parameter and triples it by addition using a For Loop. ","topic":"triple","diff":"2"}],"pts":["100","100","100"]}]}
