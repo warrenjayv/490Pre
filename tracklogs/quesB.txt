@@ -365,3 +365,41 @@ Array
         )
 
 )
+[ + ] page accessed quesB 2019-04-12 12:30:09pm
+executing quesObject() with qId = 99
+obtaining testcases for qId = 99
+building the ques object (temp1)... 
+Array
+(
+    [id] => 99
+    [desc] => NEW NEW New Q with Constraints
+    [topic] => new
+    [cons] => Array
+        (
+            [0] => while
+            [1] => print
+        )
+
+    [diff] => 5
+)
+
+the ques object with array cases (temp2)... 
+Array
+(
+    [id] => 99
+    [desc] => NEW NEW New Q with Constraints
+    [topic] => new
+    [cons] => Array
+        (
+            [0] => while
+            [1] => print
+        )
+
+    [diff] => 5
+    [tests] => Array
+        (
+            [0] => new()=a
+            [1] => new()=d
+        )
+
+)

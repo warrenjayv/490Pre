@@ -1,9 +1,11 @@
 <?php
 
+include 'curlop.php'; 
+include 'autogradermid2.php'; 
+/* PATCH: curlop has been introduced to reuse curling methods */ 
 //include 'Autograder.php';
 date_default_timezone_set("America/New_York"); 
 /* stores activities via a log */ 
-include 'autogradermid2.php'; 
 
 $log = fopen('/afs/cad/u/w/b/wbv4/public_html/Middle/log.txt', 'a'); 
 $write .= "page accessed " . date("Y-m-d h:i:sa") . "\n"; 
@@ -18,7 +20,30 @@ if (isset($demux['username']))
 if (isset($demux['password'])) {
    $pass = $demux['password']; 
    echo loginVERIFY($user, $pass);  
-   }
+}
+
+/********************* PATCH 04/15 **************************/
+
+if (isset($demux['type']) && ($demux['type'] == 'modA')) {
+    $tgt  = 'https://web.njit.edu/~rd248/download/beta/back/modA.php' ;
+    $write = "+ REMARK request detected. Calling `curlop()`  \n"; 
+    $write .= trace($write); 
+    
+}//remark
+ 
+function holeCheck($ammo, $tgt)
+{     
+    /* returns a decoded json for processing */ 
+    if (! $hole = curlop($ammo, $tgt)) {
+        $GLOBALS['write'] .= "+ holecheck was conducted for:\n" . $ammo . "/\n" . $tgt . "\n"; 
+        $_GLOBALS['write'] .= "+ failure to conduct curlop().\n"; 
+        return false; 
+    } else {
+       return json_decode($hole); 
+    }
+} //holecheck 
+
+/********************* PATCH 04/15 ************************/
 
 
 /*legacy/deprecated
@@ -39,7 +64,7 @@ if (isset($demux['qnum'])) {
    $qnum = $demux['qnum']; 
    $cart  = getQUEST($qnum); 
    echo $cart; 
-   } 
+ } 
 
 
 if(isset($demux['type']) && ($demux['type'] == 'addQ')) {
@@ -108,7 +133,7 @@ $url = "https://web.njit.edu/~wbv4/Middle/backend.php";
 //************************console and log******************************
 function trace($note) {
        $global = $note; 
-       $global .= date("Y-m-d h:i:sa") . "\n";
+       $global .= "\n" .  date("Y-m-d h:i:sa") . "\n";
        //$global .= $trail . "\n"; 
        return $global; 
 } //trace(); 

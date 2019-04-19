@@ -3,6 +3,8 @@
 include 'dblogin_interface.php';
 include 'autolog.php';
 include 'targets.php'; 
+include 'sqlCheck.php'; 
+
 $response   = file_get_contents('php://input');
 $decoder    = json_decode($response, true);
 
@@ -39,9 +41,9 @@ function updatePoints($conn, $decoder) {
 				$error2 .= "sql2 " . $sqlerror2 . " "; 
 			 $write = "updatePoints SQL : " . $error . "\n"; autolog($write, $target);  
 		} else { 
-			    while($row  = mysqli_fetch_assoc($result2)) {
-              $ded = $row['points'] * $subpoints; 
-    	    	  $points = $row['points'] - $ded; 
+			    while($row2  = mysqli_fetch_assoc($result2)) {
+              $ded = $row2['points'] * $subpoints; 
+    	    	  $points = $row2['points'] - $ded; 
               $points = round($points); 			  
 					}
     }
@@ -65,10 +67,22 @@ function updatePoints($conn, $decoder) {
      } else {
         $feedback = substr_replace($feedback, $max, $pos+1, 0);   
      }
- 
-     $newfeedback = addslashes($feedback); 
-    
-		$sql = "INSERT INTO Feedback (testId, questionId, feedback) VALUES ('$testId', '$qId', '$newfeedback')";
+
+    /* task A : a new feature; add index according to # of rows, index = rows - 1.*/ 
+    $sql4 = "SELECT * FROM Feedback WHERE testId = '$testId' AND questionId = '$qId'"; 
+    if(! $result4 = sqlCheck($sql4, $conn)) {
+        $error = "sql4 in modA, selecting feedbacks failed."; 
+        $write = "+ error: " . $error . "\n"; autolog($write, $target); 
+    } else {
+        $write = "+ modA was able to retrieve all rows from feedback for testId = " . $testId .
+            " and qId = " . $qId . "\n"; 
+        $write .= "+ obtained " . $result4->num_rows . " rows\n"; autolog($write, $target); 
+        $index = $result4->num_rows;     
+        $index +=1;    
+    }//if sql4 else
+
+    $newfeedback = addslashes($feedback);     
+    $sql = "INSERT INTO Feedback (arrayindex, testId, questionId, feedback) VALUES ('$index', '$testId', '$qId','$newfeedback')";
 		if (! $result = $conn->query($sql)) {
 				$sqlerror = $conn->error; 
 				$error .= "sql " . $sqlerror . " "; 
@@ -90,4 +104,8 @@ function updatePoints($conn, $decoder) {
 		return json_encode($package);
 
 } //updatePoints
+
+/* worklog 4 19 2017 changes
+     implementing a new change in which an index will now be update for each testId and questionId
+*/
 ?>

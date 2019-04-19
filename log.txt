@@ -1,526 +1,282 @@
-page accessed 2019-04-12 02:13:51am
-running getAttempt() 
-2019-04-12 02:13:51am
-page accessed 2019-04-12 02:14:09am
-running getAttempt() 
-2019-04-12 02:14:09am
-page accessed 2019-04-12 02:14:18am
-running getAttempt() 
-2019-04-12 02:14:18am
-page accessed 2019-04-12 02:14:27am
-running getAttempt() 
-2019-04-12 02:14:27am
-page accessed 2019-04-12 02:15:08am
-running getAttempt() 
-2019-04-12 02:15:08am
-page accessed 2019-04-12 02:15:22am
-running getAttempt() 
-2019-04-12 02:15:22am
-page accessed 2019-04-12 02:15:36am
-running getAttempt() 
-2019-04-12 02:15:36am
-page accessed 2019-04-12 02:15:42am
-running getAttempt() 
-2019-04-12 02:15:42am
-page accessed 2019-04-12 02:15:52am
-running getAttempt() 
-2019-04-12 02:15:52am
-page accessed 2019-04-12 02:16:08am
-running getAttempt() 
-2019-04-12 02:16:08am
-page accessed 2019-04-12 02:16:12am
-running getAttempt() 
-2019-04-12 02:16:12am
-page accessed 2019-04-12 02:16:37am
-running getAttempt() 
-2019-04-12 02:16:37am
-page accessed 2019-04-12 02:17:05am
-running getAttempt() 
-2019-04-12 02:17:05am
-page accessed 2019-04-12 02:17:41am
-running getAttempt() 
-2019-04-12 02:17:41am
-page accessed 2019-04-12 02:18:04am
-running getAttempt() 
-2019-04-12 02:18:04am
-page accessed 2019-04-12 02:18:49am
-running getAttempt() 
-2019-04-12 02:18:49am
-page accessed 2019-04-12 02:19:20am
-running getAttempt() 
-2019-04-12 02:19:20am
-page accessed 2019-04-12 02:24:08am
+page accessed 2019-04-17 02:52:57pm
 running getQUEST() 
-2019-04-12 02:24:08am
-page accessed 2019-04-12 02:26:50am
-page accessed 2019-04-12 02:26:56am
-running getExam() 
-2019-04-12 02:26:56am
-page accessed 2019-04-12 02:26:54am
-running getAttempt() 
-2019-04-12 02:26:54am
-page accessed 2019-04-12 02:27:26am
-running getAttempt() 
-2019-04-12 02:27:26am
-page accessed 2019-04-12 02:28:04am
-page accessed 2019-04-12 02:28:09am
+
+2019-04-17 02:52:57pm
+page accessed 2019-04-17 02:53:54pm
 running getQUEST() 
-2019-04-12 02:28:09am
-page accessed 2019-04-12 02:43:13am
+
+2019-04-17 02:53:54pm
+page accessed 2019-04-17 02:54:02pm
 running getQUEST() 
-2019-04-12 02:43:13am
-page accessed 2019-04-12 02:43:58am
-running getExam() 
-2019-04-12 02:43:58am
-page accessed 2019-04-12 02:44:02am
-running getExam() 
-2019-04-12 02:44:02am
-page accessed 2019-04-12 02:44:05am
-running getExam() 
-2019-04-12 02:44:05am
-page accessed 2019-04-12 02:44:07am
-running getExam() 
-2019-04-12 02:44:07am
-page accessed 2019-04-12 02:44:19am
-running getExam() 
-2019-04-12 02:44:19am
-page accessed 2019-04-12 02:46:02am
-running getAttempt() 
-2019-04-12 02:46:02am
-page accessed 2019-04-12 02:46:14am
-running getAttempt() 
-2019-04-12 02:46:14am
-page accessed 2019-04-12 02:46:34am
-running getExam() 
-2019-04-12 02:46:34am
-page accessed 2019-04-12 02:49:58am
+
+2019-04-17 02:54:02pm
+page accessed 2019-04-17 02:54:41pm
 running getQUEST() 
-2019-04-12 02:49:58am
-page accessed 2019-04-12 02:51:57am
-running getAttempt() 
-2019-04-12 02:51:57am
-page accessed 2019-04-12 09:40:25am
-running getAttempt() 
-2019-04-12 09:40:25am
-page accessed 2019-04-12 09:40:46am
-running getAttempt() 
-2019-04-12 09:40:46am
-page accessed 2019-04-12 09:41:10am
-page accessed 2019-04-12 09:41:15am
+
+2019-04-17 02:54:41pm
+page accessed 2019-04-17 03:02:42pm
+page accessed 2019-04-17 09:12:22pm
 running getQUEST() 
-2019-04-12 09:41:15am
-page accessed 2019-04-12 09:41:33am
-page accessed 2019-04-12 09:41:37am
+
+2019-04-17 09:12:22pm
+page accessed 2019-04-17 09:12:33pm
+running getExam() 
+
+2019-04-17 09:12:33pm
+page accessed 2019-04-17 09:12:42pm
+running getExam() 
+
+2019-04-17 09:12:42pm
+page accessed 2019-04-17 09:12:52pm
+running getAttempt() 
+
+2019-04-17 09:12:52pm
+page accessed 2019-04-17 09:14:21pm
+running getAttempt() 
+
+2019-04-17 09:14:21pm
+page accessed 2019-04-17 09:14:26pm
+running getAttempt() 
+
+2019-04-17 09:14:26pm
+page accessed 2019-04-17 09:15:09pm
+running getExam() 
+
+2019-04-17 09:15:09pm
+page accessed 2019-04-18 03:55:04pm
+running getExam() 
+
+2019-04-18 03:55:04pm
+page accessed 2019-04-18 03:55:09pm
+running getAttempt() 
+
+2019-04-18 03:55:09pm
+page accessed 2019-04-18 03:55:31pm
 running getQUEST() 
-2019-04-12 09:41:37am
-page accessed 2019-04-12 09:42:29am
+
+2019-04-18 03:55:31pm
+page accessed 2019-04-18 03:56:24pm
 running getAttempt() 
-2019-04-12 09:42:29am
-page accessed 2019-04-12 09:42:38am
+
+2019-04-18 03:56:24pm
+page accessed 2019-04-18 06:59:00pm
 running getAttempt() 
-2019-04-12 09:42:38am
-page accessed 2019-04-12 09:43:04am
+
+2019-04-18 06:59:00pm
++ REMARK request detected. Calling `curlop()`  
++ REMARK request detected. Calling `curlop()`  
+
+2019-04-18 06:59:48pm
+page accessed 2019-04-18 07:08:13pm
 running getAttempt() 
-2019-04-12 09:43:04am
-page accessed 2019-04-12 09:43:41am
+
+2019-04-18 07:08:13pm
+page accessed 2019-04-18 07:21:10pm
+running getAttempt() 
+
+2019-04-18 07:21:10pm
++ REMARK request detected. Calling `curlop()`  
++ REMARK request detected. Calling `curlop()`  
+
+2019-04-18 07:21:18pm
+page accessed 2019-04-18 07:22:05pm
+running getAttempt() 
+
+2019-04-18 07:22:05pm
++ REMARK request detected. Calling `curlop()`  
++ REMARK request detected. Calling `curlop()`  
+
+2019-04-18 07:22:12pm
+page accessed 2019-04-18 07:22:41pm
+running getAttempt() 
+
+2019-04-18 07:22:41pm
++ REMARK request detected. Calling `curlop()`  
++ REMARK request detected. Calling `curlop()`  
+
+2019-04-18 07:22:46pm
+page accessed 2019-04-18 07:23:10pm
+running getAttempt() 
+
+2019-04-18 07:23:10pm
++ REMARK request detected. Calling `curlop()`  
++ REMARK request detected. Calling `curlop()`  
+
+2019-04-18 07:23:15pm
++ REMARK request detected. Calling `curlop()`  
++ REMARK request detected. Calling `curlop()`  
+
+2019-04-18 07:23:23pm
++ REMARK request detected. Calling `curlop()`  
++ REMARK request detected. Calling `curlop()`  
+
+2019-04-18 07:23:54pm
+page accessed 2019-04-18 07:24:10pm
+running getAttempt() 
+
+2019-04-18 07:24:10pm
+page accessed 2019-04-18 07:24:14pm
+running getAttempt() 
+
+2019-04-18 07:24:14pm
++ REMARK request detected. Calling `curlop()`  
++ REMARK request detected. Calling `curlop()`  
+
+2019-04-18 07:24:30pm
+page accessed 2019-04-18 07:25:41pm
+running getAttempt() 
+
+2019-04-18 07:25:41pm
++ REMARK request detected. Calling `curlop()`  
++ REMARK request detected. Calling `curlop()`  
+
+2019-04-18 07:25:51pm
+page accessed 2019-04-18 07:39:12pm
+running getAttempt() 
+
+2019-04-18 07:39:12pm
+page accessed 2019-04-18 07:39:15pm
+running getQUEST() 
+
+2019-04-18 07:39:15pm
+page accessed 2019-04-18 07:39:40pm
+running getQUEST() 
+
+2019-04-18 07:39:40pm
+page accessed 2019-04-18 07:39:39pm
+running getAttempt() 
+
+2019-04-18 07:39:39pm
+page accessed 2019-04-18 07:39:48pm
+running getQUEST() 
+
+2019-04-18 07:39:48pm
+page accessed 2019-04-18 07:39:49pm
+running getQUEST() 
+
+2019-04-18 07:39:49pm
+page accessed 2019-04-19 02:48:10pm
+running getQUEST() 
+
+2019-04-19 02:48:10pm
+page accessed 2019-04-19 02:48:45pm
 running addExam() 
-2019-04-12 09:43:41am
-page accessed 2019-04-12 09:43:46am
-page accessed 2019-04-12 09:43:46am
-page accessed 2019-04-12 09:43:50am
+
+2019-04-19 02:48:45pm
+page accessed 2019-04-19 02:48:50pm
+running getAttempt() 
+
+2019-04-19 02:48:50pm
+page accessed 2019-04-19 02:48:53pm
+running getAttempt() 
+
+2019-04-19 02:48:53pm
+page accessed 2019-04-19 02:48:58pm
+page accessed 2019-04-19 02:49:02pm
+running getAttempt() 
+
+2019-04-19 02:49:02pm
+page accessed 2019-04-19 02:49:04pm
 running getExam() 
-2019-04-12 09:43:50am
-page accessed 2019-04-12 09:46:49am
+
+2019-04-19 02:49:04pm
+page accessed 2019-04-19 03:01:59pm
 running submitExam() 
-2019-04-12 09:46:49am
-page accessed 2019-04-12 09:47:06am
-running getAttempt() 
-2019-04-12 09:47:06am
-page accessed 2019-04-12 09:47:19am
-running getAttempt() 
-2019-04-12 09:47:19am
-page accessed 2019-04-12 09:48:24am
-running getAttempt() 
-2019-04-12 09:48:24am
-page accessed 2019-04-12 09:50:14am
-running getAttempt() 
-2019-04-12 09:50:14am
-page accessed 2019-04-12 09:50:38am
-running getAttempt() 
-2019-04-12 09:50:38am
-page accessed 2019-04-12 09:52:11am
-running getAttempt() 
-2019-04-12 09:52:11am
-page accessed 2019-04-12 09:52:15am
-running getAttempt() 
-2019-04-12 09:52:15am
-page accessed 2019-04-12 09:52:23am
-running getAttempt() 
-2019-04-12 09:52:23am
-page accessed 2019-04-12 09:52:52am
-running getAttempt() 
-2019-04-12 09:52:52am
-page accessed 2019-04-12 09:53:30am
-running getAttempt() 
-2019-04-12 09:53:30am
-page accessed 2019-04-12 09:53:38am
-running getAttempt() 
-2019-04-12 09:53:38am
-page accessed 2019-04-12 09:54:45am
-running getAttempt() 
-2019-04-12 09:54:45am
-page accessed 2019-04-12 09:55:43am
-running getAttempt() 
-2019-04-12 09:55:43am
-page accessed 2019-04-12 09:55:48am
-running getAttempt() 
-2019-04-12 09:55:48am
-page accessed 2019-04-12 09:55:58am
-running getAttempt() 
-2019-04-12 09:55:58am
-page accessed 2019-04-12 09:56:45am
-running getAttempt() 
-2019-04-12 09:56:45am
-page accessed 2019-04-12 09:56:52am
-running getAttempt() 
-2019-04-12 09:56:52am
-page accessed 2019-04-12 09:56:57am
-running getAttempt() 
-2019-04-12 09:56:57am
-page accessed 2019-04-12 09:59:36am
-running getAttempt() 
-2019-04-12 09:59:36am
-page accessed 2019-04-12 10:04:40am
-running getAttempt() 
-2019-04-12 10:04:40am
-page accessed 2019-04-12 10:05:41am
-running getAttempt() 
-2019-04-12 10:05:41am
-page accessed 2019-04-12 10:06:22am
-running getAttempt() 
-2019-04-12 10:06:22am
-page accessed 2019-04-12 10:06:32am
-running getAttempt() 
-2019-04-12 10:06:32am
-page accessed 2019-04-12 10:06:55am
-running getAttempt() 
-2019-04-12 10:06:55am
-page accessed 2019-04-12 10:10:56am
-running getAttempt() 
-2019-04-12 10:10:56am
-page accessed 2019-04-12 10:11:39am
-running getAttempt() 
-2019-04-12 10:11:39am
-page accessed 2019-04-12 10:11:54am
-running getAttempt() 
-2019-04-12 10:11:54am
-page accessed 2019-04-12 10:12:31am
-running getAttempt() 
-2019-04-12 10:12:31am
-page accessed 2019-04-12 10:13:08am
-running getAttempt() 
-2019-04-12 10:13:08am
-page accessed 2019-04-12 10:13:21am
-running getAttempt() 
-2019-04-12 10:13:21am
-page accessed 2019-04-12 10:13:30am
-running getAttempt() 
-2019-04-12 10:13:30am
-page accessed 2019-04-12 10:13:32am
-running getAttempt() 
-2019-04-12 10:13:32am
-page accessed 2019-04-12 10:13:43am
-running getAttempt() 
-2019-04-12 10:13:43am
-page accessed 2019-04-12 10:14:19am
-running getAttempt() 
-2019-04-12 10:14:19am
-page accessed 2019-04-12 10:22:27am
-running getAttempt() 
-2019-04-12 10:22:27am
-page accessed 2019-04-12 10:22:32am
-running getAttempt() 
-2019-04-12 10:22:32am
-page accessed 2019-04-12 10:22:34am
-running getAttempt() 
-2019-04-12 10:22:34am
-page accessed 2019-04-12 10:23:02am
-running getAttempt() 
-2019-04-12 10:23:02am
-page accessed 2019-04-12 10:23:24am
-running getAttempt() 
-2019-04-12 10:23:24am
-page accessed 2019-04-12 10:24:14am
-running getAttempt() 
-2019-04-12 10:24:14am
-page accessed 2019-04-12 10:24:25am
-running getAttempt() 
-2019-04-12 10:24:25am
-page accessed 2019-04-12 10:24:53am
-running getAttempt() 
-2019-04-12 10:24:53am
-page accessed 2019-04-12 10:25:03am
-running getAttempt() 
-2019-04-12 10:25:03am
-page accessed 2019-04-12 10:29:28am
-running getAttempt() 
-2019-04-12 10:29:28am
-page accessed 2019-04-12 10:32:10am
-running getAttempt() 
-2019-04-12 10:32:10am
-page accessed 2019-04-12 10:33:42am
-running getAttempt() 
-2019-04-12 10:33:42am
-page accessed 2019-04-12 10:34:10am
-running getAttempt() 
-2019-04-12 10:34:10am
-page accessed 2019-04-12 10:36:25am
-running getAttempt() 
-2019-04-12 10:36:25am
-page accessed 2019-04-12 10:37:55am
-running getAttempt() 
-2019-04-12 10:37:55am
-page accessed 2019-04-12 10:39:45am
-running getAttempt() 
-2019-04-12 10:39:45am
-page accessed 2019-04-12 10:39:53am
-running getAttempt() 
-2019-04-12 10:39:53am
-page accessed 2019-04-12 10:42:34am
-running getAttempt() 
-2019-04-12 10:42:34am
-page accessed 2019-04-12 10:43:43am
-running getAttempt() 
-2019-04-12 10:43:43am
-page accessed 2019-04-12 10:43:59am
-running getAttempt() 
-2019-04-12 10:43:59am
-page accessed 2019-04-12 10:46:42am
-running getAttempt() 
-2019-04-12 10:46:42am
-page accessed 2019-04-12 10:46:47am
-running getAttempt() 
-2019-04-12 10:46:47am
-page accessed 2019-04-12 10:46:50am
-running getAttempt() 
-2019-04-12 10:46:50am
-page accessed 2019-04-12 10:46:56am
-running getAttempt() 
-2019-04-12 10:46:56am
-page accessed 2019-04-12 10:47:03am
-running getAttempt() 
-2019-04-12 10:47:03am
-page accessed 2019-04-12 10:47:48am
-running getAttempt() 
-2019-04-12 10:47:48am
-page accessed 2019-04-12 10:48:05am
-running getAttempt() 
-2019-04-12 10:48:05am
-page accessed 2019-04-12 10:48:23am
-running getAttempt() 
-2019-04-12 10:48:23am
-page accessed 2019-04-12 10:49:27am
-running getAttempt() 
-2019-04-12 10:49:27am
-page accessed 2019-04-12 10:49:34am
-running getAttempt() 
-2019-04-12 10:49:34am
-page accessed 2019-04-12 10:50:27am
-running getAttempt() 
-2019-04-12 10:50:27am
-page accessed 2019-04-12 10:51:22am
-running getAttempt() 
-2019-04-12 10:51:22am
-page accessed 2019-04-12 10:51:55am
-running getAttempt() 
-2019-04-12 10:51:55am
-page accessed 2019-04-12 10:54:28am
-running getAttempt() 
-2019-04-12 10:54:28am
-page accessed 2019-04-12 10:55:45am
-running getAttempt() 
-2019-04-12 10:55:45am
-page accessed 2019-04-12 10:55:55am
-running getAttempt() 
-2019-04-12 10:55:55am
-page accessed 2019-04-12 10:56:55am
-running getAttempt() 
-2019-04-12 10:56:55am
-page accessed 2019-04-12 10:57:10am
-running getAttempt() 
-2019-04-12 10:57:10am
-page accessed 2019-04-12 10:57:41am
-running getAttempt() 
-2019-04-12 10:57:41am
-page accessed 2019-04-12 10:57:46am
-running getAttempt() 
-2019-04-12 10:57:46am
-page accessed 2019-04-12 10:57:53am
-running getAttempt() 
-2019-04-12 10:57:53am
-page accessed 2019-04-12 10:58:26am
-running getAttempt() 
-2019-04-12 10:58:26am
-page accessed 2019-04-12 10:59:07am
-running getAttempt() 
-2019-04-12 10:59:07am
-page accessed 2019-04-12 10:59:11am
-running getAttempt() 
-2019-04-12 10:59:11am
-page accessed 2019-04-12 10:59:31am
-running getAttempt() 
-2019-04-12 10:59:31am
-page accessed 2019-04-12 11:01:00am
-running getAttempt() 
-2019-04-12 11:01:00am
-page accessed 2019-04-12 11:01:08am
-running getAttempt() 
-2019-04-12 11:01:08am
-page accessed 2019-04-12 11:01:11am
-running getAttempt() 
-2019-04-12 11:01:11am
-page accessed 2019-04-12 11:01:17am
-running getAttempt() 
-2019-04-12 11:01:17am
-page accessed 2019-04-12 11:01:19am
-running getAttempt() 
-2019-04-12 11:01:19am
-page accessed 2019-04-12 11:09:22am
-page accessed 2019-04-12 11:09:28am
-running getAttempt() 
-2019-04-12 11:09:28am
-page accessed 2019-04-12 11:09:34am
-running getAttempt() 
-2019-04-12 11:09:34am
-page accessed 2019-04-12 11:10:05am
-running getAttempt() 
-2019-04-12 11:10:05am
-page accessed 2019-04-12 11:10:13am
-running getAttempt() 
-2019-04-12 11:10:13am
-page accessed 2019-04-12 11:15:39am
-running getAttempt() 
-2019-04-12 11:15:39am
-page accessed 2019-04-12 11:15:46am
-running getAttempt() 
-2019-04-12 11:15:46am
-page accessed 2019-04-12 11:16:23am
-running getAttempt() 
-2019-04-12 11:16:23am
-page accessed 2019-04-12 11:16:54am
-running getAttempt() 
-2019-04-12 11:16:54am
-page accessed 2019-04-12 11:30:40am
-running getAttempt() 
-2019-04-12 11:30:40am
-page accessed 2019-04-12 11:33:08am
-running getAttempt() 
-2019-04-12 11:33:08am
-page accessed 2019-04-12 11:35:36am
-running getAttempt() 
-2019-04-12 11:35:36am
-page accessed 2019-04-12 11:35:42am
-running getAttempt() 
-2019-04-12 11:35:42am
-page accessed 2019-04-12 11:36:18am
-running getAttempt() 
-2019-04-12 11:36:18am
-page accessed 2019-04-12 11:38:40am
-running getAttempt() 
-2019-04-12 11:38:40am
-page accessed 2019-04-12 11:38:49am
-running getAttempt() 
-2019-04-12 11:38:49am
-page accessed 2019-04-12 11:39:23am
-running getAttempt() 
-2019-04-12 11:39:23am
-page accessed 2019-04-12 11:39:32am
-running getAttempt() 
-2019-04-12 11:39:32am
-page accessed 2019-04-12 11:39:48am
-running getAttempt() 
-2019-04-12 11:39:48am
-page accessed 2019-04-12 11:40:05am
-running getAttempt() 
-2019-04-12 11:40:05am
-page accessed 2019-04-12 11:40:28am
-running getAttempt() 
-2019-04-12 11:40:28am
-page accessed 2019-04-12 11:40:36am
-running getAttempt() 
-2019-04-12 11:40:36am
-page accessed 2019-04-12 11:40:53am
-running getAttempt() 
-2019-04-12 11:40:53am
-page accessed 2019-04-12 11:41:10am
-running getAttempt() 
-2019-04-12 11:41:10am
-page accessed 2019-04-12 11:41:17am
-running getAttempt() 
-2019-04-12 11:41:17am
-page accessed 2019-04-12 11:41:31am
-running getAttempt() 
-2019-04-12 11:41:31am
-page accessed 2019-04-12 11:45:14am
-running getAttempt() 
-2019-04-12 11:45:14am
-page accessed 2019-04-12 11:45:23am
-running getAttempt() 
-2019-04-12 11:45:23am
-page accessed 2019-04-12 11:46:36am
-running getAttempt() 
-2019-04-12 11:46:36am
-page accessed 2019-04-12 11:46:41am
-running getAttempt() 
-2019-04-12 11:46:41am
-page accessed 2019-04-12 11:46:49am
-running getAttempt() 
-2019-04-12 11:46:49am
-page accessed 2019-04-12 11:46:57am
-running getAttempt() 
-2019-04-12 11:46:57am
-page accessed 2019-04-12 11:47:14am
-running getAttempt() 
-2019-04-12 11:47:14am
-page accessed 2019-04-12 11:49:55am
-running getAttempt() 
-2019-04-12 11:49:55am
-page accessed 2019-04-12 11:50:01am
-running getAttempt() 
-2019-04-12 11:50:01am
-page accessed 2019-04-12 11:50:16am
-running getAttempt() 
-2019-04-12 11:50:16am
-page accessed 2019-04-12 11:50:23am
-running getAttempt() 
-2019-04-12 11:50:23am
-page accessed 2019-04-12 11:52:18am
-running getAttempt() 
-2019-04-12 11:52:18am
-page accessed 2019-04-12 11:52:36am
-running getAttempt() 
-2019-04-12 11:52:36am
-page accessed 2019-04-12 11:54:42am
-running getAttempt() 
-2019-04-12 11:54:42am
-page accessed 2019-04-12 11:55:40am
-running getAttempt() 
-2019-04-12 11:55:40am
-page accessed 2019-04-12 11:55:46am
-running getAttempt() 
-2019-04-12 11:55:46am
-page accessed 2019-04-12 11:55:55am
-running getAttempt() 
-2019-04-12 11:55:55am
-page accessed 2019-04-12 11:56:00am
-running getAttempt() 
-2019-04-12 11:56:00am
-page accessed 2019-04-12 11:56:07am
-running getAttempt() 
-2019-04-12 11:56:07am
-page accessed 2019-04-12 11:56:17am
-running getAttempt() 
-2019-04-12 11:56:17am
-page accessed 2019-04-12 11:57:22am
-running getAttempt() 
-2019-04-12 11:57:22am
+
+2019-04-19 03:01:59pm
+page accessed 2019-04-19 03:02:03pm
+running getAttempt() 
+
+2019-04-19 03:02:03pm
+page accessed 2019-04-19 03:02:11pm
+running getAttempt() 
+
+2019-04-19 03:02:11pm
+page accessed 2019-04-19 03:02:21pm
+running getAttempt() 
+
+2019-04-19 03:02:21pm
+page accessed 2019-04-19 03:02:27pm
+running getAttempt() 
+
+2019-04-19 03:02:27pm
+page accessed 2019-04-19 03:02:30pm
+running getAttempt() 
+
+2019-04-19 03:02:30pm
+page accessed 2019-04-19 03:02:32pm
+running getAttempt() 
+
+2019-04-19 03:02:32pm
+page accessed 2019-04-19 03:11:43pm
+running getExam() 
+
+2019-04-19 03:11:43pm
+page accessed 2019-04-19 03:11:49pm
+running getAttempt() 
+
+2019-04-19 03:11:49pm
+page accessed 2019-04-19 03:12:03pm
+running getAttempt() 
+
+2019-04-19 03:12:03pm
+page accessed 2019-04-19 03:17:12pm
+running getAttempt() 
+
+2019-04-19 03:17:12pm
+page accessed 2019-04-19 03:17:22pm
+running getAttempt() 
+
+2019-04-19 03:17:22pm
+page accessed 2019-04-19 03:18:43pm
+running getAttempt() 
+
+2019-04-19 03:18:43pm
+page accessed 2019-04-19 03:20:46pm
+running getAttempt() 
+
+2019-04-19 03:20:46pm
+page accessed 2019-04-19 03:20:50pm
+running getAttempt() 
+
+2019-04-19 03:20:50pm
+page accessed 2019-04-19 03:20:54pm
+running getAttempt() 
+
+2019-04-19 03:20:54pm
+page accessed 2019-04-19 03:20:55pm
+running getAttempt() 
+
+2019-04-19 03:20:55pm
+page accessed 2019-04-19 03:20:57pm
+running getAttempt() 
+
+2019-04-19 03:20:57pm
+page accessed 2019-04-19 03:21:01pm
+running getAttempt() 
+
+2019-04-19 03:21:01pm
+page accessed 2019-04-19 03:21:05pm
+running getAttempt() 
+
+2019-04-19 03:21:05pm
+page accessed 2019-04-19 03:21:09pm
+running getAttempt() 
+
+2019-04-19 03:21:09pm
+page accessed 2019-04-19 03:21:25pm
+running getAttempt() 
+
+2019-04-19 03:21:25pm
+page accessed 2019-04-19 03:21:31pm
+running getExam() 
+
+2019-04-19 03:21:31pm
+page accessed 2019-04-19 03:21:32pm
+running getAttempt() 
+
+2019-04-19 03:21:32pm
+page accessed 2019-04-19 03:22:15pm
+running getExam() 
+
+2019-04-19 03:22:15pm

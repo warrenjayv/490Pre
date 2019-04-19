@@ -2,8 +2,10 @@
 date_default_timezone_set("America/New_York"); 
 include 'autolog.php'; 
 include 'targets.php'; 
-include 'curlop.php'; 
+include 'sqlCheck.php'; 
+// include 'curlop.php'; 
 
+// grade(); 
 
 function grade() {
 	/* task A : get all the tests with sub 1 */
@@ -12,9 +14,9 @@ function grade() {
 	$write .= "********************************************************\n\n";
 	$write .= "+ target file size of : " . $target . " = " . filesize($target) . "\n"; 
 	autolog($write, $target); 
-	if (filesize($target) >= 100000) {
+	if (filesize($target) >= 100000000) {
 		autoclear($target); 
-		$write = "+ the log reached 10 mb; it has been cleared \n"; autolog($write, $target); 
+		$write = "+ the log reached 100  mb; it has been cleared \n"; autolog($write, $target); 
 	}
 	$arrayofTests = array(); $submittedTests = array(); 
 	$bullet = array("type" => "autograder", "rels" => array("0", "1")); 
@@ -50,8 +52,16 @@ function grade() {
 			}
 			$temp = array('id' => $x['id'], 'ques' => $x['ques']); 
 			array_push($submittedTests, $temp); 
-		}	
-	}//foreach array as x 
+    }	
+
+  }//foreach array as x 
+
+      if (empty($submittedTests)){
+          $write = "+ array of submittedTests are empty, returning false and terminating.\n"; 
+          autolog($write, $target); 
+          return false; 
+      }//if empty submittedTests
+
 	$write = "+ an array of submittedTests: \n"; 
 	$write .= print_r($submittedTests, true) . "\n";
 	$write .= "+ proceed with task B: obtain test cases\n"; 
@@ -117,7 +127,7 @@ function grade() {
       } else {
 			    $write = "+ colon was found in the user answer:\n";
           $write = $text . "\n"; 
-          $feed = "gp missing colon [:] in user answer"; 
+          $feed = "gp colon [:] in user answer"; 
           autolog($write, $target); 
           update($id, $qId, $feed, '0' , '5'); 
       }
@@ -345,7 +355,11 @@ function grade() {
 		$target = targetIs('auto'); 
 		$write = "+ running execom() with pars for id : " . $id . ", qId : " . $qId .  "\n";
 		$test = "python " . $source . " 2>&1" ; 
-		$write .= "+ execom command: " . $test . "\n"; autolog($write, $target); 
+		$write .= "+ execom command: " . $test . "\n";
+    $write .= "+ python contents:\n"; 
+    $contents = file_get_contents($source); 
+    $write .= print_r($contents, true) . "\n"; 
+    autolog($write, $target); 
 		$exec = exec($test, $array, $status); 
 		if (! $status ) { 
 			foreach($array as $key=>$c) {
@@ -359,14 +373,14 @@ function grade() {
 					continue; 
 				}
 				autolog($write, $target); 
-				if ($c == $arrayofOuts[$key]) {
+				if ($c ===  $arrayofOuts[$key]) {
 					$write = "pass!\n"; autolog($write, $target); 
 					$write = "+ calling updatePoints() to provide feedback\n"; 
 					/* g = good b = bad n = neutral */
 					//	$feed = "gp testcase '". $tests[$key] . "' passed!"; 
 					$function = getFunc($tests[$key]);
-					$output = getOut($tests[$key]);
-					$feed = "gp called [" . $function . "], expected: [" . $output  . "], got user answer [" . $arrayofOuts[$key] ."]" ;
+					//$output = getOut($tests[$key]);
+					$feed = "gp called [" . $function . "], expected: [" . $arrayofOuts[$key] . "], got user answer [" . $c  ."]" ;
 					$write .= "+ " . $feed . "\n"; autolog($write, $target);   
 					$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '0', 'max' => '20'); 
 					if (! $hole = updatePoints($bullet)) {
