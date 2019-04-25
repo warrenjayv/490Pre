@@ -380,7 +380,7 @@ function grade() {
 					//	$feed = "gp testcase '". $tests[$key] . "' passed!"; 
 					$function = getFunc($tests[$key]);
 					//$output = getOut($tests[$key]);
-					$feed = "gp called [" . $function . "], expected: [" . $arrayofOuts[$key] . "], got user answer [" . $c  ."]" ;
+					$feed = "gp program called " . $function . ", expected: " . $arrayofOuts[$key] . ", got user answer [" . $c  ."]" ;
 					$write .= "+ " . $feed . "\n"; autolog($write, $target);   
 					$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '0', 'max' => '20'); 
 					if (! $hole = updatePoints($bullet)) {

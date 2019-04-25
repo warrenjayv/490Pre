@@ -1,4 +1,8 @@
 <?php
+
+include 'curlop.php'; 
+include 'autogradermid2.php'; 
+/* PATCH: curlop has been introduced to reuse curling methods */ 
 //include 'Autograder.php';
 date_default_timezone_set("America/New_York"); 
 /* stores activities via a log */ 
@@ -16,7 +20,40 @@ if (isset($demux['username']))
 if (isset($demux['password'])) {
    $pass = $demux['password']; 
    echo loginVERIFY($user, $pass);  
-   }
+}
+
+/********************* PATCH 04/15 **************************/
+
+if (isset($demux['type']) && ($demux['type'] == 'modA')) {
+    $tgt  = 'https://web.njit.edu/~rd248/download/beta/back/modA.php' ;
+    $write = "+ modA request detected. Calling `curlop()`  \n"; 
+    $write .= trace($write); 
+    if ($hole = holeCheck($demux, $tgt)) {
+        $write = "+ succesfully curled a modA request to backend\n"; 
+        $write .= trace($write); 
+        echo $hole; 
+    } else {
+        $write = "+ CRITICAL: failed to curl modA request to backend\n"; 
+        $write .= trace($write); 
+        $report = array('type' => 'modA',
+            'error' => "modA failed to curl to back."); 
+        echo json_encode($report); 
+    }
+}//modA
+ 
+function holeCheck($ammo, $tgt)
+{     
+    /* returns a decoded json for processing */ 
+    if (! $hole = curlop($ammo, $tgt)) {
+        $GLOBALS['write'] .= "+ holecheck was conducted for:\n" . $ammo . "/\n" . $tgt . "\n"; 
+        $_GLOBALS['write'] .= "+ failure to conduct curlop().\n"; 
+        return false; 
+    } else {
+       return $hole; 
+    }
+} //holecheck 
+
+/********************* PATCH 04/15 ************************/
 
 
 /*legacy/deprecated
@@ -37,10 +74,10 @@ if (isset($demux['qnum'])) {
    $qnum = $demux['qnum']; 
    $cart  = getQUEST($qnum); 
    echo $cart; 
-   } 
+ } 
 
 
-if(isset($demux['Type']) && ($demux['Type'] == 'AddQ')) {
+if(isset($demux['type']) && ($demux['type'] == 'addQ')) {
    $note =  "running addQUEST() \n"; 
    //$description = $demux['Desc'];
    //$description = "testing questions";  
@@ -54,15 +91,15 @@ if(isset($demux['Type']) && ($demux['Type'] == 'AddQ')) {
   
 } //if addq
 
-if(isset($demux['Type']) && ($demux['Type'] == 'SearchQ')) {
+if(isset($demux['type']) && ($demux['type'] == 'getQ')) {
    $note = "running getQUEST() \n"; 
-   $difficulty = $demux['Diffs']; 
+   $difficulty = $demux['diffs']; 
    $write .= trace($note); 
    echo getQUEST($difficulty); 
    
 } //if search Q
 
-if (isset($demux['Type']) && ($demux['Type'] == 'AddTest')) {
+if (isset($demux['type']) && ($demux['type'] == 'addT')) {
                       /* TESTPOINT */
                    
    $note = "running addExam() \n";
@@ -71,7 +108,7 @@ if (isset($demux['Type']) && ($demux['Type'] == 'AddTest')) {
 }//if add exam
 
 //$demux = array("Type" => "GetTest"); 
-if (isset($demux['Type'])  && ($demux['Type'] == 'GetTests')) {
+if (isset($demux['type'])  && ($demux['type'] == 'getT')) {
                         /* TESTPOINT */
                        // $test = array("Release" => "0", "TestIds" => array("2")); 
    $note = "running getExam() \n";
@@ -79,17 +116,24 @@ if (isset($demux['Type'])  && ($demux['Type'] == 'GetTests')) {
    echo getExam($demux); 
 }// if get exam
 
-if (! empty($demux['Type']) && ($demux['Type'] == 'SubmitTest')) {
+if (! empty($demux['type']) && ($demux['type'] == 'addA')) {
     $note = "running submitExam() \n";
     $write .= trace($note);
     echo submitExam($demux); 
 }//if submit exam
 
-if (! empty($demux['Type']) && ($demux['Type'] == 'GetAnswers')) {
+if (! empty($demux['type']) && ($demux['type'] == 'getAnswers')) {
     $note = "running getAnswer() \n";
     $write .= trace($note);
     //echo getAnswers($demux); 
 }//if submit exam
+
+if (! empty($demux['type']) && ($demux['type'] == 'getA')) {
+    $note = "running getAttempt() \n"; 
+    $write .= trace($note); 
+    echo getAttempt($demux);
+    grade();  
+}
 
 /*
 send a payload to backend.
@@ -99,15 +143,15 @@ $url = "https://web.njit.edu/~wbv4/Middle/backend.php";
 //************************console and log******************************
 function trace($note) {
        $global = $note; 
-       $global .= date("Y-m-d h:i:sa") . "\n";
+       $global .= "\n" .  date("Y-m-d h:i:sa") . "\n";
        //$global .= $trail . "\n"; 
        return $global; 
 } //trace(); 
 //************************login****************************************
 
 function loginVERIFY($user, $pass) {
-// $url = "https://web.njit.edu/~rd248/download/backend.php";
-    $url = "https://web.njit.edu/~rd248/download/Student&Teacher.php"; 
+   // $url = "https://web.njit.edu/~rd248/download/backend.php";
+    $url = "https://web.njit.edu/~rd248/download/beta/back/Student&Teacher.php"; 
     $payload = array("username" => $user, "password" => $pass, "njit" => $njit);
 // echo http_build_query($payload) . "<br>"; 
     $fac2 = curl_init(); 
@@ -128,16 +172,16 @@ function loginVERIFY($user, $pass) {
 //************************get question**********************************
 
 function getQUEST($ammo) {
-    $tgt  = 'https://web.njit.edu/~wbv4/Middle/getQUEST.php'; 
-    // $tgt  = 'https://web.njit.edu/~rd248/download/beta/getQuestion.php' ; 
+   // $tgt  = 'https://web.njit.edu/~wbv4/Middle/getQuestion.php'; 
+    $tgt  = 'https://web.njit.edu/~rd248/download/beta/back/getQuestion.php' ; 
     $proj = curl_init(); 
     curl_setopt($proj , CURLOPT_URL, $tgt); 
     curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1); 
     curl_setopt($proj , CURLOPT_POSTFIELDS, json_encode($ammo));
     curl_setopt($proj , CURLOPT_FOLLOWLOCATION, true);  
     if (! $recoil = curl_exec($proj)) { 
-         echo "type: SearchQ;  curl_error:" . curl_error($proj) . "<br>"; 
-	       $_GLOBALS['write'] .= "type: SearchQ; curl_error: " . curl_error($proj) . "\n"; 
+         echo "type: getQ;  curl_error:" . curl_error($proj) . "<br>"; 
+	       $_GLOBALS['write'] .= "type: getQ; curl_error: " . curl_error($proj) . "\n"; 
     //$recoil = curl_exec($proj); 
     } else {    
     curl_close($proj); 
@@ -148,8 +192,8 @@ function getQUEST($ammo) {
 //*************************add question**********************************
 
 function addQUEST($ammo) {
-    //  $tgt = 'https://web.njit.edu/~rd248/download/beta/InsertQuestion.php'; 
-    $tgt  = 'https://web.njit.edu/~wbv4/Middle/insert.php'; 
+    $tgt = 'https://web.njit.edu/~rd248/download/beta/back/addQuestion.php'; 
+   //$tgt  = 'https://web.njit.edu/~wbv4/Middle/addQuestion.php'; 
     $proj  = curl_init(); 
     curl_setopt($proj , CURLOPT_URL, $tgt);
     curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
@@ -157,8 +201,8 @@ function addQUEST($ammo) {
     curl_setopt($proj , CURLOPT_FOLLOWLOCATION, true);  
     if ( ! $recoil = curl_exec($proj)) {
     //if (curl_exec($proj) === false) 
-         echo "type: AddQ;  curl_error:" . curl_error($proj) . "<br>";
-	       $_GLOBALS['write'] .= "type: AddQ; curl_error: " . curl_error($proj) . "\n"; 
+         echo "type: addQ;  curl_error:" . curl_error($proj) . "<br>";
+	       $_GLOBALS['write'] .= "type: addQ; curl_error: " . curl_error($proj) . "\n"; 
     } else  {
      curl_close($proj); 
      return $recoil; 
@@ -176,7 +220,8 @@ if ($error = error_get_last()) {
 //*************************add exam***********************************
 
 function addExam($ammo) {
-      $tgt = 'https://web.njit.edu/~wbv4/Middle/MakeTest.php';
+      $tgt = 'https://web.njit.edu/~rd248/download/beta/back/MakeTest2.php';
+     // $tgt = 'https://web.njit.edu/~wbv4/Middle/MakeTest2.php';
       $proj = curl_init();
       curl_setopt($proj , CURLOPT_URL, $tgt);
       curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
@@ -184,8 +229,8 @@ function addExam($ammo) {
       curl_setopt($proj , CURLOPT_FOLLOWLOCATION, true);  
       if ( ! $recoil = curl_exec($proj)) {
       //if (curl_exec($proj) === false) 
-         echo "type: AddTest;  curl_error:" . curl_error($proj) . "<br>";
-	       $_GLOBALS['write'] .= "type: AddExam; curl_error: " . curl_error($proj) . "\n"; 
+         echo "type: addT;  curl_error:" . curl_error($proj) . "<br>";
+	       $_GLOBALS['write'] .= "type: addT; curl_error: " . curl_error($proj) . "\n"; 
       } else  {
         curl_close($proj); 
         return $recoil; 
@@ -198,7 +243,8 @@ fclose($log);
 //****************************get exam**********************************
 
 function getExam($ammo) {
-      $tgt = 'https://web.njit.edu/~wbv4/Middle/getTest.php';
+      $tgt = 'https://web.njit.edu/~rd248/download/beta/back/getTest2.php';
+     // $tgt = 'https://web.njit.edu/~wbv4/Middle/getTest2.php';
       $proj = curl_init();
       curl_setopt($proj , CURLOPT_URL, $tgt);
       curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
@@ -206,8 +252,8 @@ function getExam($ammo) {
       curl_setopt($proj , CURLOPT_FOLLOWLOCATION, true);  
       if ( ! $recoil = curl_exec($proj)) {
       //if (curl_exec($proj) === false) 
-         echo "type: GetTest;  curl_error:" . curl_error($proj) . "<br>";
-	       $_GLOBALS['write'] .= "type: GetExam; curl_error: " . curl_error($proj) . "\n"; 
+         echo "type: getT;  curl_error:" . curl_error($proj) . "<br>";
+	       $_GLOBALS['write'] .= "type: getT; curl_error: " . curl_error($proj) . "\n"; 
       } else  {
         curl_close($proj); 
         return $recoil; 
@@ -218,7 +264,8 @@ function getExam($ammo) {
 //****************************get exam**********************************
 
 function submitExam($ammo) {
-      $tgt = 'https://web.njit.edu/~wbv4/Middle/SubmitTest.php';
+      $tgt = 'https://web.njit.edu/~rd248/download/beta/back/SubmitTest2.php';
+     // $tgt = 'https://web.njit.edu/~wbv4/Middle/SubmitTest2.php';
       $proj = curl_init();
       curl_setopt($proj , CURLOPT_URL, $tgt);
       curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
@@ -226,8 +273,8 @@ function submitExam($ammo) {
       curl_setopt($proj , CURLOPT_FOLLOWLOCATION, true);  
       if ( ! $recoil = curl_exec($proj)) {
       //if (curl_exec($proj) === false) 
-         echo "type: SubmitExam;  curl_error:" . curl_error($proj) . "<br>";
-	       $_GLOBALS['write'] .= "type: SubmitTest; curl_error: " . curl_error($proj) . "\n"; 
+         echo "type: addA;  curl_error:" . curl_error($proj) . "<br>";
+	       $_GLOBALS['write'] .= "type: addA; curl_error: " . curl_error($proj) . "\n"; 
       } else  {
         curl_close($proj); 
         return $recoil; 
@@ -237,7 +284,8 @@ function submitExam($ammo) {
 //****************************get answers**********************************
 
 function getAnswers($ammo) {
-      $tgt = 'https://web.njit.edu/~wbv4/Middle/getAnswers.php';
+      $tgt = 'https://web.njit.edu/~rd248/download/beta/back/getAnswers.php'; 
+     // $tgt = 'https://web.njit.edu/~wbv4/Middle/getAnswers.php';
       $proj = curl_init();
       curl_setopt($proj , CURLOPT_URL, $tgt);
       curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
@@ -245,95 +293,33 @@ function getAnswers($ammo) {
       curl_setopt($proj , CURLOPT_FOLLOWLOCATION, true);  
       if ( ! $recoil = curl_exec($proj)) {
       //if (curl_exec($proj) === false) 
-         echo "type: GetAnswers;  curl_error:" . curl_error($proj) . "<br>";
-	       $_GLOBALS['write'] .= "type: GetAnswers; curl_error: " . curl_error($proj) . "\n"; 
+         echo "type: getAnswers;  curl_error:" . curl_error($proj) . "<br>";
+	       $_GLOBALS['write'] .= "type: getAnswers; curl_error: " . curl_error($proj) . "\n"; 
       } else  {
         curl_close($proj); 
         return $recoil; 
       } 
 }//getExam()
 
-/*
-worklog 03/11/2019
-       - the getExam function will curl the type: GetExam, 
-          curling the values Release, and TestId. 
-*/
-/*
-$hit = json_decode($result2, true); 
-echo $hit . "<br>"; 
-vardump($hit); 
-if ($hit['Response'] == 'student'){
-    echo "succesful student login <br>"; 
-}
 
-if ($hit['Response'] == 'teacher'){
-    echo "succesful teacher login <br>"; 
-}
-*/
-/*
-function tracer($ret) {
-    $question = $ret['question']; 
-    $array = $ret['answers']; 
-    $count = sizeof($array); 
-    echo $question . '<br>'; 
-    for ($i = 0; $x < count; $i++) {
-        echo $array[i] . "<br>";  **
-    }
-}
-*/ 
+//****************************get attempt **********************************
 
+function getAttempt($ammo) {
+     //$tgt = 'https://web.njit.edu/~wbv4/Middle/getAttempt.php'; 
+      $tgt = 'https://web.njit.edu/~rd248/download/beta/back/getAttempt.php'; 
+      $proj = curl_init();
+      curl_setopt($proj , CURLOPT_URL, $tgt);
+      curl_setopt($proj , CURLOPT_RETURNTRANSFER, 1);
+      curl_setopt($proj , CURLOPT_POSTFIELDS, json_encode($ammo));
+      curl_setopt($proj , CURLOPT_FOLLOWLOCATION, true);  
+      if ( ! $recoil = curl_exec($proj)) {
+      //if (curl_exec($proj) === false) 
+         echo "type: getA;  curl_error:" . curl_error($proj) . "<br>";
+	       $_GLOBALS['write'] .= "type: getA; curl_error: " . curl_error($proj) . "\n"; 
+      } else  {
+        curl_close($proj); 
+        return $recoil; 
+      } 
+}//getAttempt()
 
-/*
-workog 02.22.19 
-
-this program retrieves JSON with username, password, and question. 
-
-*/
-
-/* LEGACY -- NJIT LOGIN 
-$payload = array("ucid" => $user, "pass" => $pass); 
-$url = "https://aevitepr2.njit.edu/myhousing/login.cfm"; 
-$fac = curl_init(); 
-curl_setopt($fac, CURLOPT_URL, $url);
-curl_setopt($fac, CURLOPT_POST, 1); 
-curl_setopt($fac, CURLOPT_POSTFIELDS, http_build_query($payload)); 
-curl_setopt($fac, CURLOPT_RETURNTRANSFER, true); 
-curl_setopt($fac, CURLOPT_FOLLOWLOCATION, true); 
-if (curl_exec($fac) ===  false) 
-      echo "curl_error:" . curl_error($fac) . "<br>";
-$result = curl_exec($fac); 
-curl_close($fac); 
-
-if (strpos($result, "Please login using your UCID") != true) {
-//         echo "NJIT accept"; 
-	   $njit = "NJIT accept"; 
-} else {
-//	   echo "NJIT reject"; 
-           $njit = "NJIT reject"; 
-}
-
-if (strpos($result2, "NJIT accept") == true) {  
-         echo "NJIT login accepted <br>";           
-}
-if (strpos($result2, "NJIT reject") == true) { 
-         echo "NJIT login rejected <br>"; 
-}
-
-
-//legacy - save for later. 
-if (strpos($result2, "Success") == true) {
-         echo "Database login succesful <br>"; 
-}
-if (strpos($result2, "Failure") == true) {
-         echo "Database login failure <br>"; 
-}
-*/
-/*
-<script>
-console.log(<?= json_encode($fail) ?>); 
-console.log(<?= json_encode($log) ?>); 
-console.log(<?= json_encode($write) ?>); 
-console.log(<?= json_encode($error)?>);
-</script>
-*/
 ?>

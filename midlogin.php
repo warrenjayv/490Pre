@@ -2,6 +2,9 @@
 
 include 'curlop.php'; 
 include 'autogradermid2.php'; 
+// include 'autolog.php'; 
+// include 'targets.php'; 
+
 /* PATCH: curlop has been introduced to reuse curling methods */ 
 //include 'Autograder.php';
 date_default_timezone_set("America/New_York"); 
@@ -26,20 +29,35 @@ if (isset($demux['password'])) {
 
 if (isset($demux['type']) && ($demux['type'] == 'modA')) {
     $tgt  = 'https://web.njit.edu/~rd248/download/beta/back/modA.php' ;
-    $write = "+ REMARK request detected. Calling `curlop()`  \n"; 
+    $write = "+ modA request detected. Calling `curlop()`  \n"; 
     $write .= trace($write); 
-    
-}//remark
+    if ($hole = holeCheck($demux, $tgt)) {
+        $write = "+ succesfully curled a modA request to backend\n"; 
+        $write .= trace($write); 
+        echo $hole; 
+    } else {
+        $write = "+ CRITICAL: failed to curl modA request to backend\n"; 
+        $write .= trace($write); 
+        $report = array('type' => 'modA',
+            'error' => "modA failed to curl to back."); 
+        echo json_encode($report); 
+    }
+}//modA
  
 function holeCheck($ammo, $tgt)
 {     
+    $target = targetIs('auto'); 
     /* returns a decoded json for processing */ 
     if (! $hole = curlop($ammo, $tgt)) {
-        $GLOBALS['write'] .= "+ holecheck was conducted for:\n" . $ammo . "/\n" . $tgt . "\n"; 
-        $_GLOBALS['write'] .= "+ failure to conduct curlop().\n"; 
+        $write .= "+ holecheck was conducted for:\n" . $ammo . "/\n" . $tgt . "\n"; 
+        $write .= "+ failure to conduct curlop().\n"; 
+        autolog($write, $target); 
         return false; 
     } else {
-       return json_decode($hole); 
+        $write = "+ holecheck was succesful; obtained curlop out:\n"; 
+        $write .= print_r($hole, true) . "\n"; 
+        autolog($write, $target); 
+        return $hole; 
     }
 } //holecheck 
 

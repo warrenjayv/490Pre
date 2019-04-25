@@ -6468,3 +6468,272 @@ Array
     [text] => def addThree(a, b, c):
     return a + b + c
 )
+[ + ] page accessed getAnswer() 2019-04-19 03:29:43pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 124667
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 4
+            [1] => 2
+            [2] => 5
+        )
+
+    [testId] => 1
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 4
+    [text] => def factorial(n):
+    result = 1
+    for i in range(n):
+        if n == 0 or n == 1:
+            break;
+        else:
+            result *= n
+            n -= 1
+    return result
+)
+Array
+(
+    [qId] => 2
+    [text] => def strMult(s, n):
+    return s*n
+)
+Array
+(
+    [qId] => 5
+    [text] => def subtract(a,b)
+    print a - b
+)
+[ + ] page accessed getAnswer() 2019-04-19 03:29:49pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 125459
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [testId] => 2
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 1
+    [text] => def opernoob(op, a, b):
+    if (op == '+'):
+       return a+b
+    if (op == '-'):
+       return a-b
+    if (op == '*'):
+       return a*b
+    if (op == '/'):
+       return a/b
+    if (op == '%'):
+       return a%b
+    if (op == '?'):
+       return a?b 
+)
+Array
+(
+    [qId] => 2
+    [text] => def strMult(s, n):
+    return s * n
+)
+[ + ] page accessed getAnswer() 2019-04-19 03:32:59pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 126233
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 4
+            [1] => 2
+            [2] => 5
+        )
+
+    [testId] => 1
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 4
+    [text] => def factorial(n):
+    result = 1
+    for i in range(n):
+        if n == 0 or n == 1:
+            break;
+        else:
+            result *= n
+            n -= 1
+    return result
+)
+Array
+(
+    [qId] => 2
+    [text] => def strMult(s, n):
+    return s*n
+)
+Array
+(
+    [qId] => 5
+    [text] => def subtract(a,b)
+    print a - b
+)
+[ + ] page accessed getAnswer() 2019-04-19 03:34:01pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 127025
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [testId] => 2
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 1
+    [text] => def opernoob(op, a, b):
+    if (op == '+'):
+       return a+b
+    if (op == '-'):
+       return a-b
+    if (op == '*'):
+       return a*b
+    if (op == '/'):
+       return a/b
+    if (op == '%'):
+       return a%b
+    if (op == '?'):
+       return a?b 
+)
+Array
+(
+    [qId] => 2
+    [text] => def strMult(s, n):
+    return s * n
+)
+[ + ] page accessed getAnswer() 2019-04-20 10:36:42pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 127799
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 4
+        )
+
+    [testId] => 5
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 1
+    [text] => def operation(op, a, b):
+    if op == '+':
+        return a+b
+    elif op == '-':
+        return a-b
+    elif op == '*':
+        return a*b
+
+)
+Array
+(
+    [qId] => 2
+    [text] => def stringMult(s, n):
+    print s*n
+)
+Array
+(
+    [qId] => 4
+    [text] => def factorial(n)
+    acc = 1
+    for i in range(1,n+1):
+        acc *= i
+    return acc
+)
+[ + ] page accessed getAnswer() 2019-04-21 06:44:08pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 128609
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 1
+            [2] => 7
+        )
+
+    [testId] => 6
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 3
+    [text] => def addThree(a, b, c):
+    return a + b + c
+)
+Array
+(
+    [qId] => 1
+    [text] => def operation(op, a, b):
+    if op == '+':
+        return a + b
+)
+Array
+(
+    [qId] => 7
+    [text] => return 'a'
+)
+[ + ] page accessed getAnswer() 2019-04-21 06:54:37pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 129273
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+        )
+
+    [testId] => 7
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 3
+    [text] => def addThree(a, b, c):
+    return a + b + c
+)
