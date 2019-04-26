@@ -14,7 +14,7 @@ $write = "+ updatePoints() 2 was called. Received:  \n";
 $write .= print_r($decoder, true) . "\n" ; autolog($write, $target); 
 
 
-// $decoder = array('testId' => '1', 'qId' => '1', 'feedback' => 'testcase add(2,3)=5 failed', 'subpoints' => '0');
+// $decoder = array('testId' => '1', 'qId' => '4', 'feedback' => 'bp  testcase add(2,3)=5 failed', 'subpoints' => '.5', 'max'=> '0.5');
 if (! $feedback = updatePoints($conn, $decoder)) { //calls the function getQUEST() ; 
 		$error = "backend updatePoints() failed."; 
 		$report = array("type" => "updatePoints", "error" => $error); 
@@ -30,15 +30,16 @@ function updatePoints($conn, $decoder) {
 		$feedback = $decoder['feedback']; 
 //		$feedback = addslashes($feedback); 
 		$subpoints = $decoder['subpoints'];
-    $max = $decoder['max']; 
+    $max = $decoder['max']; //it turns out MAX is in percent; we don't want percent. 
 		/*warning, subpoints is a percent*/
 
 
 		/* task A : get the points for this current test and question */ 
 
-		$sql2 = "SELECT points FROM QuestionStudentRelation WHERE testId = '$testId' AND questionId = '$qId'"; 	  if (! $result2 = $conn->query($sql2)) {
+    $sql2 = "SELECT points FROM QuestionStudentRelation WHERE testId = '$testId' AND questionId = '$qId'"; 	  
+    if (! $result2 = $conn->query($sql2)) {
 				$sqlerror2 = $conn->error; 
-				$error2 .= "sql2 " . $sqlerror2 . " "; 
+				$error .= "sql2 " . $sqlerror2 . " "; 
 			 $write = "updatePoints SQL : " . $error . "\n"; autolog($write, $target);  
 		} else { 
 			    while($row2  = mysqli_fetch_assoc($result2)) {
@@ -46,6 +47,18 @@ function updatePoints($conn, $decoder) {
     	    	  $points = $row2['points'] - $ded; 
               $points = round($points); 			  
 					}
+    }
+
+    $sql4 = "SELECT * FROM QuestionStudentRelation WHERE testId = '$testId' AND questionId = '$qId'";
+    if (! $result4 = $conn->query($sql4)) {
+        $sqlerror4 = $conn->error;
+        $error .= "update SQL: " . $error . "\n"; autolog($write, $target); 
+    } else {
+        while($row4 = mysqli_fetch_assoc($result4)) {
+            $maxpoints = $row4['maxpoints']; 
+            $maxpoints = $maxpoints * $max; 
+            $maxpoints = ceil($maxpoints); 
+        }
     }
 
 	  /* task B : submit the new points to the database */ 
@@ -61,11 +74,11 @@ function updatePoints($conn, $decoder) {
    /* task C : submit feedback into the database */ 
    // $newfeedback = $feedback + " -" + $ded; 
     
-
+     $ded = round($ded); 
      if (($pos = stripos($feedback, "gp", 0)) === false) {
 	     	$feedback = substr_replace($feedback , $ded, $pos+1, 0);
      } else {
-        $feedback = substr_replace($feedback, $max, $pos+1, 0);   
+        $feedback = substr_replace($feedback, $maxpoints, $pos+1, 0);   
      }
 
     /* task A : a new feature; add index according to # of rows, index = rows - 1.*/ 
@@ -98,7 +111,7 @@ function updatePoints($conn, $decoder) {
   $newfeedback = stripslashes($newfeedback); 
     
      
-		$package = array("type" => "updatePoints", "error" => $error, "testId" => $testId, "qId" => $qId, "feedback" => $newfeedback, 'points' => $points, 'max' => $max);
+		$package = array("type" => "updatePoints", "error" => $error, "testId" => $testId, "qId" => $qId, "feedback" => $newfeedback, 'points' => $points, 'max' => $maxpoints);
     $write = "+ updatePoints() in backend returning:\n" . print_r($package, true) . "\n"; 
     autolog($write, $target); 
 		return json_encode($package);

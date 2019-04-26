@@ -116,31 +116,53 @@ function grade() {
 			autolog($write, $target); clear($source); 
 		//	$write = "+ writing answer to python file : " . $text . "\n";  
 
+
+			$cons = array(); $constat = false; 
+			/* task E: check if the constraints are in the user answer */ 
+			if (! $cons = getCons($qId)) {
+				$write = "+ getCons(".$qId.") failed. cons returned empty.  \n"; 
+        autolog($write, $target); 
+        $constat = false; 
+			} else {
+				$write = "+ getCons (".$qId.") success:\n" . print_r($cons, true) . "\n"; 
+				autolog($write, $target);
+        $constat = true; 
+				if (! $check = checkCons($text, $cons, $id, $qId)) {
+					$write = "+ attempted to call checkCons() but failed at test ".$id.", qid " .$qId."\n"; 
+					autolog($write, $target); 
+				} else {
+					$write = "+ checkCons() was succesful at test ".$id.", qid ".$qId."\n"; 
+					autolog($write, $target); 
+				}
+      } //if cons getcons
+
      /* TASK F2: check for colon */ 
       if ($ext = colonfixer($text)) {
 					$write = "+ colon was not found in user answer\n"; 
           $write .= "+ new answer: \n " . $ext . "\n";
           autolog($write, $target); 
           $feed = "bp missing colon [:] in user answer"; 
-          update($id, $qId, $feed, '.05', '5'); 
+          update($id, $qId, $feed, '.05 ', '.05'); 
           $text = $ext;
       } else {
 			    $write = "+ colon was found in the user answer:\n";
           $write = $text . "\n"; 
           $feed = "gp colon [:] in user answer"; 
           autolog($write, $target); 
-          update($id, $qId, $feed, '0' , '5'); 
+          update($id, $qId, $feed, '0' , '0.05'); 
       }
-     
-				 if ($fun = funcom($text, $tests, $id, $qId)) {
+
+      /* TASKF1: check for func name */ 
+
+				 if ($fun = funcom($text, $tests, $id, $qId, $constat)) {
 				    $write = "+ replacing " . $text . " with " . $fun . "\n"; autolog($write, $target); 	
 				   // $text = $fun; <-- this is wrong, why would u replace the answer with a function
 					   $newtext = funrep($text, $fun);  
 					  $write = "+ writing correct answer to python file: " . $newtext . "\n"; autolog($write, $target); 
-					  append($source, $newtext); //this should be the one with correct function! 
+            append($source, $newtext); //this should be the one with correct function! 
 				 } else {
 						 $write = "+ writing answer to python file: " . $text . "\n"; autolog($write, $target);
-						 append($source, $text); 
+             append($source, $text); 
 				 }//if fun funcom else 
 			 
 			foreach($tests as $b) {
@@ -161,7 +183,7 @@ function grade() {
 				$write .= "+ calling updatePoints() to provide feedback\n"; 
 				$feed = "bp user program failed to execute. "; 
 				$write .= "+ " . $feed . "\n"; autolog($write, $target); 
-				$bullet3  = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '.8', 'max' => '80' ); 
+				$bullet3  = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '.8', 'max' => '.80' ); 
 				/*subpoints should be a percent*/
 				if (! $hole3  = updatePoints($bullet3)) {
 					$write = "+error; failure to execute updatePoints('bullet3') for fail execom()\n"; 
@@ -175,7 +197,7 @@ function grade() {
 				$write = "+ execom was succesful. updatePoints() feedback\n"; 
 				$feed = "np user program succesfully executed. "; 
 				$write .= "+ " . $feed . "\n"; autolog($write, $target); 
-				$bullet4 = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '0', 'max' => '80' );              
+				$bullet4 = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '0', 'max' => '.80' );              
 				if (! $hole4  = updatePoints($bullet4)) {
 					$write = "+error; failure to execute updatePoints('bullet4') for fail execom()\n"; 
 					autolog($write, $target); 
@@ -184,25 +206,10 @@ function grade() {
 				$hole4 = json_decode($hole4); 
 				$write = "+ updatePoints() : \n"; $write .= print_r($hole4, true) . "\n";
 				autolog($write, $target); 
-			}//if ex execom source
-			$cons = array(); 
-			/* task E: check if the constraints are in the user answer */ 
-			if (! $cons = getCons($qId)) {
-				$write = "+ getCons(".$qId.") failed\n"; 
-				autolog($write, $target); 
-			} else {
-				$write = "+ getCons (".$qId.") success:\n" . print_r($cons, true) . "\n"; 
-				autolog($write, $target);
+      }//if ex execom source
 
-				if (! $check = checkCons($text, $cons, $id, $qId)) {
-					$write = "+ attempted to call checkCons() but failed at test ".$id.", qid " .$qId."\n"; 
-					autolog($write, $target); 
-				} else {
-					$write = "+ checkCons() was succesful at test ".$id.", qid ".$qId."\n"; 
-					autolog($write, $target); 
-				}
-			} //if cons getcons
-
+      //SIX I relocated the cons checker before func name. 
+      //
 
 		}//foreach arrayofAnswers as a
 
@@ -282,12 +289,16 @@ function grade() {
 		if (empty($cons)) {
 			$write = "+ cons is empty. checkCons() terminating\n"; autolog($write, $target); 
 			return false; 
-		} else {
+    } else {
+        $consize = count($cons); 
+           $sub = .1 / $consize;  //if consize is 2, sub is 0.05; if 3, .03
+           $max = .1 / $consize;  //if consize is 1, sub is 0.1 
+           
 			foreach($cons as $q) {
 				if (($pos = strpos($text, $q)) ===  false) {
 					$write = "+ checkCons() did not find " . $q . " in user answer\n"; autolog($write, $target); 
 					$feed = "bp constraint [" . $q . "]  was not found."; 
-					$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '.2', 'max' => '20'); 
+					$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => $sub, 'max' => $max ); 
 					if (! $hole = updatePoints($bullet)) {
 						$write = "+ error; checkCons failed to execute updatePoints()!\n"; 
 						autolog($write, $target); return false;   
@@ -295,7 +306,7 @@ function grade() {
 				} else {
 					$write = "+ checkCons() found " . $q . " in user answer\n"; autolog($write, $target); 
 					$feed = "gp constraint [" . $q . "] was found."; 
-					$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '0', 'max' => '20'); 
+					$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '0', 'max' => $max); 
 					if (! $hole = updatePoints($bullet)) {
 						$write = "+ error; checkCons failed to execute updatePoints()!\n"; 
 						autolog($write, $target); return false;  
@@ -360,6 +371,13 @@ function grade() {
     $contents = file_get_contents($source); 
     $write .= print_r($contents, true) . "\n"; 
     autolog($write, $target); 
+    $size = sizeof($tests); //we need to count the testcases; and set the percentages. 
+    $funperc = 80; 
+    $write = "+ funperc was set to :" . $funperc . ", size: " . $size . "\n"; 
+    $sub = ($funperc / $size) / 100; $max = ($funperc / $size) / 100; 
+    $write .= "+ sub : " . $sub . ", max: " . $max . "\n"; autolog($write, $target); 
+    $write = "+execom() calculated funperc: ".$funperc.", max: ".$max."\n"; 
+            autolog($write, $target); 
 		$exec = exec($test, $array, $status); 
 		if (! $status ) { 
 			foreach($array as $key=>$c) {
@@ -380,9 +398,10 @@ function grade() {
 					//	$feed = "gp testcase '". $tests[$key] . "' passed!"; 
 					$function = getFunc($tests[$key]);
 					//$output = getOut($tests[$key]);
-					$feed = "gp program called " . $function . ", expected: " . $arrayofOuts[$key] . ", got user answer [" . $c  ."]" ;
+					$feed = "gp python called " . $function . ", expected: " . $arrayofOuts[$key] . ", got user answer [" . $c  ."]" ;
 					$write .= "+ " . $feed . "\n"; autolog($write, $target);   
-					$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '0', 'max' => '20'); 
+          $bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '0',
+              'max' => $max); 
 					if (! $hole = updatePoints($bullet)) {
 						$write = "+ error; failure to execute updatePoints('bullet')\n";
 						autolog($write, $target); 
@@ -396,9 +415,10 @@ function grade() {
 					$write = "fail!\n"; autolog($write, $target); 
 					$write = "+ calling updatePoints() to provide feedback\n"; 
 					// $feed = "bp testcase '" . $tests[$key] . "' failed!"; 
-					$feed = "bp called [" . $function . "]  expected answer: [" . $output . "], got user answer [" . $arrayofOuts[$key] . "]" ; 
+					$feed = "bp python called " . $function . ",  expected answer: " . $output . ", got user answer [" . $c . "]"; 
 					$write .= "+ " . $feed . "\n"; autolog($write, $target); 
-					$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '.20', 'max' => '20'); 
+          $bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => $sub,
+              'max' => $max); 
 					if (! $hole = updatePoints($bullet)) {
 						$write = "+ error; failure to execute updatePoints('bullet')\n";
 						autolog($write, $target); 
@@ -417,7 +437,15 @@ function grade() {
 		return true;  
 	}//execom 
 
-	function funcom($text , $tests, $id, $qId) {
+  function funcom($text , $tests, $id, $qId, $constat) {
+
+    if ($constat) {
+        $max = 0.05 ; 
+        $subpoints = 0.05; 
+    } else {
+        $max = 0.1; 
+        $subpoints = 0.1; 
+    }
 		$target = targetIs('auto'); 
 		/* go through each test and obtain the function, string search the text for the function */
 		// if (!  $eqpos = strPos($str, '=')) 
@@ -430,7 +458,7 @@ function grade() {
               $length = sizeof($function);
               $end  = strpos($function, $prant, 0);
               $function = substr($function, 0, $end); 
-			$write = "+ obtained function " . $function . " with funcom()\n"; autolog($write, $target); 
+			$write = "+ gp obtained function " . $function . " with funcom()\n"; autolog($write, $target); 
 			$write = "+ finding if " . $function . " is in user answer " . $text  . "\n"; autolog($write, $target); 
 			if (($pos = strPos($text, $function)) === false) {
 				$miss += 1; 	
@@ -439,14 +467,13 @@ function grade() {
 		if ($miss >= $size) {
 			$write = "+ function was not found at all in the user answer\n"; 
 			$write .= "+ returning the correct function : " . $function . "\n"; autolog($write, $target); 
-			$feed = "bp expecting function name [".$function."] in answer was not found!";
-                        $subpoints = ".05"; $max = "5"; 
+			$feed = "bp expecting function: ".$function.", it was not found!";
                         update($id, $qId, $feed, $subpoints, $max);  
 			return $function; 
 		} else {
-			$write = "+ the function was found in the user answer\n"; 
-                        $feed = "np expecting function [".$function."] in answer found!"; 
-                        $subpoints = "0"; $max = "5";
+			$write = "+ the function was found in the user answer\n"; autolog($write, $target); 
+                        $feed = "np expecting function: ".$function.", function found!"; 
+                        $subpoints = "0"; 
                         update($id, $qId, $feed, $subpoints, $max);  
 			return 0; 
 		}
@@ -588,5 +615,5 @@ function grade() {
 			fwrite($target, $input); 
 			return true;
 		}
-	}//append()
+  }//append()
 	?>
