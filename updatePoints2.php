@@ -44,6 +44,7 @@ function updatePoints($conn, $decoder) {
 		} else { 
 			    while($row2  = mysqli_fetch_assoc($result2)) {
               $ded = $row2['points'] * $subpoints; 
+              $ded = ceil($ded); 
     	    	  $points = $row2['points'] - $ded; 
               $points = round($points); 			  
 					}
@@ -74,7 +75,7 @@ function updatePoints($conn, $decoder) {
    /* task C : submit feedback into the database */ 
    // $newfeedback = $feedback + " -" + $ded; 
     
-     $ded = round($ded); 
+    // $ded = round($ded); 
      if (($pos = stripos($feedback, "gp", 0)) === false) {
 	     	$feedback = substr_replace($feedback , $ded, $pos+1, 0);
      } else {

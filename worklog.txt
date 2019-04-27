@@ -1,5 +1,19 @@
 worklog brief
 
+
+Fri Apr 26 03:05:39 EDT 2019
+
+   [+] there's just an accuracy error with the point system. use quiz 1.
+       the first test. the problem is finding `sub` in subtract becomes valid. 
+       fix it. 
+
+LOG Fri Apr 26 01:41:31 EDT 2019
+
+    [+] we got the stupid grader to be at least 99% fucking accurate.
+        the next step is to fucking fix the `print` statement. It is fucking with the grader. 
+        the strategy is to replace `print` and fucking replace it with `return`.
+    [+] another mistake is the fucking colon being checked. we need to fix that range bullshit. 
+
 LOG Wed Apr 10 14:41:03 EDT 2019
 
     [+] send grades. zone. 

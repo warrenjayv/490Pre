@@ -1,9 +1,4 @@
 
-def addThree(a, b, c):
-    return a + b + c
-print(addThree(100, 200, 300))
-print(addThree(-7, 0, 19))
-print(addThree(-1,-1,-1))
-print(addThree(1,2,3))
-print(addThree(4,5,6))
-print(addThree(0,0,0))
+def sub(a,b): return(a - b)
+print(sub(3,4))
+print(sub(4,3))

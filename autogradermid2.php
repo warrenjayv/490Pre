@@ -7,6 +7,7 @@ include 'sqlCheck.php';
 
 // grade(); 
 
+return 0; 
 function grade() {
 	/* task A : get all the tests with sub 1 */
 	$target = targetIs('auto'); 
@@ -136,21 +137,32 @@ function grade() {
 				}
       } //if cons getcons
 
-     /* TASK F2: check for colon */ 
+      /* TASK F2: check for colon */ 
+      if ($constat == true) {
+             $colperc = '0.05'; 
+      } else {
+             $colperc = '0.10'; 
+      }
       if ($ext = colonfixer($text)) {
 					$write = "+ colon was not found in user answer\n"; 
           $write .= "+ new answer: \n " . $ext . "\n";
           autolog($write, $target); 
           $feed = "bp missing colon [:] in user answer"; 
-          update($id, $qId, $feed, '.05 ', '.05'); 
+          update($id, $qId, $feed, $colperc , $colperc); 
           $text = $ext;
       } else {
 			    $write = "+ colon was found in the user answer:\n";
           $write = $text . "\n"; 
           $feed = "gp colon [:] in user answer"; 
           autolog($write, $target); 
-          update($id, $qId, $feed, '0' , '0.05'); 
+          update($id, $qId, $feed, '0' , $colperc); 
       }
+
+      /* TASKG: run printkiller and get rid of print so that it doesnt kill our program; */ 
+
+      if ($printkilled = printkiller($text)) {
+             $text = $printkilled; 
+      }//if printkilled text 
 
       /* TASKF1: check for func name */ 
 
@@ -236,28 +248,28 @@ function grade() {
   /* returns the correct text that includes the colon =] */
 		$pranto=')'; $col=':';
 
-   /*
     $length = strlen($text);
-    $funcend = stripos($text, $pranto, 0); 
+    $end = stripos($text, PHP_EOL, 0); 
+    if(! $end) $end=$length; 
+    $func = substr($text, 0, $end); 
  
-    if (($fors = stripos($text, $col, $funcend+2)) == true) {
-       $off = $fors;
-       $offset = $length - $off;
-    } else {
-       $offset = 0; 
-    }
-   
-    */
-  
-    $offset = 0; 
-    if (($pos = stripos($text, $col, -1*$offset)) === false) {
+    if (($pos = stripos($func, $col, 0)) === false) {
         $start = stripos($text, $pranto, 0);
         $newtext = substr_replace($text, $col, $start+1, 0);
+        $newtext = colonkiller($newtext, $end);
       return $newtext; 
     } else { 
       return false; 
     }
   }//colonfixer
+
+  function colonkiller($text, $start) {
+      /*destroys colons anywhere in the python body*/ 
+      $target = substr($text, $start);
+      $clearbody = str_replace(":", " ", $target);
+      $newtext = substr_replace($text, $clearbody, $start);
+      return $newtext; 
+  }
   
 	function getCons($qId) {
 		/* returns an array of constraints */ 
@@ -459,20 +471,35 @@ function grade() {
               $end  = strpos($function, $prant, 0);
               $function = substr($function, 0, $end); 
 			$write = "+ gp obtained function " . $function . " with funcom()\n"; autolog($write, $target); 
-			$write = "+ finding if " . $function . " is in user answer " . $text  . "\n"; autolog($write, $target); 
+              $write = "+ finding if " . $function . " is in user answer " . $text  . "\n"; autolog($write, $target); 
+
+      /*
 			if (($pos = strPos($text, $function)) === false) {
 				$miss += 1; 	
-			} 
+      } 
+      */
+
+       /* grab the function from user answer */
+              $length = sizeof($text); 
+              $start = stripos($text, "def", 0); $start+=4;
+              $end = strpos($text, $prant, $start); 
+              $userfunc = substr($text, $start, $end - $start); 
+
+              if ((substr_compare($function, $userfunc, 0, 
+                   strlen($userfunc)))) {
+                   $miss += 1; 
+               }
+
 		}//foreach tests as x
 		if ($miss >= $size) {
 			$write = "+ function was not found at all in the user answer\n"; 
 			$write .= "+ returning the correct function : " . $function . "\n"; autolog($write, $target); 
-			$feed = "bp expecting function: ".$function.", it was not found!";
+	                  		$feed = "bp expecting function: ".$function.", it was not found!";
                         update($id, $qId, $feed, $subpoints, $max);  
-			return $function; 
+                  			return $function; 
 		} else {
 			$write = "+ the function was found in the user answer\n"; autolog($write, $target); 
-                        $feed = "np expecting function: ".$function.", function found!"; 
+                        $feed = "gp expecting function: ".$function.", function found!"; 
                         $subpoints = "0"; 
                         update($id, $qId, $feed, $subpoints, $max);  
 			return 0; 
@@ -616,4 +643,27 @@ function grade() {
 			return true;
 		}
   }//append()
+
+  function printkiller($text) {
+      /* detects print inside the function body 
+        returns a new text with 'return' otherwise, false */ 
+    
+      $target = targetIs('auto'); 
+      $write = "+ printkiller()  is called with text: " . $text . "\n"; 
+          autolog($write, $target); 
+      $length = strlen($text); 
+      $start = stripos($text, ')', 0);
+      $afterfunc = substr($text, $start, $length - 1);
+      $pos = stripos($afterfunc, "print", 0);
+          if ($pos === false) {
+               return false; 
+          } 
+      $newafterfunc = str_replace("print", "return", $afterfunc); 
+      $newtext = substr_replace($text, $newafterfunc, $start);
+      $write = "+ printkiller() out: " . $newtext . "\n"; 
+           autolog($write, $target); 
+       
+      return $newtext; 
+
+  }//printkiller 
 	?>
