@@ -43,10 +43,10 @@ function updatePoints($conn, $decoder) {
 			 $write = "updatePoints SQL : " . $error . "\n"; autolog($write, $target);  
 		} else { 
 			    while($row2  = mysqli_fetch_assoc($result2)) {
-              $ded = $row2['points'] * $subpoints; 
+              $ded = $row2['points'] * $subpoints;
               $ded = ceil($ded); 
     	    	  $points = $row2['points'] - $ded; 
-              $points = round($points); 			  
+              $points = ceil($points); 			  
 					}
     }
 

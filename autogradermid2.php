@@ -139,9 +139,9 @@ function grade() {
 
       /* TASK F2: check for colon */ 
       if ($constat == true) {
-             $colperc = '0.05'; 
+             $colperc = '0.066'; 
       } else {
-             $colperc = '0.10'; 
+             $colperc = '0.20'; 
       }
       if ($ext = colonfixer($text)) {
 					$write = "+ colon was not found in user answer\n"; 
@@ -182,7 +182,13 @@ function grade() {
 				$function = getFunc($b); $write .= "+ current function : " . $function . "\n"; 
 				$printout = "print(" . $function . ")"; $write .= "+ printout : " . $printout . "\n"; 
 				$write .= "+ obtaining the output part to be compared later.  \n"; 
-				$output = getOut($b); array_push($arrayofOuts, $output);
+        $output = getOut($b);
+        if (empty($output)) {
+            $write = "+ output was was detected empty at testcase: " . $b . "\n"; 
+            autolog($write, $target);
+            $output = "0"; 
+        }
+        array_push($arrayofOuts, $output);
 				$write .= "+ formed the arrayofOuts : \n" . print_r($arrayofOuts, true) . "\n"; 
 				$write .= "+ now we are writing the testcase function " . $function . " on the python file : \n"; 			   
 				autolog($write, $target); append($source, $printout); 		 		
@@ -265,10 +271,16 @@ function grade() {
 
   function colonkiller($text, $start) {
       /*destroys colons anywhere in the python body*/ 
-      $target = substr($text, $start);
-      $clearbody = str_replace(":", " ", $target);
-      $newtext = substr_replace($text, $clearbody, $start);
-      return $newtext; 
+      $target = substr($text, $start); 
+      $for = strpos($target, 'for', 0);
+      $while = strpos($target, 'while', 0);
+      if ((!$for) && (!$while)) {
+         $clearbody = str_replace(":", " ", $target);
+         $newtext = substr_replace($text, $clearbody, $start);
+         return $newtext;
+      } else {
+         return $text; 
+      }
   }
   
 	function getCons($qId) {
@@ -392,16 +404,18 @@ function grade() {
             autolog($write, $target); 
 		$exec = exec($test, $array, $status); 
 		if (! $status ) { 
-			foreach($array as $key=>$c) {
+        foreach($array as $key=>$c) {
+
 				$write .= "+ comparing " . $tests[$key] . " with output : " . $arrayofOuts[$key] . "\n"; 
 				$write .= "+ comparing c: " . $c . " with output : " . $arrayofOuts[$key] . "\n"; 
 				$function = getFunc($tests[$key]);
 				$output = getOut($tests[$key]);
-
-				if (empty($c)) {
+        
+				if (! isset($c)) {
 					$write = "+ ".$c." is an empty or null output. skipping!\n"; autolog($write, $target); 
 					continue; 
-				}
+        }
+       
 				autolog($write, $target); 
 				if ($c ===  $arrayofOuts[$key]) {
 					$write = "pass!\n"; autolog($write, $target); 
@@ -452,11 +466,11 @@ function grade() {
   function funcom($text , $tests, $id, $qId, $constat) {
 
     if ($constat) {
-        $max = 0.05 ; 
-        $subpoints = 0.05; 
+        $max = 0.066; 
+        $subpoints = 0.066 ; 
     } else {
-        $max = 0.1; 
-        $subpoints = 0.1; 
+        $max = 0.2; 
+        $subpoints = 0.2; 
     }
 		$target = targetIs('auto'); 
 		/* go through each test and obtain the function, string search the text for the function */
