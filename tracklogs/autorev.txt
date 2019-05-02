@@ -91411,3 +91411,2619 @@ Array
 
 + checkGrade returned true . skipping 9
 + array of submittedTests are empty, returning false and terminating.
+[+] page accessed AUTOGRADER 2019-05-01 02:25:19pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 2159666
++ called checkGrade for testId . 1
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 1
++ called checkGrade for testId . 2
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 2
++ called checkGrade for testId . 4
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 4
++ called checkGrade for testId . 5
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 5
++ called checkGrade for testId . 6
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 6
++ called checkGrade for testId . 7
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 7
++ called checkGrade for testId . 8
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 8
++ called checkGrade for testId . 9
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 9
++ array of submittedTests are empty, returning false and terminating.
+[+] page accessed AUTOGRADER 2019-05-01 02:25:29pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 2161105
++ called checkGrade for testId . 1
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 1
++ called checkGrade for testId . 2
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 2
++ called checkGrade for testId . 4
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 4
++ called checkGrade for testId . 5
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 5
++ called checkGrade for testId . 6
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 6
++ called checkGrade for testId . 7
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 7
++ called checkGrade for testId . 8
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 8
++ called checkGrade for testId . 9
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 9
++ array of submittedTests are empty, returning false and terminating.
+[+] page accessed AUTOGRADER 2019-05-01 02:36:02pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 2162544
++ called checkGrade for testId . 1
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 1
++ called checkGrade for testId . 2
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 2
++ called checkGrade for testId . 4
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 4
++ called checkGrade for testId . 5
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 5
++ called checkGrade for testId . 6
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 6
++ called checkGrade for testId . 7
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 7
++ called checkGrade for testId . 8
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 8
++ called checkGrade for testId . 9
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 9
++ array of submittedTests are empty, returning false and terminating.
+[+] page accessed AUTOGRADER 2019-05-01 02:36:08pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 2163983
++ called checkGrade for testId . 1
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 1
++ called checkGrade for testId . 2
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 2
++ called checkGrade for testId . 4
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 4
++ called checkGrade for testId . 5
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 5
++ called checkGrade for testId . 6
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 6
++ called checkGrade for testId . 7
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 7
++ called checkGrade for testId . 8
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 8
++ called checkGrade for testId . 9
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 9
++ array of submittedTests are empty, returning false and terminating.
+[+] page accessed AUTOGRADER 2019-05-01 02:36:16pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 2165422
++ called checkGrade for testId . 1
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 1
++ called checkGrade for testId . 2
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 2
++ called checkGrade for testId . 4
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 4
++ called checkGrade for testId . 5
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 5
++ called checkGrade for testId . 6
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 6
++ called checkGrade for testId . 7
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 7
++ called checkGrade for testId . 8
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 8
++ called checkGrade for testId . 9
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 9
++ array of submittedTests are empty, returning false and terminating.
+[+] page accessed AUTOGRADER 2019-05-01 02:36:34pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 2166861
++ called checkGrade for testId . 1
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 1
++ called checkGrade for testId . 2
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 2
++ called checkGrade for testId . 4
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 4
++ called checkGrade for testId . 5
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 5
++ called checkGrade for testId . 6
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 6
++ called checkGrade for testId . 7
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 7
++ called checkGrade for testId . 8
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 8
++ called checkGrade for testId . 9
++ checkGrade() returned : 
+Array
+(
+    [grade] => 0
+    [error] => 
+)
+
++ called setGrade for testId 9
++setGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ 9 will now be graded.
++ an array of submittedTests: 
+Array
+(
+    [0] => Array
+        (
+            [id] => 9
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [desc] => Write a function called sub() that takes two integers and prints their difference.
+                            [topic] => Subtraction
+                            [diff] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 4
+                            [desc] => Write a function called factorial() which takes one integer parameter n, and returns n!. 
+                            [topic] => Math Factorial
+                            [diff] => 4
+                        )
+
+                )
+
+        )
+
+)
+
++ proceed with task B: obtain test cases
++ obtaining the array of ques from subm. tests
++ sending paramaters to getAnswers() :
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 5
+            [1] => 4
+        )
+
+    [testId] => 9
+)
+
++ getAnswers(bullet2) output and formed the arrayofAnswers: 
+Array
+(
+    [type] => getAnswers
+    [error] => 0
+    [answers] => Array
+        (
+            [0] => Array
+                (
+                    [qId] => 5
+                    [text] => def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
+                    [tests] => Array
+                        (
+                            [0] => sub(3,4)=-1
+                            [1] => sub(4,3)=1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [qId] => 4
+                    [text] => def factorial(n)
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
+                    [tests] => Array
+                        (
+                            [0] => factorial(2)=2
+                            [1] => factorial(5)=120
+                            [2] => factorial(3)=6
+                            [3] => factorial(1)=1
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [0] => Array
+        (
+            [qId] => 5
+            [text] => def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
+            [tests] => Array
+                (
+                    [0] => sub(3,4)=-1
+                    [1] => sub(4,3)=1
+                )
+
+        )
+
+    [1] => Array
+        (
+            [qId] => 4
+            [text] => def factorial(n)
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
+            [tests] => Array
+                (
+                    [0] => factorial(2)=2
+                    [1] => factorial(5)=120
+                    [2] => factorial(3)=6
+                    [3] => factorial(1)=1
+                )
+
+        )
+
+)
+counter is 1
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 5
++ clearning the python file for 5
++  page accessed by getCons 2019-05-01 02:36:35pm
++ received data : 
+Array
+(
+    [qId] => 5
+)
+
++ getCons() in backend  was succesful. data: 
+{"cons":["print"]}
++ gunCons() retrieving array of cons
++ array of cons: 
+Array
+(
+    [0] => print
+)
+
++ getCons (5) success:
+Array
+(
+    [0] => print
+)
+
++ checkCons() is checking if constraints are found in user answer
++ checkCons() did not find print in user answer
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 5
+    [feedback] => bp constraint [print]  was not found.
+    [subpoints] => 0.1
+    [max] => 0.1
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 5
++ obtained 0 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => b5p constraint [print]  was not found.
+    [points] => 45
+    [max] => 5
+)
+
++ checkCons() was succesful at test 9, qid 5
+def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 5
+    [feedback] => gp colon [:] in user answer
+    [subpoints] => 0
+    [max] => 0.066
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 5
++ obtained 1 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => g4p colon [:] in user answer
+    [points] => 45
+    [max] => 4
+)
+
++ printkiller()  is called with text: def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ operating funcom for userAnswer: def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ gp obtained function sub with funcom()
++ finding if sub is in user answer def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ gp obtained function sub with funcom()
++ finding if sub is in user answer def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ function was not found at all in the user answer
++ returning the correct function : sub
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 5
+    [feedback] => bp expecting function: sub, it was not found!
+    [subpoints] => 0.066
+    [max] => 0.066
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 5
++ obtained 2 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => b4p expecting function: sub, it was not found!
+    [points] => 41
+    [max] => 4
+)
+
++ replacing def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a with sub
++ funrep() called, old answer: def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ funrep() called, new answer: def sub(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ writing correct answer to python file: def sub(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ current testcase :  sub(3,4)=-1
++ current function : sub(3,4)
++ printout : print(sub(3,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => -1
+)
+
++ now we are writing the testcase function sub(3,4) on the python file : 
++ current testcase :  sub(4,3)=1
++ current function : sub(4,3)
++ printout : print(sub(4,3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => -1
+    [1] => 1
+)
+
++ now we are writing the testcase function sub(4,3) on the python file : 
++ running execom() with pars for id : 9, qId : 5
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ python contents:
+
+def sub(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
+print(sub(3,4))
+print(sub(4,3))
++ funperc was set to :80, size: 2
++ sub : 0.4, max: 0.4
++execom() calculated funperc: 80, max: 0.4
++execom() calculated funperc: 80, max: 0.4
++ comparing sub(3,4)=-1 with output : -1
++ comparing c: 1 with output : -1
+fail!
++ calling updatePoints() to provide feedback
++ bp python called sub(3,4),  expected answer: -1, got user answer [1]
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 5
+    [feedback] => bp python called sub(3,4),  expected answer: -1, got user answer [1]
+    [subpoints] => 0.4
+    [max] => 0.4
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 5
++ obtained 3 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => b20p python called sub(3,4),  expected answer: -1, got user answer [1]
+    [points] => 21
+    [max] => 20
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => b20p python called sub(3,4),  expected answer: -1, got user answer [1]
+    [points] => 21
+    [max] => 20
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => b20p python called sub(3,4),  expected answer: -1, got user answer [1]
+    [points] => 21
+    [max] => 20
+)
+
++ comparing sub(4,3)=1 with output : 1
++ comparing c: 1 with output : 1
+pass!
++ calling updatePoints() to provide feedback
++ gp python called sub(4,3), expected: 1, got user answer [1]
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 5
+    [feedback] => gp python called sub(4,3), expected: 1, got user answer [1]
+    [subpoints] => 0
+    [max] => 0.4
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 5
++ obtained 4 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => g20p python called sub(4,3), expected: 1, got user answer [1]
+    [points] => 21
+    [max] => 20
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => g20p python called sub(4,3), expected: 1, got user answer [1]
+    [points] => 21
+    [max] => 20
+)
+
++ execom() returned 1
++ execom was succesful. updatePoints() feedback
++ np user program succesfully executed. 
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 5
+    [feedback] => np user program succesfully executed. 
+    [subpoints] => 0
+    [max] => .80
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 5
++ obtained 5 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 21
+    [max] => 40
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 21
+    [max] => 40
+)
+
+counter is 2
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 4
++ clearning the python file for 4
++  page accessed by getCons 2019-05-01 02:36:36pm
++ received data : 
+Array
+(
+    [qId] => 4
+)
+
++ getCons() in backend  was succesful. data: 
+{"cons":["while"]}
++ gunCons() retrieving array of cons
++ array of cons: 
+Array
+(
+    [0] => while
+)
+
++ getCons (4) success:
+Array
+(
+    [0] => while
+)
+
++ checkCons() is checking if constraints are found in user answer
++ checkCons() did not find while in user answer
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => bp constraint [while]  was not found.
+    [subpoints] => 0.1
+    [max] => 0.1
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 0 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b5p constraint [while]  was not found.
+    [points] => 45
+    [max] => 5
+)
+
++ checkCons() was succesful at test 9, qid 4
++ colon was not found in user answer
++ new answer: 
+ def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => bp missing colon [:] in user answer
+    [subpoints] => 0.066
+    [max] => 0.066
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 1 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b4p missing colon [:] in user answer
+    [points] => 41
+    [max] => 4
+)
+
++ printkiller()  is called with text: def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ operating funcom for userAnswer: def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ gp obtained function factorial with funcom()
++ finding if factorial is in user answer def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ gp obtained function factorial with funcom()
++ finding if factorial is in user answer def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ gp obtained function factorial with funcom()
++ finding if factorial is in user answer def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ gp obtained function factorial with funcom()
++ finding if factorial is in user answer def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ the function was found in the user answer
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => gp expecting function: factorial, function found!
+    [subpoints] => 0
+    [max] => 0.066
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 2 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => g4p expecting function: factorial, function found!
+    [points] => 41
+    [max] => 4
+)
+
++ writing answer to python file: def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ current testcase :  factorial(2)=2
++ current function : factorial(2)
++ printout : print(factorial(2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 2
+)
+
++ now we are writing the testcase function factorial(2) on the python file : 
++ current testcase :  factorial(5)=120
++ current function : factorial(5)
++ printout : print(factorial(5))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 2
+    [1] => 120
+)
+
++ now we are writing the testcase function factorial(5) on the python file : 
++ current testcase :  factorial(3)=6
++ current function : factorial(3)
++ printout : print(factorial(3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 2
+    [1] => 120
+    [2] => 6
+)
+
++ now we are writing the testcase function factorial(3) on the python file : 
++ current testcase :  factorial(1)=1
++ current function : factorial(1)
++ printout : print(factorial(1))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 2
+    [1] => 120
+    [2] => 6
+    [3] => 1
+)
+
++ now we are writing the testcase function factorial(1) on the python file : 
++ running execom() with pars for id : 9, qId : 4
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ python contents:
+
+def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
+print(factorial(2))
+print(factorial(5))
+print(factorial(3))
+print(factorial(1))
++ funperc was set to :80, size: 4
++ sub : 0.2, max: 0.2
++execom() calculated funperc: 80, max: 0.2
++execom() calculated funperc: 80, max: 0.2
++ comparing factorial(2)=2 with output : 2
++ comparing c: 0 with output : 2
+fail!
++ calling updatePoints() to provide feedback
++ bp python called factorial(2),  expected answer: 2, got user answer [0]
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => bp python called factorial(2),  expected answer: 2, got user answer [0]
+    [subpoints] => 0.2
+    [max] => 0.2
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 3 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(2),  expected answer: 2, got user answer [0]
+    [points] => 31
+    [max] => 10
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(2),  expected answer: 2, got user answer [0]
+    [points] => 31
+    [max] => 10
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(2),  expected answer: 2, got user answer [0]
+    [points] => 31
+    [max] => 10
+)
+
++ comparing factorial(5)=120 with output : 120
++ comparing c: 0 with output : 120
+fail!
++ calling updatePoints() to provide feedback
++ bp python called factorial(5),  expected answer: 120, got user answer [0]
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => bp python called factorial(5),  expected answer: 120, got user answer [0]
+    [subpoints] => 0.2
+    [max] => 0.2
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 4 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(5),  expected answer: 120, got user answer [0]
+    [points] => 21
+    [max] => 10
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(5),  expected answer: 120, got user answer [0]
+    [points] => 21
+    [max] => 10
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(5),  expected answer: 120, got user answer [0]
+    [points] => 21
+    [max] => 10
+)
+
++ comparing factorial(3)=6 with output : 6
++ comparing c: 0 with output : 6
+fail!
++ calling updatePoints() to provide feedback
++ bp python called factorial(3),  expected answer: 6, got user answer [0]
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => bp python called factorial(3),  expected answer: 6, got user answer [0]
+    [subpoints] => 0.2
+    [max] => 0.2
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 5 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(3),  expected answer: 6, got user answer [0]
+    [points] => 11
+    [max] => 10
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(3),  expected answer: 6, got user answer [0]
+    [points] => 11
+    [max] => 10
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(3),  expected answer: 6, got user answer [0]
+    [points] => 11
+    [max] => 10
+)
+
++ comparing factorial(1)=1 with output : 1
++ comparing c: 0 with output : 1
+fail!
++ calling updatePoints() to provide feedback
++ bp python called factorial(1),  expected answer: 1, got user answer [0]
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => bp python called factorial(1),  expected answer: 1, got user answer [0]
+    [subpoints] => 0.2
+    [max] => 0.2
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 6 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(1),  expected answer: 1, got user answer [0]
+    [points] => 1
+    [max] => 10
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(1),  expected answer: 1, got user answer [0]
+    [points] => 1
+    [max] => 10
+)
+
++ execom() returned 1
++ execom was succesful. updatePoints() feedback
++ np user program succesfully executed. 
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => np user program succesfully executed. 
+    [subpoints] => 0
+    [max] => .80
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 7 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 1
+    [max] => 40
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 1
+    [max] => 40
+)
+
+[+] page accessed AUTOGRADER 2019-05-01 02:37:03pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 2189193
++ called checkGrade for testId . 1
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 1
++ called checkGrade for testId . 2
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 2
++ called checkGrade for testId . 4
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 4
++ called checkGrade for testId . 5
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 5
++ called checkGrade for testId . 6
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 6
++ called checkGrade for testId . 7
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 7
++ called checkGrade for testId . 8
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 8
++ called checkGrade for testId . 9
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 9
++ array of submittedTests are empty, returning false and terminating.
+[+] page accessed AUTOGRADER 2019-05-01 02:45:19pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 2190632
++ called checkGrade for testId . 1
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 1
++ called checkGrade for testId . 2
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 2
++ called checkGrade for testId . 4
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 4
++ called checkGrade for testId . 5
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 5
++ called checkGrade for testId . 6
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 6
++ called checkGrade for testId . 7
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 7
++ called checkGrade for testId . 8
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 8
++ called checkGrade for testId . 9
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 9
++ array of submittedTests are empty, returning false and terminating.
+[+] page accessed AUTOGRADER 2019-05-01 02:46:39pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 2192071
++ called checkGrade for testId . 1
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 1
++ called checkGrade for testId . 2
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 2
++ called checkGrade for testId . 4
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 4
++ called checkGrade for testId . 5
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 5
++ called checkGrade for testId . 6
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 6
++ called checkGrade for testId . 7
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 7
++ called checkGrade for testId . 8
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 8
++ called checkGrade for testId . 9
++ checkGrade() returned : 
+Array
+(
+    [grade] => 0
+    [error] => 
+)
+
++ called setGrade for testId 9
++setGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ 9 will now be graded.
++ an array of submittedTests: 
+Array
+(
+    [0] => Array
+        (
+            [id] => 9
+            [ques] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [desc] => Write a function called sub() that takes two integers and prints their difference.
+                            [topic] => Subtraction
+                            [diff] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 4
+                            [desc] => Write a function called factorial() which takes one integer parameter n, and returns n!. 
+                            [topic] => Math Factorial
+                            [diff] => 4
+                        )
+
+                )
+
+        )
+
+)
+
++ proceed with task B: obtain test cases
++ obtaining the array of ques from subm. tests
++ sending paramaters to getAnswers() :
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 5
+            [1] => 4
+        )
+
+    [testId] => 9
+)
+
++ getAnswers(bullet2) output and formed the arrayofAnswers: 
+Array
+(
+    [type] => getAnswers
+    [error] => 0
+    [answers] => Array
+        (
+            [0] => Array
+                (
+                    [qId] => 5
+                    [text] => def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
+                    [tests] => Array
+                        (
+                            [0] => sub(3,4)=-1
+                            [1] => sub(4,3)=1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [qId] => 4
+                    [text] => def factorial(n)
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
+                    [tests] => Array
+                        (
+                            [0] => factorial(2)=2
+                            [1] => factorial(5)=120
+                            [2] => factorial(3)=6
+                            [3] => factorial(1)=1
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [0] => Array
+        (
+            [qId] => 5
+            [text] => def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
+            [tests] => Array
+                (
+                    [0] => sub(3,4)=-1
+                    [1] => sub(4,3)=1
+                )
+
+        )
+
+    [1] => Array
+        (
+            [qId] => 4
+            [text] => def factorial(n)
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
+            [tests] => Array
+                (
+                    [0] => factorial(2)=2
+                    [1] => factorial(5)=120
+                    [2] => factorial(3)=6
+                    [3] => factorial(1)=1
+                )
+
+        )
+
+)
+counter is 1
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 5
++ clearning the python file for 5
++  page accessed by getCons 2019-05-01 02:46:40pm
++ received data : 
+Array
+(
+    [qId] => 5
+)
+
++ getCons() in backend  was succesful. data: 
+{"cons":["print"]}
++ gunCons() retrieving array of cons
++ array of cons: 
+Array
+(
+    [0] => print
+)
+
++ getCons (5) success:
+Array
+(
+    [0] => print
+)
+
++ checkCons() is checking if constraints are found in user answer
++ checkCons() did not find print in user answer
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 5
+    [feedback] => bp constraint [print]  was not found.
+    [subpoints] => 0.1
+    [max] => 0.1
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 5
++ obtained 0 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => b5p constraint [print]  was not found.
+    [points] => 45
+    [max] => 5
+)
+
++ checkCons() was succesful at test 9, qid 5
+def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 5
+    [feedback] => gp colon [:] in user answer
+    [subpoints] => 0
+    [max] => 0.066
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 5
++ obtained 1 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => g3p colon [:] in user answer
+    [points] => 45
+    [max] => 3
+)
+
++ printkiller()  is called with text: def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ operating funcom for userAnswer: def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ gp obtained function sub with funcom()
++ finding if sub is in user answer def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ gp obtained function sub with funcom()
++ finding if sub is in user answer def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ function was not found at all in the user answer
++ returning the correct function : sub
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 5
+    [feedback] => bp expecting function: sub, it was not found!
+    [subpoints] => 0.066
+    [max] => 0.066
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 5
++ obtained 2 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => b4p expecting function: sub, it was not found!
+    [points] => 41
+    [max] => 3
+)
+
++ replacing def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a with sub
++ funrep() called, old answer: def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ funrep() called, new answer: def sub(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ writing correct answer to python file: def sub(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
++ current testcase :  sub(3,4)=-1
++ current function : sub(3,4)
++ printout : print(sub(3,4))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => -1
+)
+
++ now we are writing the testcase function sub(3,4) on the python file : 
++ current testcase :  sub(4,3)=1
++ current function : sub(4,3)
++ printout : print(sub(4,3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => -1
+    [1] => 1
+)
+
++ now we are writing the testcase function sub(4,3) on the python file : 
++ running execom() with pars for id : 9, qId : 5
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ python contents:
+
+def sub(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
+print(sub(3,4))
+print(sub(4,3))
++ funperc was set to :80, size: 2
++ sub : 0.4, max: 0.4
++execom() calculated funperc: 80, max: 0.4
++execom() calculated funperc: 80, max: 0.4
++ comparing sub(3,4)=-1 with output : -1
++ comparing c: 1 with output : -1
+fail!
++ calling updatePoints() to provide feedback
++ bp python called sub(3,4),  expected answer: -1, got user answer [1]
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 5
+    [feedback] => bp python called sub(3,4),  expected answer: -1, got user answer [1]
+    [subpoints] => 0.4
+    [max] => 0.4
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 5
++ obtained 3 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => b20p python called sub(3,4),  expected answer: -1, got user answer [1]
+    [points] => 21
+    [max] => 20
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => b20p python called sub(3,4),  expected answer: -1, got user answer [1]
+    [points] => 21
+    [max] => 20
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => b20p python called sub(3,4),  expected answer: -1, got user answer [1]
+    [points] => 21
+    [max] => 20
+)
+
++ comparing sub(4,3)=1 with output : 1
++ comparing c: 1 with output : 1
+pass!
++ calling updatePoints() to provide feedback
++ gp python called sub(4,3), expected: 1, got user answer [1]
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 5
+    [feedback] => gp python called sub(4,3), expected: 1, got user answer [1]
+    [subpoints] => 0
+    [max] => 0.4
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 5
++ obtained 4 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => g20p python called sub(4,3), expected: 1, got user answer [1]
+    [points] => 21
+    [max] => 20
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => g20p python called sub(4,3), expected: 1, got user answer [1]
+    [points] => 21
+    [max] => 20
+)
+
++ execom() returned 1
++ execom was succesful. updatePoints() feedback
++ np user program succesfully executed. 
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 5
+    [feedback] => np user program succesfully executed. 
+    [subpoints] => 0
+    [max] => .80
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 5
++ obtained 5 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 21
+    [max] => 40
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 5
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 21
+    [max] => 40
+)
+
+counter is 2
++ TASK F is in session. checking function name and colon 
++ clearning the python file for 4
++ clearning the python file for 4
++  page accessed by getCons 2019-05-01 02:46:41pm
++ received data : 
+Array
+(
+    [qId] => 4
+)
+
++ getCons() in backend  was succesful. data: 
+{"cons":["while"]}
++ gunCons() retrieving array of cons
++ array of cons: 
+Array
+(
+    [0] => while
+)
+
++ getCons (4) success:
+Array
+(
+    [0] => while
+)
+
++ checkCons() is checking if constraints are found in user answer
++ checkCons() did not find while in user answer
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => bp constraint [while]  was not found.
+    [subpoints] => 0.1
+    [max] => 0.1
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 0 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b5p constraint [while]  was not found.
+    [points] => 45
+    [max] => 5
+)
+
++ checkCons() was succesful at test 9, qid 4
++ colon was not found in user answer
++ new answer: 
+ def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => bp missing colon [:] in user answer
+    [subpoints] => 0.066
+    [max] => 0.066
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 1 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b4p missing colon [:] in user answer
+    [points] => 41
+    [max] => 3
+)
+
++ printkiller()  is called with text: def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ operating funcom for userAnswer: def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ gp obtained function factorial with funcom()
++ finding if factorial is in user answer def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ gp obtained function factorial with funcom()
++ finding if factorial is in user answer def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ gp obtained function factorial with funcom()
++ finding if factorial is in user answer def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ gp obtained function factorial with funcom()
++ finding if factorial is in user answer def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ the function was found in the user answer
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => gp expecting function: factorial, function found!
+    [subpoints] => 0
+    [max] => 0.066
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 2 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => g3p expecting function: factorial, function found!
+    [points] => 41
+    [max] => 3
+)
+
++ writing answer to python file: def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
++ current testcase :  factorial(2)=2
++ current function : factorial(2)
++ printout : print(factorial(2))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 2
+)
+
++ now we are writing the testcase function factorial(2) on the python file : 
++ current testcase :  factorial(5)=120
++ current function : factorial(5)
++ printout : print(factorial(5))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 2
+    [1] => 120
+)
+
++ now we are writing the testcase function factorial(5) on the python file : 
++ current testcase :  factorial(3)=6
++ current function : factorial(3)
++ printout : print(factorial(3))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 2
+    [1] => 120
+    [2] => 6
+)
+
++ now we are writing the testcase function factorial(3) on the python file : 
++ current testcase :  factorial(1)=1
++ current function : factorial(1)
++ printout : print(factorial(1))
++ obtaining the output part to be compared later.  
++ formed the arrayofOuts : 
+Array
+(
+    [0] => 2
+    [1] => 120
+    [2] => 6
+    [3] => 1
+)
+
++ now we are writing the testcase function factorial(1) on the python file : 
++ running execom() with pars for id : 9, qId : 4
++ execom command: python /afs/cad/u/w/b/wbv4/public_html/Middle/firstpy.py 2>&1
++ python contents:
+
+def factorial(n):
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
+print(factorial(2))
+print(factorial(5))
+print(factorial(3))
+print(factorial(1))
++ funperc was set to :80, size: 4
++ sub : 0.2, max: 0.2
++execom() calculated funperc: 80, max: 0.2
++execom() calculated funperc: 80, max: 0.2
++ comparing factorial(2)=2 with output : 2
++ comparing c: 0 with output : 2
+fail!
++ calling updatePoints() to provide feedback
++ bp python called factorial(2),  expected answer: 2, got user answer [0]
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => bp python called factorial(2),  expected answer: 2, got user answer [0]
+    [subpoints] => 0.2
+    [max] => 0.2
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 3 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(2),  expected answer: 2, got user answer [0]
+    [points] => 31
+    [max] => 10
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(2),  expected answer: 2, got user answer [0]
+    [points] => 31
+    [max] => 10
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(2),  expected answer: 2, got user answer [0]
+    [points] => 31
+    [max] => 10
+)
+
++ comparing factorial(5)=120 with output : 120
++ comparing c: 0 with output : 120
+fail!
++ calling updatePoints() to provide feedback
++ bp python called factorial(5),  expected answer: 120, got user answer [0]
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => bp python called factorial(5),  expected answer: 120, got user answer [0]
+    [subpoints] => 0.2
+    [max] => 0.2
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 4 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(5),  expected answer: 120, got user answer [0]
+    [points] => 21
+    [max] => 10
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(5),  expected answer: 120, got user answer [0]
+    [points] => 21
+    [max] => 10
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(5),  expected answer: 120, got user answer [0]
+    [points] => 21
+    [max] => 10
+)
+
++ comparing factorial(3)=6 with output : 6
++ comparing c: 0 with output : 6
+fail!
++ calling updatePoints() to provide feedback
++ bp python called factorial(3),  expected answer: 6, got user answer [0]
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => bp python called factorial(3),  expected answer: 6, got user answer [0]
+    [subpoints] => 0.2
+    [max] => 0.2
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 5 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(3),  expected answer: 6, got user answer [0]
+    [points] => 11
+    [max] => 10
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(3),  expected answer: 6, got user answer [0]
+    [points] => 11
+    [max] => 10
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(3),  expected answer: 6, got user answer [0]
+    [points] => 11
+    [max] => 10
+)
+
++ comparing factorial(1)=1 with output : 1
++ comparing c: 0 with output : 1
+fail!
++ calling updatePoints() to provide feedback
++ bp python called factorial(1),  expected answer: 1, got user answer [0]
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => bp python called factorial(1),  expected answer: 1, got user answer [0]
+    [subpoints] => 0.2
+    [max] => 0.2
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 6 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(1),  expected answer: 1, got user answer [0]
+    [points] => 1
+    [max] => 10
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => b10p python called factorial(1),  expected answer: 1, got user answer [0]
+    [points] => 1
+    [max] => 10
+)
+
++ execom() returned 1
++ execom was succesful. updatePoints() feedback
++ np user program succesfully executed. 
++ updatePoints() 2 was called. Received:  
+Array
+(
+    [testId] => 9
+    [qId] => 4
+    [feedback] => np user program succesfully executed. 
+    [subpoints] => 0
+    [max] => .80
+)
+
++ modA was able to retrieve all rows from feedback for testId = 9 and qId = 4
++ obtained 7 rows
+error: 0
++ updatePoints() in backend returning:
+Array
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 1
+    [max] => 40
+)
+
++ updatePoints() : 
+stdClass Object
+(
+    [type] => updatePoints
+    [error] => 0
+    [testId] => 9
+    [qId] => 4
+    [feedback] => n0p user program succesfully executed. 
+    [points] => 1
+    [max] => 40
+)
+
+[+] page accessed AUTOGRADER 2019-05-01 02:46:52pm
+********************************************************
+
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/auto.txt = 2214403
++ called checkGrade for testId . 1
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 1
++ called checkGrade for testId . 2
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 2
++ called checkGrade for testId . 4
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 4
++ called checkGrade for testId . 5
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 5
++ called checkGrade for testId . 6
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 6
++ called checkGrade for testId . 7
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 7
++ called checkGrade for testId . 8
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 8
++ called checkGrade for testId . 9
++ checkGrade() returned : 
+Array
+(
+    [grade] => 1
+    [error] => 
+)
+
++ checkGrade returned true . skipping 9
++ array of submittedTests are empty, returning false and terminating.

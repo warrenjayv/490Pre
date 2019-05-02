@@ -1,10 +1,7 @@
 
-def factorial(n):
-    acc = 1
-    for i in range(n+1):
-        acc *= i
-    return acc
-print(factorial(2))
-print(factorial(5))
-print(factorial(3))
-print(factorial(1))
+def strMult(s, n):
+    return s * n
+print(strMult("hello",1))
+print(strMult("up", 4))
+print(strMult("hey", 3))
+print(strMult("aba", 2))

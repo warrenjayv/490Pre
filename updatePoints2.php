@@ -36,17 +36,17 @@ function updatePoints($conn, $decoder) {
 
 		/* task A : get the points for this current test and question */ 
 
-    $sql2 = "SELECT points FROM QuestionStudentRelation WHERE testId = '$testId' AND questionId = '$qId'"; 	  
+    $sql2 = "SELECT * FROM QuestionStudentRelation WHERE testId = '$testId' AND questionId = '$qId'"; 	  
     if (! $result2 = $conn->query($sql2)) {
 				$sqlerror2 = $conn->error; 
 				$error .= "sql2 " . $sqlerror2 . " "; 
 			 $write = "updatePoints SQL : " . $error . "\n"; autolog($write, $target);  
 		} else { 
 			    while($row2  = mysqli_fetch_assoc($result2)) {
-              $ded = $row2['points'] * $subpoints;
-              $ded = ceil($ded); 
+              $ded = $row2['maxpoints'] * $subpoints;
+              $ded = round($ded); 
     	    	  $points = $row2['points'] - $ded; 
-              $points = ceil($points); 			  
+              $points = round($points); 			  
 					}
     }
 
@@ -58,7 +58,7 @@ function updatePoints($conn, $decoder) {
         while($row4 = mysqli_fetch_assoc($result4)) {
             $maxpoints = $row4['maxpoints']; 
             $maxpoints = $maxpoints * $max; 
-            $maxpoints = ceil($maxpoints); 
+            $maxpoints = round($maxpoints); 
         }
     }
 

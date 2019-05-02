@@ -141,7 +141,7 @@ function grade() {
       if ($constat == true) {
              $colperc = '0.066'; 
       } else {
-             $colperc = '0.20'; 
+             $colperc = '0.10'; 
       }
       if ($ext = colonfixer($text)) {
 					$write = "+ colon was not found in user answer\n"; 
@@ -195,14 +195,15 @@ function grade() {
 			}//foreach tests as b
 
 			/* task D: run each testcase and compare (pass or fail) */ 
-			// if (! $ex = execom($source, $tests, $arrayofOuts, $id, $qId)) {
-			if (! $ex = execom($source, $tests, $arrayofOuts, $id, $qId)) {
-				$write = "+ execom failed. pls check logs. \n"; autolog($write, $target); 
+      // if (! $ex = execom($source, $tests, $arrayofOuts, $id, $qId)) {
+      $exec_err = ""; // the error from execom. 
+			if (! $ex = execom($source, $tests, $arrayofOuts, $id, $qId, $exec_err)) {
+          $write = "+ execom failed. pls check logs. \n"; autolog($write, $target); 
+         /* CHECK TASK HOTEL... 
 				$write .= "+ calling updatePoints() to provide feedback\n"; 
 				$feed = "bp user program failed to execute. "; 
 				$write .= "+ " . $feed . "\n"; autolog($write, $target); 
-				$bullet3  = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '.8', 'max' => '.80' ); 
-				/*subpoints should be a percent*/
+				$bullet3  = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' =>         '.8', 'max' => '.80' ); 
 				if (! $hole3  = updatePoints($bullet3)) {
 					$write = "+error; failure to execute updatePoints('bullet3') for fail execom()\n"; 
 					autolog($write, $target); 
@@ -210,7 +211,8 @@ function grade() {
 				}
 				$hole3  = json_decode($hole3); 
 				$write = "+ updatePoints() : \n"; $write .= print_r($hole3, true) . "\n";
-				autolog($write, $target); 
+        autolog($write, $target); 
+        */
 			} else {
 				$write = "+ execom was succesful. updatePoints() feedback\n"; 
 				$feed = "np user program succesfully executed. "; 
@@ -315,8 +317,8 @@ function grade() {
 			return false; 
     } else {
         $consize = count($cons); 
-           $sub = .1 / $consize;  //if consize is 2, sub is 0.05; if 3, .03
-           $max = .1 / $consize;  //if consize is 1, sub is 0.1 
+           $sub = .066  / $consize;  //if consize is 2, sub is 0.05; if 3, .03
+           $max = .066  / $consize;  //if consize is 1, sub is 0.1 
            
 			foreach($cons as $q) {
 				if (($pos = strpos($text, $q)) ===  false) {
@@ -403,7 +405,8 @@ function grade() {
     $write = "+execom() calculated funperc: ".$funperc.", max: ".$max."\n"; 
             autolog($write, $target); 
 		$exec = exec($test, $array, $status); 
-		if (! $status ) { 
+    if (! $status ) { 
+        $write .= "+ status of exec was 0. program executed succesfully\n"; 
         foreach($array as $key=>$c) {
 
 				$write .= "+ comparing " . $tests[$key] . " with output : " . $arrayofOuts[$key] . "\n"; 
@@ -456,7 +459,33 @@ function grade() {
 			}//foreach array as c 
 		}//if ! status
 		else { //! status returned 1
-			$write = "+ exec() failed. returning 0. function did not match testcase or program syntax errors 		\n"; autolog($write, $target); 
+        $write = "+ exec() failed.status returned 1. function did not match testcase or program syntax errors	\n"; 
+        autolog($write, $target); 
+
+        /* TASK HOTEL : negative feedback with stack trace! */ 
+        $write .= "+ calling updatePoints() to provide stack trace for function fail. \n"; 
+        $write .= "+ TASK HOTEL...\n"; 
+        foreach($array as $key=>$e) {
+           if ($key == 0) {
+              $end = stripos($e, ",", 0);
+              $e  = substr_replace($e, "python code", 0, $end);
+           } else if ($key == 2) {
+              continue; 
+           }
+           $err .= trim($e) . "\n"; 
+        }
+				$feed = "bp " . $err; 
+				$write .= "+ " . $feed . "\n"; autolog($write, $target); 
+				$bullet3  = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '.8', 'max' => '.80' ); 
+				/*subpoints should be a percent*/
+				if (! $hole3  = updatePoints($bullet3)) {
+					$write = "+error; failure to execute updatePoints('bullet3') for fail execom()\n"; 
+					autolog($write, $target); 
+					continue; 
+				}
+				$hole3  = json_decode($hole3); 
+				$write = "+ updatePoints() : \n"; $write .= print_r($hole3, true) . "\n";
+				autolog($write, $target); 
 			return 0; 
 		}//if ! status else
 		$write = "+ execom() returned 1\n"; autolog($write, $target); 
@@ -469,8 +498,8 @@ function grade() {
         $max = 0.066; 
         $subpoints = 0.066 ; 
     } else {
-        $max = 0.2; 
-        $subpoints = 0.2; 
+        $max = 0.1; 
+        $subpoints = 0.1; 
     }
 		$target = targetIs('auto'); 
 		/* go through each test and obtain the function, string search the text for the function */
