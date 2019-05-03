@@ -128,6 +128,7 @@ if (! empty($demux['type']) && ($demux['type'] == 'addA')) {
     $note = "running submitExam() \n";
     $write .= trace($note);
     echo submitExam($demux); 
+    grade(); 
 }//if submit exam
 
 if (! empty($demux['type']) && ($demux['type'] == 'getAnswers')) {
@@ -140,7 +141,7 @@ if (! empty($demux['type']) && ($demux['type'] == 'getA')) {
     $note = "running getAttempt() \n"; 
     $write .= trace($note); 
     echo getAttempt($demux);
-    grade();  
+   //grade();  
 }
 
 /*

@@ -3,11 +3,12 @@ date_default_timezone_set("America/New_York");
 include 'autolog.php'; 
 include 'targets.php'; 
 include 'sqlCheck.php'; 
-// include 'curlop.php'; 
+//include 'curlop.php'; //this is called in midlogin.php 
 
-// grade(); 
-
-return 0; 
+if (! empty($argv[1])) {
+     include 'curlop.php';
+     grade(); 
+}
 function grade() {
 	/* task A : get all the tests with sub 1 */
 	$target = targetIs('auto'); 
@@ -147,13 +148,13 @@ function grade() {
 					$write = "+ colon was not found in user answer\n"; 
           $write .= "+ new answer: \n " . $ext . "\n";
           autolog($write, $target); 
-          $feed = "bp missing colon [:] in user answer"; 
+          $feed = "bp Colon not at end of function signature"; 
           update($id, $qId, $feed, $colperc , $colperc); 
           $text = $ext;
       } else {
 			    $write = "+ colon was found in the user answer:\n";
           $write = $text . "\n"; 
-          $feed = "gp colon [:] in user answer"; 
+          $feed = "gp Colon after function signature"; 
           autolog($write, $target); 
           update($id, $qId, $feed, '0' , $colperc); 
       }
@@ -321,9 +322,12 @@ function grade() {
            $max = .066  / $consize;  //if consize is 1, sub is 0.1 
            
 			foreach($cons as $q) {
-				if (($pos = strpos($text, $q)) ===  false) {
+				if (($pos = stripos($text, $q)) ===  false) {
 					$write = "+ checkCons() did not find " . $q . " in user answer\n"; autolog($write, $target); 
-					$feed = "bp constraint [" . $q . "]  was not found."; 
+          $feed = "bp  " . $q . " was not found."; 
+          if (stripos($q, "print") === false ) {
+                $feed = "bp " . $q . " loop was not found."; 
+          }
 					$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => $sub, 'max' => $max ); 
 					if (! $hole = updatePoints($bullet)) {
 						$write = "+ error; checkCons failed to execute updatePoints()!\n"; 
@@ -331,7 +335,10 @@ function grade() {
 					} 
 				} else {
 					$write = "+ checkCons() found " . $q . " in user answer\n"; autolog($write, $target); 
-					$feed = "gp constraint [" . $q . "] was found."; 
+          $feed = "gp " . $q . " was found."; 
+          if (stripos($q, "print") === false) {
+                $feed = "gp " . $q . " loop was found."; 
+          }
 					$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '0', 'max' => $max); 
 					if (! $hole = updatePoints($bullet)) {
 						$write = "+ error; checkCons failed to execute updatePoints()!\n"; 
@@ -427,7 +434,7 @@ function grade() {
 					//	$feed = "gp testcase '". $tests[$key] . "' passed!"; 
 					$function = getFunc($tests[$key]);
 					//$output = getOut($tests[$key]);
-					$feed = "gp python called " . $function . ", expected: " . $arrayofOuts[$key] . ", got user answer [" . $c  ."]" ;
+					$feed = "gp Called " . $function . ", expected: \"" . $arrayofOuts[$key] . "\", got \"" . $c  ."\"" ;
 					$write .= "+ " . $feed . "\n"; autolog($write, $target);   
           $bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '0',
               'max' => $max); 
@@ -537,12 +544,12 @@ function grade() {
 		if ($miss >= $size) {
 			$write = "+ function was not found at all in the user answer\n"; 
 			$write .= "+ returning the correct function : " . $function . "\n"; autolog($write, $target); 
-	                  		$feed = "bp expecting function: ".$function.", it was not found!";
+	                  		$feed = "bp Expecting function: \"".$function."\", found \"". wrongfunc($text) ."\"";
                         update($id, $qId, $feed, $subpoints, $max);  
                   			return $function; 
 		} else {
 			$write = "+ the function was found in the user answer\n"; autolog($write, $target); 
-                        $feed = "gp expecting function: ".$function.", function found!"; 
+                        $feed = "gp Expecting function: \"".$function."\", found \"" .$function."\""; 
                         $subpoints = "0"; 
                         update($id, $qId, $feed, $subpoints, $max);  
 			return 0; 
@@ -709,4 +716,17 @@ function grade() {
       return $newtext; 
 
   }//printkiller 
+
+  function wrongfunc($text) {
+      $target = targetIs('auto'); 
+      $write = "+ wrongfunc() was called.\n";
+      $prant='(';
+      $length = strlen($text);
+      $start = stripos($text, "def", 0); $start+=4;
+      $end = stripos($text, $prant, 0);
+      $wrong = substr($text, $start, -($length - $end));
+      return $wrong;
+      $write .= "+ wrongfunc() returned: " . $wrong . "\n"; 
+      autolog($write, $target); 
+  }//wrongfunc
 	?>
