@@ -3836,3 +3836,55 @@ page accessed 2019-05-03 06:04:18pm
 running getAttempt() 
 
 2019-05-03 06:04:18pm
+page accessed 2019-05-03 06:06:37pm
+running getAttempt() 
+
+2019-05-03 06:06:37pm
+page accessed 2019-05-03 06:09:20pm
+running getAttempt() 
+
+2019-05-03 06:09:20pm
+page accessed 2019-05-03 06:09:59pm
+running getAttempt() 
+
+2019-05-03 06:09:59pm
+page accessed 2019-05-03 06:12:12pm
+running getAttempt() 
+
+2019-05-03 06:12:12pm
+page accessed 2019-05-03 06:15:38pm
+running getAttempt() 
+
+2019-05-03 06:15:38pm
+page accessed 2019-05-03 06:16:58pm
+running getAttempt() 
+
+2019-05-03 06:16:58pm
+page accessed 2019-05-03 06:17:37pm
+running getAttempt() 
+
+2019-05-03 06:17:37pm
+page accessed 2019-05-03 06:18:56pm
+running getAttempt() 
+
+2019-05-03 06:18:56pm
+page accessed 2019-05-03 06:19:20pm
+running getAttempt() 
+
+2019-05-03 06:19:20pm
+page accessed 2019-05-03 06:20:22pm
+running getAttempt() 
+
+2019-05-03 06:20:22pm
+page accessed 2019-05-03 06:20:35pm
+running getExam() 
+
+2019-05-03 06:20:35pm
+page accessed 2019-05-03 06:20:42pm
+running getAttempt() 
+
+2019-05-03 06:20:42pm
+page accessed 2019-05-03 06:22:06pm
+running getAttempt() 
+
+2019-05-03 06:22:06pm

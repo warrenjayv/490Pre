@@ -216,7 +216,7 @@ function grade() {
         */
 			} else {
 				$write = "+ execom was succesful. updatePoints() feedback\n"; 
-				$feed = "np user program succesfully executed. "; 
+				$feed = "np user program succesfully executed"; 
 				$write .= "+ " . $feed . "\n"; autolog($write, $target); 
 				$bullet4 = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '0', 'max' => '.80' );              
 				if (! $hole4  = updatePoints($bullet4)) {
@@ -326,7 +326,7 @@ function grade() {
 					$write = "+ checkCons() did not find " . $q . " in user answer\n"; autolog($write, $target); 
           $feed = "bp  " . $q . " was not found."; 
           if (stripos($q, "print") === false ) {
-                $feed = "bp " . $q . " loop was not found."; 
+                $feed = "bp " . $q . " loop was not found"; 
           }
 					$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => $sub, 'max' => $max ); 
 					if (! $hole = updatePoints($bullet)) {
@@ -337,7 +337,7 @@ function grade() {
 					$write = "+ checkCons() found " . $q . " in user answer\n"; autolog($write, $target); 
           $feed = "gp " . $q . " was found."; 
           if (stripos($q, "print") === false) {
-                $feed = "gp " . $q . " loop was found."; 
+                $feed = "gp " . $q . " loop was found"; 
           }
 					$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '0', 'max' => $max); 
 					if (! $hole = updatePoints($bullet)) {
@@ -475,7 +475,7 @@ function grade() {
         foreach($array as $key=>$e) {
            if ($key == 0) {
               $end = stripos($e, ",", 0);
-              $e  = substr_replace($e, "python code", 0, $end);
+              $e  = substr_replace($e, "Code failed to execute: ", 0, $end);
            } else if ($key == 2) {
               continue; 
            }

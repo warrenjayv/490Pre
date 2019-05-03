@@ -9160,3 +9160,340 @@ def switch(diff):
    }
    return switcher.get(diff, "nothing")
 )
+[ + ] page accessed getAnswer() 2019-05-03 06:11:21pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 176050
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 4
+            [1] => 2
+            [2] => 5
+        )
+
+    [testId] => 1
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 4
+    [text] => def factorial(n):
+    result = 1
+    for i in range(n):
+        if n == 0 or n == 1:
+            break;
+        else:
+            result *= n
+            n -= 1
+    return result
+)
+Array
+(
+    [qId] => 2
+    [text] => def strMult(s, n):
+    return s*n
+)
+Array
+(
+    [qId] => 5
+    [text] => def subtract(a,b) print(a - b)
+)
+[ + ] page accessed getAnswer() 2019-05-03 06:11:47pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 176839
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 1
+            [1] => 2
+        )
+
+    [testId] => 2
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 1
+    [text] => def opernoob(op, a, b):
+    if (op == '+'):
+       return a+b
+    if (op == '-'):
+       return a-b
+    if (op == '*'):
+       return a*b
+    if (op == '/'):
+       return a/b
+    if (op == '%'):
+       return a%b
+    if (op == '?'):
+       return a?b 
+)
+Array
+(
+    [qId] => 2
+    [text] => def strMult(s, n):
+    return s * n
+)
+[ + ] page accessed getAnswer() 2019-05-03 06:12:02pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 177613
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 6
+            [1] => 3
+        )
+
+    [testId] => 4
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 6
+    [text] => def stringSub(a, b): 
+    diff = a - b
+    return switch(diff)
+    
+def switch(diff):
+    switcher = {
+        0: "zero",
+        1: "one",
+        2: "two",
+        3: "three",
+        4: "four",
+        5: "five",
+        6: "six",
+        7: "seven",
+        8: "eight",
+        9: "nine",
+    }
+    return switcher.get(diff, "nothing")
+    
+)
+Array
+(
+    [qId] => 3
+    [text] => def addThree(a, b, c)
+    return a + b + c
+)
+[ + ] page accessed getAnswer() 2019-05-03 06:12:16pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 178487
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 4
+        )
+
+    [testId] => 5
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 1
+    [text] => def operation(op, a, b):
+    if op == '+':
+        return a+b
+    elif op == '-':
+        return a-b
+    elif op == '*':
+        return a*b
+
+)
+Array
+(
+    [qId] => 2
+    [text] => def stringMult(s, n):
+    print s*n
+)
+Array
+(
+    [qId] => 4
+    [text] => def factorial(n)
+    acc = 1
+    for i in range(1,n+1):
+        acc *= i
+    return acc
+)
+[ + ] page accessed getAnswer() 2019-05-03 06:12:44pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 179297
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 1
+            [2] => 7
+        )
+
+    [testId] => 6
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 3
+    [text] => def addThree(a, b, c):
+    return a + b + c
+)
+Array
+(
+    [qId] => 1
+    [text] => def operation(op, a, b):
+    if op == '+':
+        return a + b
+)
+Array
+(
+    [qId] => 7
+    [text] => return 'a'
+)
+[ + ] page accessed getAnswer() 2019-05-03 06:13:07pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 179961
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+        )
+
+    [testId] => 7
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 3
+    [text] => def addThree(a, b, c):
+    return a + b + c
+)
+[ + ] page accessed getAnswer() 2019-05-03 06:13:18pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 180430
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 1
+        )
+
+    [testId] => 8
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 1
+    [text] => def operation(op, a, b):
+    if op == '+':
+        return a+b
+    elif op == '-':
+        return a-b
+    elif op == '*':
+        return a*b
+    elif op == '/':
+        return a/b
+    elif op == '%':
+        return a%b 
+    elif op == '?':
+         return "error"
+)
+[ + ] page accessed getAnswer() 2019-05-03 06:13:27pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 181130
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 5
+            [1] => 4
+        )
+
+    [testId] => 9
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 5
+    [text] => def sup(a, b):
+    if a-b > 0:
+        return a-b
+    else:
+        return b-a
+)
+Array
+(
+    [qId] => 4
+    [text] => def factorial(n)
+    acc = 1
+    for i in range(n+1):
+        acc *= i
+    return acc
+)
+[ + ] page accessed getAnswer() 2019-05-03 06:13:40pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 181780
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 6
+        )
+
+    [testId] => 10
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 6
+    [text] => def stringSub(a, b): 
+   diff = a - b
+   return switch(diff)
+   
+def switch(diff):
+   switcher = {
+       0: "zero",
+       1: "one",
+       2: "two",
+       3: "three",
+       4: "four",
+       5: "five",
+       6: "six",
+       7: "seven",
+       8: "eight",
+       9: "nine",
+   }
+   return switcher.get(diff, "nothing")
+)
