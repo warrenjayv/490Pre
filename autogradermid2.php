@@ -324,7 +324,7 @@ function grade() {
 			foreach($cons as $q) {
 				if (($pos = stripos($text, $q)) ===  false) {
 					$write = "+ checkCons() did not find " . $q . " in user answer\n"; autolog($write, $target); 
-          $feed = "bp  " . $q . " was not found."; 
+          $feed = "bp  " . $q . " was not found"; 
           if (stripos($q, "print") === false ) {
                 $feed = "bp " . $q . " loop was not found"; 
           }
