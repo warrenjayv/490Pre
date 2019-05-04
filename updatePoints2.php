@@ -76,7 +76,8 @@ function updatePoints($conn, $decoder) {
    // $newfeedback = $feedback + " -" + $ded; 
     
     // $ded = round($ded); 
-     if (($pos = stripos($feedback, "gp", 0)) === false) {
+    if (($pos = stripos($feedback, "gp", 0)) === false) {
+        $ded*=-1; 
 	     	$feedback = substr_replace($feedback , $ded, $pos+1, 0);
      } else {
         $feedback = substr_replace($feedback, $maxpoints, $pos+1, 0);   

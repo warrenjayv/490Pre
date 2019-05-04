@@ -22,7 +22,7 @@ function execom($source, $test, $err) {
     foreach($array as $key=>$n) {
         if ($key == 0) {
             $end = stripos($n, ',', 0);
-            $n = substr_replace($n, "python code", 0, $end); 
+            $n = substr_replace($n, "Code failed to execute:", 0, $end+1); 
         } 
         if ($key == 2) {
             continue; 

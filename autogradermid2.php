@@ -216,7 +216,7 @@ function grade() {
         */
 			} else {
 				$write = "+ execom was succesful. updatePoints() feedback\n"; 
-				$feed = "np user program succesfully executed"; 
+				$feed = "np user program successfully executed"; 
 				$write .= "+ " . $feed . "\n"; autolog($write, $target); 
 				$bullet4 = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => '0', 'max' => '.80' );              
 				if (! $hole4  = updatePoints($bullet4)) {
@@ -324,9 +324,9 @@ function grade() {
 			foreach($cons as $q) {
 				if (($pos = stripos($text, $q)) ===  false) {
 					$write = "+ checkCons() did not find " . $q . " in user answer\n"; autolog($write, $target); 
-          $feed = "bp  " . $q . " was not found"; 
+          $feed = "bp  " . ucfirst($q) . " was not found"; 
           if (stripos($q, "print") === false ) {
-                $feed = "bp " . $q . " loop was not found"; 
+                $feed = "bp " . ucfirst($q) . " loop was not found"; 
           }
 					$bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => $sub, 'max' => $max ); 
 					if (! $hole = updatePoints($bullet)) {
@@ -451,7 +451,7 @@ function grade() {
 					$write = "fail!\n"; autolog($write, $target); 
 					$write = "+ calling updatePoints() to provide feedback\n"; 
 					// $feed = "bp testcase '" . $tests[$key] . "' failed!"; 
-					$feed = "bp python called " . $function . ",  expected answer: " . $output . ", got user answer [" . $c . "]"; 
+					$feed = "bp Called " . $function . ",  expected answer: " . $output . ", got user answer [" . $c . "]"; 
 					$write .= "+ " . $feed . "\n"; autolog($write, $target); 
           $bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => $sub,
               'max' => $max); 
@@ -475,7 +475,7 @@ function grade() {
         foreach($array as $key=>$e) {
            if ($key == 0) {
               $end = stripos($e, ",", 0);
-              $e  = substr_replace($e, "Code failed to execute: ", 0, $end);
+              $e  = substr_replace($e, "Code failed to execute:", 0, $end+1);
            } else if ($key == 2) {
               continue; 
            }
