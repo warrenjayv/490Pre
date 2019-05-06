@@ -451,7 +451,7 @@ function grade() {
 					$write = "fail!\n"; autolog($write, $target); 
 					$write = "+ calling updatePoints() to provide feedback\n"; 
 					// $feed = "bp testcase '" . $tests[$key] . "' failed!"; 
-					$feed = "bp Called " . $function . ",  expected answer: " . $output . ", got user answer [" . $c . "]"; 
+					$feed = "bp Called " . $function . ",  expected answer: \"" . $arrayofOuts[$key] . "\", got \"" . $c . "\""; 
 					$write .= "+ " . $feed . "\n"; autolog($write, $target); 
           $bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => $sub,
               'max' => $max); 
