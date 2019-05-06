@@ -197,7 +197,7 @@ Array
             n -= 1
     return result
     [feedback] => 
-    [points] => 23
+    [points] => -2
     [maxpoints] => 25
     [testId] => 1
     [questionId] => 4
@@ -430,7 +430,7 @@ Array
     if (op == '?'):
        return a?b 
     [feedback] => 
-    [points] => 120
+    [points] => 12
     [maxpoints] => 120
     [testId] => 2
     [questionId] => 1
@@ -446,7 +446,7 @@ Array
     [userAnswer] => def strMult(s, n):
     return s * n
     [feedback] => 
-    [points] => 120
+    [points] => 112
     [maxpoints] => 120
     [testId] => 2
     [questionId] => 2
@@ -619,7 +619,7 @@ def switch(diff):
     return switcher.get(diff, "nothing")
     
     [feedback] => 
-    [points] => 10
+    [points] => 8
     [maxpoints] => 10
     [testId] => 4
     [questionId] => 6
@@ -635,7 +635,7 @@ Array
     [userAnswer] => def addThree(a, b, c)
     return a + b + c
     [feedback] => 
-    [points] => 10
+    [points] => 1
     [maxpoints] => 10
     [testId] => 4
     [questionId] => 3
@@ -813,7 +813,7 @@ Array
     [userAnswer] => def stringMult(s, n):
     print s*n
     [feedback] => 
-    [points] => 25
+    [points] => 22
     [maxpoints] => 25
     [testId] => 5
     [questionId] => 2
@@ -832,7 +832,7 @@ Array
         acc *= i
     return acc
     [feedback] => 
-    [points] => 25
+    [points] => 21
     [maxpoints] => 25
     [testId] => 5
     [questionId] => 4
@@ -1040,7 +1040,7 @@ Array
     if op == '+':
         return a + b
     [feedback] => 
-    [points] => 25
+    [points] => 10
     [maxpoints] => 25
     [testId] => 6
     [questionId] => 1
@@ -1055,7 +1055,7 @@ Array
     [rel] => 1
     [userAnswer] => return 'a'
     [feedback] => 
-    [points] => 50
+    [points] => 0
     [maxpoints] => 50
     [testId] => 6
     [questionId] => 7
@@ -1378,7 +1378,7 @@ Array
     elif op == '?':
          return "error"
     [feedback] => 
-    [points] => 95
+    [points] => 82
     [maxpoints] => 100
     [testId] => 8
     [questionId] => 1
@@ -1502,7 +1502,7 @@ Array
     else:
         return b-a
     [feedback] => 
-    [points] => 50
+    [points] => 24
     [maxpoints] => 50
     [testId] => 9
     [questionId] => 5
@@ -1521,7 +1521,7 @@ Array
         acc *= i
     return acc
     [feedback] => 
-    [points] => 50
+    [points] => 4
     [maxpoints] => 50
     [testId] => 9
     [questionId] => 4
@@ -1693,7 +1693,7 @@ def switch(diff):
    }
    return switcher.get(diff, "nothing")
     [feedback] => 
-    [points] => 50
+    [points] => 60
     [maxpoints] => 50
     [testId] => 10
     [questionId] => 6
@@ -1805,9 +1805,235 @@ Array
         )
 
 )
+select * from questionstudentrelation where testid = 11
+Array
+(
+    [Id] => 172
+    [grade] => 0
+    [rel] => 1
+    [userAnswer] => def tripleIt(n):
+    return n*3
+    [feedback] => 
+    [points] => 10
+    [maxpoints] => 20
+    [testId] => 11
+    [questionId] => 8
+    [testName] => Super Test
+    [remarks] => I said to use a for-loop!!!
+)
+
+Array
+(
+    [Id] => 173
+    [grade] => 0
+    [rel] => 1
+    [userAnswer] => def sud(a,b)    :
+    return a-b
+    [feedback] => 
+    [points] => 29
+    [maxpoints] => 30
+    [testId] => 11
+    [questionId] => 5
+    [testName] => Super Test
+    [remarks] => Just a typo, I'll give you back the points for the function name. Pay more attention next time!
+)
+
+Array
+(
+    [Id] => 174
+    [grade] => 0
+    [rel] => 1
+    [userAnswer] => def factorial(n)
+    acc = 1
+    for i in range(1,n+1):
+        acc *= i
+    return acc
+    [feedback] => 
+    [points] => 45
+    [maxpoints] => 50
+    [testId] => 11
+    [questionId] => 4
+    [testName] => Super Test
+    [remarks] => Wanted a while loop, but I guess for loop will be good enough..
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 11
+    [desc] => Super Test
+    [rel] => 1
+    [sub] => 1
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 20
+    [1] => 30
+    [2] => 50
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [desc] => Write a function called tripleIt that takes one integer parameter and returns that number times three. Must use a for loop.
+                    [topic] => Math
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 5
+                    [desc] => Write a function called sub() that takes two integers and prints their difference.
+                    [topic] => Subtraction
+                    [diff] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 4
+                    [desc] => Write a function called factorial() which takes one integer parameter n, and returns n!. 
+                    [topic] => Math Factorial
+                    [diff] => 4
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 11
+    [desc] => Super Test
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [desc] => Write a function called tripleIt that takes one integer parameter and returns that number times three. Must use a for loop.
+                    [topic] => Math
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 5
+                    [desc] => Write a function called sub() that takes two integers and prints their difference.
+                    [topic] => Subtraction
+                    [diff] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 4
+                    [desc] => Write a function called factorial() which takes one integer parameter n, and returns n!. 
+                    [topic] => Math Factorial
+                    [diff] => 4
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 11
+    [desc] => Super Test
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [desc] => Write a function called tripleIt that takes one integer parameter and returns that number times three. Must use a for loop.
+                    [topic] => Math
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 5
+                    [desc] => Write a function called sub() that takes two integers and prints their difference.
+                    [topic] => Subtraction
+                    [diff] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 4
+                    [desc] => Write a function called factorial() which takes one integer parameter n, and returns n!. 
+                    [topic] => Math Factorial
+                    [diff] => 4
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 20
+            [1] => 30
+            [2] => 50
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 11
+    [desc] => Super Test
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [desc] => Write a function called tripleIt that takes one integer parameter and returns that number times three. Must use a for loop.
+                    [topic] => Math
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 5
+                    [desc] => Write a function called sub() that takes two integers and prints their difference.
+                    [topic] => Subtraction
+                    [diff] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 4
+                    [desc] => Write a function called factorial() which takes one integer parameter n, and returns n!. 
+                    [topic] => Math Factorial
+                    [diff] => 4
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 20
+            [1] => 30
+            [2] => 50
+        )
+
+)
 running getExam()...output:
-{"type":"getT","error":"0","tests":[{"id":"3","desc":"testKush","rel":"0","sub":"0","ques":[{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"},{"id":"5","desc":"Write a function called sub() that takes two integers and prints their difference.","topic":"Subtraction","diff":"1"}],"pts":["50","60"]},{"id":"1","desc":"Quiz One","rel":"1","sub":"1","ques":[{"id":"4","desc":"Write a function called factorial() which takes one integer parameter n, and returns n!. ","topic":"Math Factorial","diff":"4"},{"id":"2","desc":"Write a function called strMult() that takes two parameters: a string s, and an integer n. The function should print the string s concatenated with itself n times.","topic":"Printing string","diff":"3"},{"id":"5","desc":"Write a function called sub() that takes two integers and prints their difference.","topic":"Subtraction","diff":"1"}],"pts":["25","50","25"]},{"id":"2","desc":"Vector Pioneer 2","rel":"1","sub":"1","ques":[{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"},{"id":"2","desc":"Write a function called strMult() that takes two parameters: a string s, and an integer n. The function should print the string s concatenated with itself n times.","topic":"Printing string","diff":"3"}],"pts":["120","120"]},{"id":"4","desc":"testing the new feedback system","rel":"1","sub":"1","ques":[{"id":"6","desc":"Write a function called stringSub() which takes two parameters and returns their difference written out as a string. For instance stringSub(5,2) would return \"three\", and stringSub(50,9) would return \"fourty-nine\". Multi-word numbers should be hyphenated, and all characters should be lowercase. ","topic":"String Subtract","diff":"5"},{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"}],"pts":["10","10"]},{"id":"5","desc":"Sample Quiz","rel":"1","sub":"1","ques":[{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"},{"id":"2","desc":"Write a function called strMult() that takes two parameters: a string s, and an integer n. The function should print the string s concatenated with itself n times.","topic":"Printing string","diff":"3"},{"id":"4","desc":"Write a function called factorial() which takes one integer parameter n, and returns n!. ","topic":"Math Factorial","diff":"4"}],"pts":["50","25","25"]},{"id":"6","desc":"Test Exam 2","rel":"1","sub":"1","ques":[{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"},{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"},{"id":"7","desc":"Descriptionnnss","topic":"TipTop","diff":"2"}],"pts":["25","25","50"]},{"id":"7","desc":"My Test","rel":"1","sub":"1","ques":[{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"}],"pts":["50"]},{"id":"8","desc":"testing the operator","rel":"1","sub":"1","ques":[{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"}],"pts":["100"]},{"id":"9","desc":"Second Midterm","rel":"1","sub":"1","ques":[{"id":"5","desc":"Write a function called sub() that takes two integers and prints their difference.","topic":"Subtraction","diff":"1"},{"id":"4","desc":"Write a function called factorial() which takes one integer parameter n, and returns n!. ","topic":"Math Factorial","diff":"4"}],"pts":["50","50"]},{"id":"10","desc":"test grade","rel":"1","sub":"1","ques":[{"id":"6","desc":"Write a function called stringSub() which takes two parameters and returns their difference written out as a string. For instance stringSub(5,2) would return \"three\", and stringSub(50,9) would return \"fourty-nine\". Multi-word numbers should be hyphenated, and all characters should be lowercase. ","topic":"String Subtract","diff":"5"}],"pts":["50"]}]}[ + ]  page accessed getT 2019-05-03 11:35:22pm
-+ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getT.txt = 50428
+{"type":"getT","error":"0","tests":[{"id":"3","desc":"testKush","rel":"0","sub":"0","ques":[{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"},{"id":"5","desc":"Write a function called sub() that takes two integers and prints their difference.","topic":"Subtraction","diff":"1"}],"pts":["50","60"]},{"id":"1","desc":"Quiz One","rel":"1","sub":"1","ques":[{"id":"4","desc":"Write a function called factorial() which takes one integer parameter n, and returns n!. ","topic":"Math Factorial","diff":"4"},{"id":"2","desc":"Write a function called strMult() that takes two parameters: a string s, and an integer n. The function should print the string s concatenated with itself n times.","topic":"Printing string","diff":"3"},{"id":"5","desc":"Write a function called sub() that takes two integers and prints their difference.","topic":"Subtraction","diff":"1"}],"pts":["25","50","25"]},{"id":"2","desc":"Vector Pioneer 2","rel":"1","sub":"1","ques":[{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"},{"id":"2","desc":"Write a function called strMult() that takes two parameters: a string s, and an integer n. The function should print the string s concatenated with itself n times.","topic":"Printing string","diff":"3"}],"pts":["120","120"]},{"id":"4","desc":"testing the new feedback system","rel":"1","sub":"1","ques":[{"id":"6","desc":"Write a function called stringSub() which takes two parameters and returns their difference written out as a string. For instance stringSub(5,2) would return \"three\", and stringSub(50,9) would return \"fourty-nine\". Multi-word numbers should be hyphenated, and all characters should be lowercase. ","topic":"String Subtract","diff":"5"},{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"}],"pts":["10","10"]},{"id":"5","desc":"Sample Quiz","rel":"1","sub":"1","ques":[{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"},{"id":"2","desc":"Write a function called strMult() that takes two parameters: a string s, and an integer n. The function should print the string s concatenated with itself n times.","topic":"Printing string","diff":"3"},{"id":"4","desc":"Write a function called factorial() which takes one integer parameter n, and returns n!. ","topic":"Math Factorial","diff":"4"}],"pts":["50","25","25"]},{"id":"6","desc":"Test Exam 2","rel":"1","sub":"1","ques":[{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"},{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"},{"id":"7","desc":"Descriptionnnss","topic":"TipTop","diff":"2"}],"pts":["25","25","50"]},{"id":"7","desc":"My Test","rel":"1","sub":"1","ques":[{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"}],"pts":["50"]},{"id":"8","desc":"testing the operator","rel":"1","sub":"1","ques":[{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"}],"pts":["100"]},{"id":"9","desc":"Second Midterm","rel":"1","sub":"1","ques":[{"id":"5","desc":"Write a function called sub() that takes two integers and prints their difference.","topic":"Subtraction","diff":"1"},{"id":"4","desc":"Write a function called factorial() which takes one integer parameter n, and returns n!. ","topic":"Math Factorial","diff":"4"}],"pts":["50","50"]},{"id":"10","desc":"test grade","rel":"1","sub":"1","ques":[{"id":"6","desc":"Write a function called stringSub() which takes two parameters and returns their difference written out as a string. For instance stringSub(5,2) would return \"three\", and stringSub(50,9) would return \"fourty-nine\". Multi-word numbers should be hyphenated, and all characters should be lowercase. ","topic":"String Subtract","diff":"5"}],"pts":["50"]},{"id":"11","desc":"Super Test","rel":"1","sub":"1","ques":[{"id":"8","desc":"Write a function called tripleIt that takes one integer parameter and returns that number times three. Must use a for loop.","topic":"Math","diff":"2"},{"id":"5","desc":"Write a function called sub() that takes two integers and prints their difference.","topic":"Subtraction","diff":"1"},{"id":"4","desc":"Write a function called factorial() which takes one integer parameter n, and returns n!. ","topic":"Math Factorial","diff":"4"}],"pts":["20","30","50"]}]}[ + ]  page accessed getT 2019-05-06 08:14:30am
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getT.txt = 56519
 data received...
 Array
 (
@@ -2005,7 +2231,7 @@ Array
             n -= 1
     return result
     [feedback] => 
-    [points] => 22
+    [points] => -2
     [maxpoints] => 25
     [testId] => 1
     [questionId] => 4
@@ -2848,7 +3074,7 @@ Array
     if op == '+':
         return a + b
     [feedback] => 
-    [points] => 25
+    [points] => 10
     [maxpoints] => 25
     [testId] => 6
     [questionId] => 1
@@ -2863,7 +3089,7 @@ Array
     [rel] => 1
     [userAnswer] => return 'a'
     [feedback] => 
-    [points] => 50
+    [points] => 0
     [maxpoints] => 50
     [testId] => 6
     [questionId] => 7
@@ -3186,7 +3412,7 @@ Array
     elif op == '?':
          return "error"
     [feedback] => 
-    [points] => 95
+    [points] => 82
     [maxpoints] => 100
     [testId] => 8
     [questionId] => 1
@@ -3310,7 +3536,7 @@ Array
     else:
         return b-a
     [feedback] => 
-    [points] => 50
+    [points] => 24
     [maxpoints] => 50
     [testId] => 9
     [questionId] => 5
@@ -3329,7 +3555,7 @@ Array
         acc *= i
     return acc
     [feedback] => 
-    [points] => 50
+    [points] => 4
     [maxpoints] => 50
     [testId] => 9
     [questionId] => 4
@@ -3501,7 +3727,7 @@ def switch(diff):
    }
    return switcher.get(diff, "nothing")
     [feedback] => 
-    [points] => 50
+    [points] => 60
     [maxpoints] => 50
     [testId] => 10
     [questionId] => 6
@@ -3613,5 +3839,231 @@ Array
         )
 
 )
+select * from questionstudentrelation where testid = 11
+Array
+(
+    [Id] => 172
+    [grade] => 0
+    [rel] => 1
+    [userAnswer] => def tripleIt(n):
+    return n*3
+    [feedback] => 
+    [points] => 10
+    [maxpoints] => 20
+    [testId] => 11
+    [questionId] => 8
+    [testName] => Super Test
+    [remarks] => I said to use a for-loop!!!
+)
+
+Array
+(
+    [Id] => 173
+    [grade] => 0
+    [rel] => 1
+    [userAnswer] => def sud(a,b)    :
+    return a-b
+    [feedback] => 
+    [points] => 29
+    [maxpoints] => 30
+    [testId] => 11
+    [questionId] => 5
+    [testName] => Super Test
+    [remarks] => Just a typo, I'll give you back the points for the function name. Pay more attention next time!
+)
+
+Array
+(
+    [Id] => 174
+    [grade] => 0
+    [rel] => 1
+    [userAnswer] => def factorial(n)
+    acc = 1
+    for i in range(1,n+1):
+        acc *= i
+    return acc
+    [feedback] => 
+    [points] => 45
+    [maxpoints] => 50
+    [testId] => 11
+    [questionId] => 4
+    [testName] => Super Test
+    [remarks] => Wanted a while loop, but I guess for loop will be good enough..
+)
+
+check the contents of temp..
+Array
+(
+    [id] => 11
+    [desc] => Super Test
+    [rel] => 1
+    [sub] => 1
+)
+
+check the contents of arrayofPts...
+Array
+(
+    [0] => 20
+    [1] => 30
+    [2] => 50
+)
+
+array of questions ... 
+Array
+(
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [desc] => Write a function called tripleIt that takes one integer parameter and returns that number times three. Must use a for loop.
+                    [topic] => Math
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 5
+                    [desc] => Write a function called sub() that takes two integers and prints their difference.
+                    [topic] => Subtraction
+                    [diff] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 4
+                    [desc] => Write a function called factorial() which takes one integer parameter n, and returns n!. 
+                    [topic] => Math Factorial
+                    [diff] => 4
+                )
+
+        )
+
+)
+
+contents of temp with questions...
+Array
+(
+    [id] => 11
+    [desc] => Super Test
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [desc] => Write a function called tripleIt that takes one integer parameter and returns that number times three. Must use a for loop.
+                    [topic] => Math
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 5
+                    [desc] => Write a function called sub() that takes two integers and prints their difference.
+                    [topic] => Subtraction
+                    [diff] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 4
+                    [desc] => Write a function called factorial() which takes one integer parameter n, and returns n!. 
+                    [topic] => Math Factorial
+                    [diff] => 4
+                )
+
+        )
+
+)
+
+contents of temp with arrayofPts...
+Array
+(
+    [id] => 11
+    [desc] => Super Test
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [desc] => Write a function called tripleIt that takes one integer parameter and returns that number times three. Must use a for loop.
+                    [topic] => Math
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 5
+                    [desc] => Write a function called sub() that takes two integers and prints their difference.
+                    [topic] => Subtraction
+                    [diff] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 4
+                    [desc] => Write a function called factorial() which takes one integer parameter n, and returns n!. 
+                    [topic] => Math Factorial
+                    [diff] => 4
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 20
+            [1] => 30
+            [2] => 50
+        )
+
+)
+
+formed the test object...
+Array
+(
+    [id] => 11
+    [desc] => Super Test
+    [rel] => 1
+    [sub] => 1
+    [ques] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [desc] => Write a function called tripleIt that takes one integer parameter and returns that number times three. Must use a for loop.
+                    [topic] => Math
+                    [diff] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 5
+                    [desc] => Write a function called sub() that takes two integers and prints their difference.
+                    [topic] => Subtraction
+                    [diff] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 4
+                    [desc] => Write a function called factorial() which takes one integer parameter n, and returns n!. 
+                    [topic] => Math Factorial
+                    [diff] => 4
+                )
+
+        )
+
+    [pts] => Array
+        (
+            [0] => 20
+            [1] => 30
+            [2] => 50
+        )
+
+)
 running getExam()...output:
-{"type":"getT","error":"0","tests":[{"id":"3","desc":"testKush","rel":"0","sub":"0","ques":[{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"},{"id":"5","desc":"Write a function called sub() that takes two integers and prints their difference.","topic":"Subtraction","diff":"1"}],"pts":["50","60"]},{"id":"1","desc":"Quiz One","rel":"1","sub":"1","ques":[{"id":"4","desc":"Write a function called factorial() which takes one integer parameter n, and returns n!. ","topic":"Math Factorial","diff":"4"},{"id":"2","desc":"Write a function called strMult() that takes two parameters: a string s, and an integer n. The function should print the string s concatenated with itself n times.","topic":"Printing string","diff":"3"},{"id":"5","desc":"Write a function called sub() that takes two integers and prints their difference.","topic":"Subtraction","diff":"1"}],"pts":["25","50","25"]},{"id":"2","desc":"Vector Pioneer 2","rel":"1","sub":"1","ques":[{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"},{"id":"2","desc":"Write a function called strMult() that takes two parameters: a string s, and an integer n. The function should print the string s concatenated with itself n times.","topic":"Printing string","diff":"3"}],"pts":["120","120"]},{"id":"4","desc":"testing the new feedback system","rel":"1","sub":"1","ques":[{"id":"6","desc":"Write a function called stringSub() which takes two parameters and returns their difference written out as a string. For instance stringSub(5,2) would return \"three\", and stringSub(50,9) would return \"fourty-nine\". Multi-word numbers should be hyphenated, and all characters should be lowercase. ","topic":"String Subtract","diff":"5"},{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"}],"pts":["10","10"]},{"id":"5","desc":"Sample Quiz","rel":"1","sub":"1","ques":[{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"},{"id":"2","desc":"Write a function called strMult() that takes two parameters: a string s, and an integer n. The function should print the string s concatenated with itself n times.","topic":"Printing string","diff":"3"},{"id":"4","desc":"Write a function called factorial() which takes one integer parameter n, and returns n!. ","topic":"Math Factorial","diff":"4"}],"pts":["50","25","25"]},{"id":"6","desc":"Test Exam 2","rel":"1","sub":"1","ques":[{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"},{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"},{"id":"7","desc":"Descriptionnnss","topic":"TipTop","diff":"2"}],"pts":["25","25","50"]},{"id":"7","desc":"My Test","rel":"1","sub":"1","ques":[{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"}],"pts":["50"]},{"id":"8","desc":"testing the operator","rel":"1","sub":"1","ques":[{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"}],"pts":["100"]},{"id":"9","desc":"Second Midterm","rel":"1","sub":"1","ques":[{"id":"5","desc":"Write a function called sub() that takes two integers and prints their difference.","topic":"Subtraction","diff":"1"},{"id":"4","desc":"Write a function called factorial() which takes one integer parameter n, and returns n!. ","topic":"Math Factorial","diff":"4"}],"pts":["50","50"]},{"id":"10","desc":"test grade","rel":"1","sub":"1","ques":[{"id":"6","desc":"Write a function called stringSub() which takes two parameters and returns their difference written out as a string. For instance stringSub(5,2) would return \"three\", and stringSub(50,9) would return \"fourty-nine\". Multi-word numbers should be hyphenated, and all characters should be lowercase. ","topic":"String Subtract","diff":"5"}],"pts":["50"]}]}
+{"type":"getT","error":"0","tests":[{"id":"3","desc":"testKush","rel":"0","sub":"0","ques":[{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"},{"id":"5","desc":"Write a function called sub() that takes two integers and prints their difference.","topic":"Subtraction","diff":"1"}],"pts":["50","60"]},{"id":"1","desc":"Quiz One","rel":"1","sub":"1","ques":[{"id":"4","desc":"Write a function called factorial() which takes one integer parameter n, and returns n!. ","topic":"Math Factorial","diff":"4"},{"id":"2","desc":"Write a function called strMult() that takes two parameters: a string s, and an integer n. The function should print the string s concatenated with itself n times.","topic":"Printing string","diff":"3"},{"id":"5","desc":"Write a function called sub() that takes two integers and prints their difference.","topic":"Subtraction","diff":"1"}],"pts":["25","50","25"]},{"id":"2","desc":"Vector Pioneer 2","rel":"1","sub":"1","ques":[{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"},{"id":"2","desc":"Write a function called strMult() that takes two parameters: a string s, and an integer n. The function should print the string s concatenated with itself n times.","topic":"Printing string","diff":"3"}],"pts":["120","120"]},{"id":"4","desc":"testing the new feedback system","rel":"1","sub":"1","ques":[{"id":"6","desc":"Write a function called stringSub() which takes two parameters and returns their difference written out as a string. For instance stringSub(5,2) would return \"three\", and stringSub(50,9) would return \"fourty-nine\". Multi-word numbers should be hyphenated, and all characters should be lowercase. ","topic":"String Subtract","diff":"5"},{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"}],"pts":["10","10"]},{"id":"5","desc":"Sample Quiz","rel":"1","sub":"1","ques":[{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"},{"id":"2","desc":"Write a function called strMult() that takes two parameters: a string s, and an integer n. The function should print the string s concatenated with itself n times.","topic":"Printing string","diff":"3"},{"id":"4","desc":"Write a function called factorial() which takes one integer parameter n, and returns n!. ","topic":"Math Factorial","diff":"4"}],"pts":["50","25","25"]},{"id":"6","desc":"Test Exam 2","rel":"1","sub":"1","ques":[{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"},{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"},{"id":"7","desc":"Descriptionnnss","topic":"TipTop","diff":"2"}],"pts":["25","25","50"]},{"id":"7","desc":"My Test","rel":"1","sub":"1","ques":[{"id":"3","desc":"Write a function called addThree() that takes three integer parameters and returns their sum.","topic":"Adding Integers","diff":"1"}],"pts":["50"]},{"id":"8","desc":"testing the operator","rel":"1","sub":"1","ques":[{"id":"1","desc":"Write a function called operation that takes three parameters: a string 'op', an int 'a', and an int 'b'. Op can be '+', '-', '*', '\/', '%' and the function should return that operation called with the two parameters a and b. If an unknown op is given, the program should return the string \"error\".","topic":"Operators","diff":"2"}],"pts":["100"]},{"id":"9","desc":"Second Midterm","rel":"1","sub":"1","ques":[{"id":"5","desc":"Write a function called sub() that takes two integers and prints their difference.","topic":"Subtraction","diff":"1"},{"id":"4","desc":"Write a function called factorial() which takes one integer parameter n, and returns n!. ","topic":"Math Factorial","diff":"4"}],"pts":["50","50"]},{"id":"10","desc":"test grade","rel":"1","sub":"1","ques":[{"id":"6","desc":"Write a function called stringSub() which takes two parameters and returns their difference written out as a string. For instance stringSub(5,2) would return \"three\", and stringSub(50,9) would return \"fourty-nine\". Multi-word numbers should be hyphenated, and all characters should be lowercase. ","topic":"String Subtract","diff":"5"}],"pts":["50"]},{"id":"11","desc":"Super Test","rel":"1","sub":"1","ques":[{"id":"8","desc":"Write a function called tripleIt that takes one integer parameter and returns that number times three. Must use a for loop.","topic":"Math","diff":"2"},{"id":"5","desc":"Write a function called sub() that takes two integers and prints their difference.","topic":"Subtraction","diff":"1"},{"id":"4","desc":"Write a function called factorial() which takes one integer parameter n, and returns n!. ","topic":"Math Factorial","diff":"4"}],"pts":["20","30","50"]}]}

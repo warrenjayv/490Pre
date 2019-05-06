@@ -404,26 +404,56 @@ function grade() {
     $contents = file_get_contents($source); 
     $write .= print_r($contents, true) . "\n"; 
     autolog($write, $target); 
-    $size = sizeof($tests); //we need to count the testcases; and set the percentages. 
+    //  $size = sizeof($tests); //we need to count the testcases; and set the percentages. 
+    //  TASK INDIGO: recalculate the size based on arrayofOuts.a
+    /*
+         $outcount = 0; 
+         foreach($arrayofOuts as $key=>$k) {
+              if ((! isset($k)) || ($k == "None")) {
+                  continue;
+              } else {
+                  $outcount += 1; 
+              }
+         }
+    $size = $outcount; 
     $funperc = 80; 
     $write = "+ funperc was set to :" . $funperc . ", size: " . $size . "\n"; 
     $sub = ($funperc / $size) / 100; $max = ($funperc / $size) / 100; 
     $write .= "+ sub : " . $sub . ", max: " . $max . "\n"; autolog($write, $target); 
     $write = "+execom() calculated funperc: ".$funperc.", max: ".$max."\n"; 
-            autolog($write, $target); 
+    autolog($write, $target); 
+     */
 		$exec = exec($test, $array, $status); 
     if (! $status ) { 
         $write .= "+ status of exec was 0. program executed succesfully\n"; 
+
+    //  TASK INDIGO: recalculate the size based on arrayofOuts.
+         $outcount = 0; 
+         foreach($array as $key=>$k) {
+              if ((! isset($k)) || ($k == "None")) {
+                  continue;
+              } else {
+                  $outcount += 1; 
+              }
+         }
+         $size = $outcount; 
+         $funperc = 80; 
+         $write = "+ funperc was set to :" . $funperc . ", size: " . $size . "\n"; 
+         $sub = ($funperc / $size) / 100; $max = ($funperc / $size) / 100; 
+         $write .= "+ sub : " . $sub . ", max: " . $max . "\n"; autolog($write, $target); 
+         $write = "+execom() calculated funperc: ".$funperc.", max: ".$max."\n"; 
+         autolog($write, $target); 
+
         foreach($array as $key=>$c) {
 
-				$write .= "+ comparing " . $tests[$key] . " with output : " . $arrayofOuts[$key] . "\n"; 
-				$write .= "+ comparing c: " . $c . " with output : " . $arrayofOuts[$key] . "\n"; 
-				$function = getFunc($tests[$key]);
-				$output = getOut($tests[$key]);
+			  	$write .= "+ comparing " . $tests[$key] . " with output : " . $arrayofOuts[$key] . "\n"; 
+			  	$write .= "+ comparing c: " . $c . " with output : " . $arrayofOuts[$key] . "\n"; 
+			  	$function = getFunc($tests[$key]);
+			  	$output = getOut($tests[$key]);
         
-				if (! isset($c)) {
-					$write = "+ ".$c." is an empty or null output. skipping!\n"; autolog($write, $target); 
-					continue; 
+				if ((! isset($c)) ||  ($c == "None")) { //I noticed that None is stored! 
+            $write = "+ ".$c." is an empty or null output. skipping!\n"; autolog($write, $target); 
+					  continue; 
         }
        
 				autolog($write, $target); 
@@ -451,7 +481,7 @@ function grade() {
 					$write = "fail!\n"; autolog($write, $target); 
 					$write = "+ calling updatePoints() to provide feedback\n"; 
 					// $feed = "bp testcase '" . $tests[$key] . "' failed!"; 
-					$feed = "bp Called " . $function . ",  expected answer: " . $output . ", got user answer [" . $c . "]"; 
+          $feed = "bp Called " . $function . ",  expected answer: \"" .$output."\", got \"" .$c."\""; 
 					$write .= "+ " . $feed . "\n"; autolog($write, $target); 
           $bullet = array('testId' => $id, 'qId' => $qId, 'feedback' => $feed, 'subpoints' => $sub,
               'max' => $max); 
