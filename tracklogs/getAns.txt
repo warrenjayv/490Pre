@@ -10261,3 +10261,69 @@ Array
         acc *= i
     return acc
 )
+[ + ] page accessed getAnswer() 2019-05-06 09:18:24am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 197110
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 1
+            [1] => 5
+            [2] => 4
+            [3] => 8
+            [4] => 2
+            [5] => 3
+        )
+
+    [testId] => 12
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 1
+    [text] => def operblop(op, a, b):
+    if op == '+':
+        return a + b
+    elif op == '*':
+        return a * b
+    elif op == '%':
+        return a % b
+    else:
+        return "error"
+)
+Array
+(
+    [qId] => 5
+    [text] => def sub(a, b)
+    return a - b
+)
+Array
+(
+    [qId] => 4
+    [text] => adkfwe alskf ewaoif sda;fewioj while lakdjf eawo
+)
+Array
+(
+    [qId] => 8
+    [text] => def tripleIt(n):
+    acc = 0
+    for i in range(3):
+        acc += n
+    print(n)
+)
+Array
+(
+    [qId] => 2
+    [text] => def strMult(s, n):
+    print(s*n)
+)
+Array
+(
+    [qId] => 3
+    [text] => def addThree(a,b,c):
+    return "hello"
+)

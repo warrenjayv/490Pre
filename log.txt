@@ -4749,3 +4749,114 @@ page accessed 2019-05-06 08:37:37am
 running getAttempt() 
 
 2019-05-06 08:37:37am
+page accessed 2019-05-06 09:02:49am
+running getAttempt() 
+
+2019-05-06 09:02:49am
+page accessed 2019-05-06 09:04:34am
+running getQUEST() 
+
+2019-05-06 09:04:34am
+page accessed 2019-05-06 09:10:38am
+running addExam() 
+
+2019-05-06 09:10:38am
+page accessed 2019-05-06 09:10:42am
+running getAttempt() 
+
+2019-05-06 09:10:42am
+page accessed 2019-05-06 09:10:54am
+running getAttempt() 
+
+2019-05-06 09:10:54am
+page accessed 2019-05-06 09:11:13am
+page accessed 2019-05-06 09:11:19am
+running getAttempt() 
+
+2019-05-06 09:11:19am
+page accessed 2019-05-06 09:11:25am
+running getExam() 
+
+2019-05-06 09:11:25am
+page accessed 2019-05-06 09:18:20am
+running submitExam() 
+
+2019-05-06 09:18:20am
+page accessed 2019-05-06 09:18:51am
+running getAttempt() 
+
+2019-05-06 09:18:51am
+page accessed 2019-05-06 09:18:54am
+running getExam() 
+
+2019-05-06 09:18:54am
+page accessed 2019-05-06 09:18:57am
+running getAttempt() 
+
+2019-05-06 09:18:57am
+page accessed 2019-05-06 09:19:04am
+running getExam() 
+
+2019-05-06 09:19:04am
+page accessed 2019-05-06 09:19:12am
+page accessed 2019-05-06 09:19:17am
+running getAttempt() 
+
+2019-05-06 09:19:17am
++ succesfully curled a modA request to backend
++ succesfully curled a modA request to backend
+
+2019-05-06 10:07:57am
+page accessed 2019-05-06 10:08:07am
+running getAttempt() 
+
+2019-05-06 10:08:07am
+page accessed 2019-05-06 10:11:19am
+running getAttempt() 
+
+2019-05-06 10:11:19am
+page accessed 2019-05-06 10:17:46am
+running getAttempt() 
+
+2019-05-06 10:17:46am
+page accessed 2019-05-06 10:44:37am
+running getAttempt() 
+
+2019-05-06 10:44:37am
+page accessed 2019-05-06 10:49:50am
+running getAttempt() 
+
+2019-05-06 10:49:50am
+page accessed 2019-05-06 10:50:02am
+page accessed 2019-05-06 10:50:29am
+running getAttempt() 
+
+2019-05-06 10:50:29am
+page accessed 2019-05-06 10:50:33am
+running getAttempt() 
+
+2019-05-06 10:50:33am
+page accessed 2019-05-06 10:53:34am
+running getAttempt() 
+
+2019-05-06 10:53:34am
++ succesfully curled a modA request to backend
++ succesfully curled a modA request to backend
+
+2019-05-06 10:53:41am
+page accessed 2019-05-06 11:21:47am
+running getAttempt() 
+
+2019-05-06 11:21:47am
+page accessed 2019-05-06 11:22:34am
+running getAttempt() 
+
+2019-05-06 11:22:34am
+page accessed 2019-05-06 11:27:22am
+running getAttempt() 
+
+2019-05-06 11:27:22am
+page accessed 2019-05-06 11:27:45am
+running getAttempt() 
+
+2019-05-06 11:27:45am
