@@ -11187,3 +11187,561 @@ Array
     [text] => def strMult(s, n)
     return s*n
 )
+[ + ] page accessed getAnswer() 2019-05-06 08:50:24pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 213513
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 8
+            [1] => 5
+            [2] => 4
+        )
+
+    [testId] => 11
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 8
+    [text] => def tripleIt(n):
+    return n*3
+)
+Array
+(
+    [qId] => 5
+    [text] => def sud(a,b)    :
+    return a-b
+)
+Array
+(
+    [qId] => 4
+    [text] => def factorial(n)
+    acc = 1
+    for i in range(1,n+1):
+        acc *= i
+    return acc
+)
+[ + ] page accessed getAnswer() 2019-05-06 10:59:57pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 214212
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 10
+            [1] => 2
+            [2] => 4
+            [3] => 8
+            [4] => 5
+        )
+
+    [testId] => 16
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 10
+    [text] => def greet(a, b):
+    ans = a + "," + b
+    print(ans)
+)
+Array
+(
+    [qId] => 2
+    [text] => def strMult(s, n)
+    print(s*n)
+)
+Array
+(
+    [qId] => 4
+    [text] => def factorial(n)
+    acc = 1
+    for i in range(1, n+1):
+        acc *= i
+    print acc    
+)
+Array
+(
+    [qId] => 8
+    [text] => def tripDat(n)                                :
+    return n+n+n
+)
+Array
+(
+    [qId] => 5
+    [text] => def sup(a,b)
+    if a-b > 0:
+        return a-b
+    else
+        return b-a
+)
+[ + ] page accessed getAnswer() 2019-05-06 11:11:47pm
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 215200
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 5
+            [2] => 1
+        )
+
+    [testId] => 17
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 3
+    [text] => def addThree(a,b,c)
+    return a+b+c
+)
+Array
+(
+    [qId] => 5
+    [text] => def suv(a,b)
+    if (1+1 == 2):
+        return a-b
+    else:
+        return a-b
+)
+Array
+(
+    [qId] => 1
+    [text] => def operatio(op, a, b):
+    if op == "+":
+        return a+b
+    if op == "-":
+        return a-b
+    if op == "*":
+        return a*b
+    if op == "/":
+        return a/b
+
+)
+[ + ] page accessed getAnswer() 2019-05-07 06:17:15am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 216036
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 1
+            [1] => 5
+            [2] => 3
+        )
+
+    [testId] => 18
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 1
+    [text] => def operatio(op, a, b):
+    if op == '+':
+        return a+b
+    elif op == '*':
+        return a*b
+    else:
+        return 'error'
+)
+Array
+(
+    [qId] => 5
+    [text] => def sub(a, b)
+    return a-b
+)
+Array
+(
+    [qId] => 3
+    [text] => def addThree(a, b, c)
+    if 1 == 1:
+        return a+b+c
+    else:
+        return a+b+c
+)
+[ + ] page accessed getAnswer() 2019-05-07 08:21:50am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 216833
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 1
+            [1] => 5
+            [2] => 3
+        )
+
+    [testId] => 18
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 1
+    [text] => def operatio(op, a, b):
+    if op == '+':
+        return a+b
+    elif op == '*':
+        return a*b
+    else:
+        return 'error'
+)
+Array
+(
+    [qId] => 5
+    [text] => def sub(a, b)
+    return a-b
+)
+Array
+(
+    [qId] => 3
+    [text] => def addThree(a, b, c)
+    if 1 == 1:
+        return a+b+c
+    else:
+        return a+b+c
+)
+[ + ] page accessed getAnswer() 2019-05-07 08:32:24am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 217630
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 5
+            [2] => 1
+            [3] => 8
+        )
+
+    [testId] => 19
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 3
+    [text] => def addThree(a,b,c):
+    return a+b+c
+)
+Array
+(
+    [qId] => 5
+    [text] => def sup(a,b):
+    return a-b
+)
+Array
+(
+    [qId] => 1
+    [text] => def operation(op, a, b)    :
+    if op == '+':
+        return a+b
+    elif op == '-':
+        return a-b
+    elif op == "*":
+        return a*b
+    else:
+        'error'
+)
+Array
+(
+    [qId] => 8
+    [text] => def tripDat(n):
+    return n*3
+)
+[ + ] page accessed getAnswer() 2019-05-07 08:53:15am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 218504
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+        )
+
+    [testId] => 20
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 3
+    [text] => def addThre(a,b,c)    
+    print a+b+c
+)
+[ + ] page accessed getAnswer() 2019-05-07 08:57:29am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 218969
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 5
+        )
+
+    [testId] => 21
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 5
+    [text] => def sup(a,b)
+    return a-b
+)
+[ + ] page accessed getAnswer() 2019-05-07 09:04:24am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 219423
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+        )
+
+    [testId] => 22
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 3
+    [text] => def addThree(a,b,c)
+    return a+b+c
+)
+[ + ] page accessed getAnswer() 2019-05-07 09:04:26am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 219886
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 5
+        )
+
+    [testId] => 23
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 5
+    [text] => def sup(a,b)
+    return a-b
+)
+[ + ] page accessed getAnswer() 2019-05-07 09:09:01am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 220340
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 1
+        )
+
+    [testId] => 24
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 1
+    [text] => def operation(op, a,b):
+    if op == "+":
+        return a+b
+)
+[ + ] page accessed getAnswer() 2019-05-07 09:11:08am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 220827
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 5
+        )
+
+    [testId] => 25
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 5
+    [text] => def sub(a,b):
+    return a-b
+)
+[ + ] page accessed getAnswer() 2019-05-07 09:15:38am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 221282
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 5
+        )
+
+    [testId] => 26
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 5
+    [text] => def sub(a,b)
+    return a-b
+)
+[ + ] page accessed getAnswer() 2019-05-07 09:25:59am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 221736
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 5
+        )
+
+    [testId] => 27
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 5
+    [text] => def sub(a,b)
+    return a-b
+)
+[ + ] page accessed getAnswer() 2019-05-07 09:27:57am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 222190
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 1
+        )
+
+    [testId] => 29
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 1
+    [text] => def oper(op, a, b)
+    return a-b
+)
+[ + ] page accessed getAnswer() 2019-05-07 09:30:41am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 222650
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 3
+            [1] => 5
+        )
+
+    [testId] => 28
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 3
+    [text] => def addThree(a,b,c):
+    return a+b+c    
+        
+
+
+    
+
+    
+    
+)
+Array
+(
+    [qId] => 5
+    [text] => def sub(a,b)    :
+    return a-b
+)
+[ + ] page accessed getAnswer() 2019-05-07 09:50:03am
+***********************************************************
++ target file size of : /afs/cad/u/w/b/wbv4/public_html/Middle/tracklogs/getAns.txt = 223238
++ data received from somewhere: 
+Array
+(
+    [type] => autograder
+    [qIds] => Array
+        (
+            [0] => 1
+            [1] => 5
+            [2] => 2
+        )
+
+    [testId] => 1
+)
+
++ executing getAnswer() root 
+Array
+(
+    [qId] => 1
+    [text] => def operatio(op, a,b) 
+    if op=="+":
+        return a+b
+    elif op == '*':
+        return a*b
+    elif op    == '%'
+        return a/b
+    
+)
+Array
+(
+    [qId] => 5
+    [text] => def sub(a):
+    return a-a
+)
+Array
+(
+    [qId] => 2
+    [text] => def strMult(s, n):
+    print(s*n)
+)

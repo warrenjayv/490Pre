@@ -298,7 +298,8 @@ function grade() {
       $target = substr($text, $start); 
       $for = strpos($target, 'for', 0);
       $while = strpos($target, 'while', 0);
-      if ((!$for) && (!$while)) {
+      $if = strpos($target, 'if', 0);
+      if ((!$for) && (!$while) && (! $if)) {
          $clearbody = str_replace(":", " ", $target);
          $newtext = substr_replace($text, $clearbody, $start);
          return $newtext;
@@ -557,7 +558,7 @@ function grade() {
               $userfunc = substr($text, $start, $end - $start); 
 
               if ((substr_compare($function, $userfunc, 0, 
-                   strlen($userfunc)))) {
+                   strlen($function)))) {
                    $miss += 1; 
                }
 
