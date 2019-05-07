@@ -155,12 +155,12 @@ function grade() {
       $text = trim($text);
       $write .= $text . "\n"; 
       autolog($write, $target); 
-
+      
       $write = "+ sanitize the text off characters. calling hiddencharkiller()\n";
       $text = hiddencharkiller($text); 
       $write .= $text . "\n"; 
       autolog($write, $target); 
-
+      
       if ($ext = colonfixer($text)) {
 					$write = "+ colon was not found in user answer\n"; 
           $write .= "+ new answer: \n " . $ext . "\n";
@@ -767,15 +767,10 @@ function grade() {
 }
 
 function hiddencharkiller($text) {
-    /* sanitize the moth f*** */
-  
-  if (preg_match('/[[:cntrl:]]/', $text)) {
-  	$newstring = preg_replace('/[[:cntrl:]]/', " ".PHP_EOL, $text);
-    return   $newstring;
-  } else {
-    return $text; 
-  }
+	/* sanitize the moth f*** */
+	$newstring = preg_replace("/[[:cntrl:]]/", PHP_EOL, $text);
+ echo $newstring;
 	
-} //hiddencharkiller 
+}
   
 ?>

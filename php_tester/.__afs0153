@@ -1,0 +1,12 @@
+
+$text = $text = "def addThree(a,b,c)
+   return a + b + c";
+function hiddencharkiller($text) {
+	/* sanitize the moth f*** */
+ if (preg_match('[[:punct:]]', $string))  
+    $newstring = preg_replace('[[:punct:]]', '*', $string); echo $new;
+    
+	//$newstring = preg_replace("/[[:cntrl:]]/", PHP_EOL, $text);
+  echo $newstring;
+	
+}

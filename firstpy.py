@@ -1,9 +1,7 @@
 
-def addThree(a,b,c):
-    return "hello"
-print(addThree(100, 200, 300))
-print(addThree(-7, 0, 19))
-print(addThree(-1,-1,-1))
-print(addThree(1,2,3))
-print(addThree(4,5,6))
-print(addThree(0,0,0))
+def strMult(s, n): 
+    return s*n
+print(strMult("hello",1))
+print(strMult("up", 4))
+print(strMult("hey", 3))
+print(strMult("aba", 2))
